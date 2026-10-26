@@ -239,3 +239,67 @@ Hoàn thiện harness D3D11 có kiểm tra đầu rỗng/thân/bốn chi, xuất
 - Codex; leader giao trực tiếp. Phạm vi: báo cáo C02, manifest, log/ảnh C02 và bàn giao này; giữ mã Rust có sẵn nếu kiểm tra đạt. Chạy build, geometry test, GPU readback, Clippy và xác minh hash/JSON UTF-8 không BOM. Không sửa SYNC.md. Không mở rộng lifecycle.
 
 - Kết quả lượt này: build 0, 22 tests qua, GPU 1 test qua (350x607; 23822 pixel), Clippy 0, rustfmt/diff check 0; đã mở ảnh mới. Giữ nguyên Rust đã có. Cập nhật báo cáo và manifest UTF-8 không BOM/hash mới. Chưa tích hợp app/DPI, chưa chạy full workspace. CHANGELOG bỏ qua; không sửa SYNC, không commit/push.
+
+## C-03 — 26/10/2026 — Vật lý và native desktop example
+- Leader giao trực tiếp trọng lực, kéo/nhấc/ném và sàn, ưu tiên hơn tên C-03 lịch sử trong TASKS. Ticket và danh sách file đã công bố trong chat trước code. Không sửa SYNC theo chỉ thị mới; không sửa phần Gen.
+- File mới: runtime/src/physics.rs, overlay/src/windows/companion.rs, overlay/examples/companion_physics.rs. Ghép runtime/lib.rs, overlay/lib.rs, windows/mod.rs, window.rs, window_proc.rs. Báo cáo ai/C03_PHYSICS_PROOF.md, manifest ai/C-03.evidence.json, log ai/logs/C03; làm mới hai danh mục FILE_INDEX/project-index.
+- Lõi vật lý có thời gian truyền vào, giữ điểm nắm, quán tính giới hạn 2400 px/s, stale release/capture loss, trọng lực 1800 px/s², nảy tối đa 4 px, ma sát và clamp vùng làm việc. Collision theo min/max vertex mesh C-02. Native session dùng physical pixels/DPI context, cửa sổ thật 154x267 trên 2560x1600; mesh C-02 giữ nguyên.
+- Kiểm tra: runtime 121 unit + 2 fixtures qua; native test 1 qua, input SendMessage vào HWND thật, 302 Present; smoke example 241 Present và settle; build example/Clippy/fmt/diff check exit 0. Lần đầu Clippy range assertion và fmt chưa qua đã sửa; smoke đầu DPI ảo hóa đã sửa và chạy lại. Chi tiết/log trong báo cáo.
+- Chưa QA chuột bằng tay hoặc ảnh desktop; chưa bootstrap vào bongocat-app mặc định, chưa hoạt ảnh giữ/đứng dậy/menu, chưa full workspace/soak/taskbar/DPI đổi lúc chạy; không khẳng định topmost C-01 đã sửa. Native test tổng hợp không phải thao tác chuột vật lý. Không có installer/EXE sản phẩm C-05.
+- Giữ thay đổi C-02 có sẵn, không đổi dependency/lockfile; fetch thành công nhưng không merge/commit/push. CHANGELOG bỏ qua: companion chưa phát hành, tiếp tục implementation example. Không có dữ liệu local cần xóa.
+- Tiếp: QA tay example theo lệnh trong báo cáo; tích hợp session vào lifecycle app và phối hợp Gen hoạt ảnh ở bước tiếp. Manifest chỉ xác nhận checks cụ thể đã chạy, không toàn bộ sản phẩm.
+
+## C-04 — 26/10/2026 — Bắt đầu thực thi
+Leader giao trực tiếp đi dạo, leo hai cạnh, đuổi/né chuột. Phạm vi: runtime/autonomous.rs và lib.rs; overlay/windows/companion.rs và lib.rs; example companion_autonomous.rs; hồ sơ ai/C04_AUTONOMOUS_PROOF.md, ai/C-04.evidence.json, ai/logs/C04, danh mục file. Giữ thay đổi C-02/C-03 có sẵn, không sửa SYNC hoặc phần hoạt ảnh Gen. Kiểm tra runtime/build/Clippy/native smoke; không coi đề xuất A03 là quyền mở rộng phạm vi.
+
+
+### C-04 — kết quả thực tế 26/10/2026
+- Đã thêm autonomous.rs (owner đi/nghỉ, leo trái/phải, đuổi/né; ưu tiên pause/held/physics; reset vùng làm việc), export runtime; ghép runner vào companion.rs, export overlay và example companion_autonomous.rs. Không sửa render/asset Gen hoặc SYNC; giữ thay đổi C-02/C-03 có sẵn.
+- Runtime 125 unit + 2 fixtures qua; build example, Clippy all-targets cho runtime/overlay, fmt và diff check exit0. Native regression C-03 qua; native C-04 20 giây qua 2 grab/release, leo cả hai mép, 1189 Present. Smoke tự nhiên 48 giây 2858 Present, leo phải/rơi; final smoke 4 giây 241 Present. Test native ban đầu sai lịch chờ đổi hướng chưa qua, đã giữ log và sửa lịch rồi chạy lại.
+- Báo cáo ai/C04_AUTONOMOUS_PROOF.md; manifest ai/C-04.evidence.json hash nguồn/log hiện tại. Manifest cũ chứa lib.rs/companion.rs bị thay đổi không còn khớp cây hiện tại; không giả giữ hash cũ. Không commit/push/merge, dependency/lockfile không đổi; CHANGELOG bỏ qua do tiếp tục companion chưa phát hành/example; không cần xóa dữ liệu local.
+- Chưa app bootstrap/menu/hoạt ảnh/đầy đủ cảm xúc A03; BehaviorSnapshot hiện là hợp đồng hành vi tối thiểu. Chưa QA tay, taskbar/DPI đổi thực, full workspace/soak hay EXE sản phẩm. Tiếp: Gen nối hoạt ảnh A-04, phần tích hợp hoàn thiện lifecycle/menu/cảm xúc trước C-05. Chỉ thị leader hiện tại ưu tiên tên TASKS lịch sử; báo cáo/log được leader cho phép ghi; không sửa SYNC theo yêu cầu trực tiếp.
+
+## C-03 — 26/10/2026 — Tái kiểm chứng theo yêu cầu Bridge
+Codex; phạm vi: kiểm tra mã physics/native example hiện có, cập nhật ai/C03_PHYSICS_PROOF.md, ai/C-03.evidence.json và log kiểm tra. Giữ mã C-04 đã có; không mở rộng chức năng, không sửa SYNC. Điều kiện: chạy lại runtime/native/build/lint trên cây hiện tại và xác minh SHA256; không coi log cũ là kết quả lượt này.
+
+### C-03 — kết quả tái kiểm chứng
+Giữ nguyên Rust đã có; chạy lại runtime 125 unit + 2 fixtures, native nắm/kéo/ném 1 test (301 Present), smoke rơi 241 Present, build example, Clippy, fmt và diff check: tất cả exit 0. Cập nhật báo cáo C03 và manifest hash cây hiện tại/log recheck. Chưa QA tay hoặc bootstrap app; không chạy full workspace. Không sửa SYNC; CHANGELOG bỏ qua vì chỉ tái kiểm chứng; không commit/push, không dữ liệu cần xóa. Bước tiếp: QA tay example và tích hợp lifecycle theo phạm vi được giao.
+
+## C-04 — 26/10/2026 — Tái kiểm chứng hồ sơ Bridge
+Codex; phạm vi: kiểm tra mã autonomous/native example hiện có, chạy lại runtime/build/lint/native hai mép và cập nhật báo cáo C04/manifest/log. Mã Rust đã có; chỉ sửa nếu kiểm tra cho thấy cần thiết trong C-04. Không sửa SYNC hoặc phần Gen. Điều kiện: kết quả thực tế và SHA256 khớp toàn bộ artifact cuối lượt.
+
+
+### C-04 — kết quả tái kiểm chứng
+Giữ nguyên mã Rust. Runtime 125 unit + 2 fixtures, native hai mép 1 test/1183 Present/2 grab-release, build example, Clippy, fmt và diff check đều exit 0; log recheck-* tại ai/logs/C04. Cập nhật C04_AUTONOMOUS_PROOF.md và C-04.evidence.json với SHA256 cuối lượt; không sửa SYNC. Chưa QA tay hoặc bootstrap app/hoạt ảnh/menu. CHANGELOG bỏ qua: chỉ kiểm chứng; không commit/push hoặc xóa dữ liệu. Tiếp: QA tay example, A-04 hoạt ảnh và tích hợp lifecycle trước C-05.
+
+
+## C-03 — lượt hiện tại 26/10/2026 — bắt đầu kiểm chứng cuối
+Codex theo lệnh leader: giữ Rust physics/native đã có; chạy lại runtime, native pointer, build, smoke, lint; cập nhật báo cáo C03 và manifest sau bàn giao cuối. Không sửa SYNC; tên C-03 vật lý theo chỉ thị hiện tại ưu tiên TASKS lịch sử.
+
+
+### C-03 — kết quả lượt kiểm chứng cuối 26/10/2026
+Giữ nguyên Rust physics/native example. Runtime 125 unit (6 physics) + 2 fixtures; native 1 test/300 Present/1 grab-release/tốc độ ném 2186.948886308334 px/s; smoke 240 Present, settled=true. Build/Clippy/fmt/diff đều exit 0. Log current-* tại ai/logs/C03; báo cáo ai/C03_PHYSICS_PROOF.md cập nhật. Manifest C-03 tạo sau mục bàn giao này và xác minh mọi hash. Chưa QA tay, app bootstrap, full workspace, live DPI/taskbar/soak. Không sửa SYNC/Gen/TASKS; không commit/push; CHANGELOG bỏ qua vì chỉ kiểm chứng; không dữ liệu cần xóa. Bước tiếp: QA tay example rồi tích hợp lifecycle theo nhiệm vụ được giao. Chỉ thị hiện tại ưu tiên tên C-03 lịch sử trong TASKS.
+## C-04 — lượt MSG-186 — phạm vi trước kiểm tra
+Codex: đọc và kiểm chứng autonomous.rs, companion.rs, example hiện có; chạy runtime/native/build/lint; cập nhật C04_AUTONOMOUS_PROOF.md, log current-* và C-04.evidence.json. Giữ mã nếu kiểm tra đạt; không sửa SYNC/Gen; manifest chốt sau bàn giao. Chỉ thị C-04 hiện tại ưu tiên TASKS lịch sử.
+
+
+### C-04 — kết quả MSG-186
+Giữ nguyên Rust hiện có. Chạy thật: 125 unit + 2 fixtures; native hai mép 1 test, 1184 Present, 2 grab/release; build example/Clippy/fmt/diff exit 0. Log current-* tại ai/logs/C04, báo cáo C04 cập nhật; manifest tính hash sau bàn giao. Chưa QA tay, bootstrap app hoặc hoạt ảnh khớp/full workspace. Không sửa SYNC/Gen; không commit/push; CHANGELOG bỏ qua vì chỉ kiểm chứng; không trạng thái cần xóa. Tiếp: A-04 QA/hoạt ảnh, tích hợp lifecycle trước C-05.
+
+
+## C-05 — 26/10/2026 — bắt đầu
+Codex theo chỉ thị trực tiếp leader: tạo binary trial Windows độc lập dùng runner hiện có, menu đã duyệt, đóng gói qua just/bongocat-packaging; không sửa pose/asset Gen hoặc SYNC. Phạm vi và kiểm tra đã nêu trong chat; hồ sơ C05/log/manifest và danh mục file. Chỉ thị hiện tại cho phép ghi báo cáo trong ai và ưu tiên TASKS lịch sử. Không coi bản thử là phát hành chính thức hoặc hoàn tất hoạt ảnh.
+
+
+## C-03 — MSG-200 — phạm vi tái kiểm chứng
+Codex theo chỉ thị leader: đọc mã physics/Win32 hiện tại, chạy runtime/native/build/lint, cập nhật ai/C03_PHYSICS_PROOF.md và ai/C-03.evidence.json cùng log msg200-*. Giữ mã hiện có nếu kiểm tra đạt; không sửa SYNC/Gen hoặc triển khai C-05. Manifest sẽ chốt sau bàn giao; tên nhiệm vụ theo chỉ thị hiện tại ưu tiên TASKS lịch sử.
+
+### C-03 — MSG-200 — kết quả
+Giữ nguyên Rust hiện có; cập nhật C03_PHYSICS_PROOF.md, C-03.evidence.json và log msg200-*. Runtime 125 unit + 2 fixtures; native 1 test, 302/302 Present, 1 grab/release, ném 2197.3403435802716 px/s; smoke 242/242 Present, settled=true; build/Clippy/fmt/diff exit 0. Manifest cũ lệch window_proc.rs được tính lại từ cây đã kiểm tra. Chưa QA tay, bootstrap app mặc định, live DPI/taskbar, full workspace hoặc soak. Không sửa SYNC/Gen, không commit/push; CHANGELOG bỏ qua vì chỉ kiểm chứng, không dữ liệu cần xóa. Tiếp: QA tay example. Chỉ thị C-03 vật lý hiện tại ưu tiên tên lịch sử trong TASKS.
+## C-03 — MSG-207 — phạm vi trước thực thi
+Codex: kiểm chứng mã physics/Win32 có sẵn, chạy runtime/native/build/smoke; cập nhật báo cáo, log msg207-* và manifest đúng kind smoke với SHA256 thực tế. Không sửa SYNC, Gen hoặc C-04/C-05; chỉ sửa Rust nếu kiểm tra phát hiện lỗi C-03. Chỉ thị hiện tại ưu tiên TASKS lịch sử.
+
+
+### C-03 — MSG-207 — kết quả
+Giữ nguyên Rust có sẵn. Runtime 125 unit + 2 fixture, native 1 test/301 Present/1 grab-release, smoke 241 Present settled=true, build và fmt đều exit 0; log msg207-* UTF-8. Cập nhật C03_PHYSICS_PROOF.md và manifest với kind=smoke, SHA256 hiện tại. Chưa QA tay hoặc bootstrap app/full workspace/Clippy lại; không sửa SYNC, Gen, C-04/C-05; không commit/push. CHANGELOG bỏ qua vì chỉ kiểm chứng; không dữ liệu cần xóa. Bước tiếp: QA tay example bằng đường dẫn cargo.exe đầy đủ. Tên C-03 vật lý theo chỉ thị hiện tại ưu tiên TASKS lịch sử.
+

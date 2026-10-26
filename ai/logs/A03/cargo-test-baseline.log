@@ -1,0 +1,185 @@
+cargo.exe :    Compiling bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+At line:3 char:11
++ $output = & cargo test --manifest-path BongoCat/Cargo.toml --locked - ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (   Compiling bo...ongocat-render):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.26s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_render-dd2ff8f3cfca7aff.exe)
+
+running 22 tests
+test tests::commit::model_commit_error_codes_are_stable_and_unique ... ok
+test tests::geometry::a_key_image_that_needs_no_margin_keeps_the_canvas_quad ... ok
+test tests::channel::close_rejects_new_frames_but_allows_pending_drain ... ok
+test stickman::tests::skeleton_is_valid_and_fits_canvas ... ok
+test tests::commit::model_commit_feedback_is_rejected_after_close ... ok
+test tests::commit::model_commit_feedback_is_reliable_and_never_overwrites ... ok
+test tests::validate::render_snapshot_validation_accepts_complete_drawable_resources ... ok
+test tests::commit::model_commit_only_consumer_discards_superseded_model_data ... ok
+test tests::commit::model_commit_only_consumer_preserves_the_latest_data_frame ... ok
+test tests::commit::frame_sequence_must_increase_within_and_across_model_generations ... ok
+test tests::geometry::a_legacy_key_image_is_offset_by_the_legacy_window_margin ... ok
+test tests::geometry::a_quad_names_both_triangles_with_one_uv_orientation ... ok
+test tests::geometry::canvas_bounds_keep_core_origin_orientation ... ok
+test tests::key::a_gamepad_press_is_never_the_same_identity_as_a_key_press ... ok
+test tests::key::a_key_press_set_keeps_insertion_order ... ok
+test tests::key::key_press_set_deduplicates_and_has_bounded_capacity ... ok
+test tests::validate::render_snapshot_validation_accepts_a_drawable_without_triangles ... ok
+test tests::validate::render_snapshot_validation_rejects_each_shared_gpu_preflight_violation ... ok
+test tests::identity::strong_resource_ids_preserve_source_identity ... ok
+test tests::key::function_key_table_covers_f1_through_f24_and_stops_at_the_gaps ... ok
+test tests::commit::model_commit_frame_survives_latest_frame_coalescing ... ok
+test tests::channel::latest_frame_transport_coalesces_without_blocking_the_producer ... ok
+
+test result: ok. 22 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_runtime-8766b1ae8d58fa1b.exe)
+
+running 121 tests
+test activity::tests::captured_edges_are_private_and_corrections_are_silent ... ok
+test activity::tests::bounded_queue_preserves_order_reports_overflow_and_never_replays ... ok
+test input_state::tests::reconcile::duplicate_and_out_of_order_sequences_never_apply_release ... ok
+test input_state::tests::reset::reset_clears_keyboard_and_mouse_together ... ok
+test input_state::tests::reconcile::sequence_gap_resets_unknown_state_before_current_edge ... ok
+test input_state::tests::reconcile::input_sequence_tracker_handles_u64_wraparound ... ok
+test input_state::tests::reconcile::reconciliation_cannot_synthesize_a_pressed_control ... ok
+test input_state::tests::repeat::a_release_with_nothing_pressed_is_counted_rather_than_ignored ... ok
+test input_state::tests::reset::disconnect_is_scoped_and_keyboard_reconciliation_ignores_gamepads ... ok
+test input_state::tests::repeat::anonymous_device_edges_count_press_and_release_per_device ... ok
+test input_state::tests::reconcile::non_monotonic_time_resets_pressed_state ... ok
+test input_state::tests::snapshot_of::model_snapshot_applies_bindings_without_exposing_pressed_keys ... ok
+test input_state::tests::reconcile::pressed_record_retains_source_monotonic_times_and_press_order ... ok
+test input_state::tests::snapshot_of::a_reconciled_release_ends_the_modifier_hold ... ok
+test input_state::tests::snapshot_of::the_stacked_mode_does_not_change_which_hands_are_down ... ok
+test input_state::tests::snapshot_of::a_reset_clears_the_pressed_modifier_projection ... ok
+test input_state::tests::snapshot_of::an_unbound_gamepad_button_is_inert_and_the_sticks_keep_their_parameters ... ok
+test input_state::tests::snapshot_of::configured_gamepad_buttons_project_to_the_bound_hand_and_its_overlay ... ok
+test input_state::tests::snapshot_of::gamepad_button_edges_project_to_stick_parameters_and_reset_cleanly ... ok
+test input_state::tests::repeat::a_repeated_down_edge_is_a_duplicate_and_keeps_the_key_pressed ... ok
+test input_state::tests::snapshot_of::reset_rejects_stale_gamepad_edges_until_a_new_generation_connects ... ok
+test input_state::tests::snapshot_of::source_filters_keep_keyboard_and_gamepad_model_input_independent ... ok
+test input_state::tests::snapshot_of::the_globe_key_projects_through_the_model_snapshot_like_any_other_key ... ok
+test input_state::tests::snapshot_of::the_pressed_modifier_projection_keeps_the_two_sides_apart ... ok
+test physics::tests::floor_walls_long_frames_and_settling ... ok
+test random_behavior::tests::a_clock_rollback_does_not_replay_a_due_selection ... ok
+test input_state::tests::snapshot_of::the_stacked_mode_keeps_every_held_key_oldest_first ... ok
+test physics::tests::changed_work_area_clamps_held_body_and_rejects_old_drag_time ... ok
+test input_state::tests::snapshot_of::the_stacked_mode_drops_the_oldest_presses_past_the_layer_capacity ... ok
+test physics::tests::free_fall_matches_analytic_trajectory ... ok
+test input_state::tests::reconcile::issue_47_lost_release_is_reconciled_without_clearing_held_keys_early ... ok
+test physics::tests::stale_throw_and_capture_loss_stop_velocity ... ok
+test input_state::tests::repeat::special_key_subset_counts_only_the_keys_thock_can_address ... ok
+test random_behavior::tests::settings_reject_zero_and_overlarge_intervals ... ok
+test physics::tests::grip_keeps_offset_and_throw_is_bounded ... ok
+test random_behavior::tests::a_model_without_the_selected_kind_stays_idle ... ok
+test physics::tests::upward_throw_then_rebound_stays_within_four_pixels ... ok
+test random_behavior::tests::the_off_mode_never_schedules_anything ... ok
+test rendering::tests::automatic::automatic_effects_are_periodic_and_deterministic ... ok
+test random_behavior::tests::the_combined_mode_reaches_both_kinds ... ok
+test random_behavior::tests::turning_the_mode_off_and_model_reset_clear_the_pending_deadline ... ok
+test random_behavior::tests::a_seed_produces_a_repeatable_sequence_and_waits_one_interval ... ok
+test rendering::tests::automatic::automatic_effects_keep_blink_in_closed_or_open_contract ... ok
+test rendering::tests::error::live2d_errors_map_to_stable_runtime_categories ... ok
+test random_behavior::tests::each_mode_never_selects_outside_its_own_kind ... ok
+test rendering::tests::expression::clearing_without_an_active_model_reports_nothing_to_close ... ok
+test tests::input::runtime_discards_axis_samples_until_the_connection_is_active ... ok
+test tests::input::runtime_applies_reliable_input_and_reconciled_release ... ok
+test tests::input::event_subscriber_receives_physical_edges_without_repeats_or_corrections ... ok
+test tests::input::input_reset_is_observable ... ok
+test tests::input::runtime_rejects_late_gamepad_generation_after_reconnect ... ok
+test tests::input::runtime_coalesces_cursor_flood_without_delaying_reliable_release ... ok
+test tests::input::shutdown_flushes_a_pending_cursor_before_stopped_state ... ok
+test tests::input::platform_input_diagnostics_are_live_and_freeze_at_runtime_shutdown ... ok
+test tests::lifecycle::model_settings_command_is_revisioned_and_published ... ok
+test tests::input::runtime_coalesces_gamepad_axes_and_projects_dead_zone_without_blocking_edges ... ok
+test tests::input::model_input_filters_preserve_raw_pressed_state_and_recompose_immediately ... ok
+test tests::input::every_gamepad_axis_reaches_its_own_model_input_field ... ok
+test tests::lifecycle::shutdown_rejects_new_commands_and_drains_a_full_queue ... ok
+test tests::lifecycle::shutdown_request_is_nonblocking_and_skips_later_automatic_actions ... ok
+test tests::input::runtime_projects_display_relative_cursor_into_model_snapshot ... ok
+test rendering::tests::model::the_stick_axes_and_the_stick_button_are_projected_independently ... ok
+test rendering::tests::model::every_stick_control_reaches_its_own_parameter_and_nothing_else ... ok
+test tests::input::runtime_smooths_cursor_with_the_injected_monotonic_clock ... ok
+test tests::lifecycle::shutdown_reports_worker_panic_after_stopped_snapshot ... ok
+test tests::lifecycle::shutdown_timeout_aggregates_late_worker_panic ... ok
+test tests::model::runtime_owns_the_committed_installed_model ... ok
+test tests::input::shutdown_flushes_a_pending_gamepad_axis_before_stopped_state ... ok
+test tests::lifecycle::lifecycle_publishes_typed_snapshots_and_stops_cleanly ... ok
+test tests::input::a_held_key_survives_any_amount_of_runtime_time ... ok
+test tests::lifecycle::shutdown_timeout_returns_without_waiting_for_worker_join ... ok
+test tests::lifecycle::shutdown_timeout_bounds_a_blocking_worker_and_eventually_drains ... ok
+test rendering::tests::expression::clearing_twice_is_the_same_as_clearing_once ... ok
+test tests::pacing::frame_pacer_keeps_the_cadence_on_the_configured_rate ... ok
+test tests::pacing::hover_hide_delay_converts_whole_seconds_to_the_frame_clock ... ok
+test tests::pacing::idle_hide_delay_converts_whole_seconds_to_the_frame_clock ... ok
+test tests::pacing::maximum_fps_interval_enforces_runtime_bounds ... ok
+test rendering::tests::evaluate::frame_evaluation_order_is_motion_expression_input_effects_then_core_update ... ok
+test tests::pacing::work_budget_diagnostics_only_record_actual_overruns ... ok
+test rendering::tests::model::model_settings_control_pointer_tracking_and_render_mirroring ... ok
+test tests::rendering::render_error_codes_are_stable_and_unique ... ok
+test tests::rendering::renderer_health_transitions_degrade_once_and_recover ... ok
+test tests::transport::command_sequence_tracker_classifies_gaps_duplicates_and_wraparound ... ok
+test rendering::tests::motion::completed_motion_holds_its_terminal_parameters_until_stopped ... ok
+test tests::transport::full_queue_returns_the_original_typed_command ... ok
+test tests::transport::sequence_wait_predicate_handles_wraparound ... ok
+test tests::transport::input_producer_overflow_is_observable_and_recovery_resets_state ... ok
+test worker::axes::tests::a_released_connection_contributes_nothing_even_while_its_samples_are_newest ... ok
+test tests::transport::zero_capacity_is_rejected ... ok
+test worker::axes::tests::the_dead_zone_shapes_the_winning_sample_rather_than_the_transport ... ok
+test worker::axes::tests::the_newest_sample_of_an_axis_wins_across_every_connected_pad ... ok
+test rendering::tests::model::pointer_tracking_flips_each_axis_on_its_own ... ok
+test rendering::tests::expression::clearing_the_expression_stack_returns_the_model_to_its_default_face ... ok
+test rendering::tests::motion::hidden_motion_fade_becomes_settled_without_frame_evaluation ... ok
+test rendering::tests::motion::completed_motion_holds_the_post_natural_fade_terminal_evaluation ... ok
+test rendering::tests::motion::overlap_evaluates_independent_clocks_and_removes_only_the_faded_layer ... ok
+test rendering::tests::motion::overlapping_parameter_precedence_uses_start_order ... ok
+test rendering::tests::evaluate::latest_expression_stays_full_weight_after_clock_rollback ... ok
+test tests::lifecycle::random_behavior_setting_starts_a_model_behavior_after_one_interval ... ok
+test rendering::tests::model::a_displaced_stick_shows_and_presses_its_paw_only_where_the_model_has_a_stick ... ok
+test tests::motions::a_repeated_expression_is_applied_again_while_the_toggle_is_off ... ok
+test tests::motions::a_repeated_expression_turns_itself_off_while_the_toggle_is_on ... ok
+test tests::rendering::frame_scheduling_agrees_with_the_published_snapshot ... ok
+test tests::model::runtime_worker_owns_model_evaluation_and_render_publication ... ok
+test tests::motions::an_automatic_expression_is_never_remembered ... ok
+test tests::motions::preview_motion_holds_its_final_pose_after_one_cycle ... ok
+test tests::motions::elapsed_one_shot_settles_before_the_next_rendered_frame ... ok
+test tests::motions::shortcut_motion_holds_its_final_pose_after_one_cycle ... ok
+test tests::motions::motion_commands_use_priority_identity_and_injectable_time ... ok
+test tests::motions::shortcut_action_dispatch_reuses_typed_motion_and_expression_commands ... ok
+test tests::motions::expression_commands_crossfade_and_preserve_the_active_expression_on_error ... ok
+test tests::motions::the_toggle_does_not_reach_the_automatic_expression_picker ... ok
+test rendering::tests::motion::overlapping_standard_model_groups_can_replay_after_terminal_poses_are_held ... ok
+test tests::lifecycle::random_behavior_does_not_replace_a_live_normal_product_motion ... ok
+test tests::model::reliable_input_bypasses_deferred_commands_during_model_preparation ... ok
+test tests::motions::overlapping_motions_keep_independent_identity_priority_audio_and_fades ... ok
+test tests::motions::stopped_motion_fades_without_a_jump_and_duplicate_stop_does_not_restart_it ... ok
+test tests::motions::only_an_expression_command_is_remembered_and_the_record_outlives_the_model ... ok
+test tests::motions::a_restored_expression_is_never_read_as_a_repeat ... ok
+test tests::model::cpu_and_gpu_model_failures_preserve_the_active_model_and_bindings ... ok
+test tests::pacing::runtime_worker_frame_pacing_reaches_the_configured_maximum_fps ... ok
+
+test result: ok. 121 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 3.74s
+
+     Running tests\shared_input_fixtures.rs (BongoCat\target\debug\deps\shared_input_fixtures-98b8f714a58f3b93.exe)
+
+running 2 tests
+test shared_input_fixtures_match_product_runtime_projection ... ok
+test model_motion_expression_audio_fixture_matches_product_runtime ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.25s
+
+   Doc-tests bongocat_render
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests bongocat_runtime
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+EXIT_CODE=0

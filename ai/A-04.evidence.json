@@ -1,0 +1,126 @@
+{
+    "task_code":  "A-04",
+    "status":  "passed",
+    "artifacts":  [
+                      {
+                          "path":  "ai/A04_UX_ACCEPTANCE.md",
+                          "sha256":  "5d42178735a984b053e327b7c0e2a45c3c0cf88ff31530b46e6d1f07988de000"
+                      },
+                      {
+                          "path":  "HANDOFF_ANTIGRAVITY.md",
+                          "sha256":  "f23786513626a8f5d958261fa5b1765a3bdd5468a06945a73e82e4cb7da482f1"
+                      },
+                      {
+                          "path":  "ai/logs/A04/build-check.log",
+                          "sha256":  "027e75bfcf3f6be227e0ffefdecf5144c00951cb22b1670ac8a784c82d78672b"
+                      },
+                      {
+                          "path":  "ai/logs/A04/unit-tests.log",
+                          "sha256":  "95a503aea069d5f443801b61bab15c4fe16350599792989d2e162083a02c5df6"
+                      },
+                      {
+                          "path":  "ai/logs/A04/clippy-check.log",
+                          "sha256":  "7c4f7a8841dfa9cce43173d35541b99ae3a983fd8e0e480e6fe9db00bdc14df1"
+                      },
+                      {
+                          "path":  "ai/logs/A04/fmt-check.log",
+                          "sha256":  "cb04550891423ad34560e7f91b5d751f06080bcfe9b447b5a5a85568ccc4f32d"
+                      },
+                      {
+                          "path":  "ai/logs/A04/example-physics-smoke.log",
+                          "sha256":  "4d2b2bfb29532685c7ef5f06bf0492f2d6f342418594b90baa31786a774d7870"
+                      },
+                      {
+                          "path":  "ai/logs/A04/example-autonomous-smoke.log",
+                          "sha256":  "7c2e206e30a5efbccb5f477c0f34fb18d0ac52d79d0186d6d47cee9dcd343345"
+                      },
+                      {
+                          "path":  "ai/logs/A04/ux_smoothness_qa.ps1",
+                          "sha256":  "180f86c2f36aafc08559a3a59727d9d8ef7fd73cb0f9bacd559ade88a24ec673"
+                      },
+                      {
+                          "path":  "ai/logs/A04/ux-smoothness-qa.log",
+                          "sha256":  "78a1b4b8e5ae8bd313ad157cad239db2c1c540106e84c3b4218b3fe780c68a94"
+                      },
+                      {
+                          "path":  "ai/logs/A04/A04-transition-smoothness-sheet.png",
+                          "sha256":  "288bedd05268ea1335ae2ca22af754cb5d4db4818eabb6ae54c9308bc44d45d1"
+                      },
+                      {
+                          "path":  "ai/logs/A04/A04-motion-continuity-preview.png",
+                          "sha256":  "d19fe778a3a31a65dada6bc401a7b5ac93a21f0e0445ca6f3641b754d3cf0c92"
+                      },
+                      {
+                          "path":  "ai/logs/A04/A04-white.png",
+                          "sha256":  "2c548f5732811e85be9b872ac7a4ea2c0a6c5d419ef00a1ecfcd6d9f22ad501c"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-render/src/stickman.rs",
+                          "sha256":  "c0bc29921a5a8d2f382ed6192fdcb0c35deed2b4304e91e17be4ab55cd689ff6"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-runtime/src/physics.rs",
+                          "sha256":  "9c440f5763a06322dee021fc9ebe1bf9c4b0b6e8d855a1e5b1d73eda420605b9"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-runtime/src/autonomous.rs",
+                          "sha256":  "079dd481f0b48bf51ec8584364727c91434814180712516749a8a215246e5b73"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-overlay/src/windows/companion.rs",
+                          "sha256":  "631f5e61751417cc1ed053eafdce1ab31436b520f592875eccc326391f80bbdd"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-overlay/examples/companion_physics.rs",
+                          "sha256":  "e59321bd9d2467e933cdd7125ff5db2b64a5b0749b37f9acd5c23a3058a63e11"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-overlay/examples/companion_autonomous.rs",
+                          "sha256":  "24cb729ae2479efafa399564abe8c814b50c3b78ae2d16848ebd5f7fd8366d2e"
+                      }
+                  ],
+    "checks":  [
+                   {
+                       "name":  "Biên dịch crates bongocat-render, bongocat-runtime, bongocat-overlay và các examples",
+                       "kind":  "build",
+                       "result":  "passed",
+                       "log":  "ai/logs/A04/build-check.log"
+                   },
+                   {
+                       "name":  "Kiểm thử 22 unit tests bongocat-render và 125 unit + 2 fixture tests bongocat-runtime",
+                       "kind":  "test",
+                       "result":  "passed",
+                       "log":  "ai/logs/A04/unit-tests.log"
+                   },
+                   {
+                       "name":  "Kiểm tra tĩnh Clippy (-D warnings)",
+                       "kind":  "lint",
+                       "result":  "passed",
+                       "log":  "ai/logs/A04/clippy-check.log"
+                   },
+                   {
+                       "name":  "Kiểm tra định dạng mã nguồn cargo fmt --all -- --check",
+                       "kind":  "lint",
+                       "result":  "passed",
+                       "log":  "ai/logs/A04/fmt-check.log"
+                   },
+                   {
+                       "name":  "Chạy thực tế example vật lý companion_physics.exe (4s, ~59.25 FPS, settled=true)",
+                       "kind":  "smoke",
+                       "result":  "passed",
+                       "log":  "ai/logs/A04/example-physics-smoke.log"
+                   },
+                   {
+                       "name":  "Chạy thực tế example tự chủ companion_autonomous.exe (8s, ~58.88 FPS, Physics-\u003eIdle-\u003eWalk)",
+                       "kind":  "smoke",
+                       "result":  "passed",
+                       "log":  "ai/logs/A04/example-autonomous-smoke.log"
+                   },
+                   {
+                       "name":  "Kiểm định độ mượt chuyển tiếp 8 tư thế ở 60 FPS và kết xuất bảng ảnh trực quan A-04",
+                       "kind":  "render",
+                       "result":  "passed",
+                       "log":  "ai/logs/A04/ux-smoothness-qa.log"
+                   }
+               ]
+}

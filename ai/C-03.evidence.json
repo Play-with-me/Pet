@@ -1,0 +1,107 @@
+{
+    "task_code":  "C-03",
+    "status":  "passed",
+    "artifacts":  [
+                      {
+                          "sha256":  "9c440f5763a06322dee021fc9ebe1bf9c4b0b6e8d855a1e5b1d73eda420605b9",
+                          "path":  "BongoCat/crates/bongocat-runtime/src/physics.rs"
+                      },
+                      {
+                          "sha256":  "8fe0ff7a48fce7db208156747a011d4f0ae6808acdea0bee894eb7c1b0ccfc00",
+                          "path":  "BongoCat/crates/bongocat-runtime/src/lib.rs"
+                      },
+                      {
+                          "sha256":  "74a459365336d50c0f9c8c252cc1384056d373ffeffa5dae2161ab496266e7b2",
+                          "path":  "BongoCat/crates/bongocat-overlay/src/lib.rs"
+                      },
+                      {
+                          "sha256":  "f0ecab87a4baa043a8495aafae5c49ec925cccae831ad042b244598211201817",
+                          "path":  "BongoCat/crates/bongocat-overlay/src/windows/mod.rs"
+                      },
+                      {
+                          "sha256":  "a4afbdb0fc8f01016beb3a81b6faa0a5f004424b5bbbcb35dd4e8975b405eb76",
+                          "path":  "BongoCat/crates/bongocat-overlay/src/windows/window.rs"
+                      },
+                      {
+                          "sha256":  "3e41dee17a66934eb1f84b9f0c59bceb99b292461fcc4f108bc06357d3e50f04",
+                          "path":  "BongoCat/crates/bongocat-overlay/src/windows/window_proc.rs"
+                      },
+                      {
+                          "sha256":  "6233b49e7c685333d63c868419afd8d002ebcab5ea99892002e2e0cdf4869c97",
+                          "path":  "BongoCat/crates/bongocat-overlay/src/windows/companion.rs"
+                      },
+                      {
+                          "sha256":  "e59321bd9d2467e933cdd7125ff5db2b64a5b0749b37f9acd5c23a3058a63e11",
+                          "path":  "BongoCat/crates/bongocat-overlay/examples/companion_physics.rs"
+                      },
+                      {
+                          "sha256":  "c0bc29921a5a8d2f382ed6192fdcb0c35deed2b4304e91e17be4ab55cd689ff6",
+                          "path":  "BongoCat/crates/bongocat-render/src/stickman.rs"
+                      },
+                      {
+                          "sha256":  "7f131f0362f77c617566feccc7472b678645d1e94aed60f85608fc462a8f395e",
+                          "path":  "ai/C03_PHYSICS_PROOF.md"
+                      },
+                      {
+                          "sha256":  "2c548f5732811e85be9b872ac7a4ea2c0a6c5d419ef00a1ecfcd6d9f22ad501c",
+                          "path":  "ai/logs/C03/C03-white.png"
+                      },
+                      {
+                          "sha256":  "d45e670497f4067a2ef819bb45546985c2eb37fdc92abe9ce55fdb24b59598b3",
+                          "path":  "ai/logs/C03/msg207-runtime.log"
+                      },
+                      {
+                          "sha256":  "501c316cea9236b1b37746cfcd9f66c5fe270f757fad690b61353a03760f80d2",
+                          "path":  "ai/logs/C03/msg207-native.log"
+                      },
+                      {
+                          "sha256":  "af5281f6ab8f9517a1429f150d28e0049f195a0859a972afb43e95a255aa083a",
+                          "path":  "ai/logs/C03/msg207-build.log"
+                      },
+                      {
+                          "sha256":  "18661cf882763d409c39a11311edc0951daca3cabe06de5904004b03482112fa",
+                          "path":  "ai/logs/C03/msg207-smoke.log"
+                      },
+                      {
+                          "sha256":  "038a54b3044ff60f9a7e78a041246a521baf8d56e1b3fd101cb79995e7337cc1",
+                          "path":  "ai/logs/C03/msg207-fmt.log"
+                      }
+                  ],
+    "checks":  [
+                   {
+                       "result":  "passed",
+                       "name":  "MSG-207 C-03 runtime",
+                       "log":  "ai/logs/C03/msg207-runtime.log",
+                       "kind":  "test"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "MSG-207 C-03 native",
+                       "log":  "ai/logs/C03/msg207-native.log",
+                       "kind":  "test"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "MSG-207 C-03 build",
+                       "log":  "ai/logs/C03/msg207-build.log",
+                       "kind":  "build"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "MSG-207 C-03 smoke",
+                       "log":  "ai/logs/C03/msg207-smoke.log",
+                       "kind":  "smoke"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "MSG-207 C-03 fmt",
+                       "log":  "ai/logs/C03/msg207-fmt.log",
+                       "kind":  "test"
+                   }
+               ],
+    "limitations":  [
+                        "Desktop example only; bongocat-app default bootstrap not integrated",
+                        "Native pointer test uses synthetic Win32 messages; manual mouse QA not performed",
+                        "No full workspace gate, long soak, taskbar configuration or live display/DPI change QA"
+                    ]
+}

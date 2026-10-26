@@ -1,5 +1,5 @@
 {
-    "generated_at_utc":  "2026-10-26T02:59:31.6035119Z",
+    "generated_at_utc":  "2026-10-26T08:19:09.5166734Z",
     "root":  "Pet",
     "repository":  "BongoCat",
     "entrypoint":  "PROJECT_MAP.md",
@@ -115,6 +115,136 @@
                       "bytes":  null
                   },
                   {
+                      "path":  "ai/logs/A02",
+                      "kind":  "directory",
+                      "bytes":  null
+                  },
+                  {
+                      "path":  "ai/logs/A02/A02-scale-256px-preview.png",
+                      "kind":  "file",
+                      "bytes":  6215
+                  },
+                  {
+                      "path":  "ai/logs/A02/C02-d3d11.png",
+                      "kind":  "file",
+                      "bytes":  8409
+                  },
+                  {
+                      "path":  "ai/logs/A02/C02-gpu-result.txt",
+                      "kind":  "file",
+                      "bytes":  75
+                  },
+                  {
+                      "path":  "ai/logs/A02/C02-preview.png",
+                      "kind":  "file",
+                      "bytes":  8692
+                  },
+                  {
+                      "path":  "ai/logs/A02/C02-white.png",
+                      "kind":  "file",
+                      "bytes":  73
+                  },
+                  {
+                      "path":  "ai/logs/A02/geometry_qa.log",
+                      "kind":  "file",
+                      "bytes":  370
+                  },
+                  {
+                      "path":  "ai/logs/A02/measurement.log",
+                      "kind":  "file",
+                      "bytes":  1011
+                  },
+                  {
+                      "path":  "ai/logs/A02/render.log",
+                      "kind":  "file",
+                      "bytes":  940
+                  },
+                  {
+                      "path":  "ai/logs/A03",
+                      "kind":  "directory",
+                      "bytes":  null
+                  },
+                  {
+                      "path":  "ai/logs/A03/A03-poses-preview.png",
+                      "kind":  "file",
+                      "bytes":  23814
+                  },
+                  {
+                      "path":  "ai/logs/A03/cargo-test-baseline.log",
+                      "kind":  "file",
+                      "bytes":  14566
+                  },
+                  {
+                      "path":  "ai/logs/A03/spec-verification.log",
+                      "kind":  "file",
+                      "bytes":  802
+                  },
+                  {
+                      "path":  "ai/logs/A03/verify_a03_spec.ps1",
+                      "kind":  "file",
+                      "bytes":  7616
+                  },
+                  {
+                      "path":  "ai/logs/A04",
+                      "kind":  "directory",
+                      "bytes":  null
+                  },
+                  {
+                      "path":  "ai/logs/A04/A04-motion-continuity-preview.png",
+                      "kind":  "file",
+                      "bytes":  45149
+                  },
+                  {
+                      "path":  "ai/logs/A04/A04-transition-smoothness-sheet.png",
+                      "kind":  "file",
+                      "bytes":  40489
+                  },
+                  {
+                      "path":  "ai/logs/A04/A04-white.png",
+                      "kind":  "file",
+                      "bytes":  73
+                  },
+                  {
+                      "path":  "ai/logs/A04/build-check.log",
+                      "kind":  "file",
+                      "bytes":  953
+                  },
+                  {
+                      "path":  "ai/logs/A04/clippy-check.log",
+                      "kind":  "file",
+                      "bytes":  72
+                  },
+                  {
+                      "path":  "ai/logs/A04/example-autonomous-smoke.log",
+                      "kind":  "file",
+                      "bytes":  580
+                  },
+                  {
+                      "path":  "ai/logs/A04/example-physics-smoke.log",
+                      "kind":  "file",
+                      "bytes":  335
+                  },
+                  {
+                      "path":  "ai/logs/A04/fmt-check.log",
+                      "kind":  "file",
+                      "bytes":  86
+                  },
+                  {
+                      "path":  "ai/logs/A04/unit-tests.log",
+                      "kind":  "file",
+                      "bytes":  14227
+                  },
+                  {
+                      "path":  "ai/logs/A04/ux_smoothness_qa.ps1",
+                      "kind":  "file",
+                      "bytes":  14806
+                  },
+                  {
+                      "path":  "ai/logs/A04/ux-smoothness-qa.log",
+                      "kind":  "file",
+                      "bytes":  1496
+                  },
+                  {
                       "path":  "ai/logs/C02",
                       "kind":  "directory",
                       "bytes":  null
@@ -122,7 +252,7 @@
                   {
                       "path":  "ai/logs/C02/build.log",
                       "kind":  "file",
-                      "bytes":  950
+                      "bytes":  868
                   },
                   {
                       "path":  "ai/logs/C02/C02-d3d11.png",
@@ -147,17 +277,302 @@
                   {
                       "path":  "ai/logs/C02/clippy.log",
                       "kind":  "file",
-                      "bytes":  8832
+                      "bytes":  868
                   },
                   {
                       "path":  "ai/logs/C02/geometry.log",
                       "kind":  "file",
-                      "bytes":  5426
+                      "bytes":  5236
                   },
                   {
                       "path":  "ai/logs/C02/render.log",
                       "kind":  "file",
-                      "bytes":  2078
+                      "bytes":  1882
+                  },
+                  {
+                      "path":  "ai/logs/C03",
+                      "kind":  "directory",
+                      "bytes":  null
+                  },
+                  {
+                      "path":  "ai/logs/C03/build.log",
+                      "kind":  "file",
+                      "bytes":  1090
+                  },
+                  {
+                      "path":  "ai/logs/C03/C03-white.png",
+                      "kind":  "file",
+                      "bytes":  73
+                  },
+                  {
+                      "path":  "ai/logs/C03/clippy.log",
+                      "kind":  "file",
+                      "bytes":  1312
+                  },
+                  {
+                      "path":  "ai/logs/C03/clippy-initial.log",
+                      "kind":  "file",
+                      "bytes":  4828
+                  },
+                  {
+                      "path":  "ai/logs/C03/current-build.log",
+                      "kind":  "file",
+                      "bytes":  547
+                  },
+                  {
+                      "path":  "ai/logs/C03/current-clippy.log",
+                      "kind":  "file",
+                      "bytes":  569
+                  },
+                  {
+                      "path":  "ai/logs/C03/current-diff.log",
+                      "kind":  "file",
+                      "bytes":  760
+                  },
+                  {
+                      "path":  "ai/logs/C03/current-fmt.log",
+                      "kind":  "file",
+                      "bytes":  89
+                  },
+                  {
+                      "path":  "ai/logs/C03/current-native.log",
+                      "kind":  "file",
+                      "bytes":  1384
+                  },
+                  {
+                      "path":  "ai/logs/C03/current-runtime.log",
+                      "kind":  "file",
+                      "bytes":  12669
+                  },
+                  {
+                      "path":  "ai/logs/C03/current-smoke.log",
+                      "kind":  "file",
+                      "bytes":  1016
+                  },
+                  {
+                      "path":  "ai/logs/C03/diff-check.log",
+                      "kind":  "file",
+                      "bytes":  1010
+                  },
+                  {
+                      "path":  "ai/logs/C03/fmt.log",
+                      "kind":  "file",
+                      "bytes":  13
+                  },
+                  {
+                      "path":  "ai/logs/C03/fmt-initial.log",
+                      "kind":  "file",
+                      "bytes":  41858
+                  },
+                  {
+                      "path":  "ai/logs/C03/native-pointer.log",
+                      "kind":  "file",
+                      "bytes":  2904
+                  },
+                  {
+                      "path":  "ai/logs/C03/native-smoke.log",
+                      "kind":  "file",
+                      "bytes":  1748
+                  },
+                  {
+                      "path":  "ai/logs/C03/native-smoke-initial.log",
+                      "kind":  "file",
+                      "bytes":  1516
+                  },
+                  {
+                      "path":  "ai/logs/C03/physics.log",
+                      "kind":  "file",
+                      "bytes":  5904
+                  },
+                  {
+                      "path":  "ai/logs/C03/recheck-build.log",
+                      "kind":  "file",
+                      "bytes":  1100
+                  },
+                  {
+                      "path":  "ai/logs/C03/recheck-clippy.log",
+                      "kind":  "file",
+                      "bytes":  874
+                  },
+                  {
+                      "path":  "ai/logs/C03/recheck-diff.log",
+                      "kind":  "file",
+                      "bytes":  1538
+                  },
+                  {
+                      "path":  "ai/logs/C03/recheck-fmt.log",
+                      "kind":  "file",
+                      "bytes":  13
+                  },
+                  {
+                      "path":  "ai/logs/C03/recheck-native.log",
+                      "kind":  "file",
+                      "bytes":  2470
+                  },
+                  {
+                      "path":  "ai/logs/C03/recheck-runtime.log",
+                      "kind":  "file",
+                      "bytes":  25178
+                  },
+                  {
+                      "path":  "ai/logs/C03/recheck-smoke.log",
+                      "kind":  "file",
+                      "bytes":  1756
+                  },
+                  {
+                      "path":  "ai/logs/C03/runtime.log",
+                      "kind":  "file",
+                      "bytes":  24780
+                  },
+                  {
+                      "path":  "ai/logs/C04",
+                      "kind":  "directory",
+                      "bytes":  null
+                  },
+                  {
+                      "path":  "ai/logs/C04/build.log",
+                      "kind":  "file",
+                      "bytes":  1312
+                  },
+                  {
+                      "path":  "ai/logs/C04/build-final.log",
+                      "kind":  "file",
+                      "bytes":  1088
+                  },
+                  {
+                      "path":  "ai/logs/C04/build-initial.log",
+                      "kind":  "file",
+                      "bytes":  1310
+                  },
+                  {
+                      "path":  "ai/logs/C04/C03-white.png",
+                      "kind":  "file",
+                      "bytes":  73
+                  },
+                  {
+                      "path":  "ai/logs/C04/C04-white.png",
+                      "kind":  "file",
+                      "bytes":  73
+                  },
+                  {
+                      "path":  "ai/logs/C04/clippy.log",
+                      "kind":  "file",
+                      "bytes":  1312
+                  },
+                  {
+                      "path":  "ai/logs/C04/clippy-final.log",
+                      "kind":  "file",
+                      "bytes":  1090
+                  },
+                  {
+                      "path":  "ai/logs/C04/current-build.log",
+                      "kind":  "file",
+                      "bytes":  874
+                  },
+                  {
+                      "path":  "ai/logs/C04/current-clippy.log",
+                      "kind":  "file",
+                      "bytes":  876
+                  },
+                  {
+                      "path":  "ai/logs/C04/current-diff.log",
+                      "kind":  "file",
+                      "bytes":  1538
+                  },
+                  {
+                      "path":  "ai/logs/C04/current-fmt.log",
+                      "kind":  "file",
+                      "bytes":  13
+                  },
+                  {
+                      "path":  "ai/logs/C04/current-native.log",
+                      "kind":  "file",
+                      "bytes":  3658
+                  },
+                  {
+                      "path":  "ai/logs/C04/current-runtime.log",
+                      "kind":  "file",
+                      "bytes":  25178
+                  },
+                  {
+                      "path":  "ai/logs/C04/diff-check.log",
+                      "kind":  "file",
+                      "bytes":  1530
+                  },
+                  {
+                      "path":  "ai/logs/C04/fmt.log",
+                      "kind":  "file",
+                      "bytes":  13
+                  },
+                  {
+                      "path":  "ai/logs/C04/fmt-initial.log",
+                      "kind":  "file",
+                      "bytes":  2076
+                  },
+                  {
+                      "path":  "ai/logs/C04/native-autonomous.log",
+                      "kind":  "file",
+                      "bytes":  3868
+                  },
+                  {
+                      "path":  "ai/logs/C04/native-autonomous-initial.log",
+                      "kind":  "file",
+                      "bytes":  4022
+                  },
+                  {
+                      "path":  "ai/logs/C04/native-final.log",
+                      "kind":  "file",
+                      "bytes":  1212
+                  },
+                  {
+                      "path":  "ai/logs/C04/native-pointer.log",
+                      "kind":  "file",
+                      "bytes":  2680
+                  },
+                  {
+                      "path":  "ai/logs/C04/native-smoke.log",
+                      "kind":  "file",
+                      "bytes":  2862
+                  },
+                  {
+                      "path":  "ai/logs/C04/recheck-build.log",
+                      "kind":  "file",
+                      "bytes":  874
+                  },
+                  {
+                      "path":  "ai/logs/C04/recheck-clippy.log",
+                      "kind":  "file",
+                      "bytes":  876
+                  },
+                  {
+                      "path":  "ai/logs/C04/recheck-diff.log",
+                      "kind":  "file",
+                      "bytes":  1528
+                  },
+                  {
+                      "path":  "ai/logs/C04/recheck-fmt.log",
+                      "kind":  "file",
+                      "bytes":  13
+                  },
+                  {
+                      "path":  "ai/logs/C04/recheck-native.log",
+                      "kind":  "file",
+                      "bytes":  3658
+                  },
+                  {
+                      "path":  "ai/logs/C04/recheck-runtime.log",
+                      "kind":  "file",
+                      "bytes":  25178
+                  },
+                  {
+                      "path":  "ai/logs/C04/runtime.log",
+                      "kind":  "file",
+                      "bytes":  25392
+                  },
+                  {
+                      "path":  "ai/logs/C04/runtime-initial.log",
+                      "kind":  "file",
+                      "bytes":  25226
                   },
                   {
                       "path":  "ai/logs/C01-2026-10-25-dev-smoke.log",
@@ -205,6 +620,36 @@
                       "bytes":  896
                   },
                   {
+                      "path":  "ai/A-02.evidence.json",
+                      "kind":  "file",
+                      "bytes":  3506
+                  },
+                  {
+                      "path":  "ai/A02_VISUAL_QA_REPORT.md",
+                      "kind":  "file",
+                      "bytes":  8254
+                  },
+                  {
+                      "path":  "ai/A-03.evidence.json",
+                      "kind":  "file",
+                      "bytes":  3556
+                  },
+                  {
+                      "path":  "ai/A03_EMOTION_SPEC.md",
+                      "kind":  "file",
+                      "bytes":  26323
+                  },
+                  {
+                      "path":  "ai/A-04.evidence.json",
+                      "kind":  "file",
+                      "bytes":  6829
+                  },
+                  {
+                      "path":  "ai/A04_UX_ACCEPTANCE.md",
+                      "kind":  "file",
+                      "bytes":  13770
+                  },
+                  {
                       "path":  "ai/BASELINE_REPORT.md",
                       "kind":  "file",
                       "bytes":  4856
@@ -212,12 +657,32 @@
                   {
                       "path":  "ai/C-02.evidence.json",
                       "kind":  "file",
-                      "bytes":  4165
+                      "bytes":  4160
                   },
                   {
                       "path":  "ai/C02_STICKMAN_RENDER_PROOF.md",
                       "kind":  "file",
-                      "bytes":  4251
+                      "bytes":  6430
+                  },
+                  {
+                      "path":  "ai/C-03.evidence.json",
+                      "kind":  "file",
+                      "bytes":  6802
+                  },
+                  {
+                      "path":  "ai/C03_PHYSICS_PROOF.md",
+                      "kind":  "file",
+                      "bytes":  13725
+                  },
+                  {
+                      "path":  "ai/C-04.evidence.json",
+                      "kind":  "file",
+                      "bytes":  14446
+                  },
+                  {
+                      "path":  "ai/C04_AUTONOMOUS_PROOF.md",
+                      "kind":  "file",
+                      "bytes":  13478
                   },
                   {
                       "path":  "ai/CODEX_RENDER_REVIEW.md",
@@ -267,7 +732,7 @@
                   {
                       "path":  "ai/SYNC.md",
                       "kind":  "file",
-                      "bytes":  109405
+                      "bytes":  170357
                   },
                   {
                       "path":  "ai/SYNC.md.lock",
@@ -2200,6 +2665,21 @@
                       "bytes":  null
                   },
                   {
+                      "path":  "BongoCat/crates/bongocat-overlay/examples",
+                      "kind":  "directory",
+                      "bytes":  null
+                  },
+                  {
+                      "path":  "BongoCat/crates/bongocat-overlay/examples/companion_autonomous.rs",
+                      "kind":  "file",
+                      "bytes":  606
+                  },
+                  {
+                      "path":  "BongoCat/crates/bongocat-overlay/examples/companion_physics.rs",
+                      "kind":  "file",
+                      "bytes":  623
+                  },
+                  {
                       "path":  "BongoCat/crates/bongocat-overlay/src",
                       "kind":  "directory",
                       "bytes":  null
@@ -2400,6 +2880,11 @@
                       "bytes":  11915
                   },
                   {
+                      "path":  "BongoCat/crates/bongocat-overlay/src/windows/companion.rs",
+                      "kind":  "file",
+                      "bytes":  15253
+                  },
+                  {
                       "path":  "BongoCat/crates/bongocat-overlay/src/windows/cover_capture.rs",
                       "kind":  "file",
                       "bytes":  6491
@@ -2412,7 +2897,7 @@
                   {
                       "path":  "BongoCat/crates/bongocat-overlay/src/windows/mod.rs",
                       "kind":  "file",
-                      "bytes":  9411
+                      "bytes":  9438
                   },
                   {
                       "path":  "BongoCat/crates/bongocat-overlay/src/windows/pipelines.rs",
@@ -2447,12 +2932,12 @@
                   {
                       "path":  "BongoCat/crates/bongocat-overlay/src/windows/window.rs",
                       "kind":  "file",
-                      "bytes":  25663
+                      "bytes":  25755
                   },
                   {
                       "path":  "BongoCat/crates/bongocat-overlay/src/windows/window_proc.rs",
                       "kind":  "file",
-                      "bytes":  20949
+                      "bytes":  20947
                   },
                   {
                       "path":  "BongoCat/crates/bongocat-overlay/src/blend.rs",
@@ -2497,7 +2982,7 @@
                   {
                       "path":  "BongoCat/crates/bongocat-overlay/src/lib.rs",
                       "kind":  "file",
-                      "bytes":  5577
+                      "bytes":  5609
                   },
                   {
                       "path":  "BongoCat/crates/bongocat-overlay/src/main.rs",
@@ -3325,6 +3810,11 @@
                       "bytes":  6520
                   },
                   {
+                      "path":  "BongoCat/crates/bongocat-runtime/src/autonomous.rs",
+                      "kind":  "file",
+                      "bytes":  10448
+                  },
+                  {
                       "path":  "BongoCat/crates/bongocat-runtime/src/client.rs",
                       "kind":  "file",
                       "bytes":  14696
@@ -3332,7 +3822,7 @@
                   {
                       "path":  "BongoCat/crates/bongocat-runtime/src/lib.rs",
                       "kind":  "file",
-                      "bytes":  24899
+                      "bytes":  24311
                   },
                   {
                       "path":  "BongoCat/crates/bongocat-runtime/src/owner.rs",
@@ -3343,6 +3833,11 @@
                       "path":  "BongoCat/crates/bongocat-runtime/src/pacing.rs",
                       "kind":  "file",
                       "bytes":  4983
+                  },
+                  {
+                      "path":  "BongoCat/crates/bongocat-runtime/src/physics.rs",
+                      "kind":  "file",
+                      "bytes":  8358
                   },
                   {
                       "path":  "BongoCat/crates/bongocat-runtime/src/random_behavior.rs",
@@ -7277,12 +7772,12 @@
                   {
                       "path":  "HANDOFF_ANTIGRAVITY.md",
                       "kind":  "file",
-                      "bytes":  14940
+                      "bytes":  23778
                   },
                   {
                       "path":  "HANDOFF_CODEX.md",
                       "kind":  "file",
-                      "bytes":  19796
+                      "bytes":  29175
                   },
                   {
                       "path":  "PROJECT_MAP.md",

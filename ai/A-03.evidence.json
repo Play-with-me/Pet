@@ -1,0 +1,62 @@
+{
+    "task_code":  "A-03",
+    "status":  "passed",
+    "artifacts":  [
+                      {
+                          "path":  "ai/A03_EMOTION_SPEC.md",
+                          "sha256":  "e485ebdc424eab828ca96da95ded4fb4db7da9db5936e97a527d603c52590e37"
+                      },
+                      {
+                          "path":  "HANDOFF_ANTIGRAVITY.md",
+                          "sha256":  "f23786513626a8f5d958261fa5b1765a3bdd5468a06945a73e82e4cb7da482f1"
+                      },
+                      {
+                          "path":  "ai/logs/A03/cargo-test-baseline.log",
+                          "sha256":  "0b8052509caf3899e06068f1142b8017e63ec565e2ebcd361fcd2c19f91c5873"
+                      },
+                      {
+                          "path":  "ai/logs/A03/verify_a03_spec.ps1",
+                          "sha256":  "f2231227cf44b5728a72b733025d22035326ce3a0b7e6a66fc319565b5edd3b5"
+                      },
+                      {
+                          "path":  "ai/logs/A03/spec-verification.log",
+                          "sha256":  "74c5a450b3a750bbcc052d61e62307c948a5649cb8418edf2ba1929309f11a99"
+                      },
+                      {
+                          "path":  "ai/logs/A03/A03-poses-preview.png",
+                          "sha256":  "9a283d70d2e81a36a6fe231ff5c88895db03f2d42158fd233fbcda75f2ab9979"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-render/src/stickman.rs",
+                          "sha256":  "c0bc29921a5a8d2f382ed6192fdcb0c35deed2b4304e91e17be4ab55cd689ff6"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-runtime/src/physics.rs",
+                          "sha256":  "9c440f5763a06322dee021fc9ebe1bf9c4b0b6e8d855a1e5b1d73eda420605b9"
+                      }
+                  ],
+    "checks":  [
+                   {
+                       "name":  "Kiá»ƒm thá»­ há»£p Ä‘á»“ng ná»n táº£ng stickman (bongocat-render) vÃ  physics (bongocat-runtime)",
+                       "kind":  "test",
+                       "result":  "passed",
+                       "log":  "ai/logs/A03/cargo-test-baseline.log"
+                   },
+                   {
+                       "name":  "Kiá»ƒm chá»©ng toÃ¡n há»c co giÃ£n (Squash \u0026 Stretch), biÃªn CanvasInfo vÃ  mÃ¡y tráº¡ng thÃ¡i 3 cáº£m xÃºc",
+                       "kind":  "test",
+                       "result":  "passed",
+                       "log":  "ai/logs/A03/spec-verification.log"
+                   },
+                   {
+                       "name":  "Káº¿t xuáº¥t vÃ  Ä‘á»‘i chiáº¿u trá»±c quan 5 tráº¡ng thÃ¡i co giÃ£n \u0026 cáº£m xÃºc á»Ÿ tá»· lá»‡ 256px (154x267 px/Ã´)",
+                       "kind":  "visual",
+                       "result":  "passed",
+                       "log":  "ai/logs/A03/spec-verification.log"
+                   }
+               ],
+    "limitations":  [
+                        "A-03 lÃ  bÆ°á»›c Ä‘áº·c táº£ ká»¹ thuáº­t vÃ  kiá»ƒm chá»©ng mÃ´ hÃ¬nh hÃ¬nh há»c/toÃ¡n há»c cá»§a Gen; chÆ°a ná»‘i vÃ o vÃ²ng láº·p runtime máº·c Ä‘á»‹nh cá»§a bongocat-app",
+                        "KhÃ´ng sá»­a mÃ£ nguá»“n .rs cá»§a Codex vÃ  khÃ´ng sá»­a ai/SYNC.md"
+                    ]
+}

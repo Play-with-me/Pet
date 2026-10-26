@@ -1,0 +1,14 @@
+cargo run --manifest-path BongoCat/Cargo.toml --locked -p bongocat-overlay --example companion_physics -- ai/logs/C03/C03-white.png 4
+cargo.exe :     Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.45s
+At line:2 char:1328
++ ... Out-File -Encoding utf8 $log; & cargo @arguments >> $log 2>&1; $resul ...
++                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (    Finished `d...get(s) in 0.45s:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+     Running `BongoCat\target\debug\examples\companion_physics.exe ai/logs/C03/C03-white.png 4`
+C03 native window=154x267 work_area=WorkArea { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }
+C03 frames=242 presented=242 position=Point { x: 111.8066671766175, y: 1343.274232871 } velocity=Point { x: 0.0, y: 0.0 }
+C03 pointer grabs=0 releases=0 throw_speed=0
+C03 summary grabs=0 releases=0 presented=242 settled=true throw_speed=0
+EXIT_CODE=0

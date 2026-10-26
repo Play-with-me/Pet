@@ -1,0 +1,287 @@
+{
+    "task_code":  "C-04",
+    "status":  "passed",
+    "scope":  "Autonomous runtime and standalone native desktop example; not default app, animation, complete emotions or menu",
+    "artifacts":  [
+                      {
+                          "path":  "BongoCat/crates/bongocat-runtime/src/autonomous.rs",
+                          "sha256":  "079dd481f0b48bf51ec8584364727c91434814180712516749a8a215246e5b73"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-runtime/src/lib.rs",
+                          "sha256":  "8fe0ff7a48fce7db208156747a011d4f0ae6808acdea0bee894eb7c1b0ccfc00"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-runtime/src/physics.rs",
+                          "sha256":  "9c440f5763a06322dee021fc9ebe1bf9c4b0b6e8d855a1e5b1d73eda420605b9"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-overlay/src/windows/companion.rs",
+                          "sha256":  "631f5e61751417cc1ed053eafdce1ab31436b520f592875eccc326391f80bbdd"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-overlay/src/lib.rs",
+                          "sha256":  "74a459365336d50c0f9c8c252cc1384056d373ffeffa5dae2161ab496266e7b2"
+                      },
+                      {
+                          "path":  "BongoCat/crates/bongocat-overlay/examples/companion_autonomous.rs",
+                          "sha256":  "24cb729ae2479efafa399564abe8c814b50c3b78ae2d16848ebd5f7fd8366d2e"
+                      },
+                      {
+                          "path":  "ai/C04_AUTONOMOUS_PROOF.md",
+                          "sha256":  "80e21fce64816cf5ad38c15cfe8ac4dc51c9dd4eedf7c9d218d55e21aa587677"
+                      },
+                      {
+                          "path":  "HANDOFF_CODEX.md",
+                          "sha256":  "f5b2fe1c5280eb5f84bd06cc2eee34ecbaf30f6fa4e4ff0554f93d67e8f8a17f"
+                      },
+                      {
+                          "path":  "ai/logs/C03/C03-white.png",
+                          "sha256":  "2c548f5732811e85be9b872ac7a4ea2c0a6c5d419ef00a1ecfcd6d9f22ad501c"
+                      },
+                      {
+                          "path":  "ai/logs/C04/build-final.log",
+                          "sha256":  "18bf917c0c27474755898d8230273a06c74eef134fb5d5a2e4bdebc70c85e63a"
+                      },
+                      {
+                          "path":  "ai/logs/C04/build-initial.log",
+                          "sha256":  "61301e8272b39876d942f1502765af88ce3edf77368069d2b33b6530af3c3579"
+                      },
+                      {
+                          "path":  "ai/logs/C04/build.log",
+                          "sha256":  "564e7856c9943145cee79e332f78f44a7b87daf65d465cf541cb7564cb3f7f29"
+                      },
+                      {
+                          "path":  "ai/logs/C04/C03-white.png",
+                          "sha256":  "2c548f5732811e85be9b872ac7a4ea2c0a6c5d419ef00a1ecfcd6d9f22ad501c"
+                      },
+                      {
+                          "path":  "ai/logs/C04/C04-white.png",
+                          "sha256":  "2c548f5732811e85be9b872ac7a4ea2c0a6c5d419ef00a1ecfcd6d9f22ad501c"
+                      },
+                      {
+                          "path":  "ai/logs/C04/clippy-final.log",
+                          "sha256":  "44cde58279a98b5c5222c425a3f170fbde7dd9168234bb3042a32d7ee07e9da3"
+                      },
+                      {
+                          "path":  "ai/logs/C04/clippy.log",
+                          "sha256":  "2aad0bc59a9269d75cedf71b8e7db63e1cd227f8934a189f01463ebde7642ea7"
+                      },
+                      {
+                          "path":  "ai/logs/C04/diff-check.log",
+                          "sha256":  "a9d408545f978258030fbdd7bc2a3564582c519f4c67b1b0175a56227ed3703e"
+                      },
+                      {
+                          "path":  "ai/logs/C04/fmt-initial.log",
+                          "sha256":  "e9e8eaca63f7b203b57c4b9652da60a3468dd847b830c05a9e57e562c3ab48dc"
+                      },
+                      {
+                          "path":  "ai/logs/C04/fmt.log",
+                          "sha256":  "c1e97067c5f479a44a6f57297a0a8f87a59d181c3c529910f8bf059094bc3abb"
+                      },
+                      {
+                          "path":  "ai/logs/C04/native-autonomous-initial.log",
+                          "sha256":  "f58f3f9c4d85506c12c365f02d61e5a7d88ad9223e7217c9cd0648677c44e684"
+                      },
+                      {
+                          "path":  "ai/logs/C04/native-autonomous.log",
+                          "sha256":  "e8ea05cc2ccc843f3975e22ced001f6c1910f197fdd32312d6e626f28fcba2a6"
+                      },
+                      {
+                          "path":  "ai/logs/C04/native-final.log",
+                          "sha256":  "7b6c1106df33b0d540c5d0186c3874790be3c0f6315f9c2b5d018bf9fa6af85f"
+                      },
+                      {
+                          "path":  "ai/logs/C04/native-pointer.log",
+                          "sha256":  "352a8cf66204f1074b72375fc43836441bd3f649eddd1f1b5d5ea45703f39e8a"
+                      },
+                      {
+                          "path":  "ai/logs/C04/native-smoke.log",
+                          "sha256":  "b5aeb275be6ebb385315982d953d3550b4d2854069f99cfd9fa4f39a71b90c0b"
+                      },
+                      {
+                          "path":  "ai/logs/C04/runtime-initial.log",
+                          "sha256":  "cdfbc4b63aa9783e6d6420ec3e2419706a54a159adbce27ee1443caf834c92fd"
+                      },
+                      {
+                          "path":  "ai/logs/C04/runtime.log",
+                          "sha256":  "218e95e18b40364667946c9869a2ecbf0a6ca1d7e6fc229b49d19a1ee442e105"
+                      },
+                      {
+                          "path":  "ai/logs/C04/recheck-runtime.log",
+                          "sha256":  "9ef906b7220846371b494b696c1202d238ce5486124d2e467f2c3ab63034bda4"
+                      },
+                      {
+                          "path":  "ai/logs/C04/recheck-native.log",
+                          "sha256":  "ba5560624a1fd3e4b0e2eb377ea65888bf4b827ae761be9eebfe90acaa02518a"
+                      },
+                      {
+                          "path":  "ai/logs/C04/recheck-build.log",
+                          "sha256":  "6eab9fd157541466aca3ce29fe910b0c40fe96239da2bf0f4480251425d988ba"
+                      },
+                      {
+                          "path":  "ai/logs/C04/recheck-clippy.log",
+                          "sha256":  "fe52be95cdb458247ca2f1671796ffb145e74a6658ede7343fc77c4b2d647df4"
+                      },
+                      {
+                          "path":  "ai/logs/C04/recheck-fmt.log",
+                          "sha256":  "c1e97067c5f479a44a6f57297a0a8f87a59d181c3c529910f8bf059094bc3abb"
+                      },
+                      {
+                          "path":  "ai/logs/C04/recheck-diff.log",
+                          "sha256":  "8a54f5d2b3fdca43d3497b42b98d616cc92f4facdf7f487e85a31207ed97587f"
+                      },
+                      {
+                          "path":  "ai/logs/C04/current-build.log",
+                          "sha256":  "cea2837ec5d05633812f5415d8d8c1869d2b53a6be407f5edb5da0ecad3e91a5"
+                      },
+                      {
+                          "path":  "ai/logs/C04/current-clippy.log",
+                          "sha256":  "b0d7d25670a61a88f40ade18f185ddcc2fd358d044396d2ca1ed6aac7e79f8fc"
+                      },
+                      {
+                          "path":  "ai/logs/C04/current-diff.log",
+                          "sha256":  "d0ba87753721cde36bd279212d40d77f81cabcb316d53107707456e5110ce891"
+                      },
+                      {
+                          "path":  "ai/logs/C04/current-fmt.log",
+                          "sha256":  "c1e97067c5f479a44a6f57297a0a8f87a59d181c3c529910f8bf059094bc3abb"
+                      },
+                      {
+                          "path":  "ai/logs/C04/current-native.log",
+                          "sha256":  "1092851d82d7d7afb2bb365bc1864dc4c8fbdee8ab9d82f518db95293f3e6166"
+                      },
+                      {
+                          "path":  "ai/logs/C04/current-runtime.log",
+                          "sha256":  "fe8f9cb897a24846ae43cab0ade26f76904c510e1d6be9dbe0f0e8ce163fa934"
+                      }
+                  ],
+    "checks":  [
+                   {
+                       "result":  "passed",
+                       "name":  "cargo test --locked -p bongocat-runtime: 125 unit + 2 fixture",
+                       "log":  "ai/logs/C04/runtime.log",
+                       "kind":  "test"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "Build final companion_autonomous example",
+                       "log":  "ai/logs/C04/build-final.log",
+                       "kind":  "build"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "Clippy runtime/overlay all targets -D warnings",
+                       "log":  "ai/logs/C04/clippy-final.log",
+                       "kind":  "lint"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "cargo fmt --all -- --check",
+                       "log":  "ai/logs/C04/fmt.log",
+                       "kind":  "lint"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "git diff --check",
+                       "log":  "ai/logs/C04/diff-check.log",
+                       "kind":  "lint"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "Native C03 pointer regression",
+                       "log":  "ai/logs/C04/native-pointer.log",
+                       "kind":  "test"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "Native C04 both walls, 2 grabs/releases, 1189 Present",
+                       "log":  "ai/logs/C04/native-autonomous.log",
+                       "kind":  "test"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "48-second native autonomous smoke: 2858 Present",
+                       "log":  "ai/logs/C04/native-smoke.log",
+                       "kind":  "smoke"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "Final source 4-second example smoke: 241 Present",
+                       "log":  "ai/logs/C04/native-final.log",
+                       "kind":  "smoke"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "Recheck runtime: 125 unit + 2 fixtures",
+                       "log":  "ai/logs/C04/recheck-runtime.log",
+                       "kind":  "test"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "Recheck native both walls: 1183 Present, 2 grabs/releases",
+                       "log":  "ai/logs/C04/recheck-native.log",
+                       "kind":  "test"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "Recheck build companion_autonomous",
+                       "log":  "ai/logs/C04/recheck-build.log",
+                       "kind":  "build"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "Recheck Clippy -D warnings",
+                       "log":  "ai/logs/C04/recheck-clippy.log",
+                       "kind":  "lint"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "Recheck cargo fmt",
+                       "log":  "ai/logs/C04/recheck-fmt.log",
+                       "kind":  "lint"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "Recheck git diff --check",
+                       "log":  "ai/logs/C04/recheck-diff.log",
+                       "kind":  "lint"
+                   },
+                   {
+                       "name":  "MSG-186 current runtime",
+                       "kind":  "test",
+                       "result":  "passed",
+                       "log":  "ai/logs/C04/current-runtime.log"
+                   },
+                   {
+                       "name":  "MSG-186 current native",
+                       "kind":  "test",
+                       "result":  "passed",
+                       "log":  "ai/logs/C04/current-native.log"
+                   },
+                   {
+                       "name":  "MSG-186 current build",
+                       "kind":  "build",
+                       "result":  "passed",
+                       "log":  "ai/logs/C04/current-build.log"
+                   },
+                   {
+                       "name":  "MSG-186 current clippy",
+                       "kind":  "lint",
+                       "result":  "passed",
+                       "log":  "ai/logs/C04/current-clippy.log"
+                   },
+                   {
+                       "name":  "MSG-186 current fmt",
+                       "kind":  "lint",
+                       "result":  "passed",
+                       "log":  "ai/logs/C04/current-fmt.log"
+                   },
+                   {
+                       "name":  "MSG-186 current diff",
+                       "kind":  "lint",
+                       "result":  "passed",
+                       "log":  "ai/logs/C04/current-diff.log"
+                   }
+               ]
+}

@@ -1,0 +1,13 @@
+﻿git : warning: in the working copy of 'crates/bongocat-overlay/src/lib.rs', LF will be replaced by CRLF the next time 
+Git touches it
+At line:2 char:1736
++ ... l','--all','--','--check'); git -C BongoCat diff --check 2>&1 | Out-F ...
++                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: in the... Git touches it:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+warning: in the working copy of 'crates/bongocat-overlay/src/windows/window_proc.rs', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'crates/bongocat-runtime/src/lib.rs', LF will be replaced by CRLF the next time Git 
+touches it
+EXIT_CODE=0

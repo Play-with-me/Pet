@@ -1,0 +1,2 @@
+﻿COMMAND: cargo fmt --manifest-path BongoCat/Cargo.toml --all -- --check
+EXIT_CODE=0

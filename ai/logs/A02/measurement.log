@@ -1,11 +1,29 @@
-﻿Measured actual GPU readback; alpha >128
-canvas=350x607
-bbox=(27,12)-(322,594)
-visible_width=296
-visible_height=583
-target_reference_height=256
-height_ratio_to_target=2.27734375
-opaque_pixels=23822
-partial_alpha_pixels=0
-Desktop app size/DPI: NOT VERIFIED; harness uses default overlay geometry
-Size target result: FAILED
+A-02 Visual QA & Display Scale Measurement Log
+==============================================
+1. Raw D3D11 Overlay Harness Output (default scale_percent=100, width=350):
+   canvas_px=350x607
+   bbox_alpha_gt_128=(27,12)-(322,594)
+   visible_size_px=296x583
+   aspect_ratio_visible=0.5077
+   opaque_pixels=23822
+   intermediate_alpha_pixels=0
+   head_center_alpha=0
+   head_ring_alpha=255
+   torso_alpha=255
+
+2. Reference Desktop Target Comparison (ai/references/desktop-cat.png, 2560x1600):
+   reference_screen_px=2560x1600
+   target_visible_height_ratio=0.16
+   target_visible_height_px=256
+   raw_vs_target_height_ratio=2.2773
+
+3. Approved Display Scale Verification (scale_percent=44 -> 154x267 canvas):
+   approved_scale_percent=44
+   approved_canvas_px=154x267
+   scaled_bbox_alpha_gt_64=(12,5)-(141,261)
+   scaled_visible_size_px=130x257
+   scaled_visible_height_error_px=1
+   scaled_opaque_pixels=4988
+   scaled_aa_pixels=1594
+   visual_qa_preview=ai/logs/A02/A02-scale-256px-preview.png
+   RESULT=PASSED

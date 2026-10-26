@@ -1,0 +1,11 @@
+cargo build --manifest-path BongoCat/Cargo.toml --locked -p bongocat-overlay --example companion_physics
+cargo.exe :    Compiling bongocat-overlay v2.3.1 
+(C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+At line:2 char:1328
++ ... Out-File -Encoding utf8 $log; & cargo @arguments >> $log 2>&1; $resul ...
++                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (   Compiling bo...ngocat-overlay):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.04s
+EXIT_CODE=0

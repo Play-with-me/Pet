@@ -1,0 +1,7 @@
+C03 native window=154x267 work_area=WorkArea { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }
+C04 behavior=Physics position=Point { x: 111.8066671766175, y: 45.13800630218496 }
+C04 behavior=Idle position=Point { x: 111.8066671766175, y: 1343.274232871 }
+C04 behavior=Walk position=Point { x: 113.6191701766175, y: 1343.274232871 }
+C03 frames=471 presented=0 position=Point { x: 678.0699471766179, y: 1343.274232871 } velocity=Point { x: 0.0, y: 0.0 }
+C03 pointer grabs=0 releases=0 throw_speed=0
+C04 presented=0 behavior_transitions=3 climbed_left=false climbed_right=false

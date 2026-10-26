@@ -1,0 +1,17 @@
+   Compiling windows-sys v0.61.2
+   Compiling uuid v1.28.0
+   Compiling gilrs-core v0.6.8 (https://github.com/ayangweb/gilrs?rev=c7e97f54e9e4b10ff89d3527560a22f6817329ea#c7e97f54)
+   Compiling gilrs v0.11.2 (https://github.com/ayangweb/gilrs?rev=c7e97f54e9e4b10ff89d3527560a22f6817329ea#c7e97f54)
+   Compiling dirs-sys v0.5.0
+   Compiling os_info v3.15.0
+   Compiling muda v0.21.2
+   Compiling normpath v1.5.2
+   Compiling rfd v0.17.2
+   Compiling dirs v7.0.0
+   Compiling bongocat-config v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-config)
+   Compiling opener v0.9.0
+   Compiling auto-launch v0.6.0
+   Compiling tray-icon v0.26.1
+   Compiling bongocat-platform v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-platform)
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 16.86s

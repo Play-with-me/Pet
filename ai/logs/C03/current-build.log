@@ -1,0 +1,9 @@
+﻿COMMAND: cargo build --manifest-path BongoCat/Cargo.toml --locked -p bongocat-overlay --example companion_physics
+cargo.exe :     Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.45s
+At line:2 char:653
++ ... s" | Set-Content -Encoding UTF8 $log; & cargo @cargoArgs 2>&1 | Out-F ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (    Finished `d...get(s) in 0.45s:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+EXIT_CODE=0

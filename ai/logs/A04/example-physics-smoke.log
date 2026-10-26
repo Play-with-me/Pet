@@ -1,0 +1,4 @@
+C03 native window=154x267 work_area=WorkArea { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }
+C03 frames=237 presented=0 position=Point { x: 111.8066671766175, y: 1343.274232871 } velocity=Point { x: 0.0, y: 0.0 }
+C03 pointer grabs=0 releases=0 throw_speed=0
+C03 summary grabs=0 releases=0 presented=0 settled=true throw_speed=0

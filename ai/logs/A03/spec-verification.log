@@ -1,0 +1,13 @@
+=== A-03 SQUASH & STRETCH + 3 EMOTIONS VERIFICATION ===
+Timestamp: 2026-10-26T12:16:02+07:00
+CASE 1 [Land Squash Max @ 2400 px/s]: Sx=1.10, Sy=0.78, x=[-0.2794, 0.2794], y=[-0.5000, 0.2800]
+CASE 2 [Fall Stretch Max @ 2400 px/s]: Sx=0.92, Sy=1.14, x=[-0.2337, 0.2337], y=[-0.5130, 0.5130]
+LANDING_CURVE t=  0ms -> Sy=1.0000
+LANDING_CURVE t= 45ms -> Sy=0.7800
+LANDING_CURVE t=120ms -> Sy=1.0090
+LANDING_CURVE t=220ms -> Sy=1.0000
+EMOTION_CONTRACT [Curious]: min_duration=2.0s, cooldown=1.5s -> VALID
+EMOTION_CONTRACT [Excited]: min_duration=1.2s, cooldown=1.8s -> VALID
+EMOTION_CONTRACT [Annoyed]: min_duration=2.6s, cooldown=2.0s -> VALID
+PREVIEW_IMAGE_SAVED: C:\Users\kyuu4\OneDrive\Documents\Pet\ai\logs\A03\A03-poses-preview.png (23814 bytes, 770x267 px)
+ALL A-03 CHECKS PASSED (EXIT 0)

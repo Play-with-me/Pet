@@ -5,7 +5,7 @@
 Tự sinh từ file vật lý. Không sửa tay; chạy `ai/refresh-map.ps1` để cập nhật.
 Bỏ qua Git metadata, cache, output build, môi trường ảo và hai file output tự sinh.
 
-Số file: 1232; số thư mục: 223.
+Số file: 1325; số thư mục: 229.
 
 ## Cây thư mục và file
 
@@ -30,6 +30,32 @@ Pet/
       |-- preview.mjs
       |-- README.md
     |-- logs/
+      |-- A02/
+        |-- A02-scale-256px-preview.png
+        |-- C02-d3d11.png
+        |-- C02-gpu-result.txt
+        |-- C02-preview.png
+        |-- C02-white.png
+        |-- geometry_qa.log
+        |-- measurement.log
+        |-- render.log
+      |-- A03/
+        |-- A03-poses-preview.png
+        |-- cargo-test-baseline.log
+        |-- spec-verification.log
+        |-- verify_a03_spec.ps1
+      |-- A04/
+        |-- A04-motion-continuity-preview.png
+        |-- A04-transition-smoothness-sheet.png
+        |-- A04-white.png
+        |-- build-check.log
+        |-- clippy-check.log
+        |-- example-autonomous-smoke.log
+        |-- example-physics-smoke.log
+        |-- fmt-check.log
+        |-- unit-tests.log
+        |-- ux_smoothness_qa.ps1
+        |-- ux-smoothness-qa.log
       |-- C02/
         |-- build.log
         |-- C02-d3d11.png
@@ -39,6 +65,63 @@ Pet/
         |-- clippy.log
         |-- geometry.log
         |-- render.log
+      |-- C03/
+        |-- build.log
+        |-- C03-white.png
+        |-- clippy.log
+        |-- clippy-initial.log
+        |-- current-build.log
+        |-- current-clippy.log
+        |-- current-diff.log
+        |-- current-fmt.log
+        |-- current-native.log
+        |-- current-runtime.log
+        |-- current-smoke.log
+        |-- diff-check.log
+        |-- fmt.log
+        |-- fmt-initial.log
+        |-- native-pointer.log
+        |-- native-smoke.log
+        |-- native-smoke-initial.log
+        |-- physics.log
+        |-- recheck-build.log
+        |-- recheck-clippy.log
+        |-- recheck-diff.log
+        |-- recheck-fmt.log
+        |-- recheck-native.log
+        |-- recheck-runtime.log
+        |-- recheck-smoke.log
+        |-- runtime.log
+      |-- C04/
+        |-- build.log
+        |-- build-final.log
+        |-- build-initial.log
+        |-- C03-white.png
+        |-- C04-white.png
+        |-- clippy.log
+        |-- clippy-final.log
+        |-- current-build.log
+        |-- current-clippy.log
+        |-- current-diff.log
+        |-- current-fmt.log
+        |-- current-native.log
+        |-- current-runtime.log
+        |-- diff-check.log
+        |-- fmt.log
+        |-- fmt-initial.log
+        |-- native-autonomous.log
+        |-- native-autonomous-initial.log
+        |-- native-final.log
+        |-- native-pointer.log
+        |-- native-smoke.log
+        |-- recheck-build.log
+        |-- recheck-clippy.log
+        |-- recheck-diff.log
+        |-- recheck-fmt.log
+        |-- recheck-native.log
+        |-- recheck-runtime.log
+        |-- runtime.log
+        |-- runtime-initial.log
       |-- C01-2026-10-25-dev-smoke.log
       |-- C01-2026-10-25-dev-smoke.log.exit.txt
       |-- C01-2026-10-25-just-check.exit.txt
@@ -48,9 +131,19 @@ Pet/
     |-- references/
       |-- desktop-cat.png
       |-- desktop-cat-size.json
+    |-- A-02.evidence.json
+    |-- A02_VISUAL_QA_REPORT.md
+    |-- A-03.evidence.json
+    |-- A03_EMOTION_SPEC.md
+    |-- A-04.evidence.json
+    |-- A04_UX_ACCEPTANCE.md
     |-- BASELINE_REPORT.md
     |-- C-02.evidence.json
     |-- C02_STICKMAN_RENDER_PROOF.md
+    |-- C-03.evidence.json
+    |-- C03_PHYSICS_PROOF.md
+    |-- C-04.evidence.json
+    |-- C04_AUTONOMOUS_PROOF.md
     |-- CODEX_RENDER_REVIEW.md
     |-- COMPANION_READINESS.md
     |-- guardrail-check.ps1
@@ -447,6 +540,9 @@ Pet/
           |-- preset_covers.rs
         |-- Cargo.toml
       |-- bongocat-overlay/
+        |-- examples/
+          |-- companion_autonomous.rs
+          |-- companion_physics.rs
         |-- src/
           |-- macos/
             |-- tests/
@@ -487,6 +583,7 @@ Pet/
               |-- window.rs
               |-- window_mode.rs
               |-- window_proc.rs
+            |-- companion.rs
             |-- cover_capture.rs
             |-- geometry.rs
             |-- mod.rs
@@ -672,10 +769,12 @@ Pet/
             |-- random_behavior.rs
             |-- renderer.rs
           |-- activity.rs
+          |-- autonomous.rs
           |-- client.rs
           |-- lib.rs
           |-- owner.rs
           |-- pacing.rs
+          |-- physics.rs
           |-- random_behavior.rs
           |-- transport.rs
         |-- tests/
@@ -1485,6 +1584,29 @@ Pet/
 - [ai/diagrams/pnpm-lock.yaml](../ai/diagrams/pnpm-lock.yaml)
 - [ai/diagrams/preview.mjs](../ai/diagrams/preview.mjs)
 - [ai/diagrams/README.md](../ai/diagrams/README.md)
+- [ai/logs/A02/A02-scale-256px-preview.png](../ai/logs/A02/A02-scale-256px-preview.png)
+- [ai/logs/A02/C02-d3d11.png](../ai/logs/A02/C02-d3d11.png)
+- [ai/logs/A02/C02-gpu-result.txt](../ai/logs/A02/C02-gpu-result.txt)
+- [ai/logs/A02/C02-preview.png](../ai/logs/A02/C02-preview.png)
+- [ai/logs/A02/C02-white.png](../ai/logs/A02/C02-white.png)
+- [ai/logs/A02/geometry_qa.log](../ai/logs/A02/geometry_qa.log)
+- [ai/logs/A02/measurement.log](../ai/logs/A02/measurement.log)
+- [ai/logs/A02/render.log](../ai/logs/A02/render.log)
+- [ai/logs/A03/A03-poses-preview.png](../ai/logs/A03/A03-poses-preview.png)
+- [ai/logs/A03/cargo-test-baseline.log](../ai/logs/A03/cargo-test-baseline.log)
+- [ai/logs/A03/spec-verification.log](../ai/logs/A03/spec-verification.log)
+- [ai/logs/A03/verify_a03_spec.ps1](../ai/logs/A03/verify_a03_spec.ps1)
+- [ai/logs/A04/A04-motion-continuity-preview.png](../ai/logs/A04/A04-motion-continuity-preview.png)
+- [ai/logs/A04/A04-transition-smoothness-sheet.png](../ai/logs/A04/A04-transition-smoothness-sheet.png)
+- [ai/logs/A04/A04-white.png](../ai/logs/A04/A04-white.png)
+- [ai/logs/A04/build-check.log](../ai/logs/A04/build-check.log)
+- [ai/logs/A04/clippy-check.log](../ai/logs/A04/clippy-check.log)
+- [ai/logs/A04/example-autonomous-smoke.log](../ai/logs/A04/example-autonomous-smoke.log)
+- [ai/logs/A04/example-physics-smoke.log](../ai/logs/A04/example-physics-smoke.log)
+- [ai/logs/A04/fmt-check.log](../ai/logs/A04/fmt-check.log)
+- [ai/logs/A04/unit-tests.log](../ai/logs/A04/unit-tests.log)
+- [ai/logs/A04/ux_smoothness_qa.ps1](../ai/logs/A04/ux_smoothness_qa.ps1)
+- [ai/logs/A04/ux-smoothness-qa.log](../ai/logs/A04/ux-smoothness-qa.log)
 - [ai/logs/C02/build.log](../ai/logs/C02/build.log)
 - [ai/logs/C02/C02-d3d11.png](../ai/logs/C02/C02-d3d11.png)
 - [ai/logs/C02/C02-gpu-result.txt](../ai/logs/C02/C02-gpu-result.txt)
@@ -1493,6 +1615,61 @@ Pet/
 - [ai/logs/C02/clippy.log](../ai/logs/C02/clippy.log)
 - [ai/logs/C02/geometry.log](../ai/logs/C02/geometry.log)
 - [ai/logs/C02/render.log](../ai/logs/C02/render.log)
+- [ai/logs/C03/build.log](../ai/logs/C03/build.log)
+- [ai/logs/C03/C03-white.png](../ai/logs/C03/C03-white.png)
+- [ai/logs/C03/clippy.log](../ai/logs/C03/clippy.log)
+- [ai/logs/C03/clippy-initial.log](../ai/logs/C03/clippy-initial.log)
+- [ai/logs/C03/current-build.log](../ai/logs/C03/current-build.log)
+- [ai/logs/C03/current-clippy.log](../ai/logs/C03/current-clippy.log)
+- [ai/logs/C03/current-diff.log](../ai/logs/C03/current-diff.log)
+- [ai/logs/C03/current-fmt.log](../ai/logs/C03/current-fmt.log)
+- [ai/logs/C03/current-native.log](../ai/logs/C03/current-native.log)
+- [ai/logs/C03/current-runtime.log](../ai/logs/C03/current-runtime.log)
+- [ai/logs/C03/current-smoke.log](../ai/logs/C03/current-smoke.log)
+- [ai/logs/C03/diff-check.log](../ai/logs/C03/diff-check.log)
+- [ai/logs/C03/fmt.log](../ai/logs/C03/fmt.log)
+- [ai/logs/C03/fmt-initial.log](../ai/logs/C03/fmt-initial.log)
+- [ai/logs/C03/native-pointer.log](../ai/logs/C03/native-pointer.log)
+- [ai/logs/C03/native-smoke.log](../ai/logs/C03/native-smoke.log)
+- [ai/logs/C03/native-smoke-initial.log](../ai/logs/C03/native-smoke-initial.log)
+- [ai/logs/C03/physics.log](../ai/logs/C03/physics.log)
+- [ai/logs/C03/recheck-build.log](../ai/logs/C03/recheck-build.log)
+- [ai/logs/C03/recheck-clippy.log](../ai/logs/C03/recheck-clippy.log)
+- [ai/logs/C03/recheck-diff.log](../ai/logs/C03/recheck-diff.log)
+- [ai/logs/C03/recheck-fmt.log](../ai/logs/C03/recheck-fmt.log)
+- [ai/logs/C03/recheck-native.log](../ai/logs/C03/recheck-native.log)
+- [ai/logs/C03/recheck-runtime.log](../ai/logs/C03/recheck-runtime.log)
+- [ai/logs/C03/recheck-smoke.log](../ai/logs/C03/recheck-smoke.log)
+- [ai/logs/C03/runtime.log](../ai/logs/C03/runtime.log)
+- [ai/logs/C04/build.log](../ai/logs/C04/build.log)
+- [ai/logs/C04/build-final.log](../ai/logs/C04/build-final.log)
+- [ai/logs/C04/build-initial.log](../ai/logs/C04/build-initial.log)
+- [ai/logs/C04/C03-white.png](../ai/logs/C04/C03-white.png)
+- [ai/logs/C04/C04-white.png](../ai/logs/C04/C04-white.png)
+- [ai/logs/C04/clippy.log](../ai/logs/C04/clippy.log)
+- [ai/logs/C04/clippy-final.log](../ai/logs/C04/clippy-final.log)
+- [ai/logs/C04/current-build.log](../ai/logs/C04/current-build.log)
+- [ai/logs/C04/current-clippy.log](../ai/logs/C04/current-clippy.log)
+- [ai/logs/C04/current-diff.log](../ai/logs/C04/current-diff.log)
+- [ai/logs/C04/current-fmt.log](../ai/logs/C04/current-fmt.log)
+- [ai/logs/C04/current-native.log](../ai/logs/C04/current-native.log)
+- [ai/logs/C04/current-runtime.log](../ai/logs/C04/current-runtime.log)
+- [ai/logs/C04/diff-check.log](../ai/logs/C04/diff-check.log)
+- [ai/logs/C04/fmt.log](../ai/logs/C04/fmt.log)
+- [ai/logs/C04/fmt-initial.log](../ai/logs/C04/fmt-initial.log)
+- [ai/logs/C04/native-autonomous.log](../ai/logs/C04/native-autonomous.log)
+- [ai/logs/C04/native-autonomous-initial.log](../ai/logs/C04/native-autonomous-initial.log)
+- [ai/logs/C04/native-final.log](../ai/logs/C04/native-final.log)
+- [ai/logs/C04/native-pointer.log](../ai/logs/C04/native-pointer.log)
+- [ai/logs/C04/native-smoke.log](../ai/logs/C04/native-smoke.log)
+- [ai/logs/C04/recheck-build.log](../ai/logs/C04/recheck-build.log)
+- [ai/logs/C04/recheck-clippy.log](../ai/logs/C04/recheck-clippy.log)
+- [ai/logs/C04/recheck-diff.log](../ai/logs/C04/recheck-diff.log)
+- [ai/logs/C04/recheck-fmt.log](../ai/logs/C04/recheck-fmt.log)
+- [ai/logs/C04/recheck-native.log](../ai/logs/C04/recheck-native.log)
+- [ai/logs/C04/recheck-runtime.log](../ai/logs/C04/recheck-runtime.log)
+- [ai/logs/C04/runtime.log](../ai/logs/C04/runtime.log)
+- [ai/logs/C04/runtime-initial.log](../ai/logs/C04/runtime-initial.log)
 - [ai/logs/C01-2026-10-25-dev-smoke.log](../ai/logs/C01-2026-10-25-dev-smoke.log)
 - [ai/logs/C01-2026-10-25-dev-smoke.log.exit.txt](../ai/logs/C01-2026-10-25-dev-smoke.log.exit.txt)
 - [ai/logs/C01-2026-10-25-just-check.exit.txt](../ai/logs/C01-2026-10-25-just-check.exit.txt)
@@ -1501,9 +1678,19 @@ Pet/
 - [ai/logs/C02-render-tests.log](../ai/logs/C02-render-tests.log)
 - [ai/references/desktop-cat.png](../ai/references/desktop-cat.png)
 - [ai/references/desktop-cat-size.json](../ai/references/desktop-cat-size.json)
+- [ai/A-02.evidence.json](../ai/A-02.evidence.json)
+- [ai/A02_VISUAL_QA_REPORT.md](../ai/A02_VISUAL_QA_REPORT.md)
+- [ai/A-03.evidence.json](../ai/A-03.evidence.json)
+- [ai/A03_EMOTION_SPEC.md](../ai/A03_EMOTION_SPEC.md)
+- [ai/A-04.evidence.json](../ai/A-04.evidence.json)
+- [ai/A04_UX_ACCEPTANCE.md](../ai/A04_UX_ACCEPTANCE.md)
 - [ai/BASELINE_REPORT.md](../ai/BASELINE_REPORT.md)
 - [ai/C-02.evidence.json](../ai/C-02.evidence.json)
 - [ai/C02_STICKMAN_RENDER_PROOF.md](../ai/C02_STICKMAN_RENDER_PROOF.md)
+- [ai/C-03.evidence.json](../ai/C-03.evidence.json)
+- [ai/C03_PHYSICS_PROOF.md](../ai/C03_PHYSICS_PROOF.md)
+- [ai/C-04.evidence.json](../ai/C-04.evidence.json)
+- [ai/C04_AUTONOMOUS_PROOF.md](../ai/C04_AUTONOMOUS_PROOF.md)
 - [ai/CODEX_RENDER_REVIEW.md](../ai/CODEX_RENDER_REVIEW.md)
 - [ai/COMPANION_READINESS.md](../ai/COMPANION_READINESS.md)
 - [ai/guardrail-check.ps1](../ai/guardrail-check.ps1)
@@ -1839,6 +2026,8 @@ Pet/
 - [BongoCat/crates/bongocat-model-store/src/lib.rs](../BongoCat/crates/bongocat-model-store/src/lib.rs)
 - [BongoCat/crates/bongocat-model-store/src/preset_covers.rs](../BongoCat/crates/bongocat-model-store/src/preset_covers.rs)
 - [BongoCat/crates/bongocat-model-store/Cargo.toml](../BongoCat/crates/bongocat-model-store/Cargo.toml)
+- [BongoCat/crates/bongocat-overlay/examples/companion_autonomous.rs](../BongoCat/crates/bongocat-overlay/examples/companion_autonomous.rs)
+- [BongoCat/crates/bongocat-overlay/examples/companion_physics.rs](../BongoCat/crates/bongocat-overlay/examples/companion_physics.rs)
 - [BongoCat/crates/bongocat-overlay/src/macos/tests/geometry.rs](../BongoCat/crates/bongocat-overlay/src/macos/tests/geometry.rs)
 - [BongoCat/crates/bongocat-overlay/src/macos/tests/mod.rs](../BongoCat/crates/bongocat-overlay/src/macos/tests/mod.rs)
 - [BongoCat/crates/bongocat-overlay/src/macos/tests/renderer.rs](../BongoCat/crates/bongocat-overlay/src/macos/tests/renderer.rs)
@@ -1873,6 +2062,7 @@ Pet/
 - [BongoCat/crates/bongocat-overlay/src/windows/tests/window.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/window.rs)
 - [BongoCat/crates/bongocat-overlay/src/windows/tests/window_mode.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/window_mode.rs)
 - [BongoCat/crates/bongocat-overlay/src/windows/tests/window_proc.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/window_proc.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/companion.rs](../BongoCat/crates/bongocat-overlay/src/windows/companion.rs)
 - [BongoCat/crates/bongocat-overlay/src/windows/cover_capture.rs](../BongoCat/crates/bongocat-overlay/src/windows/cover_capture.rs)
 - [BongoCat/crates/bongocat-overlay/src/windows/geometry.rs](../BongoCat/crates/bongocat-overlay/src/windows/geometry.rs)
 - [BongoCat/crates/bongocat-overlay/src/windows/mod.rs](../BongoCat/crates/bongocat-overlay/src/windows/mod.rs)
@@ -2029,10 +2219,12 @@ Pet/
 - [BongoCat/crates/bongocat-runtime/src/worker/random_behavior.rs](../BongoCat/crates/bongocat-runtime/src/worker/random_behavior.rs)
 - [BongoCat/crates/bongocat-runtime/src/worker/renderer.rs](../BongoCat/crates/bongocat-runtime/src/worker/renderer.rs)
 - [BongoCat/crates/bongocat-runtime/src/activity.rs](../BongoCat/crates/bongocat-runtime/src/activity.rs)
+- [BongoCat/crates/bongocat-runtime/src/autonomous.rs](../BongoCat/crates/bongocat-runtime/src/autonomous.rs)
 - [BongoCat/crates/bongocat-runtime/src/client.rs](../BongoCat/crates/bongocat-runtime/src/client.rs)
 - [BongoCat/crates/bongocat-runtime/src/lib.rs](../BongoCat/crates/bongocat-runtime/src/lib.rs)
 - [BongoCat/crates/bongocat-runtime/src/owner.rs](../BongoCat/crates/bongocat-runtime/src/owner.rs)
 - [BongoCat/crates/bongocat-runtime/src/pacing.rs](../BongoCat/crates/bongocat-runtime/src/pacing.rs)
+- [BongoCat/crates/bongocat-runtime/src/physics.rs](../BongoCat/crates/bongocat-runtime/src/physics.rs)
 - [BongoCat/crates/bongocat-runtime/src/random_behavior.rs](../BongoCat/crates/bongocat-runtime/src/random_behavior.rs)
 - [BongoCat/crates/bongocat-runtime/src/transport.rs](../BongoCat/crates/bongocat-runtime/src/transport.rs)
 - [BongoCat/crates/bongocat-runtime/tests/shared_input_fixtures.rs](../BongoCat/crates/bongocat-runtime/tests/shared_input_fixtures.rs)

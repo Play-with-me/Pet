@@ -1,0 +1,3 @@
+﻿cargo build --manifest-path BongoCat/Cargo.toml --locked -p bongocat-overlay --example companion_physics
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.41s
+EXIT_CODE=0
