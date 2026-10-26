@@ -1,0 +1,56 @@
+{
+    "checks":  [
+                   {
+                       "result":  "passed",
+                       "name":  "D3D11 harness rerun",
+                       "log":  "ai/logs/A02/render.log",
+                       "kind":  "render"
+                   },
+                   {
+                       "result":  "failed",
+                       "name":  "Visible height versus 256 px reference",
+                       "log":  "ai/logs/A02/measurement.log",
+                       "kind":  "visual"
+                   }
+               ],
+    "status":  "failed",
+    "task_code":  "A-02",
+    "artifacts":  [
+                      {
+                          "sha256":  "84213d3a1a24485ed82c26a3093d2db0f06e57b71336a11768009f31454632d1",
+                          "path":  "ai/A02_VISUAL_QA_REPORT.md"
+                      },
+                      {
+                          "sha256":  "76d1668315feba7fd5dd4868ddd5b868e0f4569f2e20108c706d8ec657feb837",
+                          "path":  "ai/logs/A02/render.log"
+                      },
+                      {
+                          "sha256":  "2da0a03b5d0e58047a863e53c16174a360722310ec04301f667d3cf1f90200a8",
+                          "path":  "ai/logs/A02/measurement.log"
+                      },
+                      {
+                          "sha256":  "9ab81b8633ab139e25706f1ce2a8831791cf6c95aa3ec0cac988664357f3e6da",
+                          "path":  "ai/logs/A02/C02-d3d11.png"
+                      },
+                      {
+                          "sha256":  "fa1977e47c076d3c3f4446f307453061242d0dcd6def1cac972603df11a79c20",
+                          "path":  "ai/logs/A02/C02-preview.png"
+                      },
+                      {
+                          "sha256":  "daaa9c82994bc0cb047a43590727b68338a2b284ae59ed186e102364095fff11",
+                          "path":  "ai/logs/A02/C02-gpu-result.txt"
+                      },
+                      {
+                          "sha256":  "2c548f5732811e85be9b872ac7a4ea2c0a6c5d419ef00a1ecfcd6d9f22ad501c",
+                          "path":  "ai/logs/A02/C02-white.png"
+                      },
+                      {
+                          "sha256":  "c0bc29921a5a8d2f382ed6192fdcb0c35deed2b4304e91e17be4ab55cd689ff6",
+                          "path":  "BongoCat/crates/bongocat-render/src/stickman.rs"
+                      },
+                      {
+                          "sha256":  "7a54eb71fb47cf110fdf58382216a4ef15ca4a26b08a3fbd09f8c5c8e7d09f15",
+                          "path":  "BongoCat/crates/bongocat-overlay/src/windows/tests/stickman.rs"
+                      }
+                  ]
+}

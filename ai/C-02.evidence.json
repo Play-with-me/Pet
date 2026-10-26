@@ -1,0 +1,84 @@
+{
+    "checks":  [
+                   {
+                       "result":  "passed",
+                       "name":  "Build Rust render/overlay libraries",
+                       "log":  "ai/logs/C02/build.log",
+                       "kind":  "build"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "22 render unit tests",
+                       "log":  "ai/logs/C02/geometry.log",
+                       "kind":  "test"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "D3D11 readback assertions and visual preview inspection",
+                       "log":  "ai/logs/C02/render.log",
+                       "kind":  "render"
+                   },
+                   {
+                       "result":  "passed",
+                       "name":  "Clippy two crates all targets",
+                       "log":  "ai/logs/C02/clippy.log",
+                       "kind":  "lint"
+                   }
+               ],
+    "status":  "passed",
+    "task_code":  "C-02",
+    "artifacts":  [
+                      {
+                          "sha256":  "c0bc29921a5a8d2f382ed6192fdcb0c35deed2b4304e91e17be4ab55cd689ff6",
+                          "path":  "BongoCat/crates/bongocat-render/src/stickman.rs"
+                      },
+                      {
+                          "sha256":  "019b8b2a70bc0b0b7d43e963886968cc0206f9d15f137c5c67ae1bff9d9958a8",
+                          "path":  "BongoCat/crates/bongocat-render/src/lib.rs"
+                      },
+                      {
+                          "sha256":  "7a54eb71fb47cf110fdf58382216a4ef15ca4a26b08a3fbd09f8c5c8e7d09f15",
+                          "path":  "BongoCat/crates/bongocat-overlay/src/windows/tests/stickman.rs"
+                      },
+                      {
+                          "sha256":  "a4ca2a6347770a0265fac7e294306608e0db3db4c7aaf1061c5df0b19f5f3065",
+                          "path":  "BongoCat/crates/bongocat-overlay/src/windows/tests/mod.rs"
+                      },
+                      {
+                          "sha256":  "3f913ccad72c5ae3512d68ea089a39aa0cb312cd70bcd8279ab6249f4f901e9e",
+                          "path":  "ai/C02_STICKMAN_RENDER_PROOF.md"
+                      },
+                      {
+                          "sha256":  "17e9ad15ec9614225caaf487e7ce3aeac190c9c637870ea65d668fcd61666768",
+                          "path":  "ai/logs/C02/build.log"
+                      },
+                      {
+                          "sha256":  "393aeefed5acbe444c5bf7b4f25b394ed27208f5e2a5eeab5df688a69b9fd797",
+                          "path":  "ai/logs/C02/geometry.log"
+                      },
+                      {
+                          "sha256":  "e8a7dedf407da0bf10824a1016bd1aee24d7f5aad1655d4e720843d04adf8b67",
+                          "path":  "ai/logs/C02/clippy.log"
+                      },
+                      {
+                          "sha256":  "778f3138d85be60ce7a1de0f47b56aa547de8d9da96178f87dc897759472a90b",
+                          "path":  "ai/logs/C02/render.log"
+                      },
+                      {
+                          "sha256":  "9ab81b8633ab139e25706f1ce2a8831791cf6c95aa3ec0cac988664357f3e6da",
+                          "path":  "ai/logs/C02/C02-d3d11.png"
+                      },
+                      {
+                          "sha256":  "fa1977e47c076d3c3f4446f307453061242d0dcd6def1cac972603df11a79c20",
+                          "path":  "ai/logs/C02/C02-preview.png"
+                      },
+                      {
+                          "sha256":  "2c548f5732811e85be9b872ac7a4ea2c0a6c5d419ef00a1ecfcd6d9f22ad501c",
+                          "path":  "ai/logs/C02/C02-white.png"
+                      },
+                      {
+                          "sha256":  "daaa9c82994bc0cb047a43590727b68338a2b284ae59ed186e102364095fff11",
+                          "path":  "ai/logs/C02/C02-gpu-result.txt"
+                      }
+                  ]
+}

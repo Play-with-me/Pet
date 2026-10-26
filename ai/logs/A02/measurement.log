@@ -1,0 +1,11 @@
+﻿Measured actual GPU readback; alpha >128
+canvas=350x607
+bbox=(27,12)-(322,594)
+visible_width=296
+visible_height=583
+target_reference_height=256
+height_ratio_to_target=2.27734375
+opaque_pixels=23822
+partial_alpha_pixels=0
+Desktop app size/DPI: NOT VERIFIED; harness uses default overlay geometry
+Size target result: FAILED

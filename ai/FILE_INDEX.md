@@ -1,0 +1,2780 @@
+# Danh mục file và cây đầy đủ
+
+[← Trang đầu](../PROJECT_MAP.md) · [Bản đồ module](MODULE_MAP.md) · [JSON](project-index.json)
+
+Tự sinh từ file vật lý. Không sửa tay; chạy `ai/refresh-map.ps1` để cập nhật.
+Bỏ qua Git metadata, cache, output build, môi trường ảo và hai file output tự sinh.
+
+Số file: 1232; số thư mục: 223.
+
+## Cây thư mục và file
+
+```text
+Pet/
+  |-- ai/
+    |-- contracts/
+      |-- README.md
+    |-- diagrams/
+      |-- .gitignore
+      |-- architecture.html
+      |-- architecture.md
+      |-- architecture.png
+      |-- build.mjs
+      |-- build.ps1
+      |-- companion.html
+      |-- companion.md
+      |-- companion.png
+      |-- MARKMAP_LICENSE.txt
+      |-- package.json
+      |-- pnpm-lock.yaml
+      |-- preview.mjs
+      |-- README.md
+    |-- logs/
+      |-- C02/
+        |-- build.log
+        |-- C02-d3d11.png
+        |-- C02-gpu-result.txt
+        |-- C02-preview.png
+        |-- C02-white.png
+        |-- clippy.log
+        |-- geometry.log
+        |-- render.log
+      |-- C01-2026-10-25-dev-smoke.log
+      |-- C01-2026-10-25-dev-smoke.log.exit.txt
+      |-- C01-2026-10-25-just-check.exit.txt
+      |-- C01-2026-10-25-just-check.log
+      |-- C01-2026-10-25-topmost-isolated.log
+      |-- C02-render-tests.log
+    |-- references/
+      |-- desktop-cat.png
+      |-- desktop-cat-size.json
+    |-- BASELINE_REPORT.md
+    |-- C-02.evidence.json
+    |-- C02_STICKMAN_RENDER_PROOF.md
+    |-- CODEX_RENDER_REVIEW.md
+    |-- COMPANION_READINESS.md
+    |-- guardrail-check.ps1
+    |-- LEADER_CONSTITUTION.md
+    |-- MODULE_MAP.md
+    |-- PROJECT_AUDIT.md
+    |-- PROJECT_MASTER_PLAN.md
+    |-- refresh-map.ps1
+    |-- STICKMAN_ASSET_RESEARCH.md
+    |-- SYNC.md
+    |-- SYNC.md.lock
+    |-- TEAM_PROTOCOL.md
+    |-- WINDOWS_BUILD_SETUP.md
+  |-- BongoCat/
+    |-- .github/
+      |-- ISSUE_TEMPLATE/
+        |-- 01-bug-report.yml
+        |-- 02-bug-report.zh-CN.yml
+        |-- 03-feature-request.yml
+        |-- 04-feature-request.zh-CN.yml
+        |-- config.yml
+      |-- workflows/
+        |-- release.yml
+        |-- sync-to-gitee.yml
+        |-- verify.yml
+      |-- dependabot.yml
+    |-- crates/
+      |-- bongocat-app/
+        |-- src/
+          |-- app_log/
+            |-- tests/
+              |-- code.rs
+              |-- context.rs
+              |-- mod.rs
+              |-- panic_hook.rs
+              |-- run_marker.rs
+              |-- write.rs
+            |-- code.rs
+            |-- component.rs
+            |-- context.rs
+            |-- core_diagnostics.rs
+            |-- error.rs
+            |-- event.rs
+            |-- mod.rs
+            |-- panic_hook.rs
+            |-- run_marker.rs
+            |-- sink.rs
+          |-- application/
+            |-- diagnostics.rs
+            |-- expression_memory.rs
+            |-- mod.rs
+            |-- model_activation.rs
+            |-- model_catalog.rs
+            |-- model_import.rs
+            |-- settings_commands.rs
+            |-- shutdown.rs
+            |-- startup.rs
+            |-- startup_restore.rs
+            |-- window_state.rs
+          |-- binary_tests/
+            |-- gamepad_observer.rs
+            |-- mod.rs
+            |-- overlay_placement.rs
+            |-- preset_root.rs
+            |-- product_options.rs
+            |-- product_shutdown.rs
+            |-- smoke_status.rs
+            |-- taskbar_settle.rs
+            |-- update_schedule.rs
+          |-- diagnostics_export/
+            |-- mod.rs
+            |-- preview_bundle.rs
+          |-- settings/
+            |-- tests/
+              |-- lifecycle.rs
+              |-- mod.rs
+              |-- model_import.rs
+              |-- models.rs
+              |-- plugins.rs
+              |-- projection.rs
+              |-- service.rs
+              |-- shortcuts.rs
+              |-- window_state.rs
+            |-- capabilities.rs
+            |-- error_mapping.rs
+            |-- mod.rs
+            |-- model_projection.rs
+            |-- projection.rs
+            |-- snapshot.rs
+            |-- worker.rs
+          |-- smoke/
+            |-- diagnostics.rs
+            |-- mod.rs
+            |-- panic.rs
+            |-- settings_window.rs
+            |-- startup_item.rs
+          |-- tests/
+            |-- behavior_names.rs
+            |-- diagnostics.rs
+            |-- expression_memory.rs
+            |-- gamepad.rs
+            |-- mod.rs
+            |-- model_catalog.rs
+            |-- model_import.rs
+            |-- model_input.rs
+            |-- shortcuts.rs
+            |-- shutdown.rs
+            |-- startup.rs
+          |-- update/
+            |-- tests/
+              |-- mod.rs
+              |-- root.rs
+              |-- translate.rs
+              |-- worker.rs
+            |-- engine.rs
+            |-- mod.rs
+            |-- translate.rs
+            |-- worker.rs
+          |-- config_projection.rs
+          |-- dev_plugins.rs
+          |-- gamepad_observer.rs
+          |-- import_progress.rs
+          |-- lib.rs
+          |-- main.rs
+          |-- model_cover.rs
+          |-- model_identity.rs
+          |-- model_input.rs
+          |-- model_listing.rs
+          |-- model_titles.rs
+          |-- overlay_placement.rs
+          |-- plugin_input.rs
+          |-- preset_root.rs
+          |-- product_icon_contract.rs
+          |-- product_icons.rs
+          |-- product_options.rs
+          |-- product_shutdown.rs
+          |-- product_windows.rs
+          |-- shortcut_config.rs
+          |-- shortcuts.rs
+          |-- smoke_status.rs
+          |-- startup_permission.rs
+          |-- system_menu.rs
+          |-- taskbar_settle.rs
+          |-- update_schedule.rs
+        |-- windows/
+          |-- bongocat-app.rc
+        |-- build.rs
+        |-- Cargo.toml
+      |-- bongocat-audio/
+        |-- src/
+          |-- tests/
+            |-- backend.rs
+            |-- client.rs
+            |-- command.rs
+            |-- mod.rs
+            |-- service.rs
+            |-- volume.rs
+            |-- worker.rs
+          |-- backend.rs
+          |-- client.rs
+          |-- command.rs
+          |-- diagnostics.rs
+          |-- error.rs
+          |-- lib.rs
+          |-- service.rs
+          |-- state.rs
+          |-- volume.rs
+          |-- worker.rs
+        |-- Cargo.toml
+      |-- bongocat-config/
+        |-- src/
+          |-- bin/
+            |-- generate_json_schemas.rs
+          |-- config_schema/
+            |-- appearance.rs
+            |-- input.rs
+            |-- logging.rs
+            |-- mod.rs
+            |-- model.rs
+            |-- overlay.rs
+            |-- system.rs
+            |-- updates.rs
+          |-- shortcuts/
+            |-- chord.rs
+            |-- command.rs
+            |-- compiled.rs
+            |-- config.rs
+            |-- mod.rs
+          |-- tests/
+            |-- mod.rs
+            |-- recovery.rs
+            |-- shortcuts.rs
+            |-- store.rs
+            |-- validation.rs
+          |-- atomic.rs
+          |-- lib.rs
+          |-- schema.rs
+          |-- storage.rs
+          |-- store.rs
+          |-- window_state.rs
+        |-- Cargo.toml
+      |-- bongocat-i18n/
+        |-- locales/
+          |-- ar-SA.json
+          |-- en-US.json
+          |-- fr-FR.json
+          |-- ko-KR.json
+          |-- pt-BR.json
+          |-- vi-VN.json
+          |-- zh-CN.json
+          |-- zh-TW.json
+        |-- src/
+          |-- tests/
+            |-- catalog.rs
+            |-- coverage.rs
+            |-- format.rs
+            |-- mod.rs
+            |-- platform.rs
+          |-- lib.rs
+        |-- build.rs
+        |-- Cargo.toml
+      |-- bongocat-input/
+        |-- src/
+          |-- cursor.rs
+          |-- gamepad.rs
+          |-- input.rs
+          |-- lib.rs
+          |-- platform_input.rs
+        |-- Cargo.toml
+      |-- bongocat-live2d/
+        |-- src/
+          |-- core/
+            |-- tests/
+              |-- drawable.rs
+              |-- load.rs
+              |-- mod.rs
+              |-- parameter.rs
+            |-- canvas.rs
+            |-- count.rs
+            |-- drawable.rs
+            |-- length.rs
+            |-- load.rs
+            |-- memory.rs
+            |-- mod.rs
+            |-- parameter.rs
+            |-- resolved.rs
+            |-- snapshot.rs
+          |-- core_log/
+            |-- handle.rs
+            |-- mod.rs
+            |-- sanitize.rs
+            |-- sink.rs
+            |-- tests.rs
+          |-- sys/
+            |-- macos.rs
+            |-- mod.rs
+            |-- windows.rs
+          |-- tests/
+            |-- automatic.rs
+            |-- error.rs
+            |-- mod.rs
+            |-- model.rs
+            |-- parameter.rs
+            |-- version.rs
+            |-- vocabulary.rs
+          |-- automatic.rs
+          |-- error.rs
+          |-- lib.rs
+          |-- load.rs
+          |-- parameter.rs
+          |-- physics.rs
+          |-- status.rs
+        |-- build.rs
+        |-- Cargo.toml
+      |-- bongocat-live2d-playback/
+        |-- src/
+          |-- motion/
+            |-- tests/
+              |-- clip.rs
+              |-- event.rs
+              |-- mod.rs
+              |-- raw.rs
+            |-- clip.rs
+            |-- event.rs
+            |-- mod.rs
+            |-- parse_clip.rs
+            |-- raw.rs
+            |-- sample.rs
+            |-- segment.rs
+            |-- validate.rs
+            |-- weight.rs
+          |-- error.rs
+          |-- expression.rs
+          |-- lib.rs
+        |-- Cargo.toml
+      |-- bongocat-live2d-render/
+        |-- src/
+          |-- lib.rs
+        |-- Cargo.toml
+      |-- bongocat-log/
+        |-- src/
+          |-- tests/
+            |-- clock.rs
+            |-- level.rs
+            |-- mod.rs
+            |-- parse.rs
+            |-- privacy.rs
+            |-- record.rs
+            |-- retention.rs
+            |-- writer.rs
+          |-- clock.rs
+          |-- level.rs
+          |-- lib.rs
+          |-- parse.rs
+          |-- record.rs
+          |-- retention.rs
+          |-- rotation.rs
+          |-- sanitize.rs
+          |-- settings.rs
+          |-- writer.rs
+        |-- Cargo.toml
+      |-- bongocat-model/
+        |-- src/
+          |-- tests/
+            |-- catalog.rs
+            |-- formats.rs
+            |-- json.rs
+            |-- limits.rs
+            |-- mod.rs
+            |-- package.rs
+            |-- reference.rs
+            |-- snapshot.rs
+            |-- validate.rs
+          |-- catalog.rs
+          |-- error.rs
+          |-- formats.rs
+          |-- json.rs
+          |-- lib.rs
+          |-- limits.rs
+          |-- package.rs
+          |-- raw.rs
+          |-- reference.rs
+          |-- schema.rs
+          |-- snapshot.rs
+          |-- validate.rs
+        |-- Cargo.toml
+      |-- bongocat-model-store/
+        |-- examples/
+          |-- model_conversion_smoke.rs
+        |-- src/
+          |-- mver/
+            |-- tests/
+              |-- compose.rs
+              |-- config.rs
+              |-- convert.rs
+              |-- inspect.rs
+              |-- mod.rs
+              |-- plan.rs
+              |-- source.rs
+              |-- vocabulary.rs
+            |-- compose.rs
+            |-- config.rs
+            |-- convert.rs
+            |-- error.rs
+            |-- fixture.rs
+            |-- inspect.rs
+            |-- layout.rs
+            |-- mod.rs
+            |-- plan.rs
+            |-- source.rs
+            |-- vocabulary.rs
+          |-- store/
+            |-- tests/
+              |-- catalog.rs
+              |-- copy.rs
+              |-- diagnostic.rs
+              |-- discovery.rs
+              |-- input_mode.rs
+              |-- mod.rs
+              |-- progress.rs
+              |-- root.rs
+              |-- staging.rs
+            |-- catalog.rs
+            |-- copy.rs
+            |-- diagnostic.rs
+            |-- discovery.rs
+            |-- input_mode.rs
+            |-- mod.rs
+            |-- progress.rs
+            |-- staging.rs
+          |-- fixture_contract.rs
+          |-- key_names.rs
+          |-- lib.rs
+          |-- preset_covers.rs
+        |-- Cargo.toml
+      |-- bongocat-overlay/
+        |-- src/
+          |-- macos/
+            |-- tests/
+              |-- geometry.rs
+              |-- mod.rs
+              |-- renderer.rs
+              |-- session.rs
+              |-- textures.rs
+            |-- cover_capture.rs
+            |-- geometry.rs
+            |-- mod.rs
+            |-- pipelines.rs
+            |-- renderer.rs
+            |-- resize_monitor.rs
+            |-- session.rs
+            |-- switch_preview.rs
+            |-- textures.rs
+          |-- tests/
+            |-- blend.rs
+            |-- bounds.rs
+            |-- dimensions.rs
+            |-- frame.rs
+            |-- mod.rs
+            |-- preview.rs
+            |-- product_session.rs
+            |-- report.rs
+            |-- timing.rs
+          |-- windows/
+            |-- tests/
+              |-- geometry.rs
+              |-- mod.rs
+              |-- pipelines.rs
+              |-- renderer.rs
+              |-- session.rs
+              |-- stickman.rs
+              |-- textures.rs
+              |-- thread_settle.rs
+              |-- window.rs
+              |-- window_mode.rs
+              |-- window_proc.rs
+            |-- cover_capture.rs
+            |-- geometry.rs
+            |-- mod.rs
+            |-- pipelines.rs
+            |-- renderer.rs
+            |-- session.rs
+            |-- switch_preview.rs
+            |-- textures.rs
+            |-- thread_settle.rs
+            |-- window.rs
+            |-- window_proc.rs
+          |-- blend.rs
+          |-- bounds.rs
+          |-- cover.rs
+          |-- dimensions.rs
+          |-- error.rs
+          |-- frame.rs
+          |-- hover.rs
+          |-- idle.rs
+          |-- lib.rs
+          |-- main.rs
+          |-- placement.rs
+          |-- plugin_layer.rs
+          |-- presentation.rs
+          |-- preview.rs
+          |-- product_session.rs
+          |-- report.rs
+          |-- resize_drag.rs
+          |-- timing.rs
+        |-- build.rs
+        |-- Cargo.toml
+      |-- bongocat-packaging/
+        |-- installer/
+          |-- Vietnamese.nsh
+        |-- src/
+          |-- finder_store.rs
+          |-- main.rs
+        |-- Cargo.toml
+      |-- bongocat-platform/
+        |-- examples/
+          |-- gilrs_gamepad_smoke.rs
+          |-- model_source_picker_smoke.rs
+        |-- src/
+          |-- shortcut/
+            |-- global/
+              |-- tests/
+                |-- hotkey.rs
+                |-- mod.rs
+                |-- owner.rs
+                |-- registration.rs
+                |-- service.rs
+              |-- hotkey.rs
+              |-- mod.rs
+              |-- owner.rs
+              |-- registration.rs
+              |-- service.rs
+            |-- mod.rs
+            |-- tests.rs
+          |-- clipboard.rs
+          |-- directory_opener.rs
+          |-- display.rs
+          |-- gilrs_gamepad.rs
+          |-- input_error.rs
+          |-- installation.rs
+          |-- lib.rs
+          |-- macos.rs
+          |-- model_source_picker.rs
+          |-- native_window.rs
+          |-- single_instance.rs
+          |-- single_instance_windows.rs
+          |-- startup_item.rs
+          |-- startup_item_native.rs
+          |-- startup_permission.rs
+          |-- system_menu.rs
+          |-- system_menu_native.rs
+          |-- system_version.rs
+          |-- theme.rs
+          |-- url_opener.rs
+          |-- windows.rs
+        |-- tests/
+          |-- macos_input_smoke.rs
+        |-- build.rs
+        |-- Cargo.toml
+      |-- bongocat-plugin-hud/
+        |-- src/
+          |-- font.rs
+          |-- layer.rs
+          |-- layout.rs
+          |-- lib.rs
+          |-- paint.rs
+          |-- tests.rs
+        |-- Cargo.toml
+      |-- bongocat-plugin-manager/
+        |-- src/
+          |-- catalog.rs
+          |-- install.rs
+          |-- lib.rs
+          |-- loader.rs
+          |-- registry.rs
+          |-- source.rs
+        |-- tests/
+          |-- process.rs
+        |-- Cargo.toml
+      |-- bongocat-plugin-service/
+        |-- src/
+          |-- command.rs
+          |-- lib.rs
+          |-- service.rs
+        |-- tests/
+          |-- service.rs
+        |-- Cargo.toml
+      |-- bongocat-render/
+        |-- src/
+          |-- tests/
+            |-- channel.rs
+            |-- commit.rs
+            |-- geometry.rs
+            |-- identity.rs
+            |-- key.rs
+            |-- mod.rs
+            |-- validate.rs
+          |-- channel.rs
+          |-- commit.rs
+          |-- geometry.rs
+          |-- identity.rs
+          |-- key.rs
+          |-- lib.rs
+          |-- resources.rs
+          |-- snapshot.rs
+          |-- stickman.rs
+          |-- transport.rs
+          |-- validate.rs
+        |-- Cargo.toml
+      |-- bongocat-runtime/
+        |-- src/
+          |-- input_state/
+            |-- tests/
+              |-- mod.rs
+              |-- reconcile.rs
+              |-- repeat.rs
+              |-- reset.rs
+              |-- snapshot_of.rs
+            |-- apply.rs
+            |-- mod.rs
+            |-- policy.rs
+            |-- reset.rs
+            |-- snapshot.rs
+            |-- snapshot_of.rs
+          |-- rendering/
+            |-- tests/
+              |-- automatic.rs
+              |-- error.rs
+              |-- evaluate.rs
+              |-- expression.rs
+              |-- mod.rs
+              |-- model.rs
+              |-- motion.rs
+            |-- automatic.rs
+            |-- error.rs
+            |-- evaluate.rs
+            |-- expression.rs
+            |-- lifecycle.rs
+            |-- mod.rs
+            |-- model.rs
+            |-- model_input.rs
+            |-- motion.rs
+            |-- state.rs
+          |-- tests/
+            |-- input.rs
+            |-- lifecycle.rs
+            |-- mod.rs
+            |-- model.rs
+            |-- motions.rs
+            |-- pacing.rs
+            |-- rendering.rs
+            |-- transport.rs
+          |-- worker/
+            |-- audio.rs
+            |-- axes.rs
+            |-- input.rs
+            |-- mod.rs
+            |-- model.rs
+            |-- random_behavior.rs
+            |-- renderer.rs
+          |-- activity.rs
+          |-- client.rs
+          |-- lib.rs
+          |-- owner.rs
+          |-- pacing.rs
+          |-- random_behavior.rs
+          |-- transport.rs
+        |-- tests/
+          |-- shared_input_fixtures.rs
+        |-- Cargo.toml
+      |-- bongocat-storage/
+        |-- src/
+          |-- lib.rs
+        |-- Cargo.toml
+      |-- bongocat-ui/
+        |-- src/
+          |-- pop_confirm/
+            |-- tests/
+              |-- keyboard.rs
+              |-- labels.rs
+              |-- layout.rs
+              |-- mod.rs
+              |-- open.rs
+            |-- mod.rs
+            |-- trigger.rs
+          |-- update_markdown/
+            |-- tests/
+              |-- bounds.rs
+              |-- html.rs
+              |-- image.rs
+              |-- link.rs
+              |-- mod.rs
+              |-- text.rs
+            |-- bounds.rs
+            |-- html.rs
+            |-- image.rs
+            |-- link.rs
+            |-- mod.rs
+            |-- text.rs
+          |-- update_window/
+            |-- tests/
+              |-- mod.rs
+              |-- render.rs
+              |-- unit.rs
+            |-- height.rs
+            |-- message.rs
+            |-- mod.rs
+            |-- pending.rs
+            |-- render.rs
+            |-- view.rs
+          |-- window/
+            |-- tests/
+              |-- behavior_names.rs
+              |-- copy.rs
+              |-- dropdown.rs
+              |-- external_link.rs
+              |-- hold_modifier.rs
+              |-- mod.rs
+              |-- model_actions.rs
+              |-- model_drag_overlay.rs
+              |-- model_editor_render.rs
+              |-- model_import.rs
+              |-- models_page_render.rs
+              |-- settings_commands.rs
+              |-- settings_page.rs
+              |-- shortcuts.rs
+              |-- startup_item.rs
+            |-- about.rs
+            |-- behavior_name.rs
+            |-- controls.rs
+            |-- drag.rs
+            |-- dropdown.rs
+            |-- edit.rs
+            |-- hold_modifier.rs
+            |-- import.rs
+            |-- import_draft.rs
+            |-- lifecycle.rs
+            |-- localization.rs
+            |-- mod.rs
+            |-- model_actions.rs
+            |-- model_drag_overlay.rs
+            |-- model_edit_draft.rs
+            |-- model_import_card.rs
+            |-- model_mver_dialog.rs
+            |-- model_row.rs
+            |-- model_selection.rs
+            |-- models.rs
+            |-- mver.rs
+            |-- navigation.rs
+            |-- overlay_step.rs
+            |-- pending.rs
+            |-- plugin_settings.rs
+            |-- plugins_host.rs
+            |-- plugins_page.rs
+            |-- presentation.rs
+            |-- render.rs
+            |-- row.rs
+            |-- setting_gate.rs
+            |-- setting_patch.rs
+            |-- setting_request.rs
+            |-- settings.rs
+            |-- shortcut_capture.rs
+            |-- shortcuts.rs
+            |-- shortcuts_page.rs
+            |-- smoke.rs
+            |-- source.rs
+            |-- startup_item.rs
+            |-- theme.rs
+            |-- tokens.rs
+            |-- view_state.rs
+            |-- window_mode.rs
+          |-- external_link.rs
+          |-- lib.rs
+        |-- build.rs
+        |-- Cargo.toml
+      |-- bongocat-ui-protocol/
+        |-- src/
+          |-- settings/
+            |-- tests/
+              |-- command.rs
+              |-- error.rs
+              |-- logging.rs
+              |-- mod.rs
+              |-- model_import.rs
+              |-- service.rs
+              |-- snapshot.rs
+              |-- startup.rs
+              |-- window.rs
+            |-- build.rs
+            |-- client.rs
+            |-- command.rs
+            |-- endpoint.rs
+            |-- error.rs
+            |-- input_diagnostics.rs
+            |-- logging.rs
+            |-- mod.rs
+            |-- model_catalog.rs
+            |-- model_diagnostic.rs
+            |-- model_import.rs
+            |-- runtime.rs
+            |-- snapshot.rs
+            |-- startup.rs
+            |-- window.rs
+          |-- lib.rs
+          |-- update.rs
+        |-- Cargo.toml
+      |-- bongocat-update/
+        |-- src/
+          |-- runtime/
+            |-- error.rs
+            |-- event.rs
+            |-- manifest.rs
+            |-- mod.rs
+            |-- progress.rs
+            |-- release_identity.rs
+            |-- stage.rs
+            |-- tests.rs
+          |-- diagnostics.rs
+          |-- lib.rs
+          |-- release.rs
+        |-- tests/
+          |-- release_manifest_capability.rs
+        |-- Cargo.toml
+    |-- docs/
+      |-- adr/
+        |-- 0001-single-rust-application.md
+        |-- 0002-gpui-settings-ui.md
+        |-- 0003-native-overlay-renderers.md
+        |-- 0004-reconcilable-input-state.md
+        |-- 0005-cubism-core-ffi-boundary.md
+        |-- 0006-linux-post-launch-strategy.md
+        |-- 0007-single-rust-runtime-environment.md
+        |-- 0008-application-identity-and-storage-environments.md
+        |-- 0009-gpui-accessibility-gate.md
+        |-- 0010-windows-cpu-targets.md
+        |-- 0011-progressive-implementation-release-gates.md
+        |-- 0012-json-localization.md
+        |-- 0012-ordered-motion-audio-service.md
+        |-- 0013-startup-item-capability.md
+        |-- 0014-formal-settings-accessibility-bridge.md
+        |-- 0015-settings-revision-boundaries.md
+        |-- 0016-diagnostics-export-contract.md
+        |-- 0017-bounded-application-logging.md
+        |-- 0018-model-interaction-settings.md
+        |-- 0019-gpui-component-design-system.md
+        |-- 0020-gpui-kit-facade.md
+        |-- 0021-signed-update-manifest.md
+        |-- 0022-update-manifest-transport-envelope.md
+        |-- 0023-windows-per-user-installer.md
+        |-- 0024-macos-tcc-capability-boundary.md
+        |-- 0025-signed-manifest-https-transport.md
+        |-- 0026-update-helper-replacement-boundary.md
+        |-- 0027-diagnostics-preview-bundle-boundary.md
+        |-- 0028-rust-i18n-catalog-structure.md
+        |-- 0029-third-party-update-library-boundary.md
+        |-- 0030-prefer-existing-solutions.md
+        |-- 0031-tray-icon-boundary.md
+        |-- 0032-startup-permission-prompt-boundary.md
+        |-- 0033-build-packaging-and-release-toolchain.md
+        |-- 0034-detached-minisign-update-trust-model.md
+        |-- 0035-update-worker-and-window.md
+        |-- 0036-model-archive-import-boundary.md
+        |-- 0037-in-app-bongo-cat-mver-conversion.md
+        |-- 0038-alt-key-image-naming.md
+        |-- 0039-enter-key-image-naming.md
+        |-- 0040-keypad-key-image-naming.md
+        |-- 0041-complete-key-vocabulary.md
+        |-- 0042-key-press-requires-its-key-image.md
+        |-- 0043-startup-item-via-auto-launch.md
+        |-- 0044-global-hotkey-registration-backend.md
+        |-- 0045-overlay-placement-screen-bounds.md
+        |-- 0046-overlay-color-encode-contract.md
+        |-- 0047-model-metadata-editing-boundary.md
+        |-- 0048-theme-on-native-surfaces.md
+        |-- 0049-globe-key-and-function-row-separation.md
+        |-- 0050-converted-key-image-name-spelling.md
+        |-- 0051-login-startup-unavailable-in-development-builds.md
+        |-- 0052-shortcut-gates-follow-their-group.md
+        |-- 0053-setting-gate-disable-binding-rule.md
+        |-- 0054-visual-first-config-and-ui-contract.md
+        |-- 0055-imported-model-cover-captured-from-render.md
+        |-- 0056-setting-group-variant-override-patch.md
+        |-- 0057-overlay-resize-by-right-button-drag.md
+        |-- 0058-platform-neutral-input-contract.md
+        |-- 0059-ui-protocol-boundary.md
+        |-- 0060-model-package-store-boundary.md
+        |-- 0061-live2d-playback-boundary.md
+        |-- 0062-live2d-render-resource-boundary.md
+        |-- 0063-legacy-mver-color-pipeline.md
+        |-- 0064-human-readable-bounded-logging.md
+        |-- 0065-model-mode-metadata-and-card-badge.md
+        |-- 0065-random-model-behavior-scheduler.md
+        |-- 0066-gilrs-gamepad-backend.md
+        |-- 0066-settings-task-oriented-information-architecture.md
+        |-- 0067-config-domain-namespaces-and-model-identity.md
+        |-- 0068-settings-window-destruction-and-navigation-memory.md
+        |-- 0068-tray-and-overlay-context-menu-layering.md
+        |-- 0069-release-notes-markdown-claim-boundary.md
+        |-- 0070-gamepad-key-image-vocabulary.md
+        |-- 0071-gamepad-connection-model-auto-switch.md
+        |-- 0072-random-behavior-mode-enumeration.md
+        |-- 0073-application-shortcut-command-set-narrowing.md
+        |-- 0074-verification-pipeline-cache-and-job-split.md
+        |-- 0075-dmg-finder-window-layout.md
+        |-- 0076-dmg-repair-command.md
+        |-- 0077-physics-setting-without-output.md
+        |-- 0078-macos-permission-flow-onboarding.md
+        |-- 0079-stacked-key-image-layer.md
+        |-- 0080-hold-modifier-to-interact.md
+        |-- 0081-force-mouse-movement-in-captured-applications.md
+        |-- 0082-gamepad-stick-and-multi-pad-projection.md
+        |-- 0083-toggle-repeated-expression-off.md
+        |-- 0085-behavior-custom-names.md
+        |-- 0086-frame-smoke-without-translucent-sample.md
+        |-- 0087-nested-model-folder-import.md
+        |-- 0088-concurrent-motion-playback.md
+        |-- 0089-windows-window-mode.md
+        |-- 0090-independent-plugin-processes.md
+        |-- 0091-plugin-catalog-and-input-activity.md
+        |-- 0092-plugin-center-card-presentation.md
+        |-- 0093-plugin-input-activity-and-embedded-key-sounds.md
+        |-- 0094-input-source-plugin.md
+        |-- 0095-macos-input-source-system-icon.md
+        |-- 0096-windows-input-source-identity-and-icons.md
+        |-- 0097-independent-plugin-repository-integration.md
+      |-- benchmark/
+        |-- data/
+          |-- macos-overlay-frame-timing-90e0aa7.csv
+        |-- macos-overlay-frame-timing-90e0aa7.md
+        |-- README.md
+        |-- windows-window-mode-2026-10-08.md
+      |-- cubism/
+        |-- binding-generation.md
+        |-- core-r5-probe.md
+        |-- cubism-framework-behavior-sources.md
+        |-- cubism-sdk-source-and-license.md
+      |-- migration/
+        |-- bongo-cat-mver-frame-rate-semantics.md
+        |-- bongo-cat-mver-reference.md
+        |-- legacy-behavior-inventory.md
+      |-- changelog-conventions.md
+      |-- localization-copy-conventions.md
+      |-- product-runtime.md
+      |-- technical-design.md
+      |-- update-signing-guide.md
+    |-- macos/
+      |-- Info.plist
+    |-- resources/
+      |-- icons/
+        |-- logo-macos.icns
+        |-- logo-windows.ico
+        |-- tray-macos.png
+        |-- tray-windows.png
+      |-- models/
+        |-- gamepad/
+          |-- demomodel3.1024/
+            |-- texture_00.png
+            |-- texture_01.png
+            |-- texture_02.png
+          |-- resources/
+            |-- left-keys/
+              |-- DpadDown.png
+              |-- DpadLeft.png
+              |-- DpadRight.png
+              |-- DpadUp.png
+              |-- LeftShoulder.png
+              |-- LeftTrigger.png
+            |-- right-keys/
+              |-- East.png
+              |-- North.png
+              |-- RightShoulder.png
+              |-- RightTrigger.png
+              |-- South.png
+              |-- West.png
+            |-- background.png
+            |-- cover.png
+          |-- cat.model3.json
+          |-- demomodel3.cdi3.json
+          |-- demomodel3.moc3
+          |-- exp_1.exp3.json
+          |-- exp_2.exp3.json
+          |-- live2d_expression0.exp3.json
+          |-- live2d_expression1.exp3.json
+          |-- live2d_expression2.exp3.json
+          |-- live2d_motion1.flac
+          |-- live2d_motion1.motion3.json
+          |-- live2d_motion2.motion3.json
+        |-- keyboard/
+          |-- demomodel2.1024/
+            |-- texture_00.png
+            |-- texture_01.png
+            |-- texture_02.png
+          |-- resources/
+            |-- left-keys/
+              |-- AltLeft.png
+              |-- AltRight.png
+              |-- BackQuote.png
+              |-- Backspace.png
+              |-- CapsLock.png
+              |-- ControlLeft.png
+              |-- ControlRight.png
+              |-- Delete.png
+              |-- Enter.png
+              |-- Escape.png
+              |-- Fn.png
+              |-- KeyA.png
+              |-- KeyB.png
+              |-- KeyC.png
+              |-- KeyD.png
+              |-- KeyE.png
+              |-- KeyF.png
+              |-- KeyG.png
+              |-- KeyH.png
+              |-- KeyI.png
+              |-- KeyJ.png
+              |-- KeyK.png
+              |-- KeyL.png
+              |-- KeyM.png
+              |-- KeyN.png
+              |-- KeyO.png
+              |-- KeyP.png
+              |-- KeyQ.png
+              |-- KeyR.png
+              |-- KeyS.png
+              |-- KeyT.png
+              |-- KeyU.png
+              |-- KeyV.png
+              |-- KeyW.png
+              |-- KeyX.png
+              |-- KeyY.png
+              |-- KeyZ.png
+              |-- Meta.png
+              |-- Num0.png
+              |-- Num1.png
+              |-- Num2.png
+              |-- Num3.png
+              |-- Num4.png
+              |-- Num5.png
+              |-- Num6.png
+              |-- Num7.png
+              |-- Num8.png
+              |-- Num9.png
+              |-- ShiftLeft.png
+              |-- ShiftRight.png
+              |-- Slash.png
+              |-- Space.png
+              |-- Tab.png
+            |-- right-keys/
+              |-- DownArrow.png
+              |-- LeftArrow.png
+              |-- RightArrow.png
+              |-- UpArrow.png
+            |-- background.png
+            |-- cover.png
+          |-- cat.model3.json
+          |-- demomodel2.cdi3.json
+          |-- demomodel2.moc3
+          |-- exp_1.exp3.json
+          |-- exp_2.exp3.json
+          |-- live2d_expression0.exp3.json
+          |-- live2d_expression1.exp3.json
+          |-- live2d_expression2.exp3.json
+          |-- live2d_motion1.flac
+          |-- live2d_motion1.motion3.json
+          |-- live2d_motion2.motion3.json
+        |-- standard/
+          |-- demomodel.1024/
+            |-- texture_00.png
+            |-- texture_01.png
+            |-- texture_02.png
+          |-- resources/
+            |-- left-keys/
+              |-- AltLeft.png
+              |-- AltRight.png
+              |-- BackQuote.png
+              |-- Backspace.png
+              |-- CapsLock.png
+              |-- ControlLeft.png
+              |-- ControlRight.png
+              |-- Delete.png
+              |-- Enter.png
+              |-- Escape.png
+              |-- Fn.png
+              |-- KeyA.png
+              |-- KeyB.png
+              |-- KeyC.png
+              |-- KeyD.png
+              |-- KeyE.png
+              |-- KeyF.png
+              |-- KeyG.png
+              |-- KeyH.png
+              |-- KeyI.png
+              |-- KeyJ.png
+              |-- KeyK.png
+              |-- KeyL.png
+              |-- KeyM.png
+              |-- KeyN.png
+              |-- KeyO.png
+              |-- KeyP.png
+              |-- KeyQ.png
+              |-- KeyR.png
+              |-- KeyS.png
+              |-- KeyT.png
+              |-- KeyU.png
+              |-- KeyV.png
+              |-- KeyW.png
+              |-- KeyX.png
+              |-- KeyY.png
+              |-- KeyZ.png
+              |-- Meta.png
+              |-- Num0.png
+              |-- Num1.png
+              |-- Num2.png
+              |-- Num3.png
+              |-- Num4.png
+              |-- Num5.png
+              |-- Num6.png
+              |-- Num7.png
+              |-- Num8.png
+              |-- Num9.png
+              |-- ShiftLeft.png
+              |-- ShiftRight.png
+              |-- Slash.png
+              |-- Space.png
+              |-- Tab.png
+            |-- background.png
+            |-- cover.png
+          |-- cat.model3.json
+          |-- demomodel.cdi3.json
+          |-- demomodel.moc3
+          |-- exp_1.exp3.json
+          |-- exp_2.exp3.json
+          |-- live2d_expression0.exp3.json
+          |-- live2d_expression1.exp3.json
+          |-- live2d_expression2.exp3.json
+          |-- live2d_motion1.flac
+          |-- live2d_motion1.motion3.json
+          |-- live2d_motion2.motion3.json
+    |-- shared/
+      |-- behavior/
+        |-- animation-semantics.md
+        |-- input-semantics.md
+      |-- config/
+        |-- fixtures/
+          |-- accept-before-motion-overlap.json
+          |-- accept-behavior-names.json
+          |-- accept-built-in-model-metadata.json
+          |-- accept-check-for-updates-interval.json
+          |-- accept-corner-radius.json
+          |-- accept-force-move-mouse.json
+          |-- accept-gamepad-auto-switch.json
+          |-- accept-hold-modifier-to-interact.json
+          |-- accept-hover-hide.json
+          |-- accept-hover-hide-delay.json
+          |-- accept-idle-hide.json
+          |-- accept-imported-model-metadata.json
+          |-- accept-input-without-mouse.json
+          |-- accept-last-expressions.json
+          |-- accept-logging-boundary.json
+          |-- accept-model-behavior-identity.json
+          |-- accept-motion-overlap.json
+          |-- accept-random-behavior.json
+          |-- accept-window-mode.json
+          |-- default.json
+          |-- invalid-behavior-name-behavior-id.json
+          |-- invalid-behavior-name-blank.json
+          |-- invalid-behavior-name-control-character.json
+          |-- invalid-behavior-name-duplicate.json
+          |-- invalid-behavior-name-model-id.json
+          |-- invalid-blank-binding.json
+          |-- invalid-blank-built-in-model-title.json
+          |-- invalid-blank-imported-model-title.json
+          |-- invalid-check-for-updates-interval.json
+          |-- invalid-check-for-updates-interval-zero.json
+          |-- invalid-corner-radius.json
+          |-- invalid-duplicate-built-in-model-id.json
+          |-- invalid-duplicate-imported-model-id.json
+          |-- invalid-duplicate-last-expression.json
+          |-- invalid-force-move-mouse.json
+          |-- invalid-gamepad-auto-switch-target.json
+          |-- invalid-gamepad-dead-zone.json
+          |-- invalid-hold-modifier-to-interact.json
+          |-- invalid-hover-hide-delay.json
+          |-- invalid-idle-hide-delay.json
+          |-- invalid-imported-model-input-mode.json
+          |-- invalid-incomplete-model-identity.json
+          |-- invalid-key-release-timeout.json
+          |-- invalid-last-expression-model-id.json
+          |-- invalid-last-expression-name.json
+          |-- invalid-log-level.json
+          |-- invalid-log-retention-too-large.json
+          |-- invalid-log-retention-zero.json
+          |-- invalid-missing-imported-model-input-mode.json
+          |-- invalid-missing-selected-model.json
+          |-- invalid-model-id-path.json
+          |-- invalid-model-id-reserved.json
+          |-- invalid-motion-overlap.json
+          |-- invalid-out-of-range.json
+          |-- invalid-random-behavior-interval.json
+          |-- invalid-random-behavior-interval-too-large.json
+          |-- invalid-random-behavior-mode.json
+          |-- invalid-unknown-field.json
+          |-- invalid-unsupported-language.json
+          |-- manifest.json
+        |-- window-state-fixtures/
+          |-- default.json
+          |-- invalid-config-field.json
+          |-- invalid-future-schema.json
+          |-- invalid-missing-settings-window.json
+          |-- invalid-out-of-range.json
+          |-- invalid-unknown-field.json
+          |-- manifest.json
+          |-- negative-coordinate.json
+        |-- config.schema.json
+        |-- contract.md
+        |-- window-state.schema.json
+      |-- fixtures/
+        |-- expected-state/
+          |-- cursor-does-not-block-release.json
+          |-- gamepad-reconnect-reset.json
+          |-- input-recovery-lifecycle.json
+          |-- keyboard-modifiers-and-repeat.json
+          |-- keyboard-reconciled-release.json
+          |-- keyboard-single-key.json
+          |-- lifecycle-reset.json
+          |-- model-motion-expression-audio.json
+          |-- mouse-drag-and-cursor.json
+          |-- schema.json
+        |-- input-sequences/
+          |-- cursor-does-not-block-release.json
+          |-- gamepad-reconnect-reset.json
+          |-- input-recovery-lifecycle.json
+          |-- keyboard-modifiers-and-repeat.json
+          |-- keyboard-reconciled-release.json
+          |-- keyboard-single-key.json
+          |-- lifecycle-reset.json
+          |-- model-motion-expression-audio.json
+          |-- mouse-drag-and-cursor.json
+          |-- schema.json
+        |-- model-fixtures/
+          |-- cases/
+            |-- combined-parameters-accepted/
+              |-- resources/
+                |-- left-keys/
+                  |-- KeyA.png
+              |-- cat.model3.json
+              |-- 模型 数据.moc3
+              |-- 模型.cdi3.json
+            |-- combined-parameters-invalid/
+              |-- cat.model3.json
+              |-- 模型 数据.moc3
+              |-- 模型.cdi3.json
+            |-- malformed-model3-json/
+              |-- cat.model3.json.invalid
+            |-- missing-moc/
+              |-- cat.model3.json
+            |-- multiple-model3/
+              |-- first.model3.json
+              |-- second.model3.json
+            |-- oversized-texture/
+              |-- textures/
+                |-- huge.png.hex
+              |-- cat.model3.json
+              |-- placeholder.moc3
+            |-- path-traversal/
+              |-- cat.model3.json
+            |-- 非 ASCII 模型/
+              |-- resources/
+                |-- left-keys/
+                  |-- KeyA.png
+              |-- 模型 数据.moc3
+              |-- 猫.model3.json
+          |-- cases.json
+          |-- preset-model3-index.json
+          |-- preset-models.json
+          |-- README.md
+        |-- manifest.json
+        |-- README.md
+    |-- spikes/
+      |-- config-store/
+        |-- src/
+          |-- lib.rs
+          |-- main.rs
+        |-- tests/
+          |-- process_crash_recovery.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+      |-- fixture-runner/
+        |-- src/
+          |-- lib.rs
+          |-- main.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+      |-- gpui-overlay-macos/
+        |-- macos/
+          |-- Info.plist
+        |-- scripts/
+          |-- package-macos.sh
+        |-- src/
+          |-- main.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+      |-- gpui-settings/
+        |-- macos/
+          |-- Info.plist
+        |-- scripts/
+          |-- benchmark-macos.sh
+          |-- package-macos.sh
+        |-- src/
+          |-- macos_menu.rs
+          |-- main.rs
+          |-- platform_ui_probe.rs
+          |-- runtime_bridge.rs
+          |-- text_input.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+        |-- README.md
+      |-- input-macos/
+        |-- src/
+          |-- lib.rs
+          |-- main.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+      |-- input-queue/
+        |-- src/
+          |-- lib.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+      |-- input-state/
+        |-- src/
+          |-- lib.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+      |-- input-windows/
+        |-- src/
+          |-- lib.rs
+          |-- main.rs
+          |-- windows_capture.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+      |-- model-package/
+        |-- src/
+          |-- lib.rs
+          |-- main.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+      |-- overlay-lifecycle/
+        |-- src/
+          |-- lib.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+      |-- overlay-windows/
+        |-- src/
+          |-- lib.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+        |-- README.md
+      |-- runtime-contract/
+        |-- src/
+          |-- lib.rs
+          |-- main.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+    |-- tools/
+      |-- cubism-bindgen/
+        |-- fixtures/
+          |-- expected/
+            |-- aarch64-apple-darwin.rs
+            |-- x86_64-apple-darwin.rs
+            |-- x86_64-pc-windows-msvc.rs
+          |-- Live2DCubismCore.synthetic.h
+        |-- src/
+          |-- main.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+        |-- README.md
+      |-- cubism-core-probe/
+        |-- src/
+          |-- main.rs
+        |-- Cargo.lock
+        |-- Cargo.toml
+        |-- README.md
+      |-- tests/
+        |-- test_changed_paths.py
+        |-- test_collect_failure_evidence.py
+        |-- test_dependabot_contract.py
+        |-- test_dev_plugins.py
+        |-- test_failure_evidence_workflow.py
+        |-- test_inspect_cubism_sdk.py
+        |-- test_packaging_contract.py
+        |-- test_plugin_distribution_contract.py
+        |-- test_product_version_contract.py
+        |-- test_provenance.py
+        |-- test_release_changelog_contract.py
+        |-- test_release_targets.py
+        |-- test_supported_platform_cfg.py
+        |-- test_swift_runtime_rpath.py
+        |-- test_update_release_contract.py
+        |-- test_verify_documentation_filter.py
+      |-- changed-paths.py
+      |-- check-dependencies.sh
+      |-- collect-failure-evidence.py
+      |-- dev_plugins.py
+      |-- inspect-cubism-sdk.py
+      |-- record-provenance.py
+      |-- requirements.txt
+      |-- run-input-fixtures.py
+      |-- validate-fixtures.py
+      |-- validate-json-schema.py
+      |-- validate-locales.py
+    |-- vendor/
+      |-- cubism/
+        |-- 5-r.5/
+          |-- Core/
+            |-- dll/
+              |-- windows/
+                |-- x86_64/
+                  |-- Live2DCubismCore.dll
+                  |-- Live2DCubismCore.lib
+            |-- include/
+              |-- Live2DCubismCore.h
+            |-- lib/
+              |-- macos/
+                |-- arm64/
+                  |-- libLive2DCubismCore.a
+                |-- x86_64/
+                  |-- libLive2DCubismCore.a
+              |-- windows/
+                |-- x86_64/
+                  |-- 143/
+                    |-- Live2DCubismCore_MD.lib
+          |-- LICENSE.md
+          |-- NOTICE.md
+    |-- .gitattributes
+    |-- .gitignore
+    |-- AGENTS.md
+    |-- Cargo.lock
+    |-- Cargo.toml
+    |-- CHANGELOG.md
+    |-- CHANGELOG.zh-CN.md
+    |-- CONTRIBUTING.md
+    |-- CONTRIBUTING.zh-CN.md
+    |-- deny.toml
+    |-- justfile
+    |-- LICENSE
+    |-- README.md
+    |-- README.zh-CN.md
+    |-- rust-toolchain.toml
+  |-- AGENTS.md
+  |-- AI_COLLABORATION_REPORT.md
+  |-- GEMINI.md
+  |-- HANDOFF_ANTIGRAVITY.md
+  |-- HANDOFF_CODEX.md
+  |-- PROJECT_MAP.md
+  |-- TASKS.md
+```
+
+## Liên kết từng file
+
+- [ai/contracts/README.md](../ai/contracts/README.md)
+- [ai/diagrams/.gitignore](../ai/diagrams/.gitignore)
+- [ai/diagrams/architecture.html](../ai/diagrams/architecture.html)
+- [ai/diagrams/architecture.md](../ai/diagrams/architecture.md)
+- [ai/diagrams/architecture.png](../ai/diagrams/architecture.png)
+- [ai/diagrams/build.mjs](../ai/diagrams/build.mjs)
+- [ai/diagrams/build.ps1](../ai/diagrams/build.ps1)
+- [ai/diagrams/companion.html](../ai/diagrams/companion.html)
+- [ai/diagrams/companion.md](../ai/diagrams/companion.md)
+- [ai/diagrams/companion.png](../ai/diagrams/companion.png)
+- [ai/diagrams/MARKMAP_LICENSE.txt](../ai/diagrams/MARKMAP_LICENSE.txt)
+- [ai/diagrams/package.json](../ai/diagrams/package.json)
+- [ai/diagrams/pnpm-lock.yaml](../ai/diagrams/pnpm-lock.yaml)
+- [ai/diagrams/preview.mjs](../ai/diagrams/preview.mjs)
+- [ai/diagrams/README.md](../ai/diagrams/README.md)
+- [ai/logs/C02/build.log](../ai/logs/C02/build.log)
+- [ai/logs/C02/C02-d3d11.png](../ai/logs/C02/C02-d3d11.png)
+- [ai/logs/C02/C02-gpu-result.txt](../ai/logs/C02/C02-gpu-result.txt)
+- [ai/logs/C02/C02-preview.png](../ai/logs/C02/C02-preview.png)
+- [ai/logs/C02/C02-white.png](../ai/logs/C02/C02-white.png)
+- [ai/logs/C02/clippy.log](../ai/logs/C02/clippy.log)
+- [ai/logs/C02/geometry.log](../ai/logs/C02/geometry.log)
+- [ai/logs/C02/render.log](../ai/logs/C02/render.log)
+- [ai/logs/C01-2026-10-25-dev-smoke.log](../ai/logs/C01-2026-10-25-dev-smoke.log)
+- [ai/logs/C01-2026-10-25-dev-smoke.log.exit.txt](../ai/logs/C01-2026-10-25-dev-smoke.log.exit.txt)
+- [ai/logs/C01-2026-10-25-just-check.exit.txt](../ai/logs/C01-2026-10-25-just-check.exit.txt)
+- [ai/logs/C01-2026-10-25-just-check.log](../ai/logs/C01-2026-10-25-just-check.log)
+- [ai/logs/C01-2026-10-25-topmost-isolated.log](../ai/logs/C01-2026-10-25-topmost-isolated.log)
+- [ai/logs/C02-render-tests.log](../ai/logs/C02-render-tests.log)
+- [ai/references/desktop-cat.png](../ai/references/desktop-cat.png)
+- [ai/references/desktop-cat-size.json](../ai/references/desktop-cat-size.json)
+- [ai/BASELINE_REPORT.md](../ai/BASELINE_REPORT.md)
+- [ai/C-02.evidence.json](../ai/C-02.evidence.json)
+- [ai/C02_STICKMAN_RENDER_PROOF.md](../ai/C02_STICKMAN_RENDER_PROOF.md)
+- [ai/CODEX_RENDER_REVIEW.md](../ai/CODEX_RENDER_REVIEW.md)
+- [ai/COMPANION_READINESS.md](../ai/COMPANION_READINESS.md)
+- [ai/guardrail-check.ps1](../ai/guardrail-check.ps1)
+- [ai/LEADER_CONSTITUTION.md](../ai/LEADER_CONSTITUTION.md)
+- [ai/MODULE_MAP.md](../ai/MODULE_MAP.md)
+- [ai/PROJECT_AUDIT.md](../ai/PROJECT_AUDIT.md)
+- [ai/PROJECT_MASTER_PLAN.md](../ai/PROJECT_MASTER_PLAN.md)
+- [ai/refresh-map.ps1](../ai/refresh-map.ps1)
+- [ai/STICKMAN_ASSET_RESEARCH.md](../ai/STICKMAN_ASSET_RESEARCH.md)
+- [ai/SYNC.md](../ai/SYNC.md)
+- [ai/SYNC.md.lock](../ai/SYNC.md.lock)
+- [ai/TEAM_PROTOCOL.md](../ai/TEAM_PROTOCOL.md)
+- [ai/WINDOWS_BUILD_SETUP.md](../ai/WINDOWS_BUILD_SETUP.md)
+- [BongoCat/.github/ISSUE_TEMPLATE/01-bug-report.yml](../BongoCat/.github/ISSUE_TEMPLATE/01-bug-report.yml)
+- [BongoCat/.github/ISSUE_TEMPLATE/02-bug-report.zh-CN.yml](../BongoCat/.github/ISSUE_TEMPLATE/02-bug-report.zh-CN.yml)
+- [BongoCat/.github/ISSUE_TEMPLATE/03-feature-request.yml](../BongoCat/.github/ISSUE_TEMPLATE/03-feature-request.yml)
+- [BongoCat/.github/ISSUE_TEMPLATE/04-feature-request.zh-CN.yml](../BongoCat/.github/ISSUE_TEMPLATE/04-feature-request.zh-CN.yml)
+- [BongoCat/.github/ISSUE_TEMPLATE/config.yml](../BongoCat/.github/ISSUE_TEMPLATE/config.yml)
+- [BongoCat/.github/workflows/release.yml](../BongoCat/.github/workflows/release.yml)
+- [BongoCat/.github/workflows/sync-to-gitee.yml](../BongoCat/.github/workflows/sync-to-gitee.yml)
+- [BongoCat/.github/workflows/verify.yml](../BongoCat/.github/workflows/verify.yml)
+- [BongoCat/.github/dependabot.yml](../BongoCat/.github/dependabot.yml)
+- [BongoCat/crates/bongocat-app/src/app_log/tests/code.rs](../BongoCat/crates/bongocat-app/src/app_log/tests/code.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/tests/context.rs](../BongoCat/crates/bongocat-app/src/app_log/tests/context.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/tests/mod.rs](../BongoCat/crates/bongocat-app/src/app_log/tests/mod.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/tests/panic_hook.rs](../BongoCat/crates/bongocat-app/src/app_log/tests/panic_hook.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/tests/run_marker.rs](../BongoCat/crates/bongocat-app/src/app_log/tests/run_marker.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/tests/write.rs](../BongoCat/crates/bongocat-app/src/app_log/tests/write.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/code.rs](../BongoCat/crates/bongocat-app/src/app_log/code.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/component.rs](../BongoCat/crates/bongocat-app/src/app_log/component.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/context.rs](../BongoCat/crates/bongocat-app/src/app_log/context.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/core_diagnostics.rs](../BongoCat/crates/bongocat-app/src/app_log/core_diagnostics.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/error.rs](../BongoCat/crates/bongocat-app/src/app_log/error.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/event.rs](../BongoCat/crates/bongocat-app/src/app_log/event.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/mod.rs](../BongoCat/crates/bongocat-app/src/app_log/mod.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/panic_hook.rs](../BongoCat/crates/bongocat-app/src/app_log/panic_hook.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/run_marker.rs](../BongoCat/crates/bongocat-app/src/app_log/run_marker.rs)
+- [BongoCat/crates/bongocat-app/src/app_log/sink.rs](../BongoCat/crates/bongocat-app/src/app_log/sink.rs)
+- [BongoCat/crates/bongocat-app/src/application/diagnostics.rs](../BongoCat/crates/bongocat-app/src/application/diagnostics.rs)
+- [BongoCat/crates/bongocat-app/src/application/expression_memory.rs](../BongoCat/crates/bongocat-app/src/application/expression_memory.rs)
+- [BongoCat/crates/bongocat-app/src/application/mod.rs](../BongoCat/crates/bongocat-app/src/application/mod.rs)
+- [BongoCat/crates/bongocat-app/src/application/model_activation.rs](../BongoCat/crates/bongocat-app/src/application/model_activation.rs)
+- [BongoCat/crates/bongocat-app/src/application/model_catalog.rs](../BongoCat/crates/bongocat-app/src/application/model_catalog.rs)
+- [BongoCat/crates/bongocat-app/src/application/model_import.rs](../BongoCat/crates/bongocat-app/src/application/model_import.rs)
+- [BongoCat/crates/bongocat-app/src/application/settings_commands.rs](../BongoCat/crates/bongocat-app/src/application/settings_commands.rs)
+- [BongoCat/crates/bongocat-app/src/application/shutdown.rs](../BongoCat/crates/bongocat-app/src/application/shutdown.rs)
+- [BongoCat/crates/bongocat-app/src/application/startup.rs](../BongoCat/crates/bongocat-app/src/application/startup.rs)
+- [BongoCat/crates/bongocat-app/src/application/startup_restore.rs](../BongoCat/crates/bongocat-app/src/application/startup_restore.rs)
+- [BongoCat/crates/bongocat-app/src/application/window_state.rs](../BongoCat/crates/bongocat-app/src/application/window_state.rs)
+- [BongoCat/crates/bongocat-app/src/binary_tests/gamepad_observer.rs](../BongoCat/crates/bongocat-app/src/binary_tests/gamepad_observer.rs)
+- [BongoCat/crates/bongocat-app/src/binary_tests/mod.rs](../BongoCat/crates/bongocat-app/src/binary_tests/mod.rs)
+- [BongoCat/crates/bongocat-app/src/binary_tests/overlay_placement.rs](../BongoCat/crates/bongocat-app/src/binary_tests/overlay_placement.rs)
+- [BongoCat/crates/bongocat-app/src/binary_tests/preset_root.rs](../BongoCat/crates/bongocat-app/src/binary_tests/preset_root.rs)
+- [BongoCat/crates/bongocat-app/src/binary_tests/product_options.rs](../BongoCat/crates/bongocat-app/src/binary_tests/product_options.rs)
+- [BongoCat/crates/bongocat-app/src/binary_tests/product_shutdown.rs](../BongoCat/crates/bongocat-app/src/binary_tests/product_shutdown.rs)
+- [BongoCat/crates/bongocat-app/src/binary_tests/smoke_status.rs](../BongoCat/crates/bongocat-app/src/binary_tests/smoke_status.rs)
+- [BongoCat/crates/bongocat-app/src/binary_tests/taskbar_settle.rs](../BongoCat/crates/bongocat-app/src/binary_tests/taskbar_settle.rs)
+- [BongoCat/crates/bongocat-app/src/binary_tests/update_schedule.rs](../BongoCat/crates/bongocat-app/src/binary_tests/update_schedule.rs)
+- [BongoCat/crates/bongocat-app/src/diagnostics_export/mod.rs](../BongoCat/crates/bongocat-app/src/diagnostics_export/mod.rs)
+- [BongoCat/crates/bongocat-app/src/diagnostics_export/preview_bundle.rs](../BongoCat/crates/bongocat-app/src/diagnostics_export/preview_bundle.rs)
+- [BongoCat/crates/bongocat-app/src/settings/tests/lifecycle.rs](../BongoCat/crates/bongocat-app/src/settings/tests/lifecycle.rs)
+- [BongoCat/crates/bongocat-app/src/settings/tests/mod.rs](../BongoCat/crates/bongocat-app/src/settings/tests/mod.rs)
+- [BongoCat/crates/bongocat-app/src/settings/tests/model_import.rs](../BongoCat/crates/bongocat-app/src/settings/tests/model_import.rs)
+- [BongoCat/crates/bongocat-app/src/settings/tests/models.rs](../BongoCat/crates/bongocat-app/src/settings/tests/models.rs)
+- [BongoCat/crates/bongocat-app/src/settings/tests/plugins.rs](../BongoCat/crates/bongocat-app/src/settings/tests/plugins.rs)
+- [BongoCat/crates/bongocat-app/src/settings/tests/projection.rs](../BongoCat/crates/bongocat-app/src/settings/tests/projection.rs)
+- [BongoCat/crates/bongocat-app/src/settings/tests/service.rs](../BongoCat/crates/bongocat-app/src/settings/tests/service.rs)
+- [BongoCat/crates/bongocat-app/src/settings/tests/shortcuts.rs](../BongoCat/crates/bongocat-app/src/settings/tests/shortcuts.rs)
+- [BongoCat/crates/bongocat-app/src/settings/tests/window_state.rs](../BongoCat/crates/bongocat-app/src/settings/tests/window_state.rs)
+- [BongoCat/crates/bongocat-app/src/settings/capabilities.rs](../BongoCat/crates/bongocat-app/src/settings/capabilities.rs)
+- [BongoCat/crates/bongocat-app/src/settings/error_mapping.rs](../BongoCat/crates/bongocat-app/src/settings/error_mapping.rs)
+- [BongoCat/crates/bongocat-app/src/settings/mod.rs](../BongoCat/crates/bongocat-app/src/settings/mod.rs)
+- [BongoCat/crates/bongocat-app/src/settings/model_projection.rs](../BongoCat/crates/bongocat-app/src/settings/model_projection.rs)
+- [BongoCat/crates/bongocat-app/src/settings/projection.rs](../BongoCat/crates/bongocat-app/src/settings/projection.rs)
+- [BongoCat/crates/bongocat-app/src/settings/snapshot.rs](../BongoCat/crates/bongocat-app/src/settings/snapshot.rs)
+- [BongoCat/crates/bongocat-app/src/settings/worker.rs](../BongoCat/crates/bongocat-app/src/settings/worker.rs)
+- [BongoCat/crates/bongocat-app/src/smoke/diagnostics.rs](../BongoCat/crates/bongocat-app/src/smoke/diagnostics.rs)
+- [BongoCat/crates/bongocat-app/src/smoke/mod.rs](../BongoCat/crates/bongocat-app/src/smoke/mod.rs)
+- [BongoCat/crates/bongocat-app/src/smoke/panic.rs](../BongoCat/crates/bongocat-app/src/smoke/panic.rs)
+- [BongoCat/crates/bongocat-app/src/smoke/settings_window.rs](../BongoCat/crates/bongocat-app/src/smoke/settings_window.rs)
+- [BongoCat/crates/bongocat-app/src/smoke/startup_item.rs](../BongoCat/crates/bongocat-app/src/smoke/startup_item.rs)
+- [BongoCat/crates/bongocat-app/src/tests/behavior_names.rs](../BongoCat/crates/bongocat-app/src/tests/behavior_names.rs)
+- [BongoCat/crates/bongocat-app/src/tests/diagnostics.rs](../BongoCat/crates/bongocat-app/src/tests/diagnostics.rs)
+- [BongoCat/crates/bongocat-app/src/tests/expression_memory.rs](../BongoCat/crates/bongocat-app/src/tests/expression_memory.rs)
+- [BongoCat/crates/bongocat-app/src/tests/gamepad.rs](../BongoCat/crates/bongocat-app/src/tests/gamepad.rs)
+- [BongoCat/crates/bongocat-app/src/tests/mod.rs](../BongoCat/crates/bongocat-app/src/tests/mod.rs)
+- [BongoCat/crates/bongocat-app/src/tests/model_catalog.rs](../BongoCat/crates/bongocat-app/src/tests/model_catalog.rs)
+- [BongoCat/crates/bongocat-app/src/tests/model_import.rs](../BongoCat/crates/bongocat-app/src/tests/model_import.rs)
+- [BongoCat/crates/bongocat-app/src/tests/model_input.rs](../BongoCat/crates/bongocat-app/src/tests/model_input.rs)
+- [BongoCat/crates/bongocat-app/src/tests/shortcuts.rs](../BongoCat/crates/bongocat-app/src/tests/shortcuts.rs)
+- [BongoCat/crates/bongocat-app/src/tests/shutdown.rs](../BongoCat/crates/bongocat-app/src/tests/shutdown.rs)
+- [BongoCat/crates/bongocat-app/src/tests/startup.rs](../BongoCat/crates/bongocat-app/src/tests/startup.rs)
+- [BongoCat/crates/bongocat-app/src/update/tests/mod.rs](../BongoCat/crates/bongocat-app/src/update/tests/mod.rs)
+- [BongoCat/crates/bongocat-app/src/update/tests/root.rs](../BongoCat/crates/bongocat-app/src/update/tests/root.rs)
+- [BongoCat/crates/bongocat-app/src/update/tests/translate.rs](../BongoCat/crates/bongocat-app/src/update/tests/translate.rs)
+- [BongoCat/crates/bongocat-app/src/update/tests/worker.rs](../BongoCat/crates/bongocat-app/src/update/tests/worker.rs)
+- [BongoCat/crates/bongocat-app/src/update/engine.rs](../BongoCat/crates/bongocat-app/src/update/engine.rs)
+- [BongoCat/crates/bongocat-app/src/update/mod.rs](../BongoCat/crates/bongocat-app/src/update/mod.rs)
+- [BongoCat/crates/bongocat-app/src/update/translate.rs](../BongoCat/crates/bongocat-app/src/update/translate.rs)
+- [BongoCat/crates/bongocat-app/src/update/worker.rs](../BongoCat/crates/bongocat-app/src/update/worker.rs)
+- [BongoCat/crates/bongocat-app/src/config_projection.rs](../BongoCat/crates/bongocat-app/src/config_projection.rs)
+- [BongoCat/crates/bongocat-app/src/dev_plugins.rs](../BongoCat/crates/bongocat-app/src/dev_plugins.rs)
+- [BongoCat/crates/bongocat-app/src/gamepad_observer.rs](../BongoCat/crates/bongocat-app/src/gamepad_observer.rs)
+- [BongoCat/crates/bongocat-app/src/import_progress.rs](../BongoCat/crates/bongocat-app/src/import_progress.rs)
+- [BongoCat/crates/bongocat-app/src/lib.rs](../BongoCat/crates/bongocat-app/src/lib.rs)
+- [BongoCat/crates/bongocat-app/src/main.rs](../BongoCat/crates/bongocat-app/src/main.rs)
+- [BongoCat/crates/bongocat-app/src/model_cover.rs](../BongoCat/crates/bongocat-app/src/model_cover.rs)
+- [BongoCat/crates/bongocat-app/src/model_identity.rs](../BongoCat/crates/bongocat-app/src/model_identity.rs)
+- [BongoCat/crates/bongocat-app/src/model_input.rs](../BongoCat/crates/bongocat-app/src/model_input.rs)
+- [BongoCat/crates/bongocat-app/src/model_listing.rs](../BongoCat/crates/bongocat-app/src/model_listing.rs)
+- [BongoCat/crates/bongocat-app/src/model_titles.rs](../BongoCat/crates/bongocat-app/src/model_titles.rs)
+- [BongoCat/crates/bongocat-app/src/overlay_placement.rs](../BongoCat/crates/bongocat-app/src/overlay_placement.rs)
+- [BongoCat/crates/bongocat-app/src/plugin_input.rs](../BongoCat/crates/bongocat-app/src/plugin_input.rs)
+- [BongoCat/crates/bongocat-app/src/preset_root.rs](../BongoCat/crates/bongocat-app/src/preset_root.rs)
+- [BongoCat/crates/bongocat-app/src/product_icon_contract.rs](../BongoCat/crates/bongocat-app/src/product_icon_contract.rs)
+- [BongoCat/crates/bongocat-app/src/product_icons.rs](../BongoCat/crates/bongocat-app/src/product_icons.rs)
+- [BongoCat/crates/bongocat-app/src/product_options.rs](../BongoCat/crates/bongocat-app/src/product_options.rs)
+- [BongoCat/crates/bongocat-app/src/product_shutdown.rs](../BongoCat/crates/bongocat-app/src/product_shutdown.rs)
+- [BongoCat/crates/bongocat-app/src/product_windows.rs](../BongoCat/crates/bongocat-app/src/product_windows.rs)
+- [BongoCat/crates/bongocat-app/src/shortcut_config.rs](../BongoCat/crates/bongocat-app/src/shortcut_config.rs)
+- [BongoCat/crates/bongocat-app/src/shortcuts.rs](../BongoCat/crates/bongocat-app/src/shortcuts.rs)
+- [BongoCat/crates/bongocat-app/src/smoke_status.rs](../BongoCat/crates/bongocat-app/src/smoke_status.rs)
+- [BongoCat/crates/bongocat-app/src/startup_permission.rs](../BongoCat/crates/bongocat-app/src/startup_permission.rs)
+- [BongoCat/crates/bongocat-app/src/system_menu.rs](../BongoCat/crates/bongocat-app/src/system_menu.rs)
+- [BongoCat/crates/bongocat-app/src/taskbar_settle.rs](../BongoCat/crates/bongocat-app/src/taskbar_settle.rs)
+- [BongoCat/crates/bongocat-app/src/update_schedule.rs](../BongoCat/crates/bongocat-app/src/update_schedule.rs)
+- [BongoCat/crates/bongocat-app/windows/bongocat-app.rc](../BongoCat/crates/bongocat-app/windows/bongocat-app.rc)
+- [BongoCat/crates/bongocat-app/build.rs](../BongoCat/crates/bongocat-app/build.rs)
+- [BongoCat/crates/bongocat-app/Cargo.toml](../BongoCat/crates/bongocat-app/Cargo.toml)
+- [BongoCat/crates/bongocat-audio/src/tests/backend.rs](../BongoCat/crates/bongocat-audio/src/tests/backend.rs)
+- [BongoCat/crates/bongocat-audio/src/tests/client.rs](../BongoCat/crates/bongocat-audio/src/tests/client.rs)
+- [BongoCat/crates/bongocat-audio/src/tests/command.rs](../BongoCat/crates/bongocat-audio/src/tests/command.rs)
+- [BongoCat/crates/bongocat-audio/src/tests/mod.rs](../BongoCat/crates/bongocat-audio/src/tests/mod.rs)
+- [BongoCat/crates/bongocat-audio/src/tests/service.rs](../BongoCat/crates/bongocat-audio/src/tests/service.rs)
+- [BongoCat/crates/bongocat-audio/src/tests/volume.rs](../BongoCat/crates/bongocat-audio/src/tests/volume.rs)
+- [BongoCat/crates/bongocat-audio/src/tests/worker.rs](../BongoCat/crates/bongocat-audio/src/tests/worker.rs)
+- [BongoCat/crates/bongocat-audio/src/backend.rs](../BongoCat/crates/bongocat-audio/src/backend.rs)
+- [BongoCat/crates/bongocat-audio/src/client.rs](../BongoCat/crates/bongocat-audio/src/client.rs)
+- [BongoCat/crates/bongocat-audio/src/command.rs](../BongoCat/crates/bongocat-audio/src/command.rs)
+- [BongoCat/crates/bongocat-audio/src/diagnostics.rs](../BongoCat/crates/bongocat-audio/src/diagnostics.rs)
+- [BongoCat/crates/bongocat-audio/src/error.rs](../BongoCat/crates/bongocat-audio/src/error.rs)
+- [BongoCat/crates/bongocat-audio/src/lib.rs](../BongoCat/crates/bongocat-audio/src/lib.rs)
+- [BongoCat/crates/bongocat-audio/src/service.rs](../BongoCat/crates/bongocat-audio/src/service.rs)
+- [BongoCat/crates/bongocat-audio/src/state.rs](../BongoCat/crates/bongocat-audio/src/state.rs)
+- [BongoCat/crates/bongocat-audio/src/volume.rs](../BongoCat/crates/bongocat-audio/src/volume.rs)
+- [BongoCat/crates/bongocat-audio/src/worker.rs](../BongoCat/crates/bongocat-audio/src/worker.rs)
+- [BongoCat/crates/bongocat-audio/Cargo.toml](../BongoCat/crates/bongocat-audio/Cargo.toml)
+- [BongoCat/crates/bongocat-config/src/bin/generate_json_schemas.rs](../BongoCat/crates/bongocat-config/src/bin/generate_json_schemas.rs)
+- [BongoCat/crates/bongocat-config/src/config_schema/appearance.rs](../BongoCat/crates/bongocat-config/src/config_schema/appearance.rs)
+- [BongoCat/crates/bongocat-config/src/config_schema/input.rs](../BongoCat/crates/bongocat-config/src/config_schema/input.rs)
+- [BongoCat/crates/bongocat-config/src/config_schema/logging.rs](../BongoCat/crates/bongocat-config/src/config_schema/logging.rs)
+- [BongoCat/crates/bongocat-config/src/config_schema/mod.rs](../BongoCat/crates/bongocat-config/src/config_schema/mod.rs)
+- [BongoCat/crates/bongocat-config/src/config_schema/model.rs](../BongoCat/crates/bongocat-config/src/config_schema/model.rs)
+- [BongoCat/crates/bongocat-config/src/config_schema/overlay.rs](../BongoCat/crates/bongocat-config/src/config_schema/overlay.rs)
+- [BongoCat/crates/bongocat-config/src/config_schema/system.rs](../BongoCat/crates/bongocat-config/src/config_schema/system.rs)
+- [BongoCat/crates/bongocat-config/src/config_schema/updates.rs](../BongoCat/crates/bongocat-config/src/config_schema/updates.rs)
+- [BongoCat/crates/bongocat-config/src/shortcuts/chord.rs](../BongoCat/crates/bongocat-config/src/shortcuts/chord.rs)
+- [BongoCat/crates/bongocat-config/src/shortcuts/command.rs](../BongoCat/crates/bongocat-config/src/shortcuts/command.rs)
+- [BongoCat/crates/bongocat-config/src/shortcuts/compiled.rs](../BongoCat/crates/bongocat-config/src/shortcuts/compiled.rs)
+- [BongoCat/crates/bongocat-config/src/shortcuts/config.rs](../BongoCat/crates/bongocat-config/src/shortcuts/config.rs)
+- [BongoCat/crates/bongocat-config/src/shortcuts/mod.rs](../BongoCat/crates/bongocat-config/src/shortcuts/mod.rs)
+- [BongoCat/crates/bongocat-config/src/tests/mod.rs](../BongoCat/crates/bongocat-config/src/tests/mod.rs)
+- [BongoCat/crates/bongocat-config/src/tests/recovery.rs](../BongoCat/crates/bongocat-config/src/tests/recovery.rs)
+- [BongoCat/crates/bongocat-config/src/tests/shortcuts.rs](../BongoCat/crates/bongocat-config/src/tests/shortcuts.rs)
+- [BongoCat/crates/bongocat-config/src/tests/store.rs](../BongoCat/crates/bongocat-config/src/tests/store.rs)
+- [BongoCat/crates/bongocat-config/src/tests/validation.rs](../BongoCat/crates/bongocat-config/src/tests/validation.rs)
+- [BongoCat/crates/bongocat-config/src/atomic.rs](../BongoCat/crates/bongocat-config/src/atomic.rs)
+- [BongoCat/crates/bongocat-config/src/lib.rs](../BongoCat/crates/bongocat-config/src/lib.rs)
+- [BongoCat/crates/bongocat-config/src/schema.rs](../BongoCat/crates/bongocat-config/src/schema.rs)
+- [BongoCat/crates/bongocat-config/src/storage.rs](../BongoCat/crates/bongocat-config/src/storage.rs)
+- [BongoCat/crates/bongocat-config/src/store.rs](../BongoCat/crates/bongocat-config/src/store.rs)
+- [BongoCat/crates/bongocat-config/src/window_state.rs](../BongoCat/crates/bongocat-config/src/window_state.rs)
+- [BongoCat/crates/bongocat-config/Cargo.toml](../BongoCat/crates/bongocat-config/Cargo.toml)
+- [BongoCat/crates/bongocat-i18n/locales/ar-SA.json](../BongoCat/crates/bongocat-i18n/locales/ar-SA.json)
+- [BongoCat/crates/bongocat-i18n/locales/en-US.json](../BongoCat/crates/bongocat-i18n/locales/en-US.json)
+- [BongoCat/crates/bongocat-i18n/locales/fr-FR.json](../BongoCat/crates/bongocat-i18n/locales/fr-FR.json)
+- [BongoCat/crates/bongocat-i18n/locales/ko-KR.json](../BongoCat/crates/bongocat-i18n/locales/ko-KR.json)
+- [BongoCat/crates/bongocat-i18n/locales/pt-BR.json](../BongoCat/crates/bongocat-i18n/locales/pt-BR.json)
+- [BongoCat/crates/bongocat-i18n/locales/vi-VN.json](../BongoCat/crates/bongocat-i18n/locales/vi-VN.json)
+- [BongoCat/crates/bongocat-i18n/locales/zh-CN.json](../BongoCat/crates/bongocat-i18n/locales/zh-CN.json)
+- [BongoCat/crates/bongocat-i18n/locales/zh-TW.json](../BongoCat/crates/bongocat-i18n/locales/zh-TW.json)
+- [BongoCat/crates/bongocat-i18n/src/tests/catalog.rs](../BongoCat/crates/bongocat-i18n/src/tests/catalog.rs)
+- [BongoCat/crates/bongocat-i18n/src/tests/coverage.rs](../BongoCat/crates/bongocat-i18n/src/tests/coverage.rs)
+- [BongoCat/crates/bongocat-i18n/src/tests/format.rs](../BongoCat/crates/bongocat-i18n/src/tests/format.rs)
+- [BongoCat/crates/bongocat-i18n/src/tests/mod.rs](../BongoCat/crates/bongocat-i18n/src/tests/mod.rs)
+- [BongoCat/crates/bongocat-i18n/src/tests/platform.rs](../BongoCat/crates/bongocat-i18n/src/tests/platform.rs)
+- [BongoCat/crates/bongocat-i18n/src/lib.rs](../BongoCat/crates/bongocat-i18n/src/lib.rs)
+- [BongoCat/crates/bongocat-i18n/build.rs](../BongoCat/crates/bongocat-i18n/build.rs)
+- [BongoCat/crates/bongocat-i18n/Cargo.toml](../BongoCat/crates/bongocat-i18n/Cargo.toml)
+- [BongoCat/crates/bongocat-input/src/cursor.rs](../BongoCat/crates/bongocat-input/src/cursor.rs)
+- [BongoCat/crates/bongocat-input/src/gamepad.rs](../BongoCat/crates/bongocat-input/src/gamepad.rs)
+- [BongoCat/crates/bongocat-input/src/input.rs](../BongoCat/crates/bongocat-input/src/input.rs)
+- [BongoCat/crates/bongocat-input/src/lib.rs](../BongoCat/crates/bongocat-input/src/lib.rs)
+- [BongoCat/crates/bongocat-input/src/platform_input.rs](../BongoCat/crates/bongocat-input/src/platform_input.rs)
+- [BongoCat/crates/bongocat-input/Cargo.toml](../BongoCat/crates/bongocat-input/Cargo.toml)
+- [BongoCat/crates/bongocat-live2d/src/core/tests/drawable.rs](../BongoCat/crates/bongocat-live2d/src/core/tests/drawable.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/tests/load.rs](../BongoCat/crates/bongocat-live2d/src/core/tests/load.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/tests/mod.rs](../BongoCat/crates/bongocat-live2d/src/core/tests/mod.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/tests/parameter.rs](../BongoCat/crates/bongocat-live2d/src/core/tests/parameter.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/canvas.rs](../BongoCat/crates/bongocat-live2d/src/core/canvas.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/count.rs](../BongoCat/crates/bongocat-live2d/src/core/count.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/drawable.rs](../BongoCat/crates/bongocat-live2d/src/core/drawable.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/length.rs](../BongoCat/crates/bongocat-live2d/src/core/length.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/load.rs](../BongoCat/crates/bongocat-live2d/src/core/load.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/memory.rs](../BongoCat/crates/bongocat-live2d/src/core/memory.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/mod.rs](../BongoCat/crates/bongocat-live2d/src/core/mod.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/parameter.rs](../BongoCat/crates/bongocat-live2d/src/core/parameter.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/resolved.rs](../BongoCat/crates/bongocat-live2d/src/core/resolved.rs)
+- [BongoCat/crates/bongocat-live2d/src/core/snapshot.rs](../BongoCat/crates/bongocat-live2d/src/core/snapshot.rs)
+- [BongoCat/crates/bongocat-live2d/src/core_log/handle.rs](../BongoCat/crates/bongocat-live2d/src/core_log/handle.rs)
+- [BongoCat/crates/bongocat-live2d/src/core_log/mod.rs](../BongoCat/crates/bongocat-live2d/src/core_log/mod.rs)
+- [BongoCat/crates/bongocat-live2d/src/core_log/sanitize.rs](../BongoCat/crates/bongocat-live2d/src/core_log/sanitize.rs)
+- [BongoCat/crates/bongocat-live2d/src/core_log/sink.rs](../BongoCat/crates/bongocat-live2d/src/core_log/sink.rs)
+- [BongoCat/crates/bongocat-live2d/src/core_log/tests.rs](../BongoCat/crates/bongocat-live2d/src/core_log/tests.rs)
+- [BongoCat/crates/bongocat-live2d/src/sys/macos.rs](../BongoCat/crates/bongocat-live2d/src/sys/macos.rs)
+- [BongoCat/crates/bongocat-live2d/src/sys/mod.rs](../BongoCat/crates/bongocat-live2d/src/sys/mod.rs)
+- [BongoCat/crates/bongocat-live2d/src/sys/windows.rs](../BongoCat/crates/bongocat-live2d/src/sys/windows.rs)
+- [BongoCat/crates/bongocat-live2d/src/tests/automatic.rs](../BongoCat/crates/bongocat-live2d/src/tests/automatic.rs)
+- [BongoCat/crates/bongocat-live2d/src/tests/error.rs](../BongoCat/crates/bongocat-live2d/src/tests/error.rs)
+- [BongoCat/crates/bongocat-live2d/src/tests/mod.rs](../BongoCat/crates/bongocat-live2d/src/tests/mod.rs)
+- [BongoCat/crates/bongocat-live2d/src/tests/model.rs](../BongoCat/crates/bongocat-live2d/src/tests/model.rs)
+- [BongoCat/crates/bongocat-live2d/src/tests/parameter.rs](../BongoCat/crates/bongocat-live2d/src/tests/parameter.rs)
+- [BongoCat/crates/bongocat-live2d/src/tests/version.rs](../BongoCat/crates/bongocat-live2d/src/tests/version.rs)
+- [BongoCat/crates/bongocat-live2d/src/tests/vocabulary.rs](../BongoCat/crates/bongocat-live2d/src/tests/vocabulary.rs)
+- [BongoCat/crates/bongocat-live2d/src/automatic.rs](../BongoCat/crates/bongocat-live2d/src/automatic.rs)
+- [BongoCat/crates/bongocat-live2d/src/error.rs](../BongoCat/crates/bongocat-live2d/src/error.rs)
+- [BongoCat/crates/bongocat-live2d/src/lib.rs](../BongoCat/crates/bongocat-live2d/src/lib.rs)
+- [BongoCat/crates/bongocat-live2d/src/load.rs](../BongoCat/crates/bongocat-live2d/src/load.rs)
+- [BongoCat/crates/bongocat-live2d/src/parameter.rs](../BongoCat/crates/bongocat-live2d/src/parameter.rs)
+- [BongoCat/crates/bongocat-live2d/src/physics.rs](../BongoCat/crates/bongocat-live2d/src/physics.rs)
+- [BongoCat/crates/bongocat-live2d/src/status.rs](../BongoCat/crates/bongocat-live2d/src/status.rs)
+- [BongoCat/crates/bongocat-live2d/build.rs](../BongoCat/crates/bongocat-live2d/build.rs)
+- [BongoCat/crates/bongocat-live2d/Cargo.toml](../BongoCat/crates/bongocat-live2d/Cargo.toml)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/tests/clip.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/tests/clip.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/tests/event.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/tests/event.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/tests/mod.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/tests/mod.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/tests/raw.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/tests/raw.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/clip.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/clip.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/event.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/event.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/mod.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/mod.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/parse_clip.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/parse_clip.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/raw.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/raw.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/sample.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/sample.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/segment.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/segment.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/validate.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/validate.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/motion/weight.rs](../BongoCat/crates/bongocat-live2d-playback/src/motion/weight.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/error.rs](../BongoCat/crates/bongocat-live2d-playback/src/error.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/expression.rs](../BongoCat/crates/bongocat-live2d-playback/src/expression.rs)
+- [BongoCat/crates/bongocat-live2d-playback/src/lib.rs](../BongoCat/crates/bongocat-live2d-playback/src/lib.rs)
+- [BongoCat/crates/bongocat-live2d-playback/Cargo.toml](../BongoCat/crates/bongocat-live2d-playback/Cargo.toml)
+- [BongoCat/crates/bongocat-live2d-render/src/lib.rs](../BongoCat/crates/bongocat-live2d-render/src/lib.rs)
+- [BongoCat/crates/bongocat-live2d-render/Cargo.toml](../BongoCat/crates/bongocat-live2d-render/Cargo.toml)
+- [BongoCat/crates/bongocat-log/src/tests/clock.rs](../BongoCat/crates/bongocat-log/src/tests/clock.rs)
+- [BongoCat/crates/bongocat-log/src/tests/level.rs](../BongoCat/crates/bongocat-log/src/tests/level.rs)
+- [BongoCat/crates/bongocat-log/src/tests/mod.rs](../BongoCat/crates/bongocat-log/src/tests/mod.rs)
+- [BongoCat/crates/bongocat-log/src/tests/parse.rs](../BongoCat/crates/bongocat-log/src/tests/parse.rs)
+- [BongoCat/crates/bongocat-log/src/tests/privacy.rs](../BongoCat/crates/bongocat-log/src/tests/privacy.rs)
+- [BongoCat/crates/bongocat-log/src/tests/record.rs](../BongoCat/crates/bongocat-log/src/tests/record.rs)
+- [BongoCat/crates/bongocat-log/src/tests/retention.rs](../BongoCat/crates/bongocat-log/src/tests/retention.rs)
+- [BongoCat/crates/bongocat-log/src/tests/writer.rs](../BongoCat/crates/bongocat-log/src/tests/writer.rs)
+- [BongoCat/crates/bongocat-log/src/clock.rs](../BongoCat/crates/bongocat-log/src/clock.rs)
+- [BongoCat/crates/bongocat-log/src/level.rs](../BongoCat/crates/bongocat-log/src/level.rs)
+- [BongoCat/crates/bongocat-log/src/lib.rs](../BongoCat/crates/bongocat-log/src/lib.rs)
+- [BongoCat/crates/bongocat-log/src/parse.rs](../BongoCat/crates/bongocat-log/src/parse.rs)
+- [BongoCat/crates/bongocat-log/src/record.rs](../BongoCat/crates/bongocat-log/src/record.rs)
+- [BongoCat/crates/bongocat-log/src/retention.rs](../BongoCat/crates/bongocat-log/src/retention.rs)
+- [BongoCat/crates/bongocat-log/src/rotation.rs](../BongoCat/crates/bongocat-log/src/rotation.rs)
+- [BongoCat/crates/bongocat-log/src/sanitize.rs](../BongoCat/crates/bongocat-log/src/sanitize.rs)
+- [BongoCat/crates/bongocat-log/src/settings.rs](../BongoCat/crates/bongocat-log/src/settings.rs)
+- [BongoCat/crates/bongocat-log/src/writer.rs](../BongoCat/crates/bongocat-log/src/writer.rs)
+- [BongoCat/crates/bongocat-log/Cargo.toml](../BongoCat/crates/bongocat-log/Cargo.toml)
+- [BongoCat/crates/bongocat-model/src/tests/catalog.rs](../BongoCat/crates/bongocat-model/src/tests/catalog.rs)
+- [BongoCat/crates/bongocat-model/src/tests/formats.rs](../BongoCat/crates/bongocat-model/src/tests/formats.rs)
+- [BongoCat/crates/bongocat-model/src/tests/json.rs](../BongoCat/crates/bongocat-model/src/tests/json.rs)
+- [BongoCat/crates/bongocat-model/src/tests/limits.rs](../BongoCat/crates/bongocat-model/src/tests/limits.rs)
+- [BongoCat/crates/bongocat-model/src/tests/mod.rs](../BongoCat/crates/bongocat-model/src/tests/mod.rs)
+- [BongoCat/crates/bongocat-model/src/tests/package.rs](../BongoCat/crates/bongocat-model/src/tests/package.rs)
+- [BongoCat/crates/bongocat-model/src/tests/reference.rs](../BongoCat/crates/bongocat-model/src/tests/reference.rs)
+- [BongoCat/crates/bongocat-model/src/tests/snapshot.rs](../BongoCat/crates/bongocat-model/src/tests/snapshot.rs)
+- [BongoCat/crates/bongocat-model/src/tests/validate.rs](../BongoCat/crates/bongocat-model/src/tests/validate.rs)
+- [BongoCat/crates/bongocat-model/src/catalog.rs](../BongoCat/crates/bongocat-model/src/catalog.rs)
+- [BongoCat/crates/bongocat-model/src/error.rs](../BongoCat/crates/bongocat-model/src/error.rs)
+- [BongoCat/crates/bongocat-model/src/formats.rs](../BongoCat/crates/bongocat-model/src/formats.rs)
+- [BongoCat/crates/bongocat-model/src/json.rs](../BongoCat/crates/bongocat-model/src/json.rs)
+- [BongoCat/crates/bongocat-model/src/lib.rs](../BongoCat/crates/bongocat-model/src/lib.rs)
+- [BongoCat/crates/bongocat-model/src/limits.rs](../BongoCat/crates/bongocat-model/src/limits.rs)
+- [BongoCat/crates/bongocat-model/src/package.rs](../BongoCat/crates/bongocat-model/src/package.rs)
+- [BongoCat/crates/bongocat-model/src/raw.rs](../BongoCat/crates/bongocat-model/src/raw.rs)
+- [BongoCat/crates/bongocat-model/src/reference.rs](../BongoCat/crates/bongocat-model/src/reference.rs)
+- [BongoCat/crates/bongocat-model/src/schema.rs](../BongoCat/crates/bongocat-model/src/schema.rs)
+- [BongoCat/crates/bongocat-model/src/snapshot.rs](../BongoCat/crates/bongocat-model/src/snapshot.rs)
+- [BongoCat/crates/bongocat-model/src/validate.rs](../BongoCat/crates/bongocat-model/src/validate.rs)
+- [BongoCat/crates/bongocat-model/Cargo.toml](../BongoCat/crates/bongocat-model/Cargo.toml)
+- [BongoCat/crates/bongocat-model-store/examples/model_conversion_smoke.rs](../BongoCat/crates/bongocat-model-store/examples/model_conversion_smoke.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/tests/compose.rs](../BongoCat/crates/bongocat-model-store/src/mver/tests/compose.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/tests/config.rs](../BongoCat/crates/bongocat-model-store/src/mver/tests/config.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/tests/convert.rs](../BongoCat/crates/bongocat-model-store/src/mver/tests/convert.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/tests/inspect.rs](../BongoCat/crates/bongocat-model-store/src/mver/tests/inspect.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/tests/mod.rs](../BongoCat/crates/bongocat-model-store/src/mver/tests/mod.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/tests/plan.rs](../BongoCat/crates/bongocat-model-store/src/mver/tests/plan.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/tests/source.rs](../BongoCat/crates/bongocat-model-store/src/mver/tests/source.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/tests/vocabulary.rs](../BongoCat/crates/bongocat-model-store/src/mver/tests/vocabulary.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/compose.rs](../BongoCat/crates/bongocat-model-store/src/mver/compose.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/config.rs](../BongoCat/crates/bongocat-model-store/src/mver/config.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/convert.rs](../BongoCat/crates/bongocat-model-store/src/mver/convert.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/error.rs](../BongoCat/crates/bongocat-model-store/src/mver/error.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/fixture.rs](../BongoCat/crates/bongocat-model-store/src/mver/fixture.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/inspect.rs](../BongoCat/crates/bongocat-model-store/src/mver/inspect.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/layout.rs](../BongoCat/crates/bongocat-model-store/src/mver/layout.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/mod.rs](../BongoCat/crates/bongocat-model-store/src/mver/mod.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/plan.rs](../BongoCat/crates/bongocat-model-store/src/mver/plan.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/source.rs](../BongoCat/crates/bongocat-model-store/src/mver/source.rs)
+- [BongoCat/crates/bongocat-model-store/src/mver/vocabulary.rs](../BongoCat/crates/bongocat-model-store/src/mver/vocabulary.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/tests/catalog.rs](../BongoCat/crates/bongocat-model-store/src/store/tests/catalog.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/tests/copy.rs](../BongoCat/crates/bongocat-model-store/src/store/tests/copy.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/tests/diagnostic.rs](../BongoCat/crates/bongocat-model-store/src/store/tests/diagnostic.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/tests/discovery.rs](../BongoCat/crates/bongocat-model-store/src/store/tests/discovery.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/tests/input_mode.rs](../BongoCat/crates/bongocat-model-store/src/store/tests/input_mode.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/tests/mod.rs](../BongoCat/crates/bongocat-model-store/src/store/tests/mod.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/tests/progress.rs](../BongoCat/crates/bongocat-model-store/src/store/tests/progress.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/tests/root.rs](../BongoCat/crates/bongocat-model-store/src/store/tests/root.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/tests/staging.rs](../BongoCat/crates/bongocat-model-store/src/store/tests/staging.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/catalog.rs](../BongoCat/crates/bongocat-model-store/src/store/catalog.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/copy.rs](../BongoCat/crates/bongocat-model-store/src/store/copy.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/diagnostic.rs](../BongoCat/crates/bongocat-model-store/src/store/diagnostic.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/discovery.rs](../BongoCat/crates/bongocat-model-store/src/store/discovery.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/input_mode.rs](../BongoCat/crates/bongocat-model-store/src/store/input_mode.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/mod.rs](../BongoCat/crates/bongocat-model-store/src/store/mod.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/progress.rs](../BongoCat/crates/bongocat-model-store/src/store/progress.rs)
+- [BongoCat/crates/bongocat-model-store/src/store/staging.rs](../BongoCat/crates/bongocat-model-store/src/store/staging.rs)
+- [BongoCat/crates/bongocat-model-store/src/fixture_contract.rs](../BongoCat/crates/bongocat-model-store/src/fixture_contract.rs)
+- [BongoCat/crates/bongocat-model-store/src/key_names.rs](../BongoCat/crates/bongocat-model-store/src/key_names.rs)
+- [BongoCat/crates/bongocat-model-store/src/lib.rs](../BongoCat/crates/bongocat-model-store/src/lib.rs)
+- [BongoCat/crates/bongocat-model-store/src/preset_covers.rs](../BongoCat/crates/bongocat-model-store/src/preset_covers.rs)
+- [BongoCat/crates/bongocat-model-store/Cargo.toml](../BongoCat/crates/bongocat-model-store/Cargo.toml)
+- [BongoCat/crates/bongocat-overlay/src/macos/tests/geometry.rs](../BongoCat/crates/bongocat-overlay/src/macos/tests/geometry.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/tests/mod.rs](../BongoCat/crates/bongocat-overlay/src/macos/tests/mod.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/tests/renderer.rs](../BongoCat/crates/bongocat-overlay/src/macos/tests/renderer.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/tests/session.rs](../BongoCat/crates/bongocat-overlay/src/macos/tests/session.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/tests/textures.rs](../BongoCat/crates/bongocat-overlay/src/macos/tests/textures.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/cover_capture.rs](../BongoCat/crates/bongocat-overlay/src/macos/cover_capture.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/geometry.rs](../BongoCat/crates/bongocat-overlay/src/macos/geometry.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/mod.rs](../BongoCat/crates/bongocat-overlay/src/macos/mod.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/pipelines.rs](../BongoCat/crates/bongocat-overlay/src/macos/pipelines.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/renderer.rs](../BongoCat/crates/bongocat-overlay/src/macos/renderer.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/resize_monitor.rs](../BongoCat/crates/bongocat-overlay/src/macos/resize_monitor.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/session.rs](../BongoCat/crates/bongocat-overlay/src/macos/session.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/switch_preview.rs](../BongoCat/crates/bongocat-overlay/src/macos/switch_preview.rs)
+- [BongoCat/crates/bongocat-overlay/src/macos/textures.rs](../BongoCat/crates/bongocat-overlay/src/macos/textures.rs)
+- [BongoCat/crates/bongocat-overlay/src/tests/blend.rs](../BongoCat/crates/bongocat-overlay/src/tests/blend.rs)
+- [BongoCat/crates/bongocat-overlay/src/tests/bounds.rs](../BongoCat/crates/bongocat-overlay/src/tests/bounds.rs)
+- [BongoCat/crates/bongocat-overlay/src/tests/dimensions.rs](../BongoCat/crates/bongocat-overlay/src/tests/dimensions.rs)
+- [BongoCat/crates/bongocat-overlay/src/tests/frame.rs](../BongoCat/crates/bongocat-overlay/src/tests/frame.rs)
+- [BongoCat/crates/bongocat-overlay/src/tests/mod.rs](../BongoCat/crates/bongocat-overlay/src/tests/mod.rs)
+- [BongoCat/crates/bongocat-overlay/src/tests/preview.rs](../BongoCat/crates/bongocat-overlay/src/tests/preview.rs)
+- [BongoCat/crates/bongocat-overlay/src/tests/product_session.rs](../BongoCat/crates/bongocat-overlay/src/tests/product_session.rs)
+- [BongoCat/crates/bongocat-overlay/src/tests/report.rs](../BongoCat/crates/bongocat-overlay/src/tests/report.rs)
+- [BongoCat/crates/bongocat-overlay/src/tests/timing.rs](../BongoCat/crates/bongocat-overlay/src/tests/timing.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/tests/geometry.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/geometry.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/tests/mod.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/mod.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/tests/pipelines.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/pipelines.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/tests/renderer.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/renderer.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/tests/session.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/session.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/tests/stickman.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/stickman.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/tests/textures.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/textures.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/tests/thread_settle.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/thread_settle.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/tests/window.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/window.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/tests/window_mode.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/window_mode.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/tests/window_proc.rs](../BongoCat/crates/bongocat-overlay/src/windows/tests/window_proc.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/cover_capture.rs](../BongoCat/crates/bongocat-overlay/src/windows/cover_capture.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/geometry.rs](../BongoCat/crates/bongocat-overlay/src/windows/geometry.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/mod.rs](../BongoCat/crates/bongocat-overlay/src/windows/mod.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/pipelines.rs](../BongoCat/crates/bongocat-overlay/src/windows/pipelines.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/renderer.rs](../BongoCat/crates/bongocat-overlay/src/windows/renderer.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/session.rs](../BongoCat/crates/bongocat-overlay/src/windows/session.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/switch_preview.rs](../BongoCat/crates/bongocat-overlay/src/windows/switch_preview.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/textures.rs](../BongoCat/crates/bongocat-overlay/src/windows/textures.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/thread_settle.rs](../BongoCat/crates/bongocat-overlay/src/windows/thread_settle.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/window.rs](../BongoCat/crates/bongocat-overlay/src/windows/window.rs)
+- [BongoCat/crates/bongocat-overlay/src/windows/window_proc.rs](../BongoCat/crates/bongocat-overlay/src/windows/window_proc.rs)
+- [BongoCat/crates/bongocat-overlay/src/blend.rs](../BongoCat/crates/bongocat-overlay/src/blend.rs)
+- [BongoCat/crates/bongocat-overlay/src/bounds.rs](../BongoCat/crates/bongocat-overlay/src/bounds.rs)
+- [BongoCat/crates/bongocat-overlay/src/cover.rs](../BongoCat/crates/bongocat-overlay/src/cover.rs)
+- [BongoCat/crates/bongocat-overlay/src/dimensions.rs](../BongoCat/crates/bongocat-overlay/src/dimensions.rs)
+- [BongoCat/crates/bongocat-overlay/src/error.rs](../BongoCat/crates/bongocat-overlay/src/error.rs)
+- [BongoCat/crates/bongocat-overlay/src/frame.rs](../BongoCat/crates/bongocat-overlay/src/frame.rs)
+- [BongoCat/crates/bongocat-overlay/src/hover.rs](../BongoCat/crates/bongocat-overlay/src/hover.rs)
+- [BongoCat/crates/bongocat-overlay/src/idle.rs](../BongoCat/crates/bongocat-overlay/src/idle.rs)
+- [BongoCat/crates/bongocat-overlay/src/lib.rs](../BongoCat/crates/bongocat-overlay/src/lib.rs)
+- [BongoCat/crates/bongocat-overlay/src/main.rs](../BongoCat/crates/bongocat-overlay/src/main.rs)
+- [BongoCat/crates/bongocat-overlay/src/placement.rs](../BongoCat/crates/bongocat-overlay/src/placement.rs)
+- [BongoCat/crates/bongocat-overlay/src/plugin_layer.rs](../BongoCat/crates/bongocat-overlay/src/plugin_layer.rs)
+- [BongoCat/crates/bongocat-overlay/src/presentation.rs](../BongoCat/crates/bongocat-overlay/src/presentation.rs)
+- [BongoCat/crates/bongocat-overlay/src/preview.rs](../BongoCat/crates/bongocat-overlay/src/preview.rs)
+- [BongoCat/crates/bongocat-overlay/src/product_session.rs](../BongoCat/crates/bongocat-overlay/src/product_session.rs)
+- [BongoCat/crates/bongocat-overlay/src/report.rs](../BongoCat/crates/bongocat-overlay/src/report.rs)
+- [BongoCat/crates/bongocat-overlay/src/resize_drag.rs](../BongoCat/crates/bongocat-overlay/src/resize_drag.rs)
+- [BongoCat/crates/bongocat-overlay/src/timing.rs](../BongoCat/crates/bongocat-overlay/src/timing.rs)
+- [BongoCat/crates/bongocat-overlay/build.rs](../BongoCat/crates/bongocat-overlay/build.rs)
+- [BongoCat/crates/bongocat-overlay/Cargo.toml](../BongoCat/crates/bongocat-overlay/Cargo.toml)
+- [BongoCat/crates/bongocat-packaging/installer/Vietnamese.nsh](../BongoCat/crates/bongocat-packaging/installer/Vietnamese.nsh)
+- [BongoCat/crates/bongocat-packaging/src/finder_store.rs](../BongoCat/crates/bongocat-packaging/src/finder_store.rs)
+- [BongoCat/crates/bongocat-packaging/src/main.rs](../BongoCat/crates/bongocat-packaging/src/main.rs)
+- [BongoCat/crates/bongocat-packaging/Cargo.toml](../BongoCat/crates/bongocat-packaging/Cargo.toml)
+- [BongoCat/crates/bongocat-platform/examples/gilrs_gamepad_smoke.rs](../BongoCat/crates/bongocat-platform/examples/gilrs_gamepad_smoke.rs)
+- [BongoCat/crates/bongocat-platform/examples/model_source_picker_smoke.rs](../BongoCat/crates/bongocat-platform/examples/model_source_picker_smoke.rs)
+- [BongoCat/crates/bongocat-platform/src/shortcut/global/tests/hotkey.rs](../BongoCat/crates/bongocat-platform/src/shortcut/global/tests/hotkey.rs)
+- [BongoCat/crates/bongocat-platform/src/shortcut/global/tests/mod.rs](../BongoCat/crates/bongocat-platform/src/shortcut/global/tests/mod.rs)
+- [BongoCat/crates/bongocat-platform/src/shortcut/global/tests/owner.rs](../BongoCat/crates/bongocat-platform/src/shortcut/global/tests/owner.rs)
+- [BongoCat/crates/bongocat-platform/src/shortcut/global/tests/registration.rs](../BongoCat/crates/bongocat-platform/src/shortcut/global/tests/registration.rs)
+- [BongoCat/crates/bongocat-platform/src/shortcut/global/tests/service.rs](../BongoCat/crates/bongocat-platform/src/shortcut/global/tests/service.rs)
+- [BongoCat/crates/bongocat-platform/src/shortcut/global/hotkey.rs](../BongoCat/crates/bongocat-platform/src/shortcut/global/hotkey.rs)
+- [BongoCat/crates/bongocat-platform/src/shortcut/global/mod.rs](../BongoCat/crates/bongocat-platform/src/shortcut/global/mod.rs)
+- [BongoCat/crates/bongocat-platform/src/shortcut/global/owner.rs](../BongoCat/crates/bongocat-platform/src/shortcut/global/owner.rs)
+- [BongoCat/crates/bongocat-platform/src/shortcut/global/registration.rs](../BongoCat/crates/bongocat-platform/src/shortcut/global/registration.rs)
+- [BongoCat/crates/bongocat-platform/src/shortcut/global/service.rs](../BongoCat/crates/bongocat-platform/src/shortcut/global/service.rs)
+- [BongoCat/crates/bongocat-platform/src/shortcut/mod.rs](../BongoCat/crates/bongocat-platform/src/shortcut/mod.rs)
+- [BongoCat/crates/bongocat-platform/src/shortcut/tests.rs](../BongoCat/crates/bongocat-platform/src/shortcut/tests.rs)
+- [BongoCat/crates/bongocat-platform/src/clipboard.rs](../BongoCat/crates/bongocat-platform/src/clipboard.rs)
+- [BongoCat/crates/bongocat-platform/src/directory_opener.rs](../BongoCat/crates/bongocat-platform/src/directory_opener.rs)
+- [BongoCat/crates/bongocat-platform/src/display.rs](../BongoCat/crates/bongocat-platform/src/display.rs)
+- [BongoCat/crates/bongocat-platform/src/gilrs_gamepad.rs](../BongoCat/crates/bongocat-platform/src/gilrs_gamepad.rs)
+- [BongoCat/crates/bongocat-platform/src/input_error.rs](../BongoCat/crates/bongocat-platform/src/input_error.rs)
+- [BongoCat/crates/bongocat-platform/src/installation.rs](../BongoCat/crates/bongocat-platform/src/installation.rs)
+- [BongoCat/crates/bongocat-platform/src/lib.rs](../BongoCat/crates/bongocat-platform/src/lib.rs)
+- [BongoCat/crates/bongocat-platform/src/macos.rs](../BongoCat/crates/bongocat-platform/src/macos.rs)
+- [BongoCat/crates/bongocat-platform/src/model_source_picker.rs](../BongoCat/crates/bongocat-platform/src/model_source_picker.rs)
+- [BongoCat/crates/bongocat-platform/src/native_window.rs](../BongoCat/crates/bongocat-platform/src/native_window.rs)
+- [BongoCat/crates/bongocat-platform/src/single_instance.rs](../BongoCat/crates/bongocat-platform/src/single_instance.rs)
+- [BongoCat/crates/bongocat-platform/src/single_instance_windows.rs](../BongoCat/crates/bongocat-platform/src/single_instance_windows.rs)
+- [BongoCat/crates/bongocat-platform/src/startup_item.rs](../BongoCat/crates/bongocat-platform/src/startup_item.rs)
+- [BongoCat/crates/bongocat-platform/src/startup_item_native.rs](../BongoCat/crates/bongocat-platform/src/startup_item_native.rs)
+- [BongoCat/crates/bongocat-platform/src/startup_permission.rs](../BongoCat/crates/bongocat-platform/src/startup_permission.rs)
+- [BongoCat/crates/bongocat-platform/src/system_menu.rs](../BongoCat/crates/bongocat-platform/src/system_menu.rs)
+- [BongoCat/crates/bongocat-platform/src/system_menu_native.rs](../BongoCat/crates/bongocat-platform/src/system_menu_native.rs)
+- [BongoCat/crates/bongocat-platform/src/system_version.rs](../BongoCat/crates/bongocat-platform/src/system_version.rs)
+- [BongoCat/crates/bongocat-platform/src/theme.rs](../BongoCat/crates/bongocat-platform/src/theme.rs)
+- [BongoCat/crates/bongocat-platform/src/url_opener.rs](../BongoCat/crates/bongocat-platform/src/url_opener.rs)
+- [BongoCat/crates/bongocat-platform/src/windows.rs](../BongoCat/crates/bongocat-platform/src/windows.rs)
+- [BongoCat/crates/bongocat-platform/tests/macos_input_smoke.rs](../BongoCat/crates/bongocat-platform/tests/macos_input_smoke.rs)
+- [BongoCat/crates/bongocat-platform/build.rs](../BongoCat/crates/bongocat-platform/build.rs)
+- [BongoCat/crates/bongocat-platform/Cargo.toml](../BongoCat/crates/bongocat-platform/Cargo.toml)
+- [BongoCat/crates/bongocat-plugin-hud/src/font.rs](../BongoCat/crates/bongocat-plugin-hud/src/font.rs)
+- [BongoCat/crates/bongocat-plugin-hud/src/layer.rs](../BongoCat/crates/bongocat-plugin-hud/src/layer.rs)
+- [BongoCat/crates/bongocat-plugin-hud/src/layout.rs](../BongoCat/crates/bongocat-plugin-hud/src/layout.rs)
+- [BongoCat/crates/bongocat-plugin-hud/src/lib.rs](../BongoCat/crates/bongocat-plugin-hud/src/lib.rs)
+- [BongoCat/crates/bongocat-plugin-hud/src/paint.rs](../BongoCat/crates/bongocat-plugin-hud/src/paint.rs)
+- [BongoCat/crates/bongocat-plugin-hud/src/tests.rs](../BongoCat/crates/bongocat-plugin-hud/src/tests.rs)
+- [BongoCat/crates/bongocat-plugin-hud/Cargo.toml](../BongoCat/crates/bongocat-plugin-hud/Cargo.toml)
+- [BongoCat/crates/bongocat-plugin-manager/src/catalog.rs](../BongoCat/crates/bongocat-plugin-manager/src/catalog.rs)
+- [BongoCat/crates/bongocat-plugin-manager/src/install.rs](../BongoCat/crates/bongocat-plugin-manager/src/install.rs)
+- [BongoCat/crates/bongocat-plugin-manager/src/lib.rs](../BongoCat/crates/bongocat-plugin-manager/src/lib.rs)
+- [BongoCat/crates/bongocat-plugin-manager/src/loader.rs](../BongoCat/crates/bongocat-plugin-manager/src/loader.rs)
+- [BongoCat/crates/bongocat-plugin-manager/src/registry.rs](../BongoCat/crates/bongocat-plugin-manager/src/registry.rs)
+- [BongoCat/crates/bongocat-plugin-manager/src/source.rs](../BongoCat/crates/bongocat-plugin-manager/src/source.rs)
+- [BongoCat/crates/bongocat-plugin-manager/tests/process.rs](../BongoCat/crates/bongocat-plugin-manager/tests/process.rs)
+- [BongoCat/crates/bongocat-plugin-manager/Cargo.toml](../BongoCat/crates/bongocat-plugin-manager/Cargo.toml)
+- [BongoCat/crates/bongocat-plugin-service/src/command.rs](../BongoCat/crates/bongocat-plugin-service/src/command.rs)
+- [BongoCat/crates/bongocat-plugin-service/src/lib.rs](../BongoCat/crates/bongocat-plugin-service/src/lib.rs)
+- [BongoCat/crates/bongocat-plugin-service/src/service.rs](../BongoCat/crates/bongocat-plugin-service/src/service.rs)
+- [BongoCat/crates/bongocat-plugin-service/tests/service.rs](../BongoCat/crates/bongocat-plugin-service/tests/service.rs)
+- [BongoCat/crates/bongocat-plugin-service/Cargo.toml](../BongoCat/crates/bongocat-plugin-service/Cargo.toml)
+- [BongoCat/crates/bongocat-render/src/tests/channel.rs](../BongoCat/crates/bongocat-render/src/tests/channel.rs)
+- [BongoCat/crates/bongocat-render/src/tests/commit.rs](../BongoCat/crates/bongocat-render/src/tests/commit.rs)
+- [BongoCat/crates/bongocat-render/src/tests/geometry.rs](../BongoCat/crates/bongocat-render/src/tests/geometry.rs)
+- [BongoCat/crates/bongocat-render/src/tests/identity.rs](../BongoCat/crates/bongocat-render/src/tests/identity.rs)
+- [BongoCat/crates/bongocat-render/src/tests/key.rs](../BongoCat/crates/bongocat-render/src/tests/key.rs)
+- [BongoCat/crates/bongocat-render/src/tests/mod.rs](../BongoCat/crates/bongocat-render/src/tests/mod.rs)
+- [BongoCat/crates/bongocat-render/src/tests/validate.rs](../BongoCat/crates/bongocat-render/src/tests/validate.rs)
+- [BongoCat/crates/bongocat-render/src/channel.rs](../BongoCat/crates/bongocat-render/src/channel.rs)
+- [BongoCat/crates/bongocat-render/src/commit.rs](../BongoCat/crates/bongocat-render/src/commit.rs)
+- [BongoCat/crates/bongocat-render/src/geometry.rs](../BongoCat/crates/bongocat-render/src/geometry.rs)
+- [BongoCat/crates/bongocat-render/src/identity.rs](../BongoCat/crates/bongocat-render/src/identity.rs)
+- [BongoCat/crates/bongocat-render/src/key.rs](../BongoCat/crates/bongocat-render/src/key.rs)
+- [BongoCat/crates/bongocat-render/src/lib.rs](../BongoCat/crates/bongocat-render/src/lib.rs)
+- [BongoCat/crates/bongocat-render/src/resources.rs](../BongoCat/crates/bongocat-render/src/resources.rs)
+- [BongoCat/crates/bongocat-render/src/snapshot.rs](../BongoCat/crates/bongocat-render/src/snapshot.rs)
+- [BongoCat/crates/bongocat-render/src/stickman.rs](../BongoCat/crates/bongocat-render/src/stickman.rs)
+- [BongoCat/crates/bongocat-render/src/transport.rs](../BongoCat/crates/bongocat-render/src/transport.rs)
+- [BongoCat/crates/bongocat-render/src/validate.rs](../BongoCat/crates/bongocat-render/src/validate.rs)
+- [BongoCat/crates/bongocat-render/Cargo.toml](../BongoCat/crates/bongocat-render/Cargo.toml)
+- [BongoCat/crates/bongocat-runtime/src/input_state/tests/mod.rs](../BongoCat/crates/bongocat-runtime/src/input_state/tests/mod.rs)
+- [BongoCat/crates/bongocat-runtime/src/input_state/tests/reconcile.rs](../BongoCat/crates/bongocat-runtime/src/input_state/tests/reconcile.rs)
+- [BongoCat/crates/bongocat-runtime/src/input_state/tests/repeat.rs](../BongoCat/crates/bongocat-runtime/src/input_state/tests/repeat.rs)
+- [BongoCat/crates/bongocat-runtime/src/input_state/tests/reset.rs](../BongoCat/crates/bongocat-runtime/src/input_state/tests/reset.rs)
+- [BongoCat/crates/bongocat-runtime/src/input_state/tests/snapshot_of.rs](../BongoCat/crates/bongocat-runtime/src/input_state/tests/snapshot_of.rs)
+- [BongoCat/crates/bongocat-runtime/src/input_state/apply.rs](../BongoCat/crates/bongocat-runtime/src/input_state/apply.rs)
+- [BongoCat/crates/bongocat-runtime/src/input_state/mod.rs](../BongoCat/crates/bongocat-runtime/src/input_state/mod.rs)
+- [BongoCat/crates/bongocat-runtime/src/input_state/policy.rs](../BongoCat/crates/bongocat-runtime/src/input_state/policy.rs)
+- [BongoCat/crates/bongocat-runtime/src/input_state/reset.rs](../BongoCat/crates/bongocat-runtime/src/input_state/reset.rs)
+- [BongoCat/crates/bongocat-runtime/src/input_state/snapshot.rs](../BongoCat/crates/bongocat-runtime/src/input_state/snapshot.rs)
+- [BongoCat/crates/bongocat-runtime/src/input_state/snapshot_of.rs](../BongoCat/crates/bongocat-runtime/src/input_state/snapshot_of.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/tests/automatic.rs](../BongoCat/crates/bongocat-runtime/src/rendering/tests/automatic.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/tests/error.rs](../BongoCat/crates/bongocat-runtime/src/rendering/tests/error.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/tests/evaluate.rs](../BongoCat/crates/bongocat-runtime/src/rendering/tests/evaluate.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/tests/expression.rs](../BongoCat/crates/bongocat-runtime/src/rendering/tests/expression.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/tests/mod.rs](../BongoCat/crates/bongocat-runtime/src/rendering/tests/mod.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/tests/model.rs](../BongoCat/crates/bongocat-runtime/src/rendering/tests/model.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/tests/motion.rs](../BongoCat/crates/bongocat-runtime/src/rendering/tests/motion.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/automatic.rs](../BongoCat/crates/bongocat-runtime/src/rendering/automatic.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/error.rs](../BongoCat/crates/bongocat-runtime/src/rendering/error.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/evaluate.rs](../BongoCat/crates/bongocat-runtime/src/rendering/evaluate.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/expression.rs](../BongoCat/crates/bongocat-runtime/src/rendering/expression.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/lifecycle.rs](../BongoCat/crates/bongocat-runtime/src/rendering/lifecycle.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/mod.rs](../BongoCat/crates/bongocat-runtime/src/rendering/mod.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/model.rs](../BongoCat/crates/bongocat-runtime/src/rendering/model.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/model_input.rs](../BongoCat/crates/bongocat-runtime/src/rendering/model_input.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/motion.rs](../BongoCat/crates/bongocat-runtime/src/rendering/motion.rs)
+- [BongoCat/crates/bongocat-runtime/src/rendering/state.rs](../BongoCat/crates/bongocat-runtime/src/rendering/state.rs)
+- [BongoCat/crates/bongocat-runtime/src/tests/input.rs](../BongoCat/crates/bongocat-runtime/src/tests/input.rs)
+- [BongoCat/crates/bongocat-runtime/src/tests/lifecycle.rs](../BongoCat/crates/bongocat-runtime/src/tests/lifecycle.rs)
+- [BongoCat/crates/bongocat-runtime/src/tests/mod.rs](../BongoCat/crates/bongocat-runtime/src/tests/mod.rs)
+- [BongoCat/crates/bongocat-runtime/src/tests/model.rs](../BongoCat/crates/bongocat-runtime/src/tests/model.rs)
+- [BongoCat/crates/bongocat-runtime/src/tests/motions.rs](../BongoCat/crates/bongocat-runtime/src/tests/motions.rs)
+- [BongoCat/crates/bongocat-runtime/src/tests/pacing.rs](../BongoCat/crates/bongocat-runtime/src/tests/pacing.rs)
+- [BongoCat/crates/bongocat-runtime/src/tests/rendering.rs](../BongoCat/crates/bongocat-runtime/src/tests/rendering.rs)
+- [BongoCat/crates/bongocat-runtime/src/tests/transport.rs](../BongoCat/crates/bongocat-runtime/src/tests/transport.rs)
+- [BongoCat/crates/bongocat-runtime/src/worker/audio.rs](../BongoCat/crates/bongocat-runtime/src/worker/audio.rs)
+- [BongoCat/crates/bongocat-runtime/src/worker/axes.rs](../BongoCat/crates/bongocat-runtime/src/worker/axes.rs)
+- [BongoCat/crates/bongocat-runtime/src/worker/input.rs](../BongoCat/crates/bongocat-runtime/src/worker/input.rs)
+- [BongoCat/crates/bongocat-runtime/src/worker/mod.rs](../BongoCat/crates/bongocat-runtime/src/worker/mod.rs)
+- [BongoCat/crates/bongocat-runtime/src/worker/model.rs](../BongoCat/crates/bongocat-runtime/src/worker/model.rs)
+- [BongoCat/crates/bongocat-runtime/src/worker/random_behavior.rs](../BongoCat/crates/bongocat-runtime/src/worker/random_behavior.rs)
+- [BongoCat/crates/bongocat-runtime/src/worker/renderer.rs](../BongoCat/crates/bongocat-runtime/src/worker/renderer.rs)
+- [BongoCat/crates/bongocat-runtime/src/activity.rs](../BongoCat/crates/bongocat-runtime/src/activity.rs)
+- [BongoCat/crates/bongocat-runtime/src/client.rs](../BongoCat/crates/bongocat-runtime/src/client.rs)
+- [BongoCat/crates/bongocat-runtime/src/lib.rs](../BongoCat/crates/bongocat-runtime/src/lib.rs)
+- [BongoCat/crates/bongocat-runtime/src/owner.rs](../BongoCat/crates/bongocat-runtime/src/owner.rs)
+- [BongoCat/crates/bongocat-runtime/src/pacing.rs](../BongoCat/crates/bongocat-runtime/src/pacing.rs)
+- [BongoCat/crates/bongocat-runtime/src/random_behavior.rs](../BongoCat/crates/bongocat-runtime/src/random_behavior.rs)
+- [BongoCat/crates/bongocat-runtime/src/transport.rs](../BongoCat/crates/bongocat-runtime/src/transport.rs)
+- [BongoCat/crates/bongocat-runtime/tests/shared_input_fixtures.rs](../BongoCat/crates/bongocat-runtime/tests/shared_input_fixtures.rs)
+- [BongoCat/crates/bongocat-runtime/Cargo.toml](../BongoCat/crates/bongocat-runtime/Cargo.toml)
+- [BongoCat/crates/bongocat-storage/src/lib.rs](../BongoCat/crates/bongocat-storage/src/lib.rs)
+- [BongoCat/crates/bongocat-storage/Cargo.toml](../BongoCat/crates/bongocat-storage/Cargo.toml)
+- [BongoCat/crates/bongocat-ui/src/pop_confirm/tests/keyboard.rs](../BongoCat/crates/bongocat-ui/src/pop_confirm/tests/keyboard.rs)
+- [BongoCat/crates/bongocat-ui/src/pop_confirm/tests/labels.rs](../BongoCat/crates/bongocat-ui/src/pop_confirm/tests/labels.rs)
+- [BongoCat/crates/bongocat-ui/src/pop_confirm/tests/layout.rs](../BongoCat/crates/bongocat-ui/src/pop_confirm/tests/layout.rs)
+- [BongoCat/crates/bongocat-ui/src/pop_confirm/tests/mod.rs](../BongoCat/crates/bongocat-ui/src/pop_confirm/tests/mod.rs)
+- [BongoCat/crates/bongocat-ui/src/pop_confirm/tests/open.rs](../BongoCat/crates/bongocat-ui/src/pop_confirm/tests/open.rs)
+- [BongoCat/crates/bongocat-ui/src/pop_confirm/mod.rs](../BongoCat/crates/bongocat-ui/src/pop_confirm/mod.rs)
+- [BongoCat/crates/bongocat-ui/src/pop_confirm/trigger.rs](../BongoCat/crates/bongocat-ui/src/pop_confirm/trigger.rs)
+- [BongoCat/crates/bongocat-ui/src/update_markdown/tests/bounds.rs](../BongoCat/crates/bongocat-ui/src/update_markdown/tests/bounds.rs)
+- [BongoCat/crates/bongocat-ui/src/update_markdown/tests/html.rs](../BongoCat/crates/bongocat-ui/src/update_markdown/tests/html.rs)
+- [BongoCat/crates/bongocat-ui/src/update_markdown/tests/image.rs](../BongoCat/crates/bongocat-ui/src/update_markdown/tests/image.rs)
+- [BongoCat/crates/bongocat-ui/src/update_markdown/tests/link.rs](../BongoCat/crates/bongocat-ui/src/update_markdown/tests/link.rs)
+- [BongoCat/crates/bongocat-ui/src/update_markdown/tests/mod.rs](../BongoCat/crates/bongocat-ui/src/update_markdown/tests/mod.rs)
+- [BongoCat/crates/bongocat-ui/src/update_markdown/tests/text.rs](../BongoCat/crates/bongocat-ui/src/update_markdown/tests/text.rs)
+- [BongoCat/crates/bongocat-ui/src/update_markdown/bounds.rs](../BongoCat/crates/bongocat-ui/src/update_markdown/bounds.rs)
+- [BongoCat/crates/bongocat-ui/src/update_markdown/html.rs](../BongoCat/crates/bongocat-ui/src/update_markdown/html.rs)
+- [BongoCat/crates/bongocat-ui/src/update_markdown/image.rs](../BongoCat/crates/bongocat-ui/src/update_markdown/image.rs)
+- [BongoCat/crates/bongocat-ui/src/update_markdown/link.rs](../BongoCat/crates/bongocat-ui/src/update_markdown/link.rs)
+- [BongoCat/crates/bongocat-ui/src/update_markdown/mod.rs](../BongoCat/crates/bongocat-ui/src/update_markdown/mod.rs)
+- [BongoCat/crates/bongocat-ui/src/update_markdown/text.rs](../BongoCat/crates/bongocat-ui/src/update_markdown/text.rs)
+- [BongoCat/crates/bongocat-ui/src/update_window/tests/mod.rs](../BongoCat/crates/bongocat-ui/src/update_window/tests/mod.rs)
+- [BongoCat/crates/bongocat-ui/src/update_window/tests/render.rs](../BongoCat/crates/bongocat-ui/src/update_window/tests/render.rs)
+- [BongoCat/crates/bongocat-ui/src/update_window/tests/unit.rs](../BongoCat/crates/bongocat-ui/src/update_window/tests/unit.rs)
+- [BongoCat/crates/bongocat-ui/src/update_window/height.rs](../BongoCat/crates/bongocat-ui/src/update_window/height.rs)
+- [BongoCat/crates/bongocat-ui/src/update_window/message.rs](../BongoCat/crates/bongocat-ui/src/update_window/message.rs)
+- [BongoCat/crates/bongocat-ui/src/update_window/mod.rs](../BongoCat/crates/bongocat-ui/src/update_window/mod.rs)
+- [BongoCat/crates/bongocat-ui/src/update_window/pending.rs](../BongoCat/crates/bongocat-ui/src/update_window/pending.rs)
+- [BongoCat/crates/bongocat-ui/src/update_window/render.rs](../BongoCat/crates/bongocat-ui/src/update_window/render.rs)
+- [BongoCat/crates/bongocat-ui/src/update_window/view.rs](../BongoCat/crates/bongocat-ui/src/update_window/view.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/behavior_names.rs](../BongoCat/crates/bongocat-ui/src/window/tests/behavior_names.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/copy.rs](../BongoCat/crates/bongocat-ui/src/window/tests/copy.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/dropdown.rs](../BongoCat/crates/bongocat-ui/src/window/tests/dropdown.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/external_link.rs](../BongoCat/crates/bongocat-ui/src/window/tests/external_link.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/hold_modifier.rs](../BongoCat/crates/bongocat-ui/src/window/tests/hold_modifier.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/mod.rs](../BongoCat/crates/bongocat-ui/src/window/tests/mod.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/model_actions.rs](../BongoCat/crates/bongocat-ui/src/window/tests/model_actions.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/model_drag_overlay.rs](../BongoCat/crates/bongocat-ui/src/window/tests/model_drag_overlay.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/model_editor_render.rs](../BongoCat/crates/bongocat-ui/src/window/tests/model_editor_render.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/model_import.rs](../BongoCat/crates/bongocat-ui/src/window/tests/model_import.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/models_page_render.rs](../BongoCat/crates/bongocat-ui/src/window/tests/models_page_render.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/settings_commands.rs](../BongoCat/crates/bongocat-ui/src/window/tests/settings_commands.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/settings_page.rs](../BongoCat/crates/bongocat-ui/src/window/tests/settings_page.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/shortcuts.rs](../BongoCat/crates/bongocat-ui/src/window/tests/shortcuts.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tests/startup_item.rs](../BongoCat/crates/bongocat-ui/src/window/tests/startup_item.rs)
+- [BongoCat/crates/bongocat-ui/src/window/about.rs](../BongoCat/crates/bongocat-ui/src/window/about.rs)
+- [BongoCat/crates/bongocat-ui/src/window/behavior_name.rs](../BongoCat/crates/bongocat-ui/src/window/behavior_name.rs)
+- [BongoCat/crates/bongocat-ui/src/window/controls.rs](../BongoCat/crates/bongocat-ui/src/window/controls.rs)
+- [BongoCat/crates/bongocat-ui/src/window/drag.rs](../BongoCat/crates/bongocat-ui/src/window/drag.rs)
+- [BongoCat/crates/bongocat-ui/src/window/dropdown.rs](../BongoCat/crates/bongocat-ui/src/window/dropdown.rs)
+- [BongoCat/crates/bongocat-ui/src/window/edit.rs](../BongoCat/crates/bongocat-ui/src/window/edit.rs)
+- [BongoCat/crates/bongocat-ui/src/window/hold_modifier.rs](../BongoCat/crates/bongocat-ui/src/window/hold_modifier.rs)
+- [BongoCat/crates/bongocat-ui/src/window/import.rs](../BongoCat/crates/bongocat-ui/src/window/import.rs)
+- [BongoCat/crates/bongocat-ui/src/window/import_draft.rs](../BongoCat/crates/bongocat-ui/src/window/import_draft.rs)
+- [BongoCat/crates/bongocat-ui/src/window/lifecycle.rs](../BongoCat/crates/bongocat-ui/src/window/lifecycle.rs)
+- [BongoCat/crates/bongocat-ui/src/window/localization.rs](../BongoCat/crates/bongocat-ui/src/window/localization.rs)
+- [BongoCat/crates/bongocat-ui/src/window/mod.rs](../BongoCat/crates/bongocat-ui/src/window/mod.rs)
+- [BongoCat/crates/bongocat-ui/src/window/model_actions.rs](../BongoCat/crates/bongocat-ui/src/window/model_actions.rs)
+- [BongoCat/crates/bongocat-ui/src/window/model_drag_overlay.rs](../BongoCat/crates/bongocat-ui/src/window/model_drag_overlay.rs)
+- [BongoCat/crates/bongocat-ui/src/window/model_edit_draft.rs](../BongoCat/crates/bongocat-ui/src/window/model_edit_draft.rs)
+- [BongoCat/crates/bongocat-ui/src/window/model_import_card.rs](../BongoCat/crates/bongocat-ui/src/window/model_import_card.rs)
+- [BongoCat/crates/bongocat-ui/src/window/model_mver_dialog.rs](../BongoCat/crates/bongocat-ui/src/window/model_mver_dialog.rs)
+- [BongoCat/crates/bongocat-ui/src/window/model_row.rs](../BongoCat/crates/bongocat-ui/src/window/model_row.rs)
+- [BongoCat/crates/bongocat-ui/src/window/model_selection.rs](../BongoCat/crates/bongocat-ui/src/window/model_selection.rs)
+- [BongoCat/crates/bongocat-ui/src/window/models.rs](../BongoCat/crates/bongocat-ui/src/window/models.rs)
+- [BongoCat/crates/bongocat-ui/src/window/mver.rs](../BongoCat/crates/bongocat-ui/src/window/mver.rs)
+- [BongoCat/crates/bongocat-ui/src/window/navigation.rs](../BongoCat/crates/bongocat-ui/src/window/navigation.rs)
+- [BongoCat/crates/bongocat-ui/src/window/overlay_step.rs](../BongoCat/crates/bongocat-ui/src/window/overlay_step.rs)
+- [BongoCat/crates/bongocat-ui/src/window/pending.rs](../BongoCat/crates/bongocat-ui/src/window/pending.rs)
+- [BongoCat/crates/bongocat-ui/src/window/plugin_settings.rs](../BongoCat/crates/bongocat-ui/src/window/plugin_settings.rs)
+- [BongoCat/crates/bongocat-ui/src/window/plugins_host.rs](../BongoCat/crates/bongocat-ui/src/window/plugins_host.rs)
+- [BongoCat/crates/bongocat-ui/src/window/plugins_page.rs](../BongoCat/crates/bongocat-ui/src/window/plugins_page.rs)
+- [BongoCat/crates/bongocat-ui/src/window/presentation.rs](../BongoCat/crates/bongocat-ui/src/window/presentation.rs)
+- [BongoCat/crates/bongocat-ui/src/window/render.rs](../BongoCat/crates/bongocat-ui/src/window/render.rs)
+- [BongoCat/crates/bongocat-ui/src/window/row.rs](../BongoCat/crates/bongocat-ui/src/window/row.rs)
+- [BongoCat/crates/bongocat-ui/src/window/setting_gate.rs](../BongoCat/crates/bongocat-ui/src/window/setting_gate.rs)
+- [BongoCat/crates/bongocat-ui/src/window/setting_patch.rs](../BongoCat/crates/bongocat-ui/src/window/setting_patch.rs)
+- [BongoCat/crates/bongocat-ui/src/window/setting_request.rs](../BongoCat/crates/bongocat-ui/src/window/setting_request.rs)
+- [BongoCat/crates/bongocat-ui/src/window/settings.rs](../BongoCat/crates/bongocat-ui/src/window/settings.rs)
+- [BongoCat/crates/bongocat-ui/src/window/shortcut_capture.rs](../BongoCat/crates/bongocat-ui/src/window/shortcut_capture.rs)
+- [BongoCat/crates/bongocat-ui/src/window/shortcuts.rs](../BongoCat/crates/bongocat-ui/src/window/shortcuts.rs)
+- [BongoCat/crates/bongocat-ui/src/window/shortcuts_page.rs](../BongoCat/crates/bongocat-ui/src/window/shortcuts_page.rs)
+- [BongoCat/crates/bongocat-ui/src/window/smoke.rs](../BongoCat/crates/bongocat-ui/src/window/smoke.rs)
+- [BongoCat/crates/bongocat-ui/src/window/source.rs](../BongoCat/crates/bongocat-ui/src/window/source.rs)
+- [BongoCat/crates/bongocat-ui/src/window/startup_item.rs](../BongoCat/crates/bongocat-ui/src/window/startup_item.rs)
+- [BongoCat/crates/bongocat-ui/src/window/theme.rs](../BongoCat/crates/bongocat-ui/src/window/theme.rs)
+- [BongoCat/crates/bongocat-ui/src/window/tokens.rs](../BongoCat/crates/bongocat-ui/src/window/tokens.rs)
+- [BongoCat/crates/bongocat-ui/src/window/view_state.rs](../BongoCat/crates/bongocat-ui/src/window/view_state.rs)
+- [BongoCat/crates/bongocat-ui/src/window/window_mode.rs](../BongoCat/crates/bongocat-ui/src/window/window_mode.rs)
+- [BongoCat/crates/bongocat-ui/src/external_link.rs](../BongoCat/crates/bongocat-ui/src/external_link.rs)
+- [BongoCat/crates/bongocat-ui/src/lib.rs](../BongoCat/crates/bongocat-ui/src/lib.rs)
+- [BongoCat/crates/bongocat-ui/build.rs](../BongoCat/crates/bongocat-ui/build.rs)
+- [BongoCat/crates/bongocat-ui/Cargo.toml](../BongoCat/crates/bongocat-ui/Cargo.toml)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/tests/command.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/tests/command.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/tests/error.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/tests/error.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/tests/logging.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/tests/logging.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/tests/mod.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/tests/mod.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/tests/model_import.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/tests/model_import.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/tests/service.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/tests/service.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/tests/snapshot.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/tests/snapshot.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/tests/startup.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/tests/startup.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/tests/window.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/tests/window.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/build.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/build.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/client.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/client.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/command.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/command.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/endpoint.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/endpoint.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/error.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/error.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/input_diagnostics.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/input_diagnostics.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/logging.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/logging.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/mod.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/mod.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/model_catalog.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/model_catalog.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/model_diagnostic.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/model_diagnostic.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/model_import.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/model_import.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/runtime.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/runtime.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/snapshot.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/snapshot.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/startup.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/startup.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/settings/window.rs](../BongoCat/crates/bongocat-ui-protocol/src/settings/window.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/lib.rs](../BongoCat/crates/bongocat-ui-protocol/src/lib.rs)
+- [BongoCat/crates/bongocat-ui-protocol/src/update.rs](../BongoCat/crates/bongocat-ui-protocol/src/update.rs)
+- [BongoCat/crates/bongocat-ui-protocol/Cargo.toml](../BongoCat/crates/bongocat-ui-protocol/Cargo.toml)
+- [BongoCat/crates/bongocat-update/src/runtime/error.rs](../BongoCat/crates/bongocat-update/src/runtime/error.rs)
+- [BongoCat/crates/bongocat-update/src/runtime/event.rs](../BongoCat/crates/bongocat-update/src/runtime/event.rs)
+- [BongoCat/crates/bongocat-update/src/runtime/manifest.rs](../BongoCat/crates/bongocat-update/src/runtime/manifest.rs)
+- [BongoCat/crates/bongocat-update/src/runtime/mod.rs](../BongoCat/crates/bongocat-update/src/runtime/mod.rs)
+- [BongoCat/crates/bongocat-update/src/runtime/progress.rs](../BongoCat/crates/bongocat-update/src/runtime/progress.rs)
+- [BongoCat/crates/bongocat-update/src/runtime/release_identity.rs](../BongoCat/crates/bongocat-update/src/runtime/release_identity.rs)
+- [BongoCat/crates/bongocat-update/src/runtime/stage.rs](../BongoCat/crates/bongocat-update/src/runtime/stage.rs)
+- [BongoCat/crates/bongocat-update/src/runtime/tests.rs](../BongoCat/crates/bongocat-update/src/runtime/tests.rs)
+- [BongoCat/crates/bongocat-update/src/diagnostics.rs](../BongoCat/crates/bongocat-update/src/diagnostics.rs)
+- [BongoCat/crates/bongocat-update/src/lib.rs](../BongoCat/crates/bongocat-update/src/lib.rs)
+- [BongoCat/crates/bongocat-update/src/release.rs](../BongoCat/crates/bongocat-update/src/release.rs)
+- [BongoCat/crates/bongocat-update/tests/release_manifest_capability.rs](../BongoCat/crates/bongocat-update/tests/release_manifest_capability.rs)
+- [BongoCat/crates/bongocat-update/Cargo.toml](../BongoCat/crates/bongocat-update/Cargo.toml)
+- [BongoCat/docs/adr/0001-single-rust-application.md](../BongoCat/docs/adr/0001-single-rust-application.md)
+- [BongoCat/docs/adr/0002-gpui-settings-ui.md](../BongoCat/docs/adr/0002-gpui-settings-ui.md)
+- [BongoCat/docs/adr/0003-native-overlay-renderers.md](../BongoCat/docs/adr/0003-native-overlay-renderers.md)
+- [BongoCat/docs/adr/0004-reconcilable-input-state.md](../BongoCat/docs/adr/0004-reconcilable-input-state.md)
+- [BongoCat/docs/adr/0005-cubism-core-ffi-boundary.md](../BongoCat/docs/adr/0005-cubism-core-ffi-boundary.md)
+- [BongoCat/docs/adr/0006-linux-post-launch-strategy.md](../BongoCat/docs/adr/0006-linux-post-launch-strategy.md)
+- [BongoCat/docs/adr/0007-single-rust-runtime-environment.md](../BongoCat/docs/adr/0007-single-rust-runtime-environment.md)
+- [BongoCat/docs/adr/0008-application-identity-and-storage-environments.md](../BongoCat/docs/adr/0008-application-identity-and-storage-environments.md)
+- [BongoCat/docs/adr/0009-gpui-accessibility-gate.md](../BongoCat/docs/adr/0009-gpui-accessibility-gate.md)
+- [BongoCat/docs/adr/0010-windows-cpu-targets.md](../BongoCat/docs/adr/0010-windows-cpu-targets.md)
+- [BongoCat/docs/adr/0011-progressive-implementation-release-gates.md](../BongoCat/docs/adr/0011-progressive-implementation-release-gates.md)
+- [BongoCat/docs/adr/0012-json-localization.md](../BongoCat/docs/adr/0012-json-localization.md)
+- [BongoCat/docs/adr/0012-ordered-motion-audio-service.md](../BongoCat/docs/adr/0012-ordered-motion-audio-service.md)
+- [BongoCat/docs/adr/0013-startup-item-capability.md](../BongoCat/docs/adr/0013-startup-item-capability.md)
+- [BongoCat/docs/adr/0014-formal-settings-accessibility-bridge.md](../BongoCat/docs/adr/0014-formal-settings-accessibility-bridge.md)
+- [BongoCat/docs/adr/0015-settings-revision-boundaries.md](../BongoCat/docs/adr/0015-settings-revision-boundaries.md)
+- [BongoCat/docs/adr/0016-diagnostics-export-contract.md](../BongoCat/docs/adr/0016-diagnostics-export-contract.md)
+- [BongoCat/docs/adr/0017-bounded-application-logging.md](../BongoCat/docs/adr/0017-bounded-application-logging.md)
+- [BongoCat/docs/adr/0018-model-interaction-settings.md](../BongoCat/docs/adr/0018-model-interaction-settings.md)
+- [BongoCat/docs/adr/0019-gpui-component-design-system.md](../BongoCat/docs/adr/0019-gpui-component-design-system.md)
+- [BongoCat/docs/adr/0020-gpui-kit-facade.md](../BongoCat/docs/adr/0020-gpui-kit-facade.md)
+- [BongoCat/docs/adr/0021-signed-update-manifest.md](../BongoCat/docs/adr/0021-signed-update-manifest.md)
+- [BongoCat/docs/adr/0022-update-manifest-transport-envelope.md](../BongoCat/docs/adr/0022-update-manifest-transport-envelope.md)
+- [BongoCat/docs/adr/0023-windows-per-user-installer.md](../BongoCat/docs/adr/0023-windows-per-user-installer.md)
+- [BongoCat/docs/adr/0024-macos-tcc-capability-boundary.md](../BongoCat/docs/adr/0024-macos-tcc-capability-boundary.md)
+- [BongoCat/docs/adr/0025-signed-manifest-https-transport.md](../BongoCat/docs/adr/0025-signed-manifest-https-transport.md)
+- [BongoCat/docs/adr/0026-update-helper-replacement-boundary.md](../BongoCat/docs/adr/0026-update-helper-replacement-boundary.md)
+- [BongoCat/docs/adr/0027-diagnostics-preview-bundle-boundary.md](../BongoCat/docs/adr/0027-diagnostics-preview-bundle-boundary.md)
+- [BongoCat/docs/adr/0028-rust-i18n-catalog-structure.md](../BongoCat/docs/adr/0028-rust-i18n-catalog-structure.md)
+- [BongoCat/docs/adr/0029-third-party-update-library-boundary.md](../BongoCat/docs/adr/0029-third-party-update-library-boundary.md)
+- [BongoCat/docs/adr/0030-prefer-existing-solutions.md](../BongoCat/docs/adr/0030-prefer-existing-solutions.md)
+- [BongoCat/docs/adr/0031-tray-icon-boundary.md](../BongoCat/docs/adr/0031-tray-icon-boundary.md)
+- [BongoCat/docs/adr/0032-startup-permission-prompt-boundary.md](../BongoCat/docs/adr/0032-startup-permission-prompt-boundary.md)
+- [BongoCat/docs/adr/0033-build-packaging-and-release-toolchain.md](../BongoCat/docs/adr/0033-build-packaging-and-release-toolchain.md)
+- [BongoCat/docs/adr/0034-detached-minisign-update-trust-model.md](../BongoCat/docs/adr/0034-detached-minisign-update-trust-model.md)
+- [BongoCat/docs/adr/0035-update-worker-and-window.md](../BongoCat/docs/adr/0035-update-worker-and-window.md)
+- [BongoCat/docs/adr/0036-model-archive-import-boundary.md](../BongoCat/docs/adr/0036-model-archive-import-boundary.md)
+- [BongoCat/docs/adr/0037-in-app-bongo-cat-mver-conversion.md](../BongoCat/docs/adr/0037-in-app-bongo-cat-mver-conversion.md)
+- [BongoCat/docs/adr/0038-alt-key-image-naming.md](../BongoCat/docs/adr/0038-alt-key-image-naming.md)
+- [BongoCat/docs/adr/0039-enter-key-image-naming.md](../BongoCat/docs/adr/0039-enter-key-image-naming.md)
+- [BongoCat/docs/adr/0040-keypad-key-image-naming.md](../BongoCat/docs/adr/0040-keypad-key-image-naming.md)
+- [BongoCat/docs/adr/0041-complete-key-vocabulary.md](../BongoCat/docs/adr/0041-complete-key-vocabulary.md)
+- [BongoCat/docs/adr/0042-key-press-requires-its-key-image.md](../BongoCat/docs/adr/0042-key-press-requires-its-key-image.md)
+- [BongoCat/docs/adr/0043-startup-item-via-auto-launch.md](../BongoCat/docs/adr/0043-startup-item-via-auto-launch.md)
+- [BongoCat/docs/adr/0044-global-hotkey-registration-backend.md](../BongoCat/docs/adr/0044-global-hotkey-registration-backend.md)
+- [BongoCat/docs/adr/0045-overlay-placement-screen-bounds.md](../BongoCat/docs/adr/0045-overlay-placement-screen-bounds.md)
+- [BongoCat/docs/adr/0046-overlay-color-encode-contract.md](../BongoCat/docs/adr/0046-overlay-color-encode-contract.md)
+- [BongoCat/docs/adr/0047-model-metadata-editing-boundary.md](../BongoCat/docs/adr/0047-model-metadata-editing-boundary.md)
+- [BongoCat/docs/adr/0048-theme-on-native-surfaces.md](../BongoCat/docs/adr/0048-theme-on-native-surfaces.md)
+- [BongoCat/docs/adr/0049-globe-key-and-function-row-separation.md](../BongoCat/docs/adr/0049-globe-key-and-function-row-separation.md)
+- [BongoCat/docs/adr/0050-converted-key-image-name-spelling.md](../BongoCat/docs/adr/0050-converted-key-image-name-spelling.md)
+- [BongoCat/docs/adr/0051-login-startup-unavailable-in-development-builds.md](../BongoCat/docs/adr/0051-login-startup-unavailable-in-development-builds.md)
+- [BongoCat/docs/adr/0052-shortcut-gates-follow-their-group.md](../BongoCat/docs/adr/0052-shortcut-gates-follow-their-group.md)
+- [BongoCat/docs/adr/0053-setting-gate-disable-binding-rule.md](../BongoCat/docs/adr/0053-setting-gate-disable-binding-rule.md)
+- [BongoCat/docs/adr/0054-visual-first-config-and-ui-contract.md](../BongoCat/docs/adr/0054-visual-first-config-and-ui-contract.md)
+- [BongoCat/docs/adr/0055-imported-model-cover-captured-from-render.md](../BongoCat/docs/adr/0055-imported-model-cover-captured-from-render.md)
+- [BongoCat/docs/adr/0056-setting-group-variant-override-patch.md](../BongoCat/docs/adr/0056-setting-group-variant-override-patch.md)
+- [BongoCat/docs/adr/0057-overlay-resize-by-right-button-drag.md](../BongoCat/docs/adr/0057-overlay-resize-by-right-button-drag.md)
+- [BongoCat/docs/adr/0058-platform-neutral-input-contract.md](../BongoCat/docs/adr/0058-platform-neutral-input-contract.md)
+- [BongoCat/docs/adr/0059-ui-protocol-boundary.md](../BongoCat/docs/adr/0059-ui-protocol-boundary.md)
+- [BongoCat/docs/adr/0060-model-package-store-boundary.md](../BongoCat/docs/adr/0060-model-package-store-boundary.md)
+- [BongoCat/docs/adr/0061-live2d-playback-boundary.md](../BongoCat/docs/adr/0061-live2d-playback-boundary.md)
+- [BongoCat/docs/adr/0062-live2d-render-resource-boundary.md](../BongoCat/docs/adr/0062-live2d-render-resource-boundary.md)
+- [BongoCat/docs/adr/0063-legacy-mver-color-pipeline.md](../BongoCat/docs/adr/0063-legacy-mver-color-pipeline.md)
+- [BongoCat/docs/adr/0064-human-readable-bounded-logging.md](../BongoCat/docs/adr/0064-human-readable-bounded-logging.md)
+- [BongoCat/docs/adr/0065-model-mode-metadata-and-card-badge.md](../BongoCat/docs/adr/0065-model-mode-metadata-and-card-badge.md)
+- [BongoCat/docs/adr/0065-random-model-behavior-scheduler.md](../BongoCat/docs/adr/0065-random-model-behavior-scheduler.md)
+- [BongoCat/docs/adr/0066-gilrs-gamepad-backend.md](../BongoCat/docs/adr/0066-gilrs-gamepad-backend.md)
+- [BongoCat/docs/adr/0066-settings-task-oriented-information-architecture.md](../BongoCat/docs/adr/0066-settings-task-oriented-information-architecture.md)
+- [BongoCat/docs/adr/0067-config-domain-namespaces-and-model-identity.md](../BongoCat/docs/adr/0067-config-domain-namespaces-and-model-identity.md)
+- [BongoCat/docs/adr/0068-settings-window-destruction-and-navigation-memory.md](../BongoCat/docs/adr/0068-settings-window-destruction-and-navigation-memory.md)
+- [BongoCat/docs/adr/0068-tray-and-overlay-context-menu-layering.md](../BongoCat/docs/adr/0068-tray-and-overlay-context-menu-layering.md)
+- [BongoCat/docs/adr/0069-release-notes-markdown-claim-boundary.md](../BongoCat/docs/adr/0069-release-notes-markdown-claim-boundary.md)
+- [BongoCat/docs/adr/0070-gamepad-key-image-vocabulary.md](../BongoCat/docs/adr/0070-gamepad-key-image-vocabulary.md)
+- [BongoCat/docs/adr/0071-gamepad-connection-model-auto-switch.md](../BongoCat/docs/adr/0071-gamepad-connection-model-auto-switch.md)
+- [BongoCat/docs/adr/0072-random-behavior-mode-enumeration.md](../BongoCat/docs/adr/0072-random-behavior-mode-enumeration.md)
+- [BongoCat/docs/adr/0073-application-shortcut-command-set-narrowing.md](../BongoCat/docs/adr/0073-application-shortcut-command-set-narrowing.md)
+- [BongoCat/docs/adr/0074-verification-pipeline-cache-and-job-split.md](../BongoCat/docs/adr/0074-verification-pipeline-cache-and-job-split.md)
+- [BongoCat/docs/adr/0075-dmg-finder-window-layout.md](../BongoCat/docs/adr/0075-dmg-finder-window-layout.md)
+- [BongoCat/docs/adr/0076-dmg-repair-command.md](../BongoCat/docs/adr/0076-dmg-repair-command.md)
+- [BongoCat/docs/adr/0077-physics-setting-without-output.md](../BongoCat/docs/adr/0077-physics-setting-without-output.md)
+- [BongoCat/docs/adr/0078-macos-permission-flow-onboarding.md](../BongoCat/docs/adr/0078-macos-permission-flow-onboarding.md)
+- [BongoCat/docs/adr/0079-stacked-key-image-layer.md](../BongoCat/docs/adr/0079-stacked-key-image-layer.md)
+- [BongoCat/docs/adr/0080-hold-modifier-to-interact.md](../BongoCat/docs/adr/0080-hold-modifier-to-interact.md)
+- [BongoCat/docs/adr/0081-force-mouse-movement-in-captured-applications.md](../BongoCat/docs/adr/0081-force-mouse-movement-in-captured-applications.md)
+- [BongoCat/docs/adr/0082-gamepad-stick-and-multi-pad-projection.md](../BongoCat/docs/adr/0082-gamepad-stick-and-multi-pad-projection.md)
+- [BongoCat/docs/adr/0083-toggle-repeated-expression-off.md](../BongoCat/docs/adr/0083-toggle-repeated-expression-off.md)
+- [BongoCat/docs/adr/0085-behavior-custom-names.md](../BongoCat/docs/adr/0085-behavior-custom-names.md)
+- [BongoCat/docs/adr/0086-frame-smoke-without-translucent-sample.md](../BongoCat/docs/adr/0086-frame-smoke-without-translucent-sample.md)
+- [BongoCat/docs/adr/0087-nested-model-folder-import.md](../BongoCat/docs/adr/0087-nested-model-folder-import.md)
+- [BongoCat/docs/adr/0088-concurrent-motion-playback.md](../BongoCat/docs/adr/0088-concurrent-motion-playback.md)
+- [BongoCat/docs/adr/0089-windows-window-mode.md](../BongoCat/docs/adr/0089-windows-window-mode.md)
+- [BongoCat/docs/adr/0090-independent-plugin-processes.md](../BongoCat/docs/adr/0090-independent-plugin-processes.md)
+- [BongoCat/docs/adr/0091-plugin-catalog-and-input-activity.md](../BongoCat/docs/adr/0091-plugin-catalog-and-input-activity.md)
+- [BongoCat/docs/adr/0092-plugin-center-card-presentation.md](../BongoCat/docs/adr/0092-plugin-center-card-presentation.md)
+- [BongoCat/docs/adr/0093-plugin-input-activity-and-embedded-key-sounds.md](../BongoCat/docs/adr/0093-plugin-input-activity-and-embedded-key-sounds.md)
+- [BongoCat/docs/adr/0094-input-source-plugin.md](../BongoCat/docs/adr/0094-input-source-plugin.md)
+- [BongoCat/docs/adr/0095-macos-input-source-system-icon.md](../BongoCat/docs/adr/0095-macos-input-source-system-icon.md)
+- [BongoCat/docs/adr/0096-windows-input-source-identity-and-icons.md](../BongoCat/docs/adr/0096-windows-input-source-identity-and-icons.md)
+- [BongoCat/docs/adr/0097-independent-plugin-repository-integration.md](../BongoCat/docs/adr/0097-independent-plugin-repository-integration.md)
+- [BongoCat/docs/benchmark/data/macos-overlay-frame-timing-90e0aa7.csv](../BongoCat/docs/benchmark/data/macos-overlay-frame-timing-90e0aa7.csv)
+- [BongoCat/docs/benchmark/macos-overlay-frame-timing-90e0aa7.md](../BongoCat/docs/benchmark/macos-overlay-frame-timing-90e0aa7.md)
+- [BongoCat/docs/benchmark/README.md](../BongoCat/docs/benchmark/README.md)
+- [BongoCat/docs/benchmark/windows-window-mode-2026-10-08.md](../BongoCat/docs/benchmark/windows-window-mode-2026-10-08.md)
+- [BongoCat/docs/cubism/binding-generation.md](../BongoCat/docs/cubism/binding-generation.md)
+- [BongoCat/docs/cubism/core-r5-probe.md](../BongoCat/docs/cubism/core-r5-probe.md)
+- [BongoCat/docs/cubism/cubism-framework-behavior-sources.md](../BongoCat/docs/cubism/cubism-framework-behavior-sources.md)
+- [BongoCat/docs/cubism/cubism-sdk-source-and-license.md](../BongoCat/docs/cubism/cubism-sdk-source-and-license.md)
+- [BongoCat/docs/migration/bongo-cat-mver-frame-rate-semantics.md](../BongoCat/docs/migration/bongo-cat-mver-frame-rate-semantics.md)
+- [BongoCat/docs/migration/bongo-cat-mver-reference.md](../BongoCat/docs/migration/bongo-cat-mver-reference.md)
+- [BongoCat/docs/migration/legacy-behavior-inventory.md](../BongoCat/docs/migration/legacy-behavior-inventory.md)
+- [BongoCat/docs/changelog-conventions.md](../BongoCat/docs/changelog-conventions.md)
+- [BongoCat/docs/localization-copy-conventions.md](../BongoCat/docs/localization-copy-conventions.md)
+- [BongoCat/docs/product-runtime.md](../BongoCat/docs/product-runtime.md)
+- [BongoCat/docs/technical-design.md](../BongoCat/docs/technical-design.md)
+- [BongoCat/docs/update-signing-guide.md](../BongoCat/docs/update-signing-guide.md)
+- [BongoCat/macos/Info.plist](../BongoCat/macos/Info.plist)
+- [BongoCat/resources/icons/logo-macos.icns](../BongoCat/resources/icons/logo-macos.icns)
+- [BongoCat/resources/icons/logo-windows.ico](../BongoCat/resources/icons/logo-windows.ico)
+- [BongoCat/resources/icons/tray-macos.png](../BongoCat/resources/icons/tray-macos.png)
+- [BongoCat/resources/icons/tray-windows.png](../BongoCat/resources/icons/tray-windows.png)
+- [BongoCat/resources/models/gamepad/demomodel3.1024/texture_00.png](../BongoCat/resources/models/gamepad/demomodel3.1024/texture_00.png)
+- [BongoCat/resources/models/gamepad/demomodel3.1024/texture_01.png](../BongoCat/resources/models/gamepad/demomodel3.1024/texture_01.png)
+- [BongoCat/resources/models/gamepad/demomodel3.1024/texture_02.png](../BongoCat/resources/models/gamepad/demomodel3.1024/texture_02.png)
+- [BongoCat/resources/models/gamepad/resources/left-keys/DpadDown.png](../BongoCat/resources/models/gamepad/resources/left-keys/DpadDown.png)
+- [BongoCat/resources/models/gamepad/resources/left-keys/DpadLeft.png](../BongoCat/resources/models/gamepad/resources/left-keys/DpadLeft.png)
+- [BongoCat/resources/models/gamepad/resources/left-keys/DpadRight.png](../BongoCat/resources/models/gamepad/resources/left-keys/DpadRight.png)
+- [BongoCat/resources/models/gamepad/resources/left-keys/DpadUp.png](../BongoCat/resources/models/gamepad/resources/left-keys/DpadUp.png)
+- [BongoCat/resources/models/gamepad/resources/left-keys/LeftShoulder.png](../BongoCat/resources/models/gamepad/resources/left-keys/LeftShoulder.png)
+- [BongoCat/resources/models/gamepad/resources/left-keys/LeftTrigger.png](../BongoCat/resources/models/gamepad/resources/left-keys/LeftTrigger.png)
+- [BongoCat/resources/models/gamepad/resources/right-keys/East.png](../BongoCat/resources/models/gamepad/resources/right-keys/East.png)
+- [BongoCat/resources/models/gamepad/resources/right-keys/North.png](../BongoCat/resources/models/gamepad/resources/right-keys/North.png)
+- [BongoCat/resources/models/gamepad/resources/right-keys/RightShoulder.png](../BongoCat/resources/models/gamepad/resources/right-keys/RightShoulder.png)
+- [BongoCat/resources/models/gamepad/resources/right-keys/RightTrigger.png](../BongoCat/resources/models/gamepad/resources/right-keys/RightTrigger.png)
+- [BongoCat/resources/models/gamepad/resources/right-keys/South.png](../BongoCat/resources/models/gamepad/resources/right-keys/South.png)
+- [BongoCat/resources/models/gamepad/resources/right-keys/West.png](../BongoCat/resources/models/gamepad/resources/right-keys/West.png)
+- [BongoCat/resources/models/gamepad/resources/background.png](../BongoCat/resources/models/gamepad/resources/background.png)
+- [BongoCat/resources/models/gamepad/resources/cover.png](../BongoCat/resources/models/gamepad/resources/cover.png)
+- [BongoCat/resources/models/gamepad/cat.model3.json](../BongoCat/resources/models/gamepad/cat.model3.json)
+- [BongoCat/resources/models/gamepad/demomodel3.cdi3.json](../BongoCat/resources/models/gamepad/demomodel3.cdi3.json)
+- [BongoCat/resources/models/gamepad/demomodel3.moc3](../BongoCat/resources/models/gamepad/demomodel3.moc3)
+- [BongoCat/resources/models/gamepad/exp_1.exp3.json](../BongoCat/resources/models/gamepad/exp_1.exp3.json)
+- [BongoCat/resources/models/gamepad/exp_2.exp3.json](../BongoCat/resources/models/gamepad/exp_2.exp3.json)
+- [BongoCat/resources/models/gamepad/live2d_expression0.exp3.json](../BongoCat/resources/models/gamepad/live2d_expression0.exp3.json)
+- [BongoCat/resources/models/gamepad/live2d_expression1.exp3.json](../BongoCat/resources/models/gamepad/live2d_expression1.exp3.json)
+- [BongoCat/resources/models/gamepad/live2d_expression2.exp3.json](../BongoCat/resources/models/gamepad/live2d_expression2.exp3.json)
+- [BongoCat/resources/models/gamepad/live2d_motion1.flac](../BongoCat/resources/models/gamepad/live2d_motion1.flac)
+- [BongoCat/resources/models/gamepad/live2d_motion1.motion3.json](../BongoCat/resources/models/gamepad/live2d_motion1.motion3.json)
+- [BongoCat/resources/models/gamepad/live2d_motion2.motion3.json](../BongoCat/resources/models/gamepad/live2d_motion2.motion3.json)
+- [BongoCat/resources/models/keyboard/demomodel2.1024/texture_00.png](../BongoCat/resources/models/keyboard/demomodel2.1024/texture_00.png)
+- [BongoCat/resources/models/keyboard/demomodel2.1024/texture_01.png](../BongoCat/resources/models/keyboard/demomodel2.1024/texture_01.png)
+- [BongoCat/resources/models/keyboard/demomodel2.1024/texture_02.png](../BongoCat/resources/models/keyboard/demomodel2.1024/texture_02.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/AltLeft.png](../BongoCat/resources/models/keyboard/resources/left-keys/AltLeft.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/AltRight.png](../BongoCat/resources/models/keyboard/resources/left-keys/AltRight.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/BackQuote.png](../BongoCat/resources/models/keyboard/resources/left-keys/BackQuote.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Backspace.png](../BongoCat/resources/models/keyboard/resources/left-keys/Backspace.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/CapsLock.png](../BongoCat/resources/models/keyboard/resources/left-keys/CapsLock.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/ControlLeft.png](../BongoCat/resources/models/keyboard/resources/left-keys/ControlLeft.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/ControlRight.png](../BongoCat/resources/models/keyboard/resources/left-keys/ControlRight.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Delete.png](../BongoCat/resources/models/keyboard/resources/left-keys/Delete.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Enter.png](../BongoCat/resources/models/keyboard/resources/left-keys/Enter.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Escape.png](../BongoCat/resources/models/keyboard/resources/left-keys/Escape.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Fn.png](../BongoCat/resources/models/keyboard/resources/left-keys/Fn.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyA.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyA.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyB.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyB.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyC.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyC.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyD.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyD.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyE.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyE.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyF.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyF.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyG.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyG.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyH.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyH.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyI.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyI.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyJ.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyJ.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyK.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyK.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyL.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyL.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyM.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyM.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyN.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyN.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyO.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyO.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyP.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyP.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyQ.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyQ.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyR.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyR.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyS.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyS.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyT.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyT.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyU.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyU.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyV.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyV.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyW.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyW.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyX.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyX.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyY.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyY.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/KeyZ.png](../BongoCat/resources/models/keyboard/resources/left-keys/KeyZ.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Meta.png](../BongoCat/resources/models/keyboard/resources/left-keys/Meta.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Num0.png](../BongoCat/resources/models/keyboard/resources/left-keys/Num0.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Num1.png](../BongoCat/resources/models/keyboard/resources/left-keys/Num1.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Num2.png](../BongoCat/resources/models/keyboard/resources/left-keys/Num2.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Num3.png](../BongoCat/resources/models/keyboard/resources/left-keys/Num3.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Num4.png](../BongoCat/resources/models/keyboard/resources/left-keys/Num4.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Num5.png](../BongoCat/resources/models/keyboard/resources/left-keys/Num5.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Num6.png](../BongoCat/resources/models/keyboard/resources/left-keys/Num6.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Num7.png](../BongoCat/resources/models/keyboard/resources/left-keys/Num7.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Num8.png](../BongoCat/resources/models/keyboard/resources/left-keys/Num8.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Num9.png](../BongoCat/resources/models/keyboard/resources/left-keys/Num9.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/ShiftLeft.png](../BongoCat/resources/models/keyboard/resources/left-keys/ShiftLeft.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/ShiftRight.png](../BongoCat/resources/models/keyboard/resources/left-keys/ShiftRight.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Slash.png](../BongoCat/resources/models/keyboard/resources/left-keys/Slash.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Space.png](../BongoCat/resources/models/keyboard/resources/left-keys/Space.png)
+- [BongoCat/resources/models/keyboard/resources/left-keys/Tab.png](../BongoCat/resources/models/keyboard/resources/left-keys/Tab.png)
+- [BongoCat/resources/models/keyboard/resources/right-keys/DownArrow.png](../BongoCat/resources/models/keyboard/resources/right-keys/DownArrow.png)
+- [BongoCat/resources/models/keyboard/resources/right-keys/LeftArrow.png](../BongoCat/resources/models/keyboard/resources/right-keys/LeftArrow.png)
+- [BongoCat/resources/models/keyboard/resources/right-keys/RightArrow.png](../BongoCat/resources/models/keyboard/resources/right-keys/RightArrow.png)
+- [BongoCat/resources/models/keyboard/resources/right-keys/UpArrow.png](../BongoCat/resources/models/keyboard/resources/right-keys/UpArrow.png)
+- [BongoCat/resources/models/keyboard/resources/background.png](../BongoCat/resources/models/keyboard/resources/background.png)
+- [BongoCat/resources/models/keyboard/resources/cover.png](../BongoCat/resources/models/keyboard/resources/cover.png)
+- [BongoCat/resources/models/keyboard/cat.model3.json](../BongoCat/resources/models/keyboard/cat.model3.json)
+- [BongoCat/resources/models/keyboard/demomodel2.cdi3.json](../BongoCat/resources/models/keyboard/demomodel2.cdi3.json)
+- [BongoCat/resources/models/keyboard/demomodel2.moc3](../BongoCat/resources/models/keyboard/demomodel2.moc3)
+- [BongoCat/resources/models/keyboard/exp_1.exp3.json](../BongoCat/resources/models/keyboard/exp_1.exp3.json)
+- [BongoCat/resources/models/keyboard/exp_2.exp3.json](../BongoCat/resources/models/keyboard/exp_2.exp3.json)
+- [BongoCat/resources/models/keyboard/live2d_expression0.exp3.json](../BongoCat/resources/models/keyboard/live2d_expression0.exp3.json)
+- [BongoCat/resources/models/keyboard/live2d_expression1.exp3.json](../BongoCat/resources/models/keyboard/live2d_expression1.exp3.json)
+- [BongoCat/resources/models/keyboard/live2d_expression2.exp3.json](../BongoCat/resources/models/keyboard/live2d_expression2.exp3.json)
+- [BongoCat/resources/models/keyboard/live2d_motion1.flac](../BongoCat/resources/models/keyboard/live2d_motion1.flac)
+- [BongoCat/resources/models/keyboard/live2d_motion1.motion3.json](../BongoCat/resources/models/keyboard/live2d_motion1.motion3.json)
+- [BongoCat/resources/models/keyboard/live2d_motion2.motion3.json](../BongoCat/resources/models/keyboard/live2d_motion2.motion3.json)
+- [BongoCat/resources/models/standard/demomodel.1024/texture_00.png](../BongoCat/resources/models/standard/demomodel.1024/texture_00.png)
+- [BongoCat/resources/models/standard/demomodel.1024/texture_01.png](../BongoCat/resources/models/standard/demomodel.1024/texture_01.png)
+- [BongoCat/resources/models/standard/demomodel.1024/texture_02.png](../BongoCat/resources/models/standard/demomodel.1024/texture_02.png)
+- [BongoCat/resources/models/standard/resources/left-keys/AltLeft.png](../BongoCat/resources/models/standard/resources/left-keys/AltLeft.png)
+- [BongoCat/resources/models/standard/resources/left-keys/AltRight.png](../BongoCat/resources/models/standard/resources/left-keys/AltRight.png)
+- [BongoCat/resources/models/standard/resources/left-keys/BackQuote.png](../BongoCat/resources/models/standard/resources/left-keys/BackQuote.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Backspace.png](../BongoCat/resources/models/standard/resources/left-keys/Backspace.png)
+- [BongoCat/resources/models/standard/resources/left-keys/CapsLock.png](../BongoCat/resources/models/standard/resources/left-keys/CapsLock.png)
+- [BongoCat/resources/models/standard/resources/left-keys/ControlLeft.png](../BongoCat/resources/models/standard/resources/left-keys/ControlLeft.png)
+- [BongoCat/resources/models/standard/resources/left-keys/ControlRight.png](../BongoCat/resources/models/standard/resources/left-keys/ControlRight.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Delete.png](../BongoCat/resources/models/standard/resources/left-keys/Delete.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Enter.png](../BongoCat/resources/models/standard/resources/left-keys/Enter.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Escape.png](../BongoCat/resources/models/standard/resources/left-keys/Escape.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Fn.png](../BongoCat/resources/models/standard/resources/left-keys/Fn.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyA.png](../BongoCat/resources/models/standard/resources/left-keys/KeyA.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyB.png](../BongoCat/resources/models/standard/resources/left-keys/KeyB.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyC.png](../BongoCat/resources/models/standard/resources/left-keys/KeyC.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyD.png](../BongoCat/resources/models/standard/resources/left-keys/KeyD.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyE.png](../BongoCat/resources/models/standard/resources/left-keys/KeyE.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyF.png](../BongoCat/resources/models/standard/resources/left-keys/KeyF.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyG.png](../BongoCat/resources/models/standard/resources/left-keys/KeyG.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyH.png](../BongoCat/resources/models/standard/resources/left-keys/KeyH.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyI.png](../BongoCat/resources/models/standard/resources/left-keys/KeyI.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyJ.png](../BongoCat/resources/models/standard/resources/left-keys/KeyJ.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyK.png](../BongoCat/resources/models/standard/resources/left-keys/KeyK.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyL.png](../BongoCat/resources/models/standard/resources/left-keys/KeyL.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyM.png](../BongoCat/resources/models/standard/resources/left-keys/KeyM.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyN.png](../BongoCat/resources/models/standard/resources/left-keys/KeyN.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyO.png](../BongoCat/resources/models/standard/resources/left-keys/KeyO.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyP.png](../BongoCat/resources/models/standard/resources/left-keys/KeyP.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyQ.png](../BongoCat/resources/models/standard/resources/left-keys/KeyQ.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyR.png](../BongoCat/resources/models/standard/resources/left-keys/KeyR.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyS.png](../BongoCat/resources/models/standard/resources/left-keys/KeyS.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyT.png](../BongoCat/resources/models/standard/resources/left-keys/KeyT.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyU.png](../BongoCat/resources/models/standard/resources/left-keys/KeyU.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyV.png](../BongoCat/resources/models/standard/resources/left-keys/KeyV.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyW.png](../BongoCat/resources/models/standard/resources/left-keys/KeyW.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyX.png](../BongoCat/resources/models/standard/resources/left-keys/KeyX.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyY.png](../BongoCat/resources/models/standard/resources/left-keys/KeyY.png)
+- [BongoCat/resources/models/standard/resources/left-keys/KeyZ.png](../BongoCat/resources/models/standard/resources/left-keys/KeyZ.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Meta.png](../BongoCat/resources/models/standard/resources/left-keys/Meta.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Num0.png](../BongoCat/resources/models/standard/resources/left-keys/Num0.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Num1.png](../BongoCat/resources/models/standard/resources/left-keys/Num1.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Num2.png](../BongoCat/resources/models/standard/resources/left-keys/Num2.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Num3.png](../BongoCat/resources/models/standard/resources/left-keys/Num3.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Num4.png](../BongoCat/resources/models/standard/resources/left-keys/Num4.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Num5.png](../BongoCat/resources/models/standard/resources/left-keys/Num5.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Num6.png](../BongoCat/resources/models/standard/resources/left-keys/Num6.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Num7.png](../BongoCat/resources/models/standard/resources/left-keys/Num7.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Num8.png](../BongoCat/resources/models/standard/resources/left-keys/Num8.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Num9.png](../BongoCat/resources/models/standard/resources/left-keys/Num9.png)
+- [BongoCat/resources/models/standard/resources/left-keys/ShiftLeft.png](../BongoCat/resources/models/standard/resources/left-keys/ShiftLeft.png)
+- [BongoCat/resources/models/standard/resources/left-keys/ShiftRight.png](../BongoCat/resources/models/standard/resources/left-keys/ShiftRight.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Slash.png](../BongoCat/resources/models/standard/resources/left-keys/Slash.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Space.png](../BongoCat/resources/models/standard/resources/left-keys/Space.png)
+- [BongoCat/resources/models/standard/resources/left-keys/Tab.png](../BongoCat/resources/models/standard/resources/left-keys/Tab.png)
+- [BongoCat/resources/models/standard/resources/background.png](../BongoCat/resources/models/standard/resources/background.png)
+- [BongoCat/resources/models/standard/resources/cover.png](../BongoCat/resources/models/standard/resources/cover.png)
+- [BongoCat/resources/models/standard/cat.model3.json](../BongoCat/resources/models/standard/cat.model3.json)
+- [BongoCat/resources/models/standard/demomodel.cdi3.json](../BongoCat/resources/models/standard/demomodel.cdi3.json)
+- [BongoCat/resources/models/standard/demomodel.moc3](../BongoCat/resources/models/standard/demomodel.moc3)
+- [BongoCat/resources/models/standard/exp_1.exp3.json](../BongoCat/resources/models/standard/exp_1.exp3.json)
+- [BongoCat/resources/models/standard/exp_2.exp3.json](../BongoCat/resources/models/standard/exp_2.exp3.json)
+- [BongoCat/resources/models/standard/live2d_expression0.exp3.json](../BongoCat/resources/models/standard/live2d_expression0.exp3.json)
+- [BongoCat/resources/models/standard/live2d_expression1.exp3.json](../BongoCat/resources/models/standard/live2d_expression1.exp3.json)
+- [BongoCat/resources/models/standard/live2d_expression2.exp3.json](../BongoCat/resources/models/standard/live2d_expression2.exp3.json)
+- [BongoCat/resources/models/standard/live2d_motion1.flac](../BongoCat/resources/models/standard/live2d_motion1.flac)
+- [BongoCat/resources/models/standard/live2d_motion1.motion3.json](../BongoCat/resources/models/standard/live2d_motion1.motion3.json)
+- [BongoCat/resources/models/standard/live2d_motion2.motion3.json](../BongoCat/resources/models/standard/live2d_motion2.motion3.json)
+- [BongoCat/shared/behavior/animation-semantics.md](../BongoCat/shared/behavior/animation-semantics.md)
+- [BongoCat/shared/behavior/input-semantics.md](../BongoCat/shared/behavior/input-semantics.md)
+- [BongoCat/shared/config/fixtures/accept-before-motion-overlap.json](../BongoCat/shared/config/fixtures/accept-before-motion-overlap.json)
+- [BongoCat/shared/config/fixtures/accept-behavior-names.json](../BongoCat/shared/config/fixtures/accept-behavior-names.json)
+- [BongoCat/shared/config/fixtures/accept-built-in-model-metadata.json](../BongoCat/shared/config/fixtures/accept-built-in-model-metadata.json)
+- [BongoCat/shared/config/fixtures/accept-check-for-updates-interval.json](../BongoCat/shared/config/fixtures/accept-check-for-updates-interval.json)
+- [BongoCat/shared/config/fixtures/accept-corner-radius.json](../BongoCat/shared/config/fixtures/accept-corner-radius.json)
+- [BongoCat/shared/config/fixtures/accept-force-move-mouse.json](../BongoCat/shared/config/fixtures/accept-force-move-mouse.json)
+- [BongoCat/shared/config/fixtures/accept-gamepad-auto-switch.json](../BongoCat/shared/config/fixtures/accept-gamepad-auto-switch.json)
+- [BongoCat/shared/config/fixtures/accept-hold-modifier-to-interact.json](../BongoCat/shared/config/fixtures/accept-hold-modifier-to-interact.json)
+- [BongoCat/shared/config/fixtures/accept-hover-hide.json](../BongoCat/shared/config/fixtures/accept-hover-hide.json)
+- [BongoCat/shared/config/fixtures/accept-hover-hide-delay.json](../BongoCat/shared/config/fixtures/accept-hover-hide-delay.json)
+- [BongoCat/shared/config/fixtures/accept-idle-hide.json](../BongoCat/shared/config/fixtures/accept-idle-hide.json)
+- [BongoCat/shared/config/fixtures/accept-imported-model-metadata.json](../BongoCat/shared/config/fixtures/accept-imported-model-metadata.json)
+- [BongoCat/shared/config/fixtures/accept-input-without-mouse.json](../BongoCat/shared/config/fixtures/accept-input-without-mouse.json)
+- [BongoCat/shared/config/fixtures/accept-last-expressions.json](../BongoCat/shared/config/fixtures/accept-last-expressions.json)
+- [BongoCat/shared/config/fixtures/accept-logging-boundary.json](../BongoCat/shared/config/fixtures/accept-logging-boundary.json)
+- [BongoCat/shared/config/fixtures/accept-model-behavior-identity.json](../BongoCat/shared/config/fixtures/accept-model-behavior-identity.json)
+- [BongoCat/shared/config/fixtures/accept-motion-overlap.json](../BongoCat/shared/config/fixtures/accept-motion-overlap.json)
+- [BongoCat/shared/config/fixtures/accept-random-behavior.json](../BongoCat/shared/config/fixtures/accept-random-behavior.json)
+- [BongoCat/shared/config/fixtures/accept-window-mode.json](../BongoCat/shared/config/fixtures/accept-window-mode.json)
+- [BongoCat/shared/config/fixtures/default.json](../BongoCat/shared/config/fixtures/default.json)
+- [BongoCat/shared/config/fixtures/invalid-behavior-name-behavior-id.json](../BongoCat/shared/config/fixtures/invalid-behavior-name-behavior-id.json)
+- [BongoCat/shared/config/fixtures/invalid-behavior-name-blank.json](../BongoCat/shared/config/fixtures/invalid-behavior-name-blank.json)
+- [BongoCat/shared/config/fixtures/invalid-behavior-name-control-character.json](../BongoCat/shared/config/fixtures/invalid-behavior-name-control-character.json)
+- [BongoCat/shared/config/fixtures/invalid-behavior-name-duplicate.json](../BongoCat/shared/config/fixtures/invalid-behavior-name-duplicate.json)
+- [BongoCat/shared/config/fixtures/invalid-behavior-name-model-id.json](../BongoCat/shared/config/fixtures/invalid-behavior-name-model-id.json)
+- [BongoCat/shared/config/fixtures/invalid-blank-binding.json](../BongoCat/shared/config/fixtures/invalid-blank-binding.json)
+- [BongoCat/shared/config/fixtures/invalid-blank-built-in-model-title.json](../BongoCat/shared/config/fixtures/invalid-blank-built-in-model-title.json)
+- [BongoCat/shared/config/fixtures/invalid-blank-imported-model-title.json](../BongoCat/shared/config/fixtures/invalid-blank-imported-model-title.json)
+- [BongoCat/shared/config/fixtures/invalid-check-for-updates-interval.json](../BongoCat/shared/config/fixtures/invalid-check-for-updates-interval.json)
+- [BongoCat/shared/config/fixtures/invalid-check-for-updates-interval-zero.json](../BongoCat/shared/config/fixtures/invalid-check-for-updates-interval-zero.json)
+- [BongoCat/shared/config/fixtures/invalid-corner-radius.json](../BongoCat/shared/config/fixtures/invalid-corner-radius.json)
+- [BongoCat/shared/config/fixtures/invalid-duplicate-built-in-model-id.json](../BongoCat/shared/config/fixtures/invalid-duplicate-built-in-model-id.json)
+- [BongoCat/shared/config/fixtures/invalid-duplicate-imported-model-id.json](../BongoCat/shared/config/fixtures/invalid-duplicate-imported-model-id.json)
+- [BongoCat/shared/config/fixtures/invalid-duplicate-last-expression.json](../BongoCat/shared/config/fixtures/invalid-duplicate-last-expression.json)
+- [BongoCat/shared/config/fixtures/invalid-force-move-mouse.json](../BongoCat/shared/config/fixtures/invalid-force-move-mouse.json)
+- [BongoCat/shared/config/fixtures/invalid-gamepad-auto-switch-target.json](../BongoCat/shared/config/fixtures/invalid-gamepad-auto-switch-target.json)
+- [BongoCat/shared/config/fixtures/invalid-gamepad-dead-zone.json](../BongoCat/shared/config/fixtures/invalid-gamepad-dead-zone.json)
+- [BongoCat/shared/config/fixtures/invalid-hold-modifier-to-interact.json](../BongoCat/shared/config/fixtures/invalid-hold-modifier-to-interact.json)
+- [BongoCat/shared/config/fixtures/invalid-hover-hide-delay.json](../BongoCat/shared/config/fixtures/invalid-hover-hide-delay.json)
+- [BongoCat/shared/config/fixtures/invalid-idle-hide-delay.json](../BongoCat/shared/config/fixtures/invalid-idle-hide-delay.json)
+- [BongoCat/shared/config/fixtures/invalid-imported-model-input-mode.json](../BongoCat/shared/config/fixtures/invalid-imported-model-input-mode.json)
+- [BongoCat/shared/config/fixtures/invalid-incomplete-model-identity.json](../BongoCat/shared/config/fixtures/invalid-incomplete-model-identity.json)
+- [BongoCat/shared/config/fixtures/invalid-key-release-timeout.json](../BongoCat/shared/config/fixtures/invalid-key-release-timeout.json)
+- [BongoCat/shared/config/fixtures/invalid-last-expression-model-id.json](../BongoCat/shared/config/fixtures/invalid-last-expression-model-id.json)
+- [BongoCat/shared/config/fixtures/invalid-last-expression-name.json](../BongoCat/shared/config/fixtures/invalid-last-expression-name.json)
+- [BongoCat/shared/config/fixtures/invalid-log-level.json](../BongoCat/shared/config/fixtures/invalid-log-level.json)
+- [BongoCat/shared/config/fixtures/invalid-log-retention-too-large.json](../BongoCat/shared/config/fixtures/invalid-log-retention-too-large.json)
+- [BongoCat/shared/config/fixtures/invalid-log-retention-zero.json](../BongoCat/shared/config/fixtures/invalid-log-retention-zero.json)
+- [BongoCat/shared/config/fixtures/invalid-missing-imported-model-input-mode.json](../BongoCat/shared/config/fixtures/invalid-missing-imported-model-input-mode.json)
+- [BongoCat/shared/config/fixtures/invalid-missing-selected-model.json](../BongoCat/shared/config/fixtures/invalid-missing-selected-model.json)
+- [BongoCat/shared/config/fixtures/invalid-model-id-path.json](../BongoCat/shared/config/fixtures/invalid-model-id-path.json)
+- [BongoCat/shared/config/fixtures/invalid-model-id-reserved.json](../BongoCat/shared/config/fixtures/invalid-model-id-reserved.json)
+- [BongoCat/shared/config/fixtures/invalid-motion-overlap.json](../BongoCat/shared/config/fixtures/invalid-motion-overlap.json)
+- [BongoCat/shared/config/fixtures/invalid-out-of-range.json](../BongoCat/shared/config/fixtures/invalid-out-of-range.json)
+- [BongoCat/shared/config/fixtures/invalid-random-behavior-interval.json](../BongoCat/shared/config/fixtures/invalid-random-behavior-interval.json)
+- [BongoCat/shared/config/fixtures/invalid-random-behavior-interval-too-large.json](../BongoCat/shared/config/fixtures/invalid-random-behavior-interval-too-large.json)
+- [BongoCat/shared/config/fixtures/invalid-random-behavior-mode.json](../BongoCat/shared/config/fixtures/invalid-random-behavior-mode.json)
+- [BongoCat/shared/config/fixtures/invalid-unknown-field.json](../BongoCat/shared/config/fixtures/invalid-unknown-field.json)
+- [BongoCat/shared/config/fixtures/invalid-unsupported-language.json](../BongoCat/shared/config/fixtures/invalid-unsupported-language.json)
+- [BongoCat/shared/config/fixtures/manifest.json](../BongoCat/shared/config/fixtures/manifest.json)
+- [BongoCat/shared/config/window-state-fixtures/default.json](../BongoCat/shared/config/window-state-fixtures/default.json)
+- [BongoCat/shared/config/window-state-fixtures/invalid-config-field.json](../BongoCat/shared/config/window-state-fixtures/invalid-config-field.json)
+- [BongoCat/shared/config/window-state-fixtures/invalid-future-schema.json](../BongoCat/shared/config/window-state-fixtures/invalid-future-schema.json)
+- [BongoCat/shared/config/window-state-fixtures/invalid-missing-settings-window.json](../BongoCat/shared/config/window-state-fixtures/invalid-missing-settings-window.json)
+- [BongoCat/shared/config/window-state-fixtures/invalid-out-of-range.json](../BongoCat/shared/config/window-state-fixtures/invalid-out-of-range.json)
+- [BongoCat/shared/config/window-state-fixtures/invalid-unknown-field.json](../BongoCat/shared/config/window-state-fixtures/invalid-unknown-field.json)
+- [BongoCat/shared/config/window-state-fixtures/manifest.json](../BongoCat/shared/config/window-state-fixtures/manifest.json)
+- [BongoCat/shared/config/window-state-fixtures/negative-coordinate.json](../BongoCat/shared/config/window-state-fixtures/negative-coordinate.json)
+- [BongoCat/shared/config/config.schema.json](../BongoCat/shared/config/config.schema.json)
+- [BongoCat/shared/config/contract.md](../BongoCat/shared/config/contract.md)
+- [BongoCat/shared/config/window-state.schema.json](../BongoCat/shared/config/window-state.schema.json)
+- [BongoCat/shared/fixtures/expected-state/cursor-does-not-block-release.json](../BongoCat/shared/fixtures/expected-state/cursor-does-not-block-release.json)
+- [BongoCat/shared/fixtures/expected-state/gamepad-reconnect-reset.json](../BongoCat/shared/fixtures/expected-state/gamepad-reconnect-reset.json)
+- [BongoCat/shared/fixtures/expected-state/input-recovery-lifecycle.json](../BongoCat/shared/fixtures/expected-state/input-recovery-lifecycle.json)
+- [BongoCat/shared/fixtures/expected-state/keyboard-modifiers-and-repeat.json](../BongoCat/shared/fixtures/expected-state/keyboard-modifiers-and-repeat.json)
+- [BongoCat/shared/fixtures/expected-state/keyboard-reconciled-release.json](../BongoCat/shared/fixtures/expected-state/keyboard-reconciled-release.json)
+- [BongoCat/shared/fixtures/expected-state/keyboard-single-key.json](../BongoCat/shared/fixtures/expected-state/keyboard-single-key.json)
+- [BongoCat/shared/fixtures/expected-state/lifecycle-reset.json](../BongoCat/shared/fixtures/expected-state/lifecycle-reset.json)
+- [BongoCat/shared/fixtures/expected-state/model-motion-expression-audio.json](../BongoCat/shared/fixtures/expected-state/model-motion-expression-audio.json)
+- [BongoCat/shared/fixtures/expected-state/mouse-drag-and-cursor.json](../BongoCat/shared/fixtures/expected-state/mouse-drag-and-cursor.json)
+- [BongoCat/shared/fixtures/expected-state/schema.json](../BongoCat/shared/fixtures/expected-state/schema.json)
+- [BongoCat/shared/fixtures/input-sequences/cursor-does-not-block-release.json](../BongoCat/shared/fixtures/input-sequences/cursor-does-not-block-release.json)
+- [BongoCat/shared/fixtures/input-sequences/gamepad-reconnect-reset.json](../BongoCat/shared/fixtures/input-sequences/gamepad-reconnect-reset.json)
+- [BongoCat/shared/fixtures/input-sequences/input-recovery-lifecycle.json](../BongoCat/shared/fixtures/input-sequences/input-recovery-lifecycle.json)
+- [BongoCat/shared/fixtures/input-sequences/keyboard-modifiers-and-repeat.json](../BongoCat/shared/fixtures/input-sequences/keyboard-modifiers-and-repeat.json)
+- [BongoCat/shared/fixtures/input-sequences/keyboard-reconciled-release.json](../BongoCat/shared/fixtures/input-sequences/keyboard-reconciled-release.json)
+- [BongoCat/shared/fixtures/input-sequences/keyboard-single-key.json](../BongoCat/shared/fixtures/input-sequences/keyboard-single-key.json)
+- [BongoCat/shared/fixtures/input-sequences/lifecycle-reset.json](../BongoCat/shared/fixtures/input-sequences/lifecycle-reset.json)
+- [BongoCat/shared/fixtures/input-sequences/model-motion-expression-audio.json](../BongoCat/shared/fixtures/input-sequences/model-motion-expression-audio.json)
+- [BongoCat/shared/fixtures/input-sequences/mouse-drag-and-cursor.json](../BongoCat/shared/fixtures/input-sequences/mouse-drag-and-cursor.json)
+- [BongoCat/shared/fixtures/input-sequences/schema.json](../BongoCat/shared/fixtures/input-sequences/schema.json)
+- [BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-accepted/resources/left-keys/KeyA.png](../BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-accepted/resources/left-keys/KeyA.png)
+- [BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-accepted/cat.model3.json](../BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-accepted/cat.model3.json)
+- [BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-accepted/模型 数据.moc3](../BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-accepted/%E6%A8%A1%E5%9E%8B%20%E6%95%B0%E6%8D%AE.moc3)
+- [BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-accepted/模型.cdi3.json](../BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-accepted/%E6%A8%A1%E5%9E%8B.cdi3.json)
+- [BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-invalid/cat.model3.json](../BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-invalid/cat.model3.json)
+- [BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-invalid/模型 数据.moc3](../BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-invalid/%E6%A8%A1%E5%9E%8B%20%E6%95%B0%E6%8D%AE.moc3)
+- [BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-invalid/模型.cdi3.json](../BongoCat/shared/fixtures/model-fixtures/cases/combined-parameters-invalid/%E6%A8%A1%E5%9E%8B.cdi3.json)
+- [BongoCat/shared/fixtures/model-fixtures/cases/malformed-model3-json/cat.model3.json.invalid](../BongoCat/shared/fixtures/model-fixtures/cases/malformed-model3-json/cat.model3.json.invalid)
+- [BongoCat/shared/fixtures/model-fixtures/cases/missing-moc/cat.model3.json](../BongoCat/shared/fixtures/model-fixtures/cases/missing-moc/cat.model3.json)
+- [BongoCat/shared/fixtures/model-fixtures/cases/multiple-model3/first.model3.json](../BongoCat/shared/fixtures/model-fixtures/cases/multiple-model3/first.model3.json)
+- [BongoCat/shared/fixtures/model-fixtures/cases/multiple-model3/second.model3.json](../BongoCat/shared/fixtures/model-fixtures/cases/multiple-model3/second.model3.json)
+- [BongoCat/shared/fixtures/model-fixtures/cases/oversized-texture/textures/huge.png.hex](../BongoCat/shared/fixtures/model-fixtures/cases/oversized-texture/textures/huge.png.hex)
+- [BongoCat/shared/fixtures/model-fixtures/cases/oversized-texture/cat.model3.json](../BongoCat/shared/fixtures/model-fixtures/cases/oversized-texture/cat.model3.json)
+- [BongoCat/shared/fixtures/model-fixtures/cases/oversized-texture/placeholder.moc3](../BongoCat/shared/fixtures/model-fixtures/cases/oversized-texture/placeholder.moc3)
+- [BongoCat/shared/fixtures/model-fixtures/cases/path-traversal/cat.model3.json](../BongoCat/shared/fixtures/model-fixtures/cases/path-traversal/cat.model3.json)
+- [BongoCat/shared/fixtures/model-fixtures/cases/非 ASCII 模型/resources/left-keys/KeyA.png](../BongoCat/shared/fixtures/model-fixtures/cases/%E9%9D%9E%20ASCII%20%E6%A8%A1%E5%9E%8B/resources/left-keys/KeyA.png)
+- [BongoCat/shared/fixtures/model-fixtures/cases/非 ASCII 模型/模型 数据.moc3](../BongoCat/shared/fixtures/model-fixtures/cases/%E9%9D%9E%20ASCII%20%E6%A8%A1%E5%9E%8B/%E6%A8%A1%E5%9E%8B%20%E6%95%B0%E6%8D%AE.moc3)
+- [BongoCat/shared/fixtures/model-fixtures/cases/非 ASCII 模型/猫.model3.json](../BongoCat/shared/fixtures/model-fixtures/cases/%E9%9D%9E%20ASCII%20%E6%A8%A1%E5%9E%8B/%E7%8C%AB.model3.json)
+- [BongoCat/shared/fixtures/model-fixtures/cases.json](../BongoCat/shared/fixtures/model-fixtures/cases.json)
+- [BongoCat/shared/fixtures/model-fixtures/preset-model3-index.json](../BongoCat/shared/fixtures/model-fixtures/preset-model3-index.json)
+- [BongoCat/shared/fixtures/model-fixtures/preset-models.json](../BongoCat/shared/fixtures/model-fixtures/preset-models.json)
+- [BongoCat/shared/fixtures/model-fixtures/README.md](../BongoCat/shared/fixtures/model-fixtures/README.md)
+- [BongoCat/shared/fixtures/manifest.json](../BongoCat/shared/fixtures/manifest.json)
+- [BongoCat/shared/fixtures/README.md](../BongoCat/shared/fixtures/README.md)
+- [BongoCat/spikes/config-store/src/lib.rs](../BongoCat/spikes/config-store/src/lib.rs)
+- [BongoCat/spikes/config-store/src/main.rs](../BongoCat/spikes/config-store/src/main.rs)
+- [BongoCat/spikes/config-store/tests/process_crash_recovery.rs](../BongoCat/spikes/config-store/tests/process_crash_recovery.rs)
+- [BongoCat/spikes/config-store/Cargo.lock](../BongoCat/spikes/config-store/Cargo.lock)
+- [BongoCat/spikes/config-store/Cargo.toml](../BongoCat/spikes/config-store/Cargo.toml)
+- [BongoCat/spikes/fixture-runner/src/lib.rs](../BongoCat/spikes/fixture-runner/src/lib.rs)
+- [BongoCat/spikes/fixture-runner/src/main.rs](../BongoCat/spikes/fixture-runner/src/main.rs)
+- [BongoCat/spikes/fixture-runner/Cargo.lock](../BongoCat/spikes/fixture-runner/Cargo.lock)
+- [BongoCat/spikes/fixture-runner/Cargo.toml](../BongoCat/spikes/fixture-runner/Cargo.toml)
+- [BongoCat/spikes/gpui-overlay-macos/macos/Info.plist](../BongoCat/spikes/gpui-overlay-macos/macos/Info.plist)
+- [BongoCat/spikes/gpui-overlay-macos/scripts/package-macos.sh](../BongoCat/spikes/gpui-overlay-macos/scripts/package-macos.sh)
+- [BongoCat/spikes/gpui-overlay-macos/src/main.rs](../BongoCat/spikes/gpui-overlay-macos/src/main.rs)
+- [BongoCat/spikes/gpui-overlay-macos/Cargo.lock](../BongoCat/spikes/gpui-overlay-macos/Cargo.lock)
+- [BongoCat/spikes/gpui-overlay-macos/Cargo.toml](../BongoCat/spikes/gpui-overlay-macos/Cargo.toml)
+- [BongoCat/spikes/gpui-settings/macos/Info.plist](../BongoCat/spikes/gpui-settings/macos/Info.plist)
+- [BongoCat/spikes/gpui-settings/scripts/benchmark-macos.sh](../BongoCat/spikes/gpui-settings/scripts/benchmark-macos.sh)
+- [BongoCat/spikes/gpui-settings/scripts/package-macos.sh](../BongoCat/spikes/gpui-settings/scripts/package-macos.sh)
+- [BongoCat/spikes/gpui-settings/src/macos_menu.rs](../BongoCat/spikes/gpui-settings/src/macos_menu.rs)
+- [BongoCat/spikes/gpui-settings/src/main.rs](../BongoCat/spikes/gpui-settings/src/main.rs)
+- [BongoCat/spikes/gpui-settings/src/platform_ui_probe.rs](../BongoCat/spikes/gpui-settings/src/platform_ui_probe.rs)
+- [BongoCat/spikes/gpui-settings/src/runtime_bridge.rs](../BongoCat/spikes/gpui-settings/src/runtime_bridge.rs)
+- [BongoCat/spikes/gpui-settings/src/text_input.rs](../BongoCat/spikes/gpui-settings/src/text_input.rs)
+- [BongoCat/spikes/gpui-settings/Cargo.lock](../BongoCat/spikes/gpui-settings/Cargo.lock)
+- [BongoCat/spikes/gpui-settings/Cargo.toml](../BongoCat/spikes/gpui-settings/Cargo.toml)
+- [BongoCat/spikes/gpui-settings/README.md](../BongoCat/spikes/gpui-settings/README.md)
+- [BongoCat/spikes/input-macos/src/lib.rs](../BongoCat/spikes/input-macos/src/lib.rs)
+- [BongoCat/spikes/input-macos/src/main.rs](../BongoCat/spikes/input-macos/src/main.rs)
+- [BongoCat/spikes/input-macos/Cargo.lock](../BongoCat/spikes/input-macos/Cargo.lock)
+- [BongoCat/spikes/input-macos/Cargo.toml](../BongoCat/spikes/input-macos/Cargo.toml)
+- [BongoCat/spikes/input-queue/src/lib.rs](../BongoCat/spikes/input-queue/src/lib.rs)
+- [BongoCat/spikes/input-queue/Cargo.lock](../BongoCat/spikes/input-queue/Cargo.lock)
+- [BongoCat/spikes/input-queue/Cargo.toml](../BongoCat/spikes/input-queue/Cargo.toml)
+- [BongoCat/spikes/input-state/src/lib.rs](../BongoCat/spikes/input-state/src/lib.rs)
+- [BongoCat/spikes/input-state/Cargo.lock](../BongoCat/spikes/input-state/Cargo.lock)
+- [BongoCat/spikes/input-state/Cargo.toml](../BongoCat/spikes/input-state/Cargo.toml)
+- [BongoCat/spikes/input-windows/src/lib.rs](../BongoCat/spikes/input-windows/src/lib.rs)
+- [BongoCat/spikes/input-windows/src/main.rs](../BongoCat/spikes/input-windows/src/main.rs)
+- [BongoCat/spikes/input-windows/src/windows_capture.rs](../BongoCat/spikes/input-windows/src/windows_capture.rs)
+- [BongoCat/spikes/input-windows/Cargo.lock](../BongoCat/spikes/input-windows/Cargo.lock)
+- [BongoCat/spikes/input-windows/Cargo.toml](../BongoCat/spikes/input-windows/Cargo.toml)
+- [BongoCat/spikes/model-package/src/lib.rs](../BongoCat/spikes/model-package/src/lib.rs)
+- [BongoCat/spikes/model-package/src/main.rs](../BongoCat/spikes/model-package/src/main.rs)
+- [BongoCat/spikes/model-package/Cargo.lock](../BongoCat/spikes/model-package/Cargo.lock)
+- [BongoCat/spikes/model-package/Cargo.toml](../BongoCat/spikes/model-package/Cargo.toml)
+- [BongoCat/spikes/overlay-lifecycle/src/lib.rs](../BongoCat/spikes/overlay-lifecycle/src/lib.rs)
+- [BongoCat/spikes/overlay-lifecycle/Cargo.lock](../BongoCat/spikes/overlay-lifecycle/Cargo.lock)
+- [BongoCat/spikes/overlay-lifecycle/Cargo.toml](../BongoCat/spikes/overlay-lifecycle/Cargo.toml)
+- [BongoCat/spikes/overlay-windows/src/lib.rs](../BongoCat/spikes/overlay-windows/src/lib.rs)
+- [BongoCat/spikes/overlay-windows/Cargo.lock](../BongoCat/spikes/overlay-windows/Cargo.lock)
+- [BongoCat/spikes/overlay-windows/Cargo.toml](../BongoCat/spikes/overlay-windows/Cargo.toml)
+- [BongoCat/spikes/overlay-windows/README.md](../BongoCat/spikes/overlay-windows/README.md)
+- [BongoCat/spikes/runtime-contract/src/lib.rs](../BongoCat/spikes/runtime-contract/src/lib.rs)
+- [BongoCat/spikes/runtime-contract/src/main.rs](../BongoCat/spikes/runtime-contract/src/main.rs)
+- [BongoCat/spikes/runtime-contract/Cargo.lock](../BongoCat/spikes/runtime-contract/Cargo.lock)
+- [BongoCat/spikes/runtime-contract/Cargo.toml](../BongoCat/spikes/runtime-contract/Cargo.toml)
+- [BongoCat/tools/cubism-bindgen/fixtures/expected/aarch64-apple-darwin.rs](../BongoCat/tools/cubism-bindgen/fixtures/expected/aarch64-apple-darwin.rs)
+- [BongoCat/tools/cubism-bindgen/fixtures/expected/x86_64-apple-darwin.rs](../BongoCat/tools/cubism-bindgen/fixtures/expected/x86_64-apple-darwin.rs)
+- [BongoCat/tools/cubism-bindgen/fixtures/expected/x86_64-pc-windows-msvc.rs](../BongoCat/tools/cubism-bindgen/fixtures/expected/x86_64-pc-windows-msvc.rs)
+- [BongoCat/tools/cubism-bindgen/fixtures/Live2DCubismCore.synthetic.h](../BongoCat/tools/cubism-bindgen/fixtures/Live2DCubismCore.synthetic.h)
+- [BongoCat/tools/cubism-bindgen/src/main.rs](../BongoCat/tools/cubism-bindgen/src/main.rs)
+- [BongoCat/tools/cubism-bindgen/Cargo.lock](../BongoCat/tools/cubism-bindgen/Cargo.lock)
+- [BongoCat/tools/cubism-bindgen/Cargo.toml](../BongoCat/tools/cubism-bindgen/Cargo.toml)
+- [BongoCat/tools/cubism-bindgen/README.md](../BongoCat/tools/cubism-bindgen/README.md)
+- [BongoCat/tools/cubism-core-probe/src/main.rs](../BongoCat/tools/cubism-core-probe/src/main.rs)
+- [BongoCat/tools/cubism-core-probe/Cargo.lock](../BongoCat/tools/cubism-core-probe/Cargo.lock)
+- [BongoCat/tools/cubism-core-probe/Cargo.toml](../BongoCat/tools/cubism-core-probe/Cargo.toml)
+- [BongoCat/tools/cubism-core-probe/README.md](../BongoCat/tools/cubism-core-probe/README.md)
+- [BongoCat/tools/tests/test_changed_paths.py](../BongoCat/tools/tests/test_changed_paths.py)
+- [BongoCat/tools/tests/test_collect_failure_evidence.py](../BongoCat/tools/tests/test_collect_failure_evidence.py)
+- [BongoCat/tools/tests/test_dependabot_contract.py](../BongoCat/tools/tests/test_dependabot_contract.py)
+- [BongoCat/tools/tests/test_dev_plugins.py](../BongoCat/tools/tests/test_dev_plugins.py)
+- [BongoCat/tools/tests/test_failure_evidence_workflow.py](../BongoCat/tools/tests/test_failure_evidence_workflow.py)
+- [BongoCat/tools/tests/test_inspect_cubism_sdk.py](../BongoCat/tools/tests/test_inspect_cubism_sdk.py)
+- [BongoCat/tools/tests/test_packaging_contract.py](../BongoCat/tools/tests/test_packaging_contract.py)
+- [BongoCat/tools/tests/test_plugin_distribution_contract.py](../BongoCat/tools/tests/test_plugin_distribution_contract.py)
+- [BongoCat/tools/tests/test_product_version_contract.py](../BongoCat/tools/tests/test_product_version_contract.py)
+- [BongoCat/tools/tests/test_provenance.py](../BongoCat/tools/tests/test_provenance.py)
+- [BongoCat/tools/tests/test_release_changelog_contract.py](../BongoCat/tools/tests/test_release_changelog_contract.py)
+- [BongoCat/tools/tests/test_release_targets.py](../BongoCat/tools/tests/test_release_targets.py)
+- [BongoCat/tools/tests/test_supported_platform_cfg.py](../BongoCat/tools/tests/test_supported_platform_cfg.py)
+- [BongoCat/tools/tests/test_swift_runtime_rpath.py](../BongoCat/tools/tests/test_swift_runtime_rpath.py)
+- [BongoCat/tools/tests/test_update_release_contract.py](../BongoCat/tools/tests/test_update_release_contract.py)
+- [BongoCat/tools/tests/test_verify_documentation_filter.py](../BongoCat/tools/tests/test_verify_documentation_filter.py)
+- [BongoCat/tools/changed-paths.py](../BongoCat/tools/changed-paths.py)
+- [BongoCat/tools/check-dependencies.sh](../BongoCat/tools/check-dependencies.sh)
+- [BongoCat/tools/collect-failure-evidence.py](../BongoCat/tools/collect-failure-evidence.py)
+- [BongoCat/tools/dev_plugins.py](../BongoCat/tools/dev_plugins.py)
+- [BongoCat/tools/inspect-cubism-sdk.py](../BongoCat/tools/inspect-cubism-sdk.py)
+- [BongoCat/tools/record-provenance.py](../BongoCat/tools/record-provenance.py)
+- [BongoCat/tools/requirements.txt](../BongoCat/tools/requirements.txt)
+- [BongoCat/tools/run-input-fixtures.py](../BongoCat/tools/run-input-fixtures.py)
+- [BongoCat/tools/validate-fixtures.py](../BongoCat/tools/validate-fixtures.py)
+- [BongoCat/tools/validate-json-schema.py](../BongoCat/tools/validate-json-schema.py)
+- [BongoCat/tools/validate-locales.py](../BongoCat/tools/validate-locales.py)
+- [BongoCat/vendor/cubism/5-r.5/Core/dll/windows/x86_64/Live2DCubismCore.dll](../BongoCat/vendor/cubism/5-r.5/Core/dll/windows/x86_64/Live2DCubismCore.dll)
+- [BongoCat/vendor/cubism/5-r.5/Core/dll/windows/x86_64/Live2DCubismCore.lib](../BongoCat/vendor/cubism/5-r.5/Core/dll/windows/x86_64/Live2DCubismCore.lib)
+- [BongoCat/vendor/cubism/5-r.5/Core/include/Live2DCubismCore.h](../BongoCat/vendor/cubism/5-r.5/Core/include/Live2DCubismCore.h)
+- [BongoCat/vendor/cubism/5-r.5/Core/lib/macos/arm64/libLive2DCubismCore.a](../BongoCat/vendor/cubism/5-r.5/Core/lib/macos/arm64/libLive2DCubismCore.a)
+- [BongoCat/vendor/cubism/5-r.5/Core/lib/macos/x86_64/libLive2DCubismCore.a](../BongoCat/vendor/cubism/5-r.5/Core/lib/macos/x86_64/libLive2DCubismCore.a)
+- [BongoCat/vendor/cubism/5-r.5/Core/lib/windows/x86_64/143/Live2DCubismCore_MD.lib](../BongoCat/vendor/cubism/5-r.5/Core/lib/windows/x86_64/143/Live2DCubismCore_MD.lib)
+- [BongoCat/vendor/cubism/5-r.5/LICENSE.md](../BongoCat/vendor/cubism/5-r.5/LICENSE.md)
+- [BongoCat/vendor/cubism/5-r.5/NOTICE.md](../BongoCat/vendor/cubism/5-r.5/NOTICE.md)
+- [BongoCat/.gitattributes](../BongoCat/.gitattributes)
+- [BongoCat/.gitignore](../BongoCat/.gitignore)
+- [BongoCat/AGENTS.md](../BongoCat/AGENTS.md)
+- [BongoCat/Cargo.lock](../BongoCat/Cargo.lock)
+- [BongoCat/Cargo.toml](../BongoCat/Cargo.toml)
+- [BongoCat/CHANGELOG.md](../BongoCat/CHANGELOG.md)
+- [BongoCat/CHANGELOG.zh-CN.md](../BongoCat/CHANGELOG.zh-CN.md)
+- [BongoCat/CONTRIBUTING.md](../BongoCat/CONTRIBUTING.md)
+- [BongoCat/CONTRIBUTING.zh-CN.md](../BongoCat/CONTRIBUTING.zh-CN.md)
+- [BongoCat/deny.toml](../BongoCat/deny.toml)
+- [BongoCat/justfile](../BongoCat/justfile)
+- [BongoCat/LICENSE](../BongoCat/LICENSE)
+- [BongoCat/README.md](../BongoCat/README.md)
+- [BongoCat/README.zh-CN.md](../BongoCat/README.zh-CN.md)
+- [BongoCat/rust-toolchain.toml](../BongoCat/rust-toolchain.toml)
+- [AGENTS.md](../AGENTS.md)
+- [AI_COLLABORATION_REPORT.md](../AI_COLLABORATION_REPORT.md)
+- [GEMINI.md](../GEMINI.md)
+- [HANDOFF_ANTIGRAVITY.md](../HANDOFF_ANTIGRAVITY.md)
+- [HANDOFF_CODEX.md](../HANDOFF_CODEX.md)
+- [PROJECT_MAP.md](../PROJECT_MAP.md)
+- [TASKS.md](../TASKS.md)
+
+## Dependency nội bộ khai báo trong Cargo.toml
+
+Mỗi cạnh là khai báo, gồm cả test/build/target; chưa resolve feature/target. SDK plugin nằm ở repo riêng.
+
+| Crate | Phụ thuộc | Section |
+|---|---|---|
+| `bongocat-app` | `bongocat-audio` | `dependencies` |
+| `bongocat-app` | `bongocat-config` | `dependencies` |
+| `bongocat-app` | `bongocat-i18n` | `dependencies` |
+| `bongocat-app` | `bongocat-input` | `dependencies` |
+| `bongocat-app` | `bongocat-ui-protocol` | `dependencies` |
+| `bongocat-app` | `bongocat-live2d-render` | `dependencies` |
+| `bongocat-app` | `bongocat-model-store` | `dependencies` |
+| `bongocat-app` | `bongocat-live2d` | `dependencies` |
+| `bongocat-app` | `bongocat-log` | `dependencies` |
+| `bongocat-app` | `bongocat-model` | `dependencies` |
+| `bongocat-app` | `bongocat-overlay` | `dependencies` |
+| `bongocat-app` | `bongocat-platform` | `dependencies` |
+| `bongocat-app` | `bongocat-plugin-service` | `dependencies` |
+| `bongocat-app` | `bongocat-render` | `dependencies` |
+| `bongocat-app` | `bongocat-runtime` | `dependencies` |
+| `bongocat-app` | `bongocat-storage` | `dependencies` |
+| `bongocat-app` | `bongocat-ui` | `dependencies` |
+| `bongocat-app` | `bongocat-update` | `dependencies` |
+| `bongocat-app` | `bongocat-plugin-manager` | `dev-dependencies` |
+| `bongocat-config` | `bongocat-input` | `dependencies` |
+| `bongocat-config` | `bongocat-storage` | `dependencies` |
+| `bongocat-live2d` | `bongocat-live2d-playback` | `dependencies` |
+| `bongocat-live2d` | `bongocat-live2d-render` | `dependencies` |
+| `bongocat-live2d` | `bongocat-model` | `dependencies` |
+| `bongocat-live2d` | `bongocat-render` | `dependencies` |
+| `bongocat-live2d` | `bongocat-log` | `dependencies` |
+| `bongocat-live2d` | `bongocat-storage` | `dependencies` |
+| `bongocat-live2d` | `bongocat-model-store` | `dev-dependencies` |
+| `bongocat-live2d-render` | `bongocat-model` | `dependencies` |
+| `bongocat-live2d-render` | `bongocat-render` | `dependencies` |
+| `bongocat-log` | `bongocat-storage` | `dependencies` |
+| `bongocat-model-store` | `bongocat-model` | `dependencies` |
+| `bongocat-model-store` | `bongocat-storage` | `dependencies` |
+| `bongocat-model-store` | `bongocat-render` | `dev-dependencies` |
+| `bongocat-overlay` | `bongocat-input` | `dependencies` |
+| `bongocat-overlay` | `bongocat-model` | `dependencies` |
+| `bongocat-overlay` | `bongocat-platform` | `dependencies` |
+| `bongocat-overlay` | `bongocat-plugin-hud` | `dependencies` |
+| `bongocat-overlay` | `bongocat-render` | `dependencies` |
+| `bongocat-overlay` | `bongocat-runtime` | `dependencies` |
+| `bongocat-packaging` | `bongocat-config` | `dependencies` |
+| `bongocat-packaging` | `bongocat-update` | `dependencies` |
+| `bongocat-platform` | `bongocat-config` | `dependencies` |
+| `bongocat-platform` | `bongocat-input` | `dependencies` |
+| `bongocat-platform` | `bongocat-runtime` | `dev-dependencies` |
+| `bongocat-plugin-hud` | `bongocat-plugin-sdk` | `dependencies` |
+| `bongocat-plugin-manager` | `bongocat-plugin-sdk` | `dependencies` |
+| `bongocat-plugin-manager` | `bongocat-update` | `dependencies` |
+| `bongocat-plugin-service` | `bongocat-plugin-hud` | `dependencies` |
+| `bongocat-plugin-service` | `bongocat-plugin-manager` | `dependencies` |
+| `bongocat-plugin-service` | `bongocat-plugin-sdk` | `dependencies` |
+| `bongocat-render` | `bongocat-input` | `dependencies` |
+| `bongocat-runtime` | `bongocat-audio` | `dependencies` |
+| `bongocat-runtime` | `bongocat-input` | `dependencies` |
+| `bongocat-runtime` | `bongocat-live2d-playback` | `dependencies` |
+| `bongocat-runtime` | `bongocat-live2d-render` | `dependencies` |
+| `bongocat-runtime` | `bongocat-model` | `dependencies` |
+| `bongocat-runtime` | `bongocat-render` | `dependencies` |
+| `bongocat-runtime` | `bongocat-live2d` | `dependencies` |
+| `bongocat-runtime` | `bongocat-model-store` | `dev-dependencies` |
+| `bongocat-ui` | `bongocat-config` | `dependencies` |
+| `bongocat-ui` | `bongocat-i18n` | `dependencies` |
+| `bongocat-ui` | `bongocat-ui-protocol` | `dependencies` |
+| `bongocat-ui` | `bongocat-platform` | `dependencies` |
+| `bongocat-ui` | `bongocat-plugin-sdk` | `dependencies` |
+| `bongocat-ui` | `bongocat-plugin-service` | `dependencies` |
+| `bongocat-ui` | `bongocat-plugin-manager` | `dev-dependencies` |
+| `bongocat-ui-protocol` | `bongocat-input` | `dependencies` |
+| `bongocat-update` | `bongocat-config` | `dependencies` |

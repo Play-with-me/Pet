@@ -1,0 +1,132 @@
+   Compiling proc-macro2 v1.0.107
+   Compiling serde_core v1.0.229
+   Compiling serde v1.0.229
+   Compiling log v0.4.34
+   Compiling serde_json v1.0.154
+   Compiling memchr v2.8.3
+   Compiling bytemuck v1.25.2
+   Compiling num-traits v0.2.19
+   Compiling windows-sys v0.61.2
+   Compiling smallvec v1.16.3
+   Compiling crossbeam-utils v0.8.23
+   Compiling percent-encoding v2.3.2
+   Compiling uuid v1.28.0
+   Compiling time v0.3.55
+   Compiling form_urlencoded v1.2.2
+   Compiling ttf-parser v0.25.1
+   Compiling windows-sys v0.60.2
+   Compiling symphonia-core v0.5.5
+   Compiling crossbeam-channel v0.5.17
+   Compiling symphonia-metadata v0.5.5
+   Compiling fontdue v0.9.4
+   Compiling arboard v3.6.1
+   Compiling bongocat-log v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-log)
+   Compiling symphonia-utils-xiph v0.5.5
+   Compiling quote v1.0.47
+   Compiling symphonia-bundle-flac v0.5.5
+   Compiling syn v3.0.9
+   Compiling syn v2.0.119
+   Compiling moxcms v0.8.1
+   Compiling num-integer v0.1.47
+   Compiling symphonia v0.5.5
+   Compiling num-bigint v0.4.8
+   Compiling dirs-sys v0.5.0
+   Compiling normpath v1.5.2
+   Compiling os_info v3.15.0
+   Compiling rfd v0.17.2
+   Compiling bitflags v2.13.2
+   Compiling dirs v7.0.0
+   Compiling png v0.18.1
+   Compiling keyboard-types v0.8.3
+   Compiling num-rational v0.4.2
+   Compiling synstructure v0.14.0
+   Compiling serde_derive_internals v0.30.0
+   Compiling thiserror-impl v2.0.21
+   Compiling zerofrom-derive v0.1.8
+   Compiling yoke-derive v0.8.4
+   Compiling serde_derive v1.0.229
+   Compiling zerovec-derive v0.11.6
+   Compiling displaydoc v0.2.7
+   Compiling ref-cast-impl v1.0.27
+   Compiling windows-implement v0.60.2
+   Compiling windows-interface v0.59.3
+   Compiling schemars_derive v1.2.2
+   Compiling ref-cast v1.0.27
+   Compiling zerofrom v0.1.8
+   Compiling windows-core v0.62.2
+   Compiling thiserror v2.0.21
+   Compiling image v0.25.10
+   Compiling yoke v0.8.3
+   Compiling muda v0.21.2
+   Compiling auto-launch v0.6.0
+   Compiling zerovec v0.11.8
+   Compiling zerotrie v0.2.5
+   Compiling tray-icon v0.26.1
+   Compiling windows-future v0.3.2
+   Compiling windows-numerics v0.3.1
+   Compiling windows-collections v0.3.2
+   Compiling windows v0.62.2
+   Compiling schemars v1.2.2
+   Compiling bongocat-model v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-model)
+   Compiling keyboard-types v0.7.0
+   Compiling bongocat-live2d-playback v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d-playback)
+   Compiling bongocat-plugin-sdk v0.1.0 (https://github.com/ayangweb/BongoCat-Plugins?rev=89971f44e7d73af8c1aaf38f49aa723589457d8d#89971f44)
+   Compiling tinystr v0.8.4
+   Compiling potential_utf v0.1.6
+   Compiling icu_collections v2.3.0
+   Compiling icu_locale_core v2.3.0
+   Compiling bongocat-plugin-hud v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-plugin-hud)
+   Compiling global-hotkey v0.8.0
+   Compiling bongocat-input v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-input)
+   Compiling icu_provider v2.3.1
+   Compiling bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+   Compiling bongocat-config v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-config)
+   Compiling icu_properties v2.3.0
+   Compiling icu_normalizer v2.3.0
+   Compiling bongocat-live2d-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d-render)
+   Compiling bongocat-live2d v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d)
+   Compiling idna_adapter v1.2.2
+   Compiling idna v1.1.0
+   Compiling url v2.5.8
+   Compiling opener v0.9.0
+   Compiling cpal v0.18.2
+   Compiling gilrs-core v0.6.8 (https://github.com/ayangweb/gilrs?rev=c7e97f54e9e4b10ff89d3527560a22f6817329ea#c7e97f54)
+   Compiling gilrs v0.11.2 (https://github.com/ayangweb/gilrs?rev=c7e97f54e9e4b10ff89d3527560a22f6817329ea#c7e97f54)
+   Compiling rodio v0.23.0
+   Compiling bongocat-platform v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-platform)
+   Compiling bongocat-audio v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-audio)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 54.80s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-761f6507c6179b66.exe)
+
+running 1 test
+
+thread 'windows::tests::window::a_demoted_model_window_returns_to_the_topmost_band' (23600) panicked at crates\bongocat-overlay\src\windows\tests\window.rs:242:5:
+assertion failed: window.is_topmost()
+stack backtrace:
+   0: std::panicking::panic_handler
+             at /rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library\std\src\panicking.rs:689
+   1: core::panicking::panic_fmt
+             at /rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library\core\src\panicking.rs:80
+   2: core::panicking::panic
+             at /rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library\core\src\panicking.rs:150
+   3: bongocat_overlay::windows::tests::window::a_demoted_model_window_returns_to_the_topmost_band
+             at .\src\windows\tests\window.rs:242
+   4: bongocat_overlay::windows::tests::window::a_demoted_model_window_returns_to_the_topmost_band::closure$0
+             at .\src\windows\tests\window.rs:232
+   5: core::ops::function::FnOnce::call_once<bongocat_overlay::windows::tests::window::a_demoted_model_window_returns_to_the_topmost_band::closure_env$0,tuple$<> >
+             at /rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library\core\src\ops\function.rs:250
+   6: core::ops::function::FnOnce::call_once
+             at /rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library\core\src\ops\function.rs:250
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+test windows::tests::window::a_demoted_model_window_returns_to_the_topmost_band ... FAILED
+
+failures:
+
+failures:
+    windows::tests::window::a_demoted_model_window_returns_to_the_topmost_band
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 108 filtered out; finished in 0.09s
+
+error: test failed, to rerun pass `-p bongocat-overlay --lib`

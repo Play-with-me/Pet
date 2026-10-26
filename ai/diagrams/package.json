@@ -1,0 +1,11 @@
+{
+  "name": "pet-project-diagrams",
+  "private": true,
+  "description": "Offline documentation diagrams shared by Codex and Antigravity; not a BongoCat runtime dependency",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "markmap-cli": "0.18.12"
+  }
+}

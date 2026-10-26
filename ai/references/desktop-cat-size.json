@@ -1,0 +1,13 @@
+{
+  "reference": "desktop-cat.png",
+  "source": "User-provided desktop screenshot on 2026-10-24",
+  "image_width_px": 2560,
+  "image_height_px": 1600,
+  "measurement_method": "Visual estimate of visible central cat from top of ears to lowest visible body/feet/tail; not automatic segmentation",
+  "estimated_cat_height_px_range": [250, 260],
+  "companion_standing_visible_height_fraction": 0.16,
+  "reference_standing_height_px": 256,
+  "size_semantics": "Visible head-to-feet height in neutral standing pose, excluding transparent window padding. Width follows stickman proportions, not cat width.",
+  "dpi_semantics": "Screenshot pixels are image pixels. Do not treat them as Windows DIPs; map through the actual display size and measured DPI at runtime.",
+  "status": "Implementation sizing reference derived from leader's instruction to match the pictured cat; no application code changed"
+}

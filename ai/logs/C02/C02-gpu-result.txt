@@ -1,0 +1,4 @@
+D3D11 DrawIndexed/readback passed
+width=350
+height=607
+opaque_pixels=23822
