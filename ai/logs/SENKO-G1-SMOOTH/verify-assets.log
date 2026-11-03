@@ -1,0 +1,33 @@
+
+clip           png_frames unique_png unique_pixel_images gif_frames
+----           ---------- ---------- ------------------- ----------
+idle_front              4          4                   4          4
+idle_34                 4          4                   4          4
+idle_side               4          4                   4          4
+idle_back               2          2                   2          2
+walk_side              16         16                  16         16
+walk_start              3          3                   3          3
+walk_stop               3          3                   3          3
+run_side               16         16                  16         16
+jump_prep               2          2                   2          2
+rise                    1          1                   1          1
+apex                    1          1                   1          1
+fall                    2          2                   2          2
+land                    5          5                   5          5
+climb_up               12         12                  12         12
+hang                    2          2                   2          2
+mantle                  9          9                   9          9
+wall_drop               1          1                   1          1
+held_happy              4          4                   4          4
+look_up                 3          3                   3          3
+headpat                11         11                  11         11
+sit_enter               5          5                   5          5
+sit_loop                4          4                   4          4
+sit_exit                5          5                   5          5
+yawn                    6          6                   6          6
+sleep                   4          4                   4          4
+wake                    5          5                   5          5
+surprise                3          3                   3          3
+balance_wobble          4          4                   4          4
+
+PASS: 141 frames, 28 clips, 32 RGBA colors; 28 GIFs decoded by Windows GDI+.

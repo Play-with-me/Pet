@@ -1,0 +1,7 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+   Compiling bongocat-live2d-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d-render)
+   Compiling bongocat-live2d v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 8.32s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --run-transitions160 resources/characters/senko-160/run-integration-v2 resources/characters/senko-160-source/run-transitions-v1-raw.png resources/characters/senko-160/run-integration-v3`

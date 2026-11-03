@@ -1,0 +1,7 @@
+{
+  "pid": 10772,
+  "exe": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\BongoCat\\target\\debug\\examples\\companion_senko.exe",
+  "expected_exit": 1,
+  "fixture": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\ai\\logs\\SENKO-G0-QA\\empty-assets",
+  "log": "C:\\Users\\kyuu4\\AppData\\Local\\SenkoPet\\Development\\senko.log"
+}

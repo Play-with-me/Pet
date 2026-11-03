@@ -1,0 +1,22 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.41s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_runtime-a480845dede9478a.exe)
+
+running 9 tests
+test senko_touch_policy::tests::affection_opens_tail_trust_but_never_overrides_irritation ... ok
+test senko_touch_policy::tests::head_and_tail_share_reward_cooldown_including_clock_rollback ... ok
+test senko_touch_policy::tests::head_accepts_normally_but_mood_and_energy_can_decline ... ok
+test senko_touch_policy::tests::continuous_quiet_reassures_once_and_pause_or_suspend_cannot_skip_wait ... ok
+test senko_touch_policy::tests::repeated_edges_do_not_farm_rewards_or_irritation_each_tick ... ok
+test senko_touch_policy::tests::malformed_mood_does_not_gain_acceptance ... ok
+test senko_touch_policy::tests::unavailable_actor_does_not_spend_reward_eligibility ... ok
+test senko_touch_policy::tests::irritation_decays_after_quiet_and_never_permanently_locks_headpat ... ok
+test senko_touch_policy::tests::interrupted_quiet_and_new_touch_restart_reconciliation ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 252 filtered out; finished in 0.00s
+
+     Running tests\shared_input_fixtures.rs (target\debug\deps\shared_input_fixtures-4e200e83c31a4a65.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+

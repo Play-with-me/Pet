@@ -1,0 +1,1 @@
+INTEGRATION FIXTURE ONLY. 45 names/233 frame references, 5 static model poses, synthetic masks/contacts, original timing. NOT finished animation or45fps moving artwork. Never select as default pet pack.

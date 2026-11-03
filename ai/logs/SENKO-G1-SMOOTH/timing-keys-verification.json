@@ -1,0 +1,231 @@
+{
+  "base": "resources/characters/senko-v3-p1/candidate-v2",
+  "candidate": "resources/characters/senko-v3-p1/candidate-v6-smooth",
+  "original_pngs_identical": 100,
+  "clips": [
+    {
+      "clip": "idle_front",
+      "old_frames": 4,
+      "new_frames": 4,
+      "old_ms": 1000,
+      "new_ms": 1000,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "idle_34",
+      "old_frames": 4,
+      "new_frames": 4,
+      "old_ms": 1000,
+      "new_ms": 1000,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "idle_side",
+      "old_frames": 4,
+      "new_frames": 4,
+      "old_ms": 1000,
+      "new_ms": 1000,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "idle_back",
+      "old_frames": 2,
+      "new_frames": 2,
+      "old_ms": 700,
+      "new_ms": 700,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "walk_side",
+      "old_frames": 8,
+      "new_frames": 16,
+      "old_ms": 960,
+      "new_ms": 960,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "walk_start",
+      "old_frames": 2,
+      "new_frames": 3,
+      "old_ms": 200,
+      "new_ms": 200,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "walk_stop",
+      "old_frames": 2,
+      "new_frames": 3,
+      "old_ms": 240,
+      "new_ms": 240,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "run_side",
+      "old_frames": 8,
+      "new_frames": 16,
+      "old_ms": 960,
+      "new_ms": 960,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "jump_prep",
+      "old_frames": 2,
+      "new_frames": 2,
+      "old_ms": 200,
+      "new_ms": 200,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "rise",
+      "old_frames": 1,
+      "new_frames": 1,
+      "old_ms": 120,
+      "new_ms": 120,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "apex",
+      "old_frames": 1,
+      "new_frames": 1,
+      "old_ms": 100,
+      "new_ms": 100,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "fall",
+      "old_frames": 2,
+      "new_frames": 2,
+      "old_ms": 280,
+      "new_ms": 280,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "land",
+      "old_frames": 3,
+      "new_frames": 5,
+      "old_ms": 300,
+      "new_ms": 300,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "climb_up",
+      "old_frames": 6,
+      "new_frames": 12,
+      "old_ms": 900,
+      "new_ms": 900,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "hang",
+      "old_frames": 2,
+      "new_frames": 2,
+      "old_ms": 440,
+      "new_ms": 440,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "mantle",
+      "old_frames": 5,
+      "new_frames": 9,
+      "old_ms": 700,
+      "new_ms": 700,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "wall_drop",
+      "old_frames": 1,
+      "new_frames": 1,
+      "old_ms": 120,
+      "new_ms": 120,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "held_happy",
+      "old_frames": 4,
+      "new_frames": 4,
+      "old_ms": 720,
+      "new_ms": 720,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "look_up",
+      "old_frames": 3,
+      "new_frames": 3,
+      "old_ms": 480,
+      "new_ms": 480,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "headpat",
+      "old_frames": 6,
+      "new_frames": 11,
+      "old_ms": 960,
+      "new_ms": 960,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "sit_enter",
+      "old_frames": 3,
+      "new_frames": 5,
+      "old_ms": 420,
+      "new_ms": 420,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "sit_loop",
+      "old_frames": 4,
+      "new_frames": 4,
+      "old_ms": 1000,
+      "new_ms": 1000,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "sit_exit",
+      "old_frames": 3,
+      "new_frames": 5,
+      "old_ms": 420,
+      "new_ms": 420,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "yawn",
+      "old_frames": 6,
+      "new_frames": 6,
+      "old_ms": 1080,
+      "new_ms": 1080,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "sleep",
+      "old_frames": 4,
+      "new_frames": 4,
+      "old_ms": 1600,
+      "new_ms": 1600,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "wake",
+      "old_frames": 3,
+      "new_frames": 5,
+      "old_ms": 600,
+      "new_ms": 600,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "surprise",
+      "old_frames": 3,
+      "new_frames": 3,
+      "old_ms": 450,
+      "new_ms": 450,
+      "keys_sha256_identical": true
+    },
+    {
+      "clip": "balance_wobble",
+      "old_frames": 4,
+      "new_frames": 4,
+      "old_ms": 480,
+      "new_ms": 480,
+      "keys_sha256_identical": true
+    }
+  ]
+}

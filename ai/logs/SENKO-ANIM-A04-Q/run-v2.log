@@ -1,0 +1,4 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.46s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --run-keys160 resources/characters/senko-160-source/run-side-v2-raw.png resources/characters/senko-v3-g2/candidate-v5-flow resources/characters/senko-160/run-side-v2`
+Senko asset pipeline: run touchdown9 floats above the common floor; redraw source, not per-frame grounding
+error: process didn't exit successfully: `BongoCat\target\debug\senko_asset_pipeline.exe --run-keys160 resources/characters/senko-160-source/run-side-v2-raw.png resources/characters/senko-v3-g2/candidate-v5-flow resources/characters/senko-160/run-side-v2` (exit code: 1)

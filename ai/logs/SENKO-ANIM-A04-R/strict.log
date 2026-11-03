@@ -1,0 +1,5 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.79s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --run-keys160 resources/characters/senko-160-source/run-side-v3-raw.png resources/characters/senko-v3-g2/candidate-v5-flow resources/characters/senko-160/run-side-v4`
+Senko asset pipeline: run touchdown9 floats 3px above common floor; redraw source, not per-frame grounding
+error: process didn't exit successfully: `BongoCat\target\debug\senko_asset_pipeline.exe --run-keys160 resources/characters/senko-160-source/run-side-v3-raw.png resources/characters/senko-v3-g2/candidate-v5-flow resources/characters/senko-160/run-side-v4` (exit code: 1)

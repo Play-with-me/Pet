@@ -1,0 +1,16 @@
+{
+  "drawings": 12,
+  "palette_rgba": 31,
+  "height_range": [
+    124,
+    130
+  ],
+  "hardalpha": true,
+  "no_clipping": true,
+  "facing": "three_quarter",
+  "mirror": true,
+  "preview_hz": 10,
+  "cycle_ms": 1200,
+  "distance_clip_absent": true,
+  "visual_acceptance": "direction/phase/volume still pending; not45fps locomotion"
+}

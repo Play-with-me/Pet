@@ -1,0 +1,5 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 5.20s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --walk-world160 resources/characters/senko-160/side-sequence-v1 resources/characters/senko-160/moving-world-v1`
+Senko asset pipeline: moving harness did not stop and return idle
+error: process didn't exit successfully: `BongoCat\target\debug\senko_asset_pipeline.exe --walk-world160 resources/characters/senko-160/side-sequence-v1 resources/characters/senko-160/moving-world-v1` (exit code: 1)

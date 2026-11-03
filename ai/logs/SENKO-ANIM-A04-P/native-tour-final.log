@@ -1,0 +1,10 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3.49s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-b7f27b0ae4c0062b.exe)
+
+running 1 test
+PASS native eight-edge tour: every authored turn frame Presented, front/back canonical endpoints unmirrored; fixed HWND, synthetic Animator tour sampled60Hz, not desktop/cadence/art acceptance
+test windows::companion::sprites::tests::native160_moving_trace_uses_sync_specific_stop_without_position_clamp ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 171 filtered out; finished in 13.82s
+

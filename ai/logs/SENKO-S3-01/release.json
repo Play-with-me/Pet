@@ -1,0 +1,7 @@
+{
+  "pid": 43964,
+  "sha256": "693C97CDCF245DD9CCBE4D3FCAA379DF86AFD1FC15C8B5CDAF5AF3FDC30EBA78",
+  "assets": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\resources\\characters\\senko-v3-g2\\candidate-v5-flow",
+  "build": "just senko-build",
+  "scope": "S3-01 contracts and identical coordinate adapter; live world physics not connected"
+}

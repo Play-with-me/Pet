@@ -1,0 +1,1 @@
+PASS actual exported player JS:10s@30/60/120Hz, pause, distance/per-frame stride, scrub, one-shot completion and mirrored contacts. DOM/RAF stubs; not browser visual or hardware cadence proof.

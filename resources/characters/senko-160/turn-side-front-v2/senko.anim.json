@@ -1,0 +1,51 @@
+{
+  "anchor": [
+    80,
+    152
+  ],
+  "canvas": [
+    160,
+    160
+  ],
+  "clips": {
+    "turn_side_front": {
+      "facing": "side",
+      "files": [
+        "turn_side_front/0.png",
+        "turn_side_front/1.png",
+        "turn_side_front/2.png",
+        "turn_side_front/3.png",
+        "turn_side_front/4.png",
+        "turn_side_front/5.png",
+        "turn_side_front/6.png",
+        "turn_side_front/7.png",
+        "turn_side_front/8.png",
+        "turn_side_front/9.png",
+        "turn_side_front/10.png",
+        "turn_side_front/11.png"
+      ],
+      "frame_ms": [
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22
+      ],
+      "frames": 12,
+      "loop": false,
+      "mirror": true,
+      "ms": 22,
+      "stride_px": 0,
+      "sync": []
+    }
+  },
+  "scale": 2,
+  "schema_version": 1
+}

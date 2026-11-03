@@ -1,0 +1,248 @@
+{
+  "samples": [
+    {
+      "elapsed_s": 1.0435889,
+      "cpu_machine_percent": 0.18968726718543577,
+      "working_set_bytes": 51421184,
+      "private_bytes": 80420864,
+      "handles": 654,
+      "responding": true
+    },
+    {
+      "elapsed_s": 2.0709305,
+      "cpu_machine_percent": 0.047528616576998355,
+      "working_set_bytes": 51421184,
+      "private_bytes": 80420864,
+      "handles": 654,
+      "responding": true
+    },
+    {
+      "elapsed_s": 3.1089573,
+      "cpu_machine_percent": 0.04703936834771509,
+      "working_set_bytes": 51421184,
+      "private_bytes": 80420864,
+      "handles": 654,
+      "responding": true
+    },
+    {
+      "elapsed_s": 4.1371676,
+      "cpu_machine_percent": 0.04748846126128091,
+      "working_set_bytes": 51421184,
+      "private_bytes": 80420864,
+      "handles": 654,
+      "responding": true
+    },
+    {
+      "elapsed_s": 5.1600137,
+      "cpu_machine_percent": 0.19095003637399593,
+      "working_set_bytes": 51421184,
+      "private_bytes": 80420864,
+      "handles": 656,
+      "responding": true
+    },
+    {
+      "elapsed_s": 6.1850053,
+      "cpu_machine_percent": 0.142912756553322,
+      "working_set_bytes": 51421184,
+      "private_bytes": 80420864,
+      "handles": 654,
+      "responding": true
+    },
+    {
+      "elapsed_s": 7.2092199,
+      "cpu_machine_percent": 0.14302117446871002,
+      "working_set_bytes": 50946048,
+      "private_bytes": 80420864,
+      "handles": 654,
+      "responding": true
+    },
+    {
+      "elapsed_s": 8.2203517,
+      "cpu_machine_percent": 0.0965811281971351,
+      "working_set_bytes": 50946048,
+      "private_bytes": 80420864,
+      "handles": 654,
+      "responding": true
+    },
+    {
+      "elapsed_s": 9.2454652,
+      "cpu_machine_percent": 0.0476319207580429,
+      "working_set_bytes": 50946048,
+      "private_bytes": 80420864,
+      "handles": 654,
+      "responding": true
+    },
+    {
+      "elapsed_s": 10.2715299,
+      "cpu_machine_percent": 0.1903510568095753,
+      "working_set_bytes": 50946048,
+      "private_bytes": 80420864,
+      "handles": 654,
+      "responding": true
+    },
+    {
+      "elapsed_s": 11.2984261,
+      "cpu_machine_percent": 0.09509846272680729,
+      "working_set_bytes": 50946048,
+      "private_bytes": 80420864,
+      "handles": 654,
+      "responding": true
+    },
+    {
+      "elapsed_s": 12.3250233,
+      "cpu_machine_percent": 0.04756308024218265,
+      "working_set_bytes": 51019776,
+      "private_bytes": 80547840,
+      "handles": 678,
+      "responding": true
+    },
+    {
+      "elapsed_s": 13.3394688,
+      "cpu_machine_percent": 0.04813282231524509,
+      "working_set_bytes": 51019776,
+      "private_bytes": 80547840,
+      "handles": 678,
+      "responding": true
+    },
+    {
+      "elapsed_s": 14.3537625,
+      "cpu_machine_percent": 0.19256010364650797,
+      "working_set_bytes": 51019776,
+      "private_bytes": 80547840,
+      "handles": 678,
+      "responding": true
+    },
+    {
+      "elapsed_s": 15.3819361,
+      "cpu_machine_percent": 0.04749015633157667,
+      "working_set_bytes": 51019776,
+      "private_bytes": 80547840,
+      "handles": 678,
+      "responding": true
+    },
+    {
+      "elapsed_s": 16.4110883,
+      "cpu_machine_percent": 0.18977999561192238,
+      "working_set_bytes": 51019776,
+      "private_bytes": 80547840,
+      "handles": 679,
+      "responding": true
+    },
+    {
+      "elapsed_s": 17.4450358,
+      "cpu_machine_percent": 0.04722495581255334,
+      "working_set_bytes": 51019776,
+      "private_bytes": 80547840,
+      "handles": 678,
+      "responding": true
+    },
+    {
+      "elapsed_s": 18.4708969,
+      "cpu_machine_percent": 0.09519441764581968,
+      "working_set_bytes": 51019776,
+      "private_bytes": 80547840,
+      "handles": 678,
+      "responding": true
+    },
+    {
+      "elapsed_s": 19.4963453,
+      "cpu_machine_percent": 0.0,
+      "working_set_bytes": 51019776,
+      "private_bytes": 80547840,
+      "handles": 678,
+      "responding": true
+    },
+    {
+      "elapsed_s": 20.5302251,
+      "cpu_machine_percent": 0.0944560963469837,
+      "working_set_bytes": 51019776,
+      "private_bytes": 80547840,
+      "handles": 680,
+      "responding": true
+    },
+    {
+      "elapsed_s": 21.5560255,
+      "cpu_machine_percent": 0.14280007592120242,
+      "working_set_bytes": 51019776,
+      "private_bytes": 80547840,
+      "handles": 678,
+      "responding": true
+    },
+    {
+      "elapsed_s": 22.5780574,
+      "cpu_machine_percent": 0.14332661730030175,
+      "working_set_bytes": 51019776,
+      "private_bytes": 80547840,
+      "handles": 678,
+      "responding": true
+    },
+    {
+      "elapsed_s": 23.6042158,
+      "cpu_machine_percent": 0.09516683779034504,
+      "working_set_bytes": 51023872,
+      "private_bytes": 80547840,
+      "handles": 680,
+      "responding": true
+    },
+    {
+      "elapsed_s": 24.6290517,
+      "cpu_machine_percent": 0.19057929176758878,
+      "working_set_bytes": 51023872,
+      "private_bytes": 80547840,
+      "handles": 680,
+      "responding": true
+    },
+    {
+      "elapsed_s": 25.6416897,
+      "cpu_machine_percent": 0.1446562098202913,
+      "working_set_bytes": 51023872,
+      "private_bytes": 80547840,
+      "handles": 680,
+      "responding": true
+    },
+    {
+      "elapsed_s": 26.6625378,
+      "cpu_machine_percent": 0.04783094076386102,
+      "working_set_bytes": 51023872,
+      "private_bytes": 80547840,
+      "handles": 680,
+      "responding": true
+    },
+    {
+      "elapsed_s": 27.6883692,
+      "cpu_machine_percent": 0.0,
+      "working_set_bytes": 51023872,
+      "private_bytes": 80547840,
+      "handles": 680,
+      "responding": true
+    },
+    {
+      "elapsed_s": 28.7106999,
+      "cpu_machine_percent": 0.09552315116820798,
+      "working_set_bytes": 51023872,
+      "private_bytes": 80547840,
+      "handles": 680,
+      "responding": true
+    },
+    {
+      "elapsed_s": 29.7187746,
+      "cpu_machine_percent": 0.1453110320098305,
+      "working_set_bytes": 51023872,
+      "private_bytes": 80547840,
+      "handles": 680,
+      "responding": true
+    },
+    {
+      "elapsed_s": 30.743108,
+      "cpu_machine_percent": 0.09533639145223619,
+      "working_set_bytes": 51023872,
+      "private_bytes": 80547840,
+      "handles": 680,
+      "responding": true
+    }
+  ],
+  "pid": 10984,
+  "logical_processors": 32,
+  "scenario": "existing live autonomous session; uncontrolled desktop, not isolated idle/walk benchmark",
+  "sha256": "2AAD96BB63AD39CA8DAED9DA490E97A60136EE96C2736CE0FC78131F4E4883A4"
+}

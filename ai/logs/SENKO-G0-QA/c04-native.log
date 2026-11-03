@@ -1,0 +1,19 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.46s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-761f6507c6179b66.exe)
+
+running 1 test
+C03 native window=154x267 work_area=WorkArea { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }
+C04 behavior=Physics position=Point { x: 111.8066671766175, y: 45.13462616829696 }
+C04 behavior=Held position=Point { x: 111.8066671766175, y: 52.47033374631697 }
+C04 behavior=Idle position=Point { x: 2429.613334353235, y: 1343.274232871 }
+C04 behavior=ClimbRight position=Point { x: 2429.613334353235, y: 1343.274232871 }
+C04 behavior=Physics position=Point { x: 2429.613334353235, y: 0.0 }
+C04 behavior=Walk position=Point { x: 2196.5056859001447, y: 1343.274232871 }
+C04 behavior=Held position=Point { x: 1910.9837899001438, y: 1343.274232871 }
+C04 behavior=ClimbLeft position=Point { x: 0.0, y: 1343.274232871 }
+C03 frames=1200 presented=1200 position=Point { x: 0.0, y: 827.5313688710004 } velocity=Point { x: 0.0, y: 0.0 }
+C03 pointer grabs=2 releases=2 throw_speed=0
+test windows::companion::tests::c04_native_both_walls ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 117 filtered out; finished in 20.18s
+

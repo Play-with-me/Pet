@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "canvas": [
+    160,
+    160
+  ],
+  "scale": 2,
+  "anchor": [
+    80,
+    152
+  ],
+  "clips": {
+    "idle_side": {
+      "frames": 1,
+      "files": [
+        "pose.png"
+      ],
+      "ms": 100,
+      "stride_px": 0,
+      "loop": true,
+      "sync": [],
+      "facing": "side",
+      "mirror": true,
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ]
+    }
+  }
+}

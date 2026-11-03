@@ -1,0 +1,23 @@
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 5.22s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_runtime-a480845dede9478a.exe)
+
+running 9 tests
+test senko_routes::tests::unsupported_gap_and_occluded_wall_report_no_path ... ok
+test senko_routes::tests::paused_attachment_and_route_progress_remain_fixed ... ok
+test senko_routes::tests::grab_and_closed_target_cancel_without_teleporting ... ok
+test senko_routes::tests::goal_and_graph_errors_are_bounded_and_stale_owners_fail ... ok
+test senko_routes::tests::reverse_corner_then_drop_reaches_floor_with_gravity ... ok
+test senko_routes::tests::nearby_ledge_jump_is_feasible_but_limits_are_not_relaxed ... ok
+test senko_routes::tests::floor_walk_climb_mantle_reaches_target_using_real_animator ... ok
+test senko_routes::tests::revisions_do_not_restart_climb_and_slow_owner_motion_is_followed ... ok
+test senko_routes::tests::a_real_gap_to_wall_requires_a_bounded_hop_not_a_snap ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 174 filtered out; finished in 0.82s
+
+     Running tests\shared_input_fixtures.rs (BongoCat\target\debug\deps\shared_input_fixtures-4e200e83c31a4a65.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+

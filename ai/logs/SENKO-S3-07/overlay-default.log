@@ -1,0 +1,160 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.49s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-4240ac2aa6207b94.exe)
+
+running 140 tests
+test cover::tests::a_capture_is_only_ever_scaled_down ... ok
+test cover::tests::a_frame_without_content_is_reported_rather_than_written ... ok
+test cover::tests::a_short_readback_is_rejected_instead_of_read_out_of_bounds ... ok
+test cover::tests::an_empty_or_degenerate_frame_is_not_a_cover ... ok
+test cover::tests::faint_edges_do_not_stretch_the_crop ... ok
+test cover::tests::padded_rows_are_read_at_the_backend_pitch ... ok
+test cover::tests::the_crop_keeps_only_the_visible_content ... ok
+test cover::tests::the_encoded_cover_is_a_png_of_the_cropped_capture ... ok
+test cover::tests::un_premultiplied_alpha_survives_the_bgra_conversion ... ok
+test hover::tests::a_delay_postpones_the_hide_and_leaving_cancels_it ... ok
+test hover::tests::a_hold_restores_the_overlay_and_letting_go_starts_a_fresh_delay ... ok
+test hover::tests::disabling_the_setting_restores_the_overlay_through_the_fade ... ok
+test hover::tests::hovering_for_the_delay_hides_and_leaving_restores ... ok
+test hover::tests::pointer_hit_testing_uses_a_half_open_window_box ... ok
+test hover::tests::the_fade_is_a_function_of_elapsed_time_and_never_overshoots ... ok
+test hover::tests::the_first_observation_establishes_the_fade_clock_without_moving_alpha ... ok
+test idle::tests::a_zero_delay_hides_as_soon_as_input_stops ... ok
+test idle::tests::disabling_the_setting_restores_the_overlay_and_resets_the_clock ... ok
+test idle::tests::every_input_family_resets_the_idle_clock ... ok
+test idle::tests::no_input_for_the_delay_hides_and_fresh_input_restores ... ok
+test idle::tests::repeated_observations_without_input_do_not_count_as_activity ... ok
+test placement::tests::a_display_plugged_in_during_the_countdown_cancels_the_correction ... ok
+test placement::tests::a_revalidated_inspection_keeps_an_armed_countdown ... ok
+test placement::tests::a_settled_inspection_is_reused_and_revalidated ... ok
+test placement::tests::a_settled_window_off_the_desktop_is_corrected_only_after_the_delay ... ok
+test placement::tests::a_window_in_the_notch_of_an_l_shaped_desktop_is_not_inside ... ok
+test placement::tests::a_window_larger_than_its_display_is_pinned_without_resizing ... ok
+test placement::tests::a_window_off_the_desktop_is_not_inside ... ok
+test placement::tests::a_window_on_one_display_is_inside ... ok
+test placement::tests::a_window_straddling_two_displays_is_inside ... ok
+test placement::tests::a_window_that_returns_to_the_desktop_is_never_corrected ... ok
+test placement::tests::a_window_touching_no_display_targets_the_nearest_one ... ok
+test placement::tests::every_observed_movement_restarts_the_countdown ... ok
+test placement::tests::overlapping_displays_cover_their_shared_regions ... ok
+test placement::tests::the_correction_targets_the_display_with_the_largest_overlap ... ok
+test placement::tests::the_first_observation_after_enabling_starts_a_fresh_countdown ... ok
+test plugin_layer::tests::a_click_inside_a_control_belongs_to_the_plugin_that_drew_it ... ok
+test plugin_layer::tests::a_click_outside_every_control_stays_with_the_window ... ok
+test plugin_layer::tests::a_layer_composed_for_another_window_size_has_no_targets ... ok
+test plugin_layer::tests::a_new_publication_replaces_the_panel_it_supersedes ... ok
+test plugin_layer::tests::a_panel_stays_on_screen_between_publications ... ok
+test plugin_layer::tests::a_point_outside_the_window_never_hits_a_control ... ok
+test plugin_layer::tests::a_publication_for_another_size_never_reaches_the_window ... ok
+test plugin_layer::tests::a_window_that_changed_size_drops_the_layer_it_cannot_stretch ... ok
+test plugin_layer::tests::an_empty_publication_clears_the_panel ... ok
+test plugin_layer::tests::content_coordinates_ignore_screen_origin_and_title_bar ... ok
+test plugin_layer::tests::hit_test_data_is_republished_only_when_it_changes ... ok
+test plugin_layer::tests::hover_is_reversible_and_does_not_accumulate_or_change_targets ... ok
+test resize_drag::tests::a_base_needs_two_positive_finite_dimensions ... ok
+test resize_drag::tests::a_drag_started_from_a_drifted_window_does_not_jump ... ok
+test resize_drag::tests::a_non_finite_pointer_position_is_ignored ... ok
+test resize_drag::tests::a_right_click_that_does_not_move_never_resizes ... ok
+test resize_drag::tests::a_scale_that_does_not_change_reports_nothing ... ok
+test resize_drag::tests::a_window_width_maps_back_to_the_scale_it_was_drawn_at ... ok
+test resize_drag::tests::an_extreme_aspect_ratio_still_produces_a_configurable_window ... ok
+test resize_drag::tests::diagonal_offsets_that_cancel_leave_the_scale_alone ... ok
+test resize_drag::tests::dragging_down_right_grows_and_up_left_shrinks ... ok
+test resize_drag::tests::repeated_observations_at_one_position_apply_once ... ok
+test resize_drag::tests::the_scale_is_clamped_to_the_configuration_contract ... ok
+test resize_drag::tests::the_threshold_is_measured_from_the_press_point ... ok
+test tests::blend::mirrored_single_sided_drawables_reverse_culling ... ok
+test tests::blend::premultiplied_blend_contract_covers_all_cubism_modes ... ok
+test tests::bounds::overlay_bounds_clamp_to_a_screen_without_changing_size ... ok
+test tests::bounds::persisted_overlay_bounds_are_bounded_and_scale_explicitly ... ok
+test tests::bounds::presentation_and_geometry_changes_use_in_place_window_transitions ... ok
+test tests::bounds::recalling_the_hold_modifier_never_replaces_the_window ... ok
+test tests::bounds::the_hold_modifier_answers_for_the_configured_physical_key_only ... ok
+test tests::dimensions::corner_radius_uniform_clamps_to_the_full_ellipse ... ok
+test tests::dimensions::default_overlay_height_follows_the_model_aspect_ratio ... ok
+test tests::dimensions::model_switch_height_uses_the_existing_width_instead_of_rescaling_twice ... ok
+test tests::dimensions::model_switch_keeps_width_and_recomputes_height_at_the_live_scale ... ok
+test tests::dimensions::standard_model_switch_matches_the_initial_window_height ... ok
+test tests::frame::frame_smoke_accepts_a_frame_without_a_semi_transparent_sample ... ok
+test tests::frame::frame_smoke_rejects_missing_coverage_and_color_variation ... ok
+test tests::frame::frame_smoke_requires_transparent_and_antialiased_model_coverage ... ok
+test tests::frame::temporary_drawable_failures_back_off_without_accumulating_error_reports ... ok
+test tests::preview::model_generation_may_skip_rejected_candidates_but_never_regress ... ok
+test tests::product_session::input_start_failures_publish_one_anonymous_degraded_attempt ... ok
+test tests::product_session::platform_input_owner_attempts_a_denied_start_only_once ... ok
+test tests::report::overlay_visibility_requires_a_successfully_presented_frame ... ok
+test tests::timing::frame_timing_drops_samples_after_its_fixed_capacity ... ok
+test tests::timing::frame_timing_empty_collector_reports_zero_quantiles ... ok
+test tests::timing::frame_timing_uses_nearest_rank_percentiles_and_counts_misses ... ok
+test windows::companion::qa::senko_alpha_routes_to_underlying_native_window ... ignored, opens two native test windows to verify real Windows hit routing; requires SENKO_QA_OUTPUT_DIR
+test windows::companion::qa::senko_interactive_mouse_qa ... ignored, interactive mouse QA; exposes test taskbar entry, requires SENKO_QA_OUTPUT_DIR
+test windows::companion::senko_mask_tests::alpha_hit_respects_frame_mirror_scale_and_negative_origin ... ok
+test windows::companion::senko_mask_tests::companion_right_button_is_consumed_before_generic_resize ... ok
+test windows::companion::senko_mask_tests::senko_native_smoke_presents_existing_assets ... ignored, opens the real Senko overlay for four seconds; requires an interactive desktop
+test windows::companion::sprites::tests::eased_navigation_reaches_exact_contact_without_asymptotic_stall_or_overshoot ... ok
+test windows::companion::sprites::tests::failed_route_cache_ignores_scan_clock_but_not_geometry_or_generation ... ok
+test windows::companion::sprites::tests::fast_autonomous_chase_selects_run_even_with_zero_physics_velocity ... ok
+test windows::companion::sprites::tests::foot_anchor_is_independent_of_transparent_canvas ... ok
+test windows::companion::sprites::tests::frame_pacing_does_not_add_a_full_sleep_after_present ... ok
+test windows::companion::sprites::tests::locomotion_eases_in_and_never_exceeds_safe_distance ... ok
+test windows::companion::sprites::tests::manifest_native_grab_pause_reset_exit ... ignored, native production-style input regression; opt in
+test windows::companion::sprites::tests::manifest_senko_native_smoke ... ignored, native desktop smoke; opt in
+test windows::companion::sprites::tests::native_walk_and_run_visit_full_cycle_while_body_translates ... ignored, native gait recording with injected cursor; opt in
+test windows::companion::sprites::tests::nearest_gpu_preserves_four_by_four_pixels_and_linear_default ... ignored, native GPU readback; opt in
+test windows::companion::sprites::tests::walking_and_fast_chase_use_actual_displacement_not_inertial_velocity ... ok
+test windows::companion::tests::c03_native_pointer_physics ... ignored, opens the native C-03 physics overlay; requires C03_OUTPUT_DIR
+test windows::companion::tests::c04_native_both_walls ... ignored, opens autonomous HWND; requires C04_OUTPUT_DIR
+test windows::companion::tests::c05_pause_reset_resume_exit ... ignored, opens trial HWND; requires C05_OUTPUT_DIR
+test windows::desktop_scan::tests::callback_filters_child_events_and_bounds_destroy_queue ... ok
+test windows::desktop_scan::tests::filter_keeps_nonclimbable_occluders_and_rejects_invisible_or_unknown_geometry ... ok
+test windows::desktop_scan::tests::fullscreen_and_small_windows_occlude_without_creating_edges ... ok
+test windows::desktop_scan::tests::identities_survive_movement_but_not_destroy_or_pid_tid_reuse ... ok
+test windows::desktop_scan::tests::native_body_lands_transports_and_drops_when_fixture_changes ... ignored, native DWM source plus Senko support/gravity harness; opt in
+test windows::desktop_scan::tests::native_maximize_resize_and_close_during_climb ... ignored, native owned-window maximize/resize and close during climb; opt in
+test windows::desktop_scan::tests::native_monitor_cache_refreshes_only_after_display_messages ... ignored, native monitor cache and synthetic display/settings/DPI invalidation; opt in
+test windows::desktop_scan::tests::native_overlap_rebuilds_horizontal_and_vertical_fragments ... ignored, native DWM overlap geometry and Z-order; opt in
+test windows::desktop_scan::tests::native_route_climbs_and_drops_with_actual_animator ... ignored, native DWM route harness with real sprite timings; opt in
+test windows::desktop_scan::tests::native_window_lifecycle_events_order_fallback_and_teardown ... ignored, native DWM/window lifecycle and real WinEvent hooks; opt in
+test windows::desktop_scan::tests::native_z_order_promotion_and_demotion_changes_occlusion ... ignored, native owned-window topmost/bottom Z-order changes; opt in
+test windows::tests::geometry::enumerated_displays_are_non_empty_and_cover_their_own_center ... ok
+test windows::tests::geometry::window_sizing_uses_one_canvas_ratio_at_every_scale_and_dpi ... ok
+test windows::tests::pipelines::color_formats_match_the_encoded_space_contract ... ok
+test windows::tests::pipelines::cull_states_use_cubism_counter_clockwise_front_faces ... ok
+test windows::tests::renderer::model_transform_preserves_aspect_ratio ... ok
+test windows::tests::session::hover_hide_hit_tests_the_pointer_position_rather_than_the_model_position ... ok
+test windows::tests::session::product_options_reject_values_outside_renderer_boundaries ... ok
+test windows::tests::session::window_mode_numeric_scale_uses_model_size_instead_of_saved_geometry ... ok
+test windows::tests::stickman::c02_stickman_d3d11_proof ... ignored, opens a D3D11 window and writes C-02 proof to C02_OUTPUT_DIR
+test windows::tests::textures::gpu_structs_match_d3d11_layout ... ok
+test windows::tests::textures::texture_upload_premultiplies_rgb_before_filtering ... ok
+test windows::tests::thread_settle::accepts_a_bounded_late_thread_worker_but_rejects_per_switch_growth ... ok
+test windows::tests::window::a_demoted_model_window_returns_to_the_topmost_band ... FAILED
+test windows::tests::window::overlay_window_class_supports_overlapping_replacement_windows ... ok
+test windows::tests::window::overlay_window_creation_corrects_a_saved_box_off_the_desktop ... ok
+test windows::tests::window::overlay_window_owns_its_taskbar_button_at_creation ... ok
+test windows::tests::window::session_options_carry_the_taskbar_button_into_a_replacement_window ... ok
+test windows::tests::window::taskbar_toggle_preserves_unrelated_extended_styles_and_is_idempotent ... ok
+test windows::tests::window::turning_always_on_top_off_is_what_the_guard_follows ... ok
+test windows::tests::window::window_mode_uses_model_client_size_when_switching_from_saved_pet_geometry ... ok
+test windows::tests::window_mode::window_mode_captures_opaque_picture_and_keeps_hwnd_on_model_switch ... ok
+test windows::tests::window_proc::click_through_style_pairs_layered_and_transparent_hit_testing ... ok
+test windows::tests::window_proc::context_menu_messages_cover_client_and_nonclient_right_click ... ok
+test windows::tests::window_proc::right_button_messages_split_into_begin_move_and_end ... ok
+test windows::tests::window_proc::window_mode_moving_saved_geometry_never_publishes_scale ... ok
+test windows::tests::window_proc::window_mode_resize_publishes_once_and_cancelled_resize_publishes_nothing ... ok
+test windows::tests::window_proc::window_sizing_normalizes_programmatic_native_and_dpi_geometry ... ok
+
+failures:
+
+---- windows::tests::window::a_demoted_model_window_returns_to_the_topmost_band stdout ----
+
+thread 'windows::tests::window::a_demoted_model_window_returns_to_the_topmost_band' (5912) panicked at crates\bongocat-overlay\src\windows\tests\window.rs:242:5:
+assertion failed: window.is_topmost()
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    windows::tests::window::a_demoted_model_window_returns_to_the_topmost_band
+
+test result: FAILED. 121 passed; 1 failed; 18 ignored; 0 measured; 0 filtered out; finished in 11.29s
+
+error: test failed, to rerun pass `-p bongocat-overlay --lib`

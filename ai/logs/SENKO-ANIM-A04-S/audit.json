@@ -1,0 +1,15 @@
+{
+  "cases": 12,
+  "switch_phase_checks": 72,
+  "start_canonical_matches": 0,
+  "stop_canonical_matches": 0,
+  "unique_drawings_per_second_at_max_speed": 39.375,
+  "max_speed": 280,
+  "run_frames_seen_60Hz": [
+    18,
+    18,
+    18,
+    18
+  ],
+  "stance_certified": false
+}

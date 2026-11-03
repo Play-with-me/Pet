@@ -1,0 +1,53 @@
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+error[E0463]: can't find crate for `bongocat_render`
+ --> crates\bongocat-runtime\src\animator.rs:2:5
+  |
+2 | use bongocat_render::sprite_anim::SpriteLibrary;
+  |     ^^^^^^^^^^^^^^^ can't find crate
+
+error[E0463]: can't find crate for `bongocat_input`
+ --> crates\bongocat-runtime\src\input_state\mod.rs:5:5
+  |
+5 | use bongocat_input::{
+  |     ^^^^^^^^^^^^^^ can't find crate
+
+error[E0463]: can't find crate for `bongocat_model`
+ --> crates\bongocat-runtime\src\random_behavior.rs:1:5
+  |
+1 | use bongocat_model::ModelBehaviorSnapshot;
+  |     ^^^^^^^^^^^^^^ can't find crate
+
+error[E0463]: can't find crate for `bongocat_live2d_render`
+ --> crates\bongocat-runtime\src\rendering\mod.rs:5:5
+  |
+5 | use bongocat_live2d_render::resolve_key_overlays;
+  |     ^^^^^^^^^^^^^^^^^^^^^^ can't find crate
+
+error[E0463]: can't find crate for `bongocat_live2d`
+  --> crates\bongocat-runtime\src\rendering\mod.rs:11:5
+   |
+11 | use bongocat_live2d::{Live2dError, Live2dModel, ParameterUpdate, ProductParameter};
+   |     ^^^^^^^^^^^^^^^ can't find crate
+
+error[E0463]: can't find crate for `bongocat_live2d_playback`
+  --> crates\bongocat-runtime\src\rendering\mod.rs:12:5
+   |
+12 | use bongocat_live2d_playback::{ExpressionClip, ExpressionLayer, MotionClip};
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^ can't find crate
+
+error[E0463]: can't find crate for `bongocat_audio`
+ --> crates\bongocat-runtime\src\worker\audio.rs:8:5
+  |
+8 | use bongocat_audio::{MotionAudioClient, MotionAudioCommand, MotionAudioStopReason};
+  |     ^^^^^^^^^^^^^^ can't find crate
+
+For more information about this error, try `rustc --explain E0463`.
+error: could not compile `bongocat-runtime` (lib) due to 7 previous errors
+warning: build failed, waiting for other jobs to finish...
+error[E0463]: can't find crate for `bongocat_model_store`
+  --> crates\bongocat-runtime\src\tests\mod.rs:17:5
+   |
+17 | use bongocat_model_store::ModelStore;
+   |     ^^^^^^^^^^^^^^^^^^^^ can't find crate
+
+error: could not compile `bongocat-runtime` (lib test) due to 8 previous errors

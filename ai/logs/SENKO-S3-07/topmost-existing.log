@@ -1,0 +1,9 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 4.00s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-6337767b5d0f5e35.exe)
+
+running 1 test
+test windows::tests::window::a_demoted_model_window_returns_to_the_topmost_band ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 138 filtered out; finished in 0.01s
+

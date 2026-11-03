@@ -1,0 +1,7 @@
+{
+  "clock": "monotonic Stopwatch from first observation; process age excluded",
+  "sha256": "B314382E61145E0BC4874EDB105CBF8C694DDEF7C3430D974A4B3A9BC8A460A1",
+  "minimum_seconds": 1800,
+  "utc": "2026-10-28T11:19:09.7067319Z",
+  "pid": 29196
+}

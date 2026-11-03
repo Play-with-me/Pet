@@ -1,0 +1,63 @@
+{
+  "anchor": [
+    80,
+    152
+  ],
+  "canvas": [
+    160,
+    160
+  ],
+  "clips": {
+    "run_clock_preview": {
+      "facing": "side",
+      "files": [
+        "run_side/0.png",
+        "run_side/1.png",
+        "run_side/2.png",
+        "run_side/3.png",
+        "run_side/4.png",
+        "run_side/5.png",
+        "run_side/6.png",
+        "run_side/7.png",
+        "run_side/8.png",
+        "run_side/9.png",
+        "run_side/10.png",
+        "run_side/11.png",
+        "run_side/12.png",
+        "run_side/13.png",
+        "run_side/14.png",
+        "run_side/15.png",
+        "run_side/16.png",
+        "run_side/17.png"
+      ],
+      "frame_ms": [
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23
+      ],
+      "frames": 18,
+      "loop": true,
+      "mirror": true,
+      "ms": 22,
+      "stride_px": 0,
+      "sync": []
+    }
+  },
+  "scale": 2,
+  "schema_version": 1
+}

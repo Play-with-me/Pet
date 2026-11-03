@@ -1,0 +1,8063 @@
+{
+  "anchor": [
+    80,
+    152
+  ],
+  "canvas": [
+    160,
+    160
+  ],
+  "clips": {
+    "apex": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        100
+      ],
+      "frames": 1,
+      "loop": false,
+      "mirror": true,
+      "ms": 100,
+      "preview_frame_ms": [
+        100
+      ],
+      "preview_ms": 100,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "balance_wobble": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        120,
+        120,
+        120,
+        120
+      ],
+      "frames": 4,
+      "loop": false,
+      "mirror": true,
+      "ms": 120,
+      "preview_frame_ms": [
+        120,
+        120,
+        120,
+        120
+      ],
+      "preview_ms": 120,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "climb_up": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        70,
+        80,
+        70,
+        80,
+        70,
+        80,
+        70,
+        80,
+        70,
+        80,
+        70,
+        80
+      ],
+      "frames": 12,
+      "loop": true,
+      "mirror": true,
+      "ms": 75,
+      "preview_frame_ms": [
+        70,
+        80,
+        70,
+        80,
+        70,
+        80,
+        70,
+        80,
+        70,
+        80,
+        70,
+        80
+      ],
+      "preview_ms": 70,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "fall": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        140,
+        140
+      ],
+      "frames": 2,
+      "loop": true,
+      "mirror": true,
+      "ms": 140,
+      "preview_frame_ms": [
+        140,
+        140
+      ],
+      "preview_ms": 140,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "hang": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        220,
+        220
+      ],
+      "frames": 2,
+      "loop": true,
+      "mirror": true,
+      "ms": 220,
+      "preview_frame_ms": [
+        220,
+        220
+      ],
+      "preview_ms": 220,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "headpat": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        160
+      ],
+      "frames": 11,
+      "loop": false,
+      "mirror": true,
+      "ms": 80,
+      "preview_frame_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        160
+      ],
+      "preview_ms": 80,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "held_happy": {
+      "facing": "front",
+      "files": [
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png"
+      ],
+      "frame_ms": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "frames": 4,
+      "loop": true,
+      "mirror": false,
+      "ms": 180,
+      "preview_frame_ms": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "preview_ms": 180,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "idle_34": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "frames": 4,
+      "loop": true,
+      "mirror": true,
+      "ms": 250,
+      "preview_frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "preview_ms": 250,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "idle_back": {
+      "facing": "back",
+      "files": [
+        "pose-4.png",
+        "pose-4.png"
+      ],
+      "frame_ms": [
+        350,
+        350
+      ],
+      "frames": 2,
+      "loop": true,
+      "mirror": false,
+      "ms": 350,
+      "preview_frame_ms": [
+        350,
+        350
+      ],
+      "preview_ms": 350,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "idle_back34": {
+      "facing": "back_three_quarter",
+      "files": [
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png"
+      ],
+      "frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "frames": 4,
+      "loop": true,
+      "mirror": true,
+      "ms": 250,
+      "preview_frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "preview_ms": 250,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "idle_front": {
+      "facing": "front",
+      "files": [
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png"
+      ],
+      "frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "frames": 4,
+      "loop": true,
+      "mirror": false,
+      "ms": 250,
+      "preview_frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "preview_ms": 250,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "idle_side": {
+      "facing": "side",
+      "files": [
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png"
+      ],
+      "frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "frames": 4,
+      "loop": true,
+      "mirror": true,
+      "ms": 250,
+      "preview_frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "preview_ms": 250,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "jump_prep": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        100,
+        100
+      ],
+      "frames": 2,
+      "loop": false,
+      "mirror": true,
+      "ms": 100,
+      "preview_frame_ms": [
+        100,
+        100
+      ],
+      "preview_ms": 100,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "land": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        50,
+        50,
+        50,
+        50,
+        100
+      ],
+      "frames": 5,
+      "loop": false,
+      "mirror": true,
+      "ms": 50,
+      "preview_frame_ms": [
+        50,
+        50,
+        50,
+        50,
+        100
+      ],
+      "preview_ms": 50,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "look_up": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        160,
+        160,
+        160
+      ],
+      "frames": 3,
+      "loop": false,
+      "mirror": true,
+      "ms": 160,
+      "preview_frame_ms": [
+        160,
+        160,
+        160
+      ],
+      "preview_ms": 160,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "mantle": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        140
+      ],
+      "frames": 9,
+      "loop": false,
+      "mirror": true,
+      "ms": 70,
+      "preview_frame_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        140
+      ],
+      "preview_ms": 70,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "rise": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        120
+      ],
+      "frames": 1,
+      "loop": false,
+      "mirror": true,
+      "ms": 120,
+      "preview_frame_ms": [
+        120
+      ],
+      "preview_ms": 120,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "run_34": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [],
+      "frames": 8,
+      "loop": true,
+      "mirror": true,
+      "ms": 0,
+      "preview_frame_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "preview_ms": 120,
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "run_back": {
+      "facing": "back",
+      "files": [
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png"
+      ],
+      "frame_ms": [],
+      "frames": 8,
+      "loop": true,
+      "mirror": false,
+      "ms": 0,
+      "preview_frame_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "preview_ms": 120,
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "run_back34": {
+      "facing": "back_three_quarter",
+      "files": [
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png"
+      ],
+      "frame_ms": [],
+      "frames": 8,
+      "loop": true,
+      "mirror": true,
+      "ms": 0,
+      "preview_frame_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "preview_ms": 120,
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "run_front": {
+      "facing": "front",
+      "files": [
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png"
+      ],
+      "frame_ms": [],
+      "frames": 8,
+      "loop": true,
+      "mirror": false,
+      "ms": 0,
+      "preview_frame_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "preview_ms": 120,
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "run_side": {
+      "facing": "side",
+      "files": [
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png"
+      ],
+      "frame_ms": [],
+      "frames": 16,
+      "loop": true,
+      "mirror": true,
+      "ms": 0,
+      "preview_frame_ms": [
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "preview_ms": 30,
+      "stride_px": 8.0,
+      "sync": [
+        0,
+        8
+      ],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "sit_enter": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        70,
+        70,
+        70,
+        70,
+        140
+      ],
+      "frames": 5,
+      "loop": false,
+      "mirror": true,
+      "ms": 70,
+      "preview_frame_ms": [
+        70,
+        70,
+        70,
+        70,
+        140
+      ],
+      "preview_ms": 70,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "sit_exit": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        70,
+        70,
+        70,
+        70,
+        140
+      ],
+      "frames": 5,
+      "loop": false,
+      "mirror": true,
+      "ms": 70,
+      "preview_frame_ms": [
+        70,
+        70,
+        70,
+        70,
+        140
+      ],
+      "preview_ms": 70,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "sit_loop": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "frames": 4,
+      "loop": true,
+      "mirror": true,
+      "ms": 250,
+      "preview_frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "preview_ms": 250,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "sleep": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        400,
+        400,
+        400,
+        400
+      ],
+      "frames": 4,
+      "loop": true,
+      "mirror": true,
+      "ms": 400,
+      "preview_frame_ms": [
+        400,
+        400,
+        400,
+        400
+      ],
+      "preview_ms": 400,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "surprise": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        150,
+        150,
+        150
+      ],
+      "frames": 3,
+      "loop": false,
+      "mirror": true,
+      "ms": 150,
+      "preview_frame_ms": [
+        150,
+        150,
+        150
+      ],
+      "preview_ms": 150,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "wake": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        100,
+        100,
+        100,
+        100,
+        200
+      ],
+      "frames": 5,
+      "loop": false,
+      "mirror": true,
+      "ms": 100,
+      "preview_frame_ms": [
+        100,
+        100,
+        100,
+        100,
+        200
+      ],
+      "preview_ms": 100,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_34": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [],
+      "frames": 8,
+      "loop": true,
+      "mirror": true,
+      "ms": 0,
+      "preview_frame_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "preview_ms": 120,
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_back": {
+      "facing": "back",
+      "files": [
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png"
+      ],
+      "frame_ms": [],
+      "frames": 8,
+      "loop": true,
+      "mirror": false,
+      "ms": 0,
+      "preview_frame_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "preview_ms": 120,
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_back34": {
+      "facing": "back_three_quarter",
+      "files": [
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png"
+      ],
+      "frame_ms": [],
+      "frames": 8,
+      "loop": true,
+      "mirror": true,
+      "ms": 0,
+      "preview_frame_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "preview_ms": 120,
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_front": {
+      "facing": "front",
+      "files": [
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png"
+      ],
+      "frame_ms": [],
+      "frames": 8,
+      "loop": true,
+      "mirror": false,
+      "ms": 0,
+      "preview_frame_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "preview_ms": 120,
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_side": {
+      "facing": "side",
+      "files": [
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png"
+      ],
+      "frame_ms": [],
+      "frames": 16,
+      "loop": true,
+      "mirror": true,
+      "ms": 0,
+      "preview_frame_ms": [
+        50,
+        60,
+        50,
+        60,
+        50,
+        60,
+        50,
+        60,
+        50,
+        60,
+        50,
+        60,
+        50,
+        60,
+        50,
+        60
+      ],
+      "preview_ms": 55,
+      "stride_px": 6.0,
+      "sync": [
+        0,
+        8
+      ],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_start": {
+      "facing": "side",
+      "files": [
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png"
+      ],
+      "frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "frames": 3,
+      "loop": false,
+      "mirror": true,
+      "ms": 50,
+      "preview_frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "preview_ms": 50,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_start_34": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "frames": 3,
+      "loop": false,
+      "mirror": true,
+      "ms": 50,
+      "preview_frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "preview_ms": 50,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_start_back": {
+      "facing": "back",
+      "files": [
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png"
+      ],
+      "frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "frames": 3,
+      "loop": false,
+      "mirror": false,
+      "ms": 50,
+      "preview_frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "preview_ms": 50,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_start_back34": {
+      "facing": "back_three_quarter",
+      "files": [
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png"
+      ],
+      "frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "frames": 3,
+      "loop": false,
+      "mirror": true,
+      "ms": 50,
+      "preview_frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "preview_ms": 50,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_start_front": {
+      "facing": "front",
+      "files": [
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png"
+      ],
+      "frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "frames": 3,
+      "loop": false,
+      "mirror": false,
+      "ms": 50,
+      "preview_frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "preview_ms": 50,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_stop": {
+      "facing": "side",
+      "files": [
+        "pose-2.png",
+        "pose-2.png",
+        "pose-2.png"
+      ],
+      "frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "frames": 3,
+      "loop": false,
+      "mirror": true,
+      "ms": 60,
+      "preview_frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "preview_ms": 60,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_stop_34": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "frames": 3,
+      "loop": false,
+      "mirror": true,
+      "ms": 60,
+      "preview_frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "preview_ms": 60,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_stop_back": {
+      "facing": "back",
+      "files": [
+        "pose-4.png",
+        "pose-4.png",
+        "pose-4.png"
+      ],
+      "frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "frames": 3,
+      "loop": false,
+      "mirror": false,
+      "ms": 60,
+      "preview_frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "preview_ms": 60,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_stop_back34": {
+      "facing": "back_three_quarter",
+      "files": [
+        "pose-3.png",
+        "pose-3.png",
+        "pose-3.png"
+      ],
+      "frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "frames": 3,
+      "loop": false,
+      "mirror": true,
+      "ms": 60,
+      "preview_frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "preview_ms": 60,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "walk_stop_front": {
+      "facing": "front",
+      "files": [
+        "pose-0.png",
+        "pose-0.png",
+        "pose-0.png"
+      ],
+      "frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "frames": 3,
+      "loop": false,
+      "mirror": false,
+      "ms": 60,
+      "preview_frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "preview_ms": 60,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "wall_drop": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        120
+      ],
+      "frames": 1,
+      "loop": false,
+      "mirror": true,
+      "ms": 120,
+      "preview_frame_ms": [
+        120
+      ],
+      "preview_ms": 120,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    },
+    "yawn": {
+      "facing": "three_quarter",
+      "files": [
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png",
+        "pose-1.png"
+      ],
+      "frame_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "frames": 6,
+      "loop": false,
+      "mirror": true,
+      "ms": 180,
+      "preview_frame_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "preview_ms": 180,
+      "stride_px": 0,
+      "sync": [],
+      "regions": [
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        },
+        {
+          "head": [
+            35,
+            20,
+            140,
+            85
+          ],
+          "tail": [
+            0,
+            90,
+            65,
+            145
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        },
+        {
+          "grip": [
+            80,
+            90
+          ],
+          "foot_left": [
+            70,
+            152
+          ],
+          "foot_right": [
+            90,
+            152
+          ]
+        }
+      ]
+    }
+  },
+  "distance_unit": "physical_px_per_frame",
+  "scale": 2,
+  "schema_version": 1,
+  "status": "candidate-awaiting-leader-review"
+}

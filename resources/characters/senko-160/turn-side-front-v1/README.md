@@ -1,0 +1,1 @@
+A04-M draft only. New12-drawing side-to-front turn source,266ms at45Hz. Not runtime-integrated, not complete8direction turning. Height124..127px at one sharedscale; endpoint/pivot/volume quality review pending. No alpha/sizing audit proves visualquality. See ai/SENKO_ANIM_A04_M_PROGRESS.md. PNG source via built-in imagegen; exactprompt/source retained separately.

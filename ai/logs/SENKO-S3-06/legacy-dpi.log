@@ -1,0 +1,10 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 9.19s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-6337767b5d0f5e35.exe)
+
+running 1 test
+test windows::tests::window_proc::window_sizing_normalizes_programmatic_native_and_dpi_geometry ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 136 filtered out; finished in 0.01s
+

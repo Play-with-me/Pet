@@ -1,0 +1,2 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.52s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --walk-world160 resources/characters/senko-160/side-sequence-tempo-v4 resources/characters/senko-160/tempo-world-v1`

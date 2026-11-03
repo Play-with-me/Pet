@@ -1,0 +1,37 @@
+{
+  "anchor": [
+    80,
+    152
+  ],
+  "canvas": [
+    160,
+    160
+  ],
+  "clips": {
+    "walk_34_key_review": {
+      "facing": "three_quarter",
+      "files": [
+        "walk_34_keys/0.png",
+        "walk_34_keys/1.png",
+        "walk_34_keys/2.png",
+        "walk_34_keys/3.png",
+        "walk_34_keys/4.png",
+        "walk_34_keys/5.png",
+        "walk_34_keys/6.png",
+        "walk_34_keys/7.png",
+        "walk_34_keys/8.png",
+        "walk_34_keys/9.png",
+        "walk_34_keys/10.png",
+        "walk_34_keys/11.png"
+      ],
+      "frames": 12,
+      "loop": true,
+      "mirror": true,
+      "ms": 100,
+      "stride_px": 0,
+      "sync": []
+    }
+  },
+  "scale": 2,
+  "schema_version": 1
+}

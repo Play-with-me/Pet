@@ -1,0 +1,15 @@
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3.01s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_runtime-a480845dede9478a.exe)
+
+running 1 test
+test animator::tests::authored_turn_edges_obey_delays_pause_mirror_and_immediate_interrupts ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 299 filtered out; finished in 1.15s
+
+     Running tests\shared_input_fixtures.rs (BongoCat\target\debug\deps\shared_input_fixtures-4e200e83c31a4a65.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+

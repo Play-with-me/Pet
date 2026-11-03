@@ -1,0 +1,6 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Checking gilrs-core v0.6.8 (https://github.com/ayangweb/gilrs?rev=c7e97f54e9e4b10ff89d3527560a22f6817329ea#c7e97f54)
+    Checking bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Checking gilrs v0.11.2 (https://github.com/ayangweb/gilrs?rev=c7e97f54e9e4b10ff89d3527560a22f6817329ea#c7e97f54)
+    Checking bongocat-platform v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-platform)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.57s

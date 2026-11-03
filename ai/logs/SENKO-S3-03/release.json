@@ -1,0 +1,7 @@
+{
+  "pid": 22508,
+  "sha256": "7B90650D0C127274EBFF5F944327E2A3302F5C09FE70029CC31DDD34C874B072",
+  "assets": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\resources\\characters\\senko-v3-g2\\candidate-v5-flow",
+  "build": "just senko-build",
+  "scope": "S3-03 derived geometry and clearance; live physics not connected"
+}

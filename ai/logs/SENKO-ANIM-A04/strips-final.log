@@ -1,0 +1,3 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.44s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --walk160-strips resources/characters/senko-160-source/gait/walk-side-A-v1-raw.png resources/characters/senko-160-source/gait/walk-side-B-v1-raw.png resources/characters/senko-160-source/gait/walk-side-C-v1-raw.png resources/characters/senko-v3-g2/candidate-v5-flow resources/characters/senko-160/walk-side-36-strips-v1`

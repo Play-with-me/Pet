@@ -1,0 +1,18 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.46s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-761f6507c6179b66.exe)
+
+running 1 test
+C03 native window=154x267 work_area=WorkArea { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }
+C04 behavior=Physics position=Point { x: 111.8066671766175, y: 45.134619179256966 }
+C05 paused position stable for 500ms
+C05 reset position=Point { x: 1214.8066671766176, y: 1343.274232871 }
+C04 behavior=Idle position=Point { x: 1214.8066671766176, y: 1343.274232871 }
+C05 reset while paused: RECT { left: 1203, top: 1338, right: 1357, bottom: 1605 }
+C04 behavior=Chase position=Point { x: 1213.0046691766177, y: 1343.274232871 }
+C03 frames=163 presented=163 position=Point { x: 1042.5291001766172, y: 1343.274232871 } velocity=Point { x: 0.0, y: 0.0 }
+C03 pointer grabs=0 releases=0 throw_speed=0
+C05 pause/reset/resume/exit passed; presented=163
+test windows::companion::tests::c05_pause_reset_resume_exit ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 117 filtered out; finished in 2.89s
+

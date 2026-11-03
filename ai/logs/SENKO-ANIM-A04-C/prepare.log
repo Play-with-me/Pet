@@ -1,0 +1,2 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.27s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --walk160 resources/characters/senko-160-source/gait/walk-side-guided-keys-v2-raw.png 2 resources/characters/senko-v3-g2/candidate-v5-flow resources/characters/senko-160/walk-guided-keys-v2`

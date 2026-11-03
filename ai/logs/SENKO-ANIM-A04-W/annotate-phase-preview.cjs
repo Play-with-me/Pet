@@ -1,0 +1,1 @@
+const fs=require('fs');const p='resources/characters/senko-160/walk-34-phase-review-v1/index.html';let h=fs.readFileSync(p,'utf8');h=h.replace('</h1>','</h1><p><strong>A04-W · 18 pha chính, phát chậm15hình/giây để rà bước. Hai bản54frame đã thử chưa được nhận vì mặt/đầu thay đổi giữa nhóm nguồn. Chưa tích hợp, chưa nghiệm thu45FPS.</strong></p>');fs.writeFileSync(p,h);

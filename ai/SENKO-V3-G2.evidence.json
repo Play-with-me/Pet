@@ -1,0 +1,50 @@
+{
+  "task": "SENKO-V3-G2",
+  "date": "2026-10-27",
+  "state": "implemented-awaiting-leader-acceptance",
+  "assets": {
+    "clips": 45,
+    "bottom76": 233,
+    "palette": 32,
+    "frames": 233,
+    "base_pngs_identical": 141
+  },
+  "tests": {
+    "lifecycle": 2,
+    "shared_fixtures": 2,
+    "runtime": 136,
+    "native_regression": 4,
+    "pipeline": 8,
+    "render": 28,
+    "native_g2": 3,
+    "overlay_regular": 112,
+    "native_legacy": 1
+  },
+  "checks": {
+    "cargo_update_versions_changed": 0,
+    "release_build": "passed",
+    "owned_files_fmt": "passed",
+    "clippy": "passed"
+  },
+  "release": {
+    "exe": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\BongoCat\\target\\release\\examples\\companion_senko.exe",
+    "sha256": "AB146C46B1E09AD235EC9E6B26454520D39699EF7CB29C7E407FE089FCC994B3",
+    "assets": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\resources\\characters\\senko-v3-g2\\candidate-v2",
+    "pid": 47868,
+    "alive": true,
+    "responding": true,
+    "second_exit": 0,
+    "instances": 1,
+    "shortcut": "C:\\Users\\kyuu4\\OneDrive\\Desktop\\Senko Pet.lnk",
+    "arguments": "\"C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\resources\\characters\\senko-v3-g2\\candidate-v2\" 0"
+  },
+  "preview": "resources/characters/senko-v3-g2/candidate-v2/animator-preview-v2/index.html",
+  "limits": [
+    "leader acceptance pending",
+    "native pointer tests are synthetic messages",
+    "no new 30min soak",
+    "no G3/G4/G5 implementation",
+    "macOS not built or tested",
+    "not full workspace checks"
+  ]
+}

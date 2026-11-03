@@ -1,0 +1,5 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.16s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --walk34-spaced160 resources/characters/senko-160-source/walk-34-keys-v2-raw.png resources/characters/senko-160/walk-34-keys-v2`
+Senko asset pipeline: direction key9 exceeds fixed canvas
+error: process didn't exit successfully: `BongoCat\target\debug\senko_asset_pipeline.exe --walk34-spaced160 resources/characters/senko-160-source/walk-34-keys-v2-raw.png resources/characters/senko-160/walk-34-keys-v2` (exit code: 1)

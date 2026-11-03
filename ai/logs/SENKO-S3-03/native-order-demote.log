@@ -1,0 +1,21 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 5.49s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-6337767b5d0f5e35.exe)
+
+running 1 test
+PASS live snapshot: fully covered fixture has no ledge
+isolated pair side split reached
+
+thread 'windows::desktop_scan::tests::native_overlap_rebuilds_horizontal_and_vertical_fragments' (33936) panicked at crates\bongocat-overlay\src\windows\desktop_scan_tests.rs:172:9:
+native scanner condition timed out
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test windows::desktop_scan::tests::native_overlap_rebuilds_horizontal_and_vertical_fragments ... FAILED
+
+failures:
+
+failures:
+    windows::desktop_scan::tests::native_overlap_rebuilds_horizontal_and_vertical_fragments
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 131 filtered out; finished in 3.07s
+
+error: test failed, to rerun pass `-p bongocat-overlay --lib`

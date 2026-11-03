@@ -1,0 +1,20 @@
+{
+  "walk_start": {
+    "frames": 9,
+    "unique_rgba": 9,
+    "duration_ms": 200
+  },
+  "walk_side": {
+    "frames": 36,
+    "unique_rgba": 36,
+    "duration_ms": 0
+  },
+  "walk_stop": {
+    "frames": 10,
+    "unique_rgba": 10,
+    "duration_ms": 240
+  },
+  "canonical_seams": "same file references",
+  "pause": "15ticks unchanged",
+  "trace_samples_per_direction": 240
+}

@@ -1,0 +1,15 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 13.54s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-d18e9da9144d0f57.exe)
+
+running 6 tests
+test hover::tests::pointer_hit_testing_uses_a_half_open_window_box ... ok
+test resize_drag::tests::a_non_finite_pointer_position_is_ignored ... ok
+test windows::companion::sprites::tests::on_body_pointer_preserves_facing_and_cannot_supply_an_approach ... ok
+test windows::companion::sprites::tests::pointer_gate_balances_needs_without_redirecting_committed_intent ... ok
+test windows::companion::tests::c03_native_pointer_physics ... ignored, opens the native C-03 physics overlay; requires C03_OUTPUT_DIR
+test windows::tests::session::hover_hide_hit_tests_the_pointer_position_rather_than_the_model_position ... ok
+
+test result: ok. 5 passed; 0 failed; 1 ignored; 0 measured; 142 filtered out; finished in 1.83s
+

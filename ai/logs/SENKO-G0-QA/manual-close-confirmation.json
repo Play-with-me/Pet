@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-27",
+  "question": "Có chủ động tắt Senko hoặc đóng hộp lỗi thử nghiệm vừa hiện không?",
+  "answer": "Có, tôi đã đóng",
+  "interpretation": "user confirmed manual intervention; do not count first interrupted soak as successful or infer crash"
+}

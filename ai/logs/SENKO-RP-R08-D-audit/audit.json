@@ -1,0 +1,329 @@
+{
+  "clip_count": 4,
+  "clips": [
+    {
+      "clock": "time",
+      "duration_ms": 890,
+      "facing": "ThreeQuarter",
+      "frames": [
+        {
+          "alpha_bounds_half_open": [
+            11,
+            15,
+            64,
+            77
+          ],
+          "delay_ms": 160,
+          "index": 0,
+          "nonzero_alpha_pixels": 2008
+        },
+        {
+          "alpha_bounds_half_open": [
+            11,
+            14,
+            63,
+            77
+          ],
+          "delay_ms": 110,
+          "index": 1,
+          "nonzero_alpha_pixels": 2049
+        },
+        {
+          "alpha_bounds_half_open": [
+            11,
+            14,
+            64,
+            77
+          ],
+          "delay_ms": 120,
+          "index": 2,
+          "nonzero_alpha_pixels": 2053
+        },
+        {
+          "alpha_bounds_half_open": [
+            9,
+            14,
+            63,
+            77
+          ],
+          "delay_ms": 180,
+          "index": 3,
+          "nonzero_alpha_pixels": 2099
+        },
+        {
+          "alpha_bounds_half_open": [
+            10,
+            14,
+            64,
+            77
+          ],
+          "delay_ms": 140,
+          "index": 4,
+          "nonzero_alpha_pixels": 2032
+        },
+        {
+          "alpha_bounds_half_open": [
+            11,
+            15,
+            62,
+            77
+          ],
+          "delay_ms": 180,
+          "index": 5,
+          "nonzero_alpha_pixels": 1983
+        }
+      ],
+      "loop": false,
+      "mirror": true,
+      "name": "attention_glance",
+      "stride_px": 0.0,
+      "sync": [],
+      "unique_rgba_frames": 6
+    },
+    {
+      "clock": "time",
+      "duration_ms": 930,
+      "facing": "ThreeQuarter",
+      "frames": [
+        {
+          "alpha_bounds_half_open": [
+            10,
+            14,
+            64,
+            77
+          ],
+          "delay_ms": 160,
+          "index": 0,
+          "nonzero_alpha_pixels": 2078
+        },
+        {
+          "alpha_bounds_half_open": [
+            9,
+            13,
+            63,
+            77
+          ],
+          "delay_ms": 130,
+          "index": 1,
+          "nonzero_alpha_pixels": 2031
+        },
+        {
+          "alpha_bounds_half_open": [
+            10,
+            15,
+            65,
+            77
+          ],
+          "delay_ms": 160,
+          "index": 2,
+          "nonzero_alpha_pixels": 2039
+        },
+        {
+          "alpha_bounds_half_open": [
+            12,
+            15,
+            65,
+            77
+          ],
+          "delay_ms": 160,
+          "index": 3,
+          "nonzero_alpha_pixels": 2000
+        },
+        {
+          "alpha_bounds_half_open": [
+            8,
+            13,
+            63,
+            77
+          ],
+          "delay_ms": 140,
+          "index": 4,
+          "nonzero_alpha_pixels": 2095
+        },
+        {
+          "alpha_bounds_half_open": [
+            12,
+            15,
+            63,
+            77
+          ],
+          "delay_ms": 180,
+          "index": 5,
+          "nonzero_alpha_pixels": 1978
+        }
+      ],
+      "loop": false,
+      "mirror": true,
+      "name": "curious_tilt",
+      "stride_px": 0.0,
+      "sync": [],
+      "unique_rgba_frames": 6
+    },
+    {
+      "clock": "time",
+      "duration_ms": 1100,
+      "facing": "ThreeQuarter",
+      "frames": [
+        {
+          "alpha_bounds_half_open": [
+            10,
+            14,
+            63,
+            77
+          ],
+          "delay_ms": 170,
+          "index": 0,
+          "nonzero_alpha_pixels": 2041
+        },
+        {
+          "alpha_bounds_half_open": [
+            10,
+            14,
+            64,
+            77
+          ],
+          "delay_ms": 150,
+          "index": 1,
+          "nonzero_alpha_pixels": 2121
+        },
+        {
+          "alpha_bounds_half_open": [
+            10,
+            14,
+            64,
+            77
+          ],
+          "delay_ms": 180,
+          "index": 2,
+          "nonzero_alpha_pixels": 2102
+        },
+        {
+          "alpha_bounds_half_open": [
+            10,
+            17,
+            65,
+            77
+          ],
+          "delay_ms": 200,
+          "index": 3,
+          "nonzero_alpha_pixels": 2030
+        },
+        {
+          "alpha_bounds_half_open": [
+            13,
+            19,
+            65,
+            77
+          ],
+          "delay_ms": 180,
+          "index": 4,
+          "nonzero_alpha_pixels": 2051
+        },
+        {
+          "alpha_bounds_half_open": [
+            11,
+            15,
+            63,
+            77
+          ],
+          "delay_ms": 220,
+          "index": 5,
+          "nonzero_alpha_pixels": 1986
+        }
+      ],
+      "loop": false,
+      "mirror": true,
+      "name": "farewell_look",
+      "stride_px": 0.0,
+      "sync": [],
+      "unique_rgba_frames": 6
+    },
+    {
+      "clock": "time",
+      "duration_ms": 910,
+      "facing": "ThreeQuarter",
+      "frames": [
+        {
+          "alpha_bounds_half_open": [
+            10,
+            15,
+            64,
+            77
+          ],
+          "delay_ms": 140,
+          "index": 0,
+          "nonzero_alpha_pixels": 2046
+        },
+        {
+          "alpha_bounds_half_open": [
+            11,
+            14,
+            63,
+            77
+          ],
+          "delay_ms": 120,
+          "index": 1,
+          "nonzero_alpha_pixels": 2040
+        },
+        {
+          "alpha_bounds_half_open": [
+            10,
+            19,
+            63,
+            77
+          ],
+          "delay_ms": 160,
+          "index": 2,
+          "nonzero_alpha_pixels": 1924
+        },
+        {
+          "alpha_bounds_half_open": [
+            10,
+            16,
+            65,
+            77
+          ],
+          "delay_ms": 170,
+          "index": 3,
+          "nonzero_alpha_pixels": 2045
+        },
+        {
+          "alpha_bounds_half_open": [
+            11,
+            15,
+            63,
+            77
+          ],
+          "delay_ms": 140,
+          "index": 4,
+          "nonzero_alpha_pixels": 2042
+        },
+        {
+          "alpha_bounds_half_open": [
+            11,
+            16,
+            62,
+            77
+          ],
+          "delay_ms": 180,
+          "index": 5,
+          "nonzero_alpha_pixels": 1974
+        }
+      ],
+      "loop": false,
+      "mirror": true,
+      "name": "play_accept",
+      "stride_px": 0.0,
+      "sync": [],
+      "unique_rgba_frames": 6
+    }
+  ],
+  "frame_count": 24,
+  "note": "Unique frames and alpha bounds are diagnostics, not proof of natural movement or correct contact.",
+  "p2_completeness": "not_assessed",
+  "runner_required_clips_valid": false,
+  "runner_validation_error": "sprite library: required directional clip missing: idle_side",
+  "schema_version": 1,
+  "structural_validation": "passed",
+  "visual_approval": "not_assessed"
+}

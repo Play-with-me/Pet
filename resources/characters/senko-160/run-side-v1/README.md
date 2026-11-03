@@ -1,0 +1,1 @@
+NOT SELECTED for runtime: A04-Q audit foundframe9 has6pxclearance despite declared touchdown. Retained as rejected source/preview; do not use its provisional sync0/9 as certified contacts. New authoring tool rejects this class before writing subsequent packs. See ai/SENKO_ANIM_A04_Q_PROGRESS.md.

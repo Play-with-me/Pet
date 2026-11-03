@@ -1,0 +1,15 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+   Compiling bongocat-live2d-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d-render)
+   Compiling bongocat-live2d v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 7.41s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-541e293bc15d0cfa.exe)
+
+running 3 tests
+test windows::companion::sprites::tests::manifest_native_grab_pause_reset_exit ... ok
+test windows::companion::sprites::tests::manifest_senko_native_smoke ... ok
+test windows::companion::sprites::tests::nearest_gpu_preserves_four_by_four_pixels_and_linear_default ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 119 filtered out; finished in 11.31s
+

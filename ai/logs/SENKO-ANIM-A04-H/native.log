@@ -1,0 +1,14 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+   Compiling bongocat-live2d-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d-render)
+   Compiling bongocat-live2d v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 13.28s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-b7f27b0ae4c0062b.exe)
+
+running 1 test
+PASS native moving replay: two60Hz actual-body traces, movedHWND as projected (negativeworld reprojected into testviewport), all10 sync18stop frames Presented; syntheticfloor, not liveDWM/manual/hardware-cadence QA
+test windows::companion::sprites::tests::native160_moving_trace_uses_sync18_stop_without_position_clamp ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 171 filtered out; finished in 7.19s
+

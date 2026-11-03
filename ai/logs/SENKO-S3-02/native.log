@@ -1,0 +1,24 @@
+    Blocking waiting for file lock on build directory
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 28.91s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-6337767b5d0f5e35.exe)
+
+running 5 tests
+test windows::desktop_scan::tests::callback_filters_child_events_and_bounds_destroy_queue ... ok
+test windows::desktop_scan::tests::filter_keeps_nonclimbable_occluders_and_rejects_invisible_or_unknown_geometry ... ok
+test windows::desktop_scan::tests::fullscreen_and_small_windows_occlude_without_creating_edges ... ok
+test windows::desktop_scan::tests::identities_survive_movement_but_not_destroy_or_pid_tid_reuse ... ok
+
+thread 'windows::desktop_scan::tests::native_window_lifecycle_events_order_fallback_and_teardown' (10280) panicked at crates\bongocat-overlay\src\windows\desktop_scan_tests.rs:237:5:
+test foreground request was rejected by Windows
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test windows::desktop_scan::tests::native_window_lifecycle_events_order_fallback_and_teardown ... FAILED
+
+failures:
+
+failures:
+    windows::desktop_scan::tests::native_window_lifecycle_events_order_fallback_and_teardown
+
+test result: FAILED. 4 passed; 1 failed; 0 ignored; 0 measured; 126 filtered out; finished in 0.06s
+
+error: test failed, to rerun pass `-p bongocat-overlay --lib`

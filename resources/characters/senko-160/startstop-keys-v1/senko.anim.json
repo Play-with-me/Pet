@@ -1,0 +1,64 @@
+{
+  "anchor": [
+    80,
+    152
+  ],
+  "canvas": [
+    160,
+    160
+  ],
+  "clips": {
+    "walk_start": {
+      "facing": "side",
+      "files": [
+        "walk_start/0.png",
+        "walk_start/1.png",
+        "walk_start/2.png",
+        "walk_start/3.png",
+        "walk_start/4.png",
+        "walk_start/5.png"
+      ],
+      "frame_ms": [
+        33,
+        33,
+        34,
+        33,
+        33,
+        34
+      ],
+      "frames": 6,
+      "loop": false,
+      "mirror": true,
+      "ms": 33,
+      "stride_px": 0,
+      "sync": []
+    },
+    "walk_stop": {
+      "facing": "side",
+      "files": [
+        "walk_stop/0.png",
+        "walk_stop/1.png",
+        "walk_stop/2.png",
+        "walk_stop/3.png",
+        "walk_stop/4.png",
+        "walk_stop/5.png"
+      ],
+      "frame_ms": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "frames": 6,
+      "loop": false,
+      "mirror": true,
+      "ms": 40,
+      "stride_px": 0,
+      "sync": []
+    }
+  },
+  "scale": 2,
+  "schema_version": 1
+}

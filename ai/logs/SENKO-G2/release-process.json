@@ -1,0 +1,12 @@
+{
+  "exe": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\BongoCat\\target\\release\\examples\\companion_senko.exe",
+  "sha256": "AB146C46B1E09AD235EC9E6B26454520D39699EF7CB29C7E407FE089FCC994B3",
+  "assets": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\resources\\characters\\senko-v3-g2\\candidate-v2",
+  "pid": 47868,
+  "alive": true,
+  "responding": true,
+  "second_exit": 0,
+  "instances": 1,
+  "shortcut": "C:\\Users\\kyuu4\\OneDrive\\Desktop\\Senko Pet.lnk",
+  "arguments": "\"C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\resources\\characters\\senko-v3-g2\\candidate-v2\" 0"
+}

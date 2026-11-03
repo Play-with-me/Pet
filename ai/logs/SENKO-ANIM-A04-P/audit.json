@@ -1,0 +1,15 @@
+{
+  "new_back_drawings": 12,
+  "palette_rgba": 31,
+  "height_range": [
+    124,
+    125
+  ],
+  "hardalpha": true,
+  "baseline": 152,
+  "edges": 8,
+  "edge_frame_refs": 8,
+  "edge_ms": 177,
+  "canonical_endpoints": true,
+  "art_acceptance": "pending; tail center pose added, semantic pivot/volume not certified"
+}

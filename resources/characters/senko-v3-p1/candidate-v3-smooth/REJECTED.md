@@ -1,0 +1,1 @@
+Bản thử không dùng để tích hợp. Lệch tỷ lệ/tóc/đuôi trong frame trung gian; xem candidate-v6-smooth (141 frame). Giữ lại làm bằng chứng QA, không coi trạng thái candidate trong manifest cũ là được duyệt.

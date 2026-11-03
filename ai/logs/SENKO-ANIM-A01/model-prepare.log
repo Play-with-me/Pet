@@ -1,0 +1,3 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.34s
+     Running `target\debug\senko_asset_pipeline.exe --model160 ../resources/characters/senko-160-source/model-v1-raw.png ../resources/characters/senko-160/model-v1`

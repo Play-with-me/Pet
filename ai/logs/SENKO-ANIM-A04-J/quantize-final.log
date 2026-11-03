@@ -1,0 +1,2 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.59s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --grounded-quantize160 resources/characters/senko-160/walk-grounded-54-v10 resources/characters/senko-160/walk-grounded-54-v11`

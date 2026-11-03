@@ -1,0 +1,34 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 7.70s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-fe5f3c7095384355.exe)
+
+running 1 test
+test windows::companion::sprites::tests::native160_actual_side_sequence_start_walk_pause_stop ... PASS actual160 side art/native Present:9start/36walk/10stop visited in both directions,15pause ticks frozen, returnedIdle. Native capture real delays; fixedwindow, no body/world/manual QA claim
+ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 172 filtered out; finished in 12.56s
+
+     Running unittests src\main.rs (BongoCat\target\debug\deps\bongocat_overlay-4464936f74a8f38b.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 3 filtered out; finished in 0.00s
+
+     Running unittests src\bin\companion_trial.rs (BongoCat\target\debug\deps\companion_trial-354f5fa682298de2.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\bin\senko_asset_pipeline.rs (BongoCat\target\debug\deps\senko_asset_pipeline-4a42ac83a8a0a1f3.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 16 filtered out; finished in 0.00s
+
+     Running unittests src\bin\slice_sprites.rs (BongoCat\target\debug\deps\slice_sprites-d4a2eaa2ce4e4083.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

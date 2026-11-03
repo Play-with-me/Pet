@@ -1,0 +1,4 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.53s
+     Running `target\debug\senko_asset_pipeline.exe --p2-attention ../resources/characters/senko-v3-r08-source/attention-v2-raw.png ../resources/characters/senko-v3-g2/candidate-v5-flow ../resources/characters/senko-v3-r08/candidate-attention-v1`
+P1 validated: 24 frames, 32 shared RGBA colors
+Candidate written: ../resources/characters/senko-v3-r08/candidate-attention-v1

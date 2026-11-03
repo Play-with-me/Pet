@@ -1,0 +1,3 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 5.80s
+  Executable unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-b432fb5ecdd0d927.exe)

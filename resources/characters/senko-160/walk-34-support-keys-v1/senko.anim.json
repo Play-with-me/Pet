@@ -1,0 +1,63 @@
+{
+  "anchor": [
+    80,
+    152
+  ],
+  "canvas": [
+    160,
+    160
+  ],
+  "clips": {
+    "walk_34_key_review": {
+      "facing": "three_quarter",
+      "files": [
+        "walk_34/0.png",
+        "walk_34/1.png",
+        "walk_34/2.png",
+        "walk_34/3.png",
+        "walk_34/4.png",
+        "walk_34/5.png",
+        "walk_34/6.png",
+        "walk_34/7.png",
+        "walk_34/8.png",
+        "walk_34/9.png",
+        "walk_34/10.png",
+        "walk_34/11.png",
+        "walk_34/12.png",
+        "walk_34/13.png",
+        "walk_34/14.png",
+        "walk_34/15.png",
+        "walk_34/16.png",
+        "walk_34/17.png"
+      ],
+      "frame_ms": [
+        66,
+        67,
+        67,
+        66,
+        67,
+        67,
+        66,
+        67,
+        67,
+        66,
+        67,
+        67,
+        66,
+        67,
+        67,
+        66,
+        67,
+        67
+      ],
+      "frames": 18,
+      "loop": true,
+      "mirror": true,
+      "ms": 66,
+      "stride_px": 0,
+      "sync": []
+    }
+  },
+  "scale": 2,
+  "schema_version": 1
+}

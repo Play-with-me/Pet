@@ -1,0 +1,15 @@
+{
+  "pid": 26680,
+  "elapsed_seconds": 1801.3417113,
+  "samples": 61,
+  "all_responding": true,
+  "private_bytes_min": 8196096.0,
+  "private_bytes_max": 67809280.0,
+  "working_set_min": 22093824.0,
+  "working_set_max": 52834304.0,
+  "handle_min": 182.0,
+  "handle_max": 674.0,
+  "still_running": true,
+  "leader_threshold_seconds": 1800,
+  "exe_sha256": "EDB563E5392F2BA3F8BCAD7225A67663B70228D8940E4367F82240364B24409B"
+}

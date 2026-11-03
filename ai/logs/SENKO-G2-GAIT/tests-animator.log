@@ -1,0 +1,23 @@
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 14.53s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_runtime-a480845dede9478a.exe)
+
+running 9 tests
+test animator::tests::opposite_turn_passes_front_instead_of_flipping ... ok
+test animator::tests::front_and_back_never_mirror ... ok
+test animator::tests::walking_tracks_only_self_travel_and_pause_freezes ... ok
+test animator::tests::turn_commits_to_target_and_has_half_second_cooldown ... ok
+test animator::tests::held_and_fall_interrupt_each_transition_immediately ... ok
+test animator::tests::all_eight_directions_select_real_walk_and_run_clips ... ok
+test animator::tests::gait_switch_keeps_support_phase_with_different_stride_lengths ... ok
+test animator::tests::every_walk_phase_can_stop_at_contact_or_settle_without_moving ... ok
+test animator::tests::speed_changes_do_not_restart_walk_and_run_or_freeze_body ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 129 filtered out; finished in 0.40s
+
+     Running tests\shared_input_fixtures.rs (BongoCat\target\debug\deps\shared_input_fixtures-4e200e83c31a4a65.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+

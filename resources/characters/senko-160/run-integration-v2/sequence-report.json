@@ -1,0 +1,82 @@
+{
+  "status": "partial_candidate_not_fullpet",
+  "turn_art_source": "frontM12 + backP-v2 twelve; reverse reuse and canonical aliases",
+  "clips": {
+    "idle_side": {
+      "frames": 1,
+      "duration_ms": 1000
+    },
+    "walk_side": {
+      "frames": 54,
+      "duration_ms": 0
+    },
+    "walk_start": {
+      "frames": 14,
+      "duration_ms": 400
+    },
+    "walk_stop": {
+      "frames": 14,
+      "duration_ms": 400
+    },
+    "idle_front": {
+      "frames": 1,
+      "duration_ms": 1000
+    },
+    "idle_34": {
+      "frames": 1,
+      "duration_ms": 1000
+    },
+    "idle_back34": {
+      "frames": 1,
+      "duration_ms": 1000
+    },
+    "idle_back": {
+      "frames": 1,
+      "duration_ms": 1000
+    },
+    "walk_stop_sync27": {
+      "frames": 18,
+      "duration_ms": 400
+    },
+    "turn_side_34": {
+      "frames": 8,
+      "duration_ms": 177
+    },
+    "turn_34_front": {
+      "frames": 8,
+      "duration_ms": 177
+    },
+    "turn_front_34": {
+      "frames": 8,
+      "duration_ms": 177
+    },
+    "turn_34_side": {
+      "frames": 8,
+      "duration_ms": 177
+    },
+    "turn_side_back34": {
+      "frames": 8,
+      "duration_ms": 177
+    },
+    "turn_back34_back": {
+      "frames": 8,
+      "duration_ms": 177
+    },
+    "turn_back_back34": {
+      "frames": 8,
+      "duration_ms": 177
+    },
+    "turn_back34_side": {
+      "frames": 8,
+      "duration_ms": 177
+    }
+  },
+  "visual_acceptance": "pending",
+  "limitations": [
+    "frontheight124..127",
+    "backheight124..125",
+    "internal yaw/pivot/volume still pending",
+    "run/otherdirection gait incomplete",
+    "no defaultswitch"
+  ]
+}

@@ -1,0 +1,58 @@
+Diff in \\?\C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay\src\bin\slice_sprites.rs:42:
+     }
+ }
+ 
+-pub fn extract_cell(
+-    sheet: &RgbaImage,
+-    rows: u32,
+-    cols: u32,
+-    row: u32,
+-    col: u32,
+-) -> RgbaImage {
++pub fn extract_cell(sheet: &RgbaImage, rows: u32, cols: u32, row: u32, col: u32) -> RgbaImage {
+     let (sheet_w, sheet_h) = sheet.dimensions();
+     let cell_w = sheet_w / cols;
+     let cell_h = sheet_h / rows;
+Diff in \\?\C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay\src\bin\slice_sprites.rs:94:
+     let char_h = max_y - min_y + 1;
+ 
+     let max_bound = 118.0_f32;
+-    let scale = (max_bound / char_h as f32).min(max_bound / char_w as f32).min(1.0);
++    let scale = (max_bound / char_h as f32)
++        .min(max_bound / char_w as f32)
++        .min(1.0);
+     let scaled_w = (char_w as f32 * scale).round() as u32;
+     let scaled_h = (char_h as f32 * scale).round() as u32;
+ 
+Diff in \\?\C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay\src\bin\slice_sprites.rs:118:
+ }
+ 
+ fn main() -> Result<(), Box<dyn std::error::Error>> {
+-    let base_brain = Path::new("C:/Users/kyuu4/.gemini/antigravity/brain/995d59a3-a0ec-4775-9076-d67b438a1e6c");
++    let base_brain =
++        Path::new("C:/Users/kyuu4/.gemini/antigravity/brain/995d59a3-a0ec-4775-9076-d67b438a1e6c");
+     let loc_path = base_brain.join("sheet_locomotion.png");
+     let phy_path = base_brain.join("sheet_physics.png");
+     let emo_path = base_brain.join("sheet_emotions.png");
+Diff in \\?\C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay\src\bin\slice_sprites.rs:213:
+         println!("Generated shime{id}.png from sheet {sheet_id} [{row},{col}]");
+     }
+ 
+-    println!("All 46 Shimeji frames successfully extracted and saved to {}", out_dir.display());
++    println!(
++        "All 46 Shimeji frames successfully extracted and saved to {}",
++        out_dir.display()
++    );
+     Ok(())
+ }
+ 
+Diff in \\?\C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render\src\lib.rs:36:
+ mod identity;
+ mod key;
+ mod resources;
+-mod snapshot;
+ pub mod shimeji;
++mod snapshot;
+ pub mod stickman;
+ #[cfg(test)]
+ mod tests;

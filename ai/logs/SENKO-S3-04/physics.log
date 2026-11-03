@@ -1,0 +1,33 @@
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 7.15s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_runtime-a480845dede9478a.exe)
+
+running 15 tests
+
+thread 'senko_body::physics::tests::destroyed_minimized_reused_or_shrunken_support_falls_from_actual_position' (41360) panicked at crates\bongocat-runtime\src\senko_physics_tests.rs:157:9:
+assertion failed: b.support().is_none()
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test senko_body::physics::tests::gravity_is_analytic_and_suspend_catch_up_is_bounded ... ok
+test senko_body::tests::grab_detaches_and_stale_samples_or_capture_loss_do_not_teleport ... ok
+test senko_body::physics::tests::floor_penetration_after_grip_and_outside_desktop_recover_to_real_floor ... ok
+test senko_body::physics::tests::headroom_occlusion_and_swept_carriage_do_not_pass_through_foreground ... ok
+test senko_body::physics::tests::fast_fall_lands_on_first_surface_not_iteration_order ... ok
+test senko_body::physics::tests::slow_transport_uses_snapshot_time_not_frame_dt_and_walk_updates_offset ... ok
+test senko_body::physics::tests::pause_freezes_placement_but_lost_or_moved_support_falls_on_resume ... ok
+test senko_body::physics::tests::destroyed_minimized_reused_or_shrunken_support_falls_from_actual_position ... FAILED
+test senko_body::physics::tests::walking_stops_at_safe_edge_and_grab_interrupts_support ... ok
+test senko_body::tests::bounds_and_window_share_a_foot_but_not_a_top_left_corner ... ok
+test senko_body::tests::coordinate_round_trips_on_negative_and_fractional_desktops ... ok
+test senko_body::tests::grip_remains_exact_across_zero_and_negative_monitor_coordinates ... ok
+test senko_body::tests::invalid_coordinates_do_not_poison_body ... ok
+test senko_body::physics::tests::speed_threshold_and_zero_timestamp_delta_detach_without_reattaching ... ok
+test senko_body::physics::tests::landing_uses_x_at_crossing_and_rejects_narrow_or_occluded_top ... ok
+
+failures:
+
+failures:
+    senko_body::physics::tests::destroyed_minimized_reused_or_shrunken_support_falls_from_actual_position
+
+test result: FAILED. 14 passed; 1 failed; 0 ignored; 0 measured; 155 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `-p bongocat-runtime --lib`

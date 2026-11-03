@@ -1,0 +1,10 @@
+warning: in the working copy of 'Cargo.lock', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'crates/bongocat-overlay/src/bounds.rs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'crates/bongocat-overlay/src/lib.rs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'crates/bongocat-overlay/src/windows/pipelines.rs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'crates/bongocat-overlay/src/windows/renderer.rs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'crates/bongocat-overlay/src/windows/window_proc.rs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'crates/bongocat-packaging/src/main.rs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'crates/bongocat-render/src/lib.rs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'crates/bongocat-runtime/src/lib.rs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/technical-design.md', LF will be replaced by CRLF the next time Git touches it

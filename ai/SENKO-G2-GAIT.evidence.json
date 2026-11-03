@@ -1,0 +1,40 @@
+{
+  "task": "SENKO-G2-GAIT-FIX",
+  "state": "fix-built-opened-awaiting-subjective-review",
+  "assets": {
+    "frames": 217,
+    "clips": 45,
+    "colors": 32,
+    "unchanged_pngs": 201
+  },
+  "checks": {
+    "pipeline": 9,
+    "runtime": 138,
+    "render": 28,
+    "fixtures": 2,
+    "native": 4,
+    "fmt": "passed",
+    "release": "passed",
+    "clippy": "passed",
+    "overlay_suite": "113 passed;1 existing topmost testcase failed;11 ignored"
+  },
+  "release": {
+    "exe": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\BongoCat\\target\\release\\examples\\companion_senko.exe",
+    "sha256": "35531C994DD32A3B840659DC4D734E026A023CA69F02FFCDA00A39FBE2780CFF",
+    "assets": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\resources\\characters\\senko-v3-g2\\candidate-v4-cute-gait",
+    "pid": 31352,
+    "alive": true,
+    "responding": true,
+    "second_exit": 0,
+    "instances": 1,
+    "shortcut": "C:\\Users\\kyuu4\\OneDrive\\Desktop\\Senko Pet.lnk",
+    "arguments": "\"C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\resources\\characters\\senko-v3-g2\\candidate-v4-cute-gait\" 0"
+  },
+  "native_log": "ai/logs/SENKO-G2-GAIT/native-cute-final.log",
+  "limits": [
+    "no new30min soak",
+    "native pointer input injected, not manual mouse",
+    "subjective cuteness still for user to assess",
+    "no G3 or later implementation"
+  ]
+}

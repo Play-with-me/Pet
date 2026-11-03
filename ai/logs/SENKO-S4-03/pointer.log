@@ -1,0 +1,22 @@
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 11.94s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_runtime-a480845dede9478a.exe)
+
+running 8 tests
+test senko_pointer::tests::glance_is_one_shot_expires_and_yields_to_priority ... ok
+test senko_pointer::tests::pause_loss_invalid_data_and_suspend_drop_stale_motion ... ok
+test senko_pointer::tests::slow_approach_and_receding_are_distinct_and_not_chases ... ok
+test senko_pointer::tests::pet_motion_cannot_turn_a_still_os_cursor_into_approach_or_flyby ... ok
+test senko_pointer::tests::fast_flyby_produces_attention_without_a_motion_target ... ok
+test senko_pointer::tests::near_hysteresis_and_debug_do_not_expose_pointer_coordinates ... ok
+test senko_pointer::tests::stationary_pointer_on_body_does_not_react_to_sprite_mask_or_jitter ... ok
+test senko_pointer::tests::stationary_nearby_looks_once_and_buffers_stay_short ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 199 filtered out; finished in 0.00s
+
+     Running tests\shared_input_fixtures.rs (target\debug\deps\shared_input_fixtures-4e200e83c31a4a65.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+

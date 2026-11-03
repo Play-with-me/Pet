@@ -1,0 +1,818 @@
+{
+  "calibration": "one fixed pixel-density calibration per source sheet; no per-frame fit",
+  "colors_rgba": 31,
+  "cycle_distance_physical_px": 96.0,
+  "foot_contacts": "not_annotated_not_guessed",
+  "frame_count": 36,
+  "frames": [
+    {
+      "axis_correction_physical_px": -2.505050505050505,
+      "axis_correction_source_px": -3.0,
+      "bounds_inclusive": [
+        34,
+        29,
+        123,
+        152
+      ],
+      "index": 0,
+      "previous_garment_axis": 117.5,
+      "source_anchor": [
+        114.5,
+        301
+      ],
+      "source_scale": 0.4175084175084175
+    },
+    {
+      "axis_correction_physical_px": -4.105960264900662,
+      "axis_correction_source_px": -5.0,
+      "bounds_inclusive": [
+        35,
+        29,
+        123,
+        152
+      ],
+      "index": 1,
+      "previous_garment_axis": 118.5,
+      "source_anchor": [
+        113.5,
+        306
+      ],
+      "source_scale": 0.4105960264900662
+    },
+    {
+      "axis_correction_physical_px": -1.6156351791530943,
+      "axis_correction_source_px": -2.0,
+      "bounds_inclusive": [
+        31,
+        29,
+        126,
+        152
+      ],
+      "index": 2,
+      "previous_garment_axis": 128.5,
+      "source_anchor": [
+        126.5,
+        311
+      ],
+      "source_scale": 0.4039087947882736
+    },
+    {
+      "axis_correction_physical_px": -1.67003367003367,
+      "axis_correction_source_px": -2.0,
+      "bounds_inclusive": [
+        32,
+        29,
+        123,
+        152
+      ],
+      "index": 3,
+      "previous_garment_axis": 121.5,
+      "source_anchor": [
+        119.5,
+        301
+      ],
+      "source_scale": 0.4175084175084175
+    },
+    {
+      "axis_correction_physical_px": -3.2847682119205297,
+      "axis_correction_source_px": -4.0,
+      "bounds_inclusive": [
+        35,
+        29,
+        124,
+        152
+      ],
+      "index": 4,
+      "previous_garment_axis": 117.5,
+      "source_anchor": [
+        113.5,
+        306
+      ],
+      "source_scale": 0.4105960264900662
+    },
+    {
+      "axis_correction_physical_px": -2.423452768729642,
+      "axis_correction_source_px": -3.0,
+      "bounds_inclusive": [
+        31,
+        29,
+        124,
+        152
+      ],
+      "index": 5,
+      "previous_garment_axis": 128.5,
+      "source_anchor": [
+        125.5,
+        312
+      ],
+      "source_scale": 0.4039087947882736
+    },
+    {
+      "axis_correction_physical_px": -2.505050505050505,
+      "axis_correction_source_px": -3.0,
+      "bounds_inclusive": [
+        31,
+        29,
+        124,
+        152
+      ],
+      "index": 6,
+      "previous_garment_axis": 125.5,
+      "source_anchor": [
+        122.5,
+        302
+      ],
+      "source_scale": 0.4175084175084175
+    },
+    {
+      "axis_correction_physical_px": -3.2847682119205297,
+      "axis_correction_source_px": -4.0,
+      "bounds_inclusive": [
+        36,
+        29,
+        124,
+        152
+      ],
+      "index": 7,
+      "previous_garment_axis": 116.5,
+      "source_anchor": [
+        112.5,
+        306
+      ],
+      "source_scale": 0.4105960264900662
+    },
+    {
+      "axis_correction_physical_px": -4.846905537459284,
+      "axis_correction_source_px": -6.0,
+      "bounds_inclusive": [
+        28,
+        29,
+        128,
+        152
+      ],
+      "index": 8,
+      "previous_garment_axis": 138.5,
+      "source_anchor": [
+        132.5,
+        313
+      ],
+      "source_scale": 0.4039087947882736
+    },
+    {
+      "axis_correction_physical_px": -2.505050505050505,
+      "axis_correction_source_px": -3.0,
+      "bounds_inclusive": [
+        40,
+        28,
+        123,
+        152
+      ],
+      "index": 9,
+      "previous_garment_axis": 103.5,
+      "source_anchor": [
+        100.5,
+        303
+      ],
+      "source_scale": 0.4175084175084175
+    },
+    {
+      "axis_correction_physical_px": -1.6423841059602649,
+      "axis_correction_source_px": -2.0,
+      "bounds_inclusive": [
+        37,
+        29,
+        124,
+        152
+      ],
+      "index": 10,
+      "previous_garment_axis": 112.5,
+      "source_anchor": [
+        110.5,
+        306
+      ],
+      "source_scale": 0.4105960264900662
+    },
+    {
+      "axis_correction_physical_px": -2.423452768729642,
+      "axis_correction_source_px": -3.0,
+      "bounds_inclusive": [
+        32,
+        28,
+        127,
+        152
+      ],
+      "index": 11,
+      "previous_garment_axis": 126.5,
+      "source_anchor": [
+        123.5,
+        313
+      ],
+      "source_scale": 0.4039087947882736
+    },
+    {
+      "axis_correction_physical_px": -3.34006734006734,
+      "axis_correction_source_px": -4.0,
+      "bounds_inclusive": [
+        31,
+        29,
+        123,
+        152
+      ],
+      "index": 12,
+      "previous_garment_axis": 124.5,
+      "source_anchor": [
+        120.5,
+        303
+      ],
+      "source_scale": 0.4175084175084175
+    },
+    {
+      "axis_correction_physical_px": -2.4635761589403975,
+      "axis_correction_source_px": -3.0,
+      "bounds_inclusive": [
+        36,
+        29,
+        123,
+        152
+      ],
+      "index": 13,
+      "previous_garment_axis": 113.5,
+      "source_anchor": [
+        110.5,
+        306
+      ],
+      "source_scale": 0.4105960264900662
+    },
+    {
+      "axis_correction_physical_px": -2.423452768729642,
+      "axis_correction_source_px": -3.0,
+      "bounds_inclusive": [
+        31,
+        28,
+        125,
+        152
+      ],
+      "index": 14,
+      "previous_garment_axis": 128.5,
+      "source_anchor": [
+        125.5,
+        313
+      ],
+      "source_scale": 0.4039087947882736
+    },
+    {
+      "axis_correction_physical_px": -0.835016835016835,
+      "axis_correction_source_px": -1.0,
+      "bounds_inclusive": [
+        34,
+        29,
+        123,
+        152
+      ],
+      "index": 15,
+      "previous_garment_axis": 116.5,
+      "source_anchor": [
+        115.5,
+        301
+      ],
+      "source_scale": 0.4175084175084175
+    },
+    {
+      "axis_correction_physical_px": -0.8211920529801324,
+      "axis_correction_source_px": -1.0,
+      "bounds_inclusive": [
+        35,
+        29,
+        123,
+        152
+      ],
+      "index": 16,
+      "previous_garment_axis": 114.5,
+      "source_anchor": [
+        113.5,
+        306
+      ],
+      "source_scale": 0.4105960264900662
+    },
+    {
+      "axis_correction_physical_px": -1.6156351791530943,
+      "axis_correction_source_px": -2.0,
+      "bounds_inclusive": [
+        32,
+        28,
+        127,
+        152
+      ],
+      "index": 17,
+      "previous_garment_axis": 124.5,
+      "source_anchor": [
+        122.5,
+        314
+      ],
+      "source_scale": 0.4039087947882736
+    },
+    {
+      "axis_correction_physical_px": 0.0,
+      "axis_correction_source_px": 0.0,
+      "bounds_inclusive": [
+        34,
+        30,
+        123,
+        152
+      ],
+      "index": 18,
+      "previous_garment_axis": 115.5,
+      "source_anchor": [
+        115.5,
+        300
+      ],
+      "source_scale": 0.4175084175084175
+    },
+    {
+      "axis_correction_physical_px": -4.105960264900662,
+      "axis_correction_source_px": -5.0,
+      "bounds_inclusive": [
+        36,
+        29,
+        125,
+        152
+      ],
+      "index": 19,
+      "previous_garment_axis": 116.5,
+      "source_anchor": [
+        111.5,
+        308
+      ],
+      "source_scale": 0.4105960264900662
+    },
+    {
+      "axis_correction_physical_px": -2.423452768729642,
+      "axis_correction_source_px": -3.0,
+      "bounds_inclusive": [
+        31,
+        29,
+        126,
+        152
+      ],
+      "index": 20,
+      "previous_garment_axis": 128.5,
+      "source_anchor": [
+        125.5,
+        311
+      ],
+      "source_scale": 0.4039087947882736
+    },
+    {
+      "axis_correction_physical_px": -0.835016835016835,
+      "axis_correction_source_px": -1.0,
+      "bounds_inclusive": [
+        33,
+        29,
+        123,
+        152
+      ],
+      "index": 21,
+      "previous_garment_axis": 118.5,
+      "source_anchor": [
+        117.5,
+        300
+      ],
+      "source_scale": 0.4175084175084175
+    },
+    {
+      "axis_correction_physical_px": -0.8211920529801324,
+      "axis_correction_source_px": -1.0,
+      "bounds_inclusive": [
+        35,
+        29,
+        126,
+        152
+      ],
+      "index": 22,
+      "previous_garment_axis": 115.5,
+      "source_anchor": [
+        114.5,
+        308
+      ],
+      "source_scale": 0.4105960264900662
+    },
+    {
+      "axis_correction_physical_px": -1.6156351791530943,
+      "axis_correction_source_px": -2.0,
+      "bounds_inclusive": [
+        31,
+        29,
+        125,
+        152
+      ],
+      "index": 23,
+      "previous_garment_axis": 128.5,
+      "source_anchor": [
+        126.5,
+        311
+      ],
+      "source_scale": 0.4039087947882736
+    },
+    {
+      "axis_correction_physical_px": -6.68013468013468,
+      "axis_correction_source_px": -8.0,
+      "bounds_inclusive": [
+        31,
+        28,
+        131,
+        152
+      ],
+      "index": 24,
+      "previous_garment_axis": 128.5,
+      "source_anchor": [
+        120.5,
+        305
+      ],
+      "source_scale": 0.4175084175084175
+    },
+    {
+      "axis_correction_physical_px": -4.105960264900662,
+      "axis_correction_source_px": -5.0,
+      "bounds_inclusive": [
+        30,
+        28,
+        128,
+        152
+      ],
+      "index": 25,
+      "previous_garment_axis": 131.5,
+      "source_anchor": [
+        126.5,
+        309
+      ],
+      "source_scale": 0.4105960264900662
+    },
+    {
+      "axis_correction_physical_px": -5.6547231270358305,
+      "axis_correction_source_px": -7.0,
+      "bounds_inclusive": [
+        31,
+        29,
+        131,
+        152
+      ],
+      "index": 26,
+      "previous_garment_axis": 133.5,
+      "source_anchor": [
+        126.5,
+        311
+      ],
+      "source_scale": 0.4039087947882736
+    },
+    {
+      "axis_correction_physical_px": -4.175084175084175,
+      "axis_correction_source_px": -5.0,
+      "bounds_inclusive": [
+        40,
+        28,
+        123,
+        152
+      ],
+      "index": 27,
+      "previous_garment_axis": 105.5,
+      "source_anchor": [
+        100.5,
+        305
+      ],
+      "source_scale": 0.4175084175084175
+    },
+    {
+      "axis_correction_physical_px": -2.4635761589403975,
+      "axis_correction_source_px": -3.0,
+      "bounds_inclusive": [
+        38,
+        28,
+        126,
+        152
+      ],
+      "index": 28,
+      "previous_garment_axis": 109.5,
+      "source_anchor": [
+        106.5,
+        308
+      ],
+      "source_scale": 0.4105960264900662
+    },
+    {
+      "axis_correction_physical_px": -0.8078175895765473,
+      "axis_correction_source_px": -1.0,
+      "bounds_inclusive": [
+        33,
+        29,
+        127,
+        152
+      ],
+      "index": 29,
+      "previous_garment_axis": 120.5,
+      "source_anchor": [
+        119.5,
+        310
+      ],
+      "source_scale": 0.4039087947882736
+    },
+    {
+      "axis_correction_physical_px": -3.34006734006734,
+      "axis_correction_source_px": -4.0,
+      "bounds_inclusive": [
+        36,
+        29,
+        124,
+        152
+      ],
+      "index": 30,
+      "previous_garment_axis": 114.5,
+      "source_anchor": [
+        110.5,
+        302
+      ],
+      "source_scale": 0.4175084175084175
+    },
+    {
+      "axis_correction_physical_px": -1.6423841059602649,
+      "axis_correction_source_px": -2.0,
+      "bounds_inclusive": [
+        36,
+        29,
+        125,
+        152
+      ],
+      "index": 31,
+      "previous_garment_axis": 112.5,
+      "source_anchor": [
+        110.5,
+        308
+      ],
+      "source_scale": 0.4105960264900662
+    },
+    {
+      "axis_correction_physical_px": -3.231270358306189,
+      "axis_correction_source_px": -4.0,
+      "bounds_inclusive": [
+        31,
+        29,
+        126,
+        152
+      ],
+      "index": 32,
+      "previous_garment_axis": 128.5,
+      "source_anchor": [
+        124.5,
+        312
+      ],
+      "source_scale": 0.4039087947882736
+    },
+    {
+      "axis_correction_physical_px": -0.835016835016835,
+      "axis_correction_source_px": -1.0,
+      "bounds_inclusive": [
+        34,
+        30,
+        122,
+        152
+      ],
+      "index": 33,
+      "previous_garment_axis": 116.5,
+      "source_anchor": [
+        115.5,
+        300
+      ],
+      "source_scale": 0.4175084175084175
+    },
+    {
+      "axis_correction_physical_px": -0.8211920529801324,
+      "axis_correction_source_px": -1.0,
+      "bounds_inclusive": [
+        36,
+        29,
+        123,
+        152
+      ],
+      "index": 34,
+      "previous_garment_axis": 112.5,
+      "source_anchor": [
+        111.5,
+        308
+      ],
+      "source_scale": 0.4105960264900662
+    },
+    {
+      "axis_correction_physical_px": -1.6156351791530943,
+      "axis_correction_source_px": -2.0,
+      "bounds_inclusive": [
+        33,
+        29,
+        125,
+        152
+      ],
+      "index": 35,
+      "previous_garment_axis": 122.5,
+      "source_anchor": [
+        120.5,
+        311
+      ],
+      "source_scale": 0.4039087947882736
+    }
+  ],
+  "note": "Clock preview is not used by locomotion; runtime walk stays distance-driven. GIF delays are quantized by its format; use manifest player.",
+  "preview_cycle_ms": 800,
+  "preview_motion_fps": 45.0,
+  "reference_source_scale": 0.4175084175084175,
+  "reference_speed_px_s": 120.0,
+  "shared_scale": null,
+  "source_cells": [
+    {
+      "cell": 0,
+      "output_frame": 0,
+      "source": "walk-side-guided-keys-v2-raw.png"
+    },
+    {
+      "cell": 0,
+      "output_frame": 1,
+      "source": "walk-guided-third-v1-raw.png"
+    },
+    {
+      "cell": 0,
+      "output_frame": 2,
+      "source": "walk-guided-two-thirds-v1-raw.png"
+    },
+    {
+      "cell": 1,
+      "output_frame": 3,
+      "source": "walk-side-guided-keys-v2-raw.png"
+    },
+    {
+      "cell": 1,
+      "output_frame": 4,
+      "source": "walk-guided-third-v1-raw.png"
+    },
+    {
+      "cell": 1,
+      "output_frame": 5,
+      "source": "walk-guided-two-thirds-v1-raw.png"
+    },
+    {
+      "cell": 2,
+      "output_frame": 6,
+      "source": "walk-side-guided-keys-v2-raw.png"
+    },
+    {
+      "cell": 2,
+      "output_frame": 7,
+      "source": "walk-guided-third-v1-raw.png"
+    },
+    {
+      "cell": 2,
+      "output_frame": 8,
+      "source": "walk-guided-two-thirds-v1-raw.png"
+    },
+    {
+      "cell": 3,
+      "output_frame": 9,
+      "source": "walk-side-guided-keys-v2-raw.png"
+    },
+    {
+      "cell": 3,
+      "output_frame": 10,
+      "source": "walk-guided-third-v1-raw.png"
+    },
+    {
+      "cell": 3,
+      "output_frame": 11,
+      "source": "walk-guided-two-thirds-v1-raw.png"
+    },
+    {
+      "cell": 4,
+      "output_frame": 12,
+      "source": "walk-side-guided-keys-v2-raw.png"
+    },
+    {
+      "cell": 4,
+      "output_frame": 13,
+      "source": "walk-guided-third-v1-raw.png"
+    },
+    {
+      "cell": 4,
+      "output_frame": 14,
+      "source": "walk-guided-two-thirds-v1-raw.png"
+    },
+    {
+      "cell": 5,
+      "output_frame": 15,
+      "source": "walk-side-guided-keys-v2-raw.png"
+    },
+    {
+      "cell": 5,
+      "output_frame": 16,
+      "source": "walk-guided-third-v1-raw.png"
+    },
+    {
+      "cell": 5,
+      "output_frame": 17,
+      "source": "walk-guided-two-thirds-v1-raw.png"
+    },
+    {
+      "cell": 6,
+      "output_frame": 18,
+      "source": "walk-side-guided-keys-v2-raw.png"
+    },
+    {
+      "cell": 6,
+      "output_frame": 19,
+      "source": "walk-guided-third-v1-raw.png"
+    },
+    {
+      "cell": 6,
+      "output_frame": 20,
+      "source": "walk-guided-two-thirds-v1-raw.png"
+    },
+    {
+      "cell": 7,
+      "output_frame": 21,
+      "source": "walk-side-guided-keys-v2-raw.png"
+    },
+    {
+      "cell": 7,
+      "output_frame": 22,
+      "source": "walk-guided-third-v1-raw.png"
+    },
+    {
+      "cell": 7,
+      "output_frame": 23,
+      "source": "walk-guided-two-thirds-v1-raw.png"
+    },
+    {
+      "cell": 8,
+      "output_frame": 24,
+      "source": "walk-side-guided-keys-v2-raw.png"
+    },
+    {
+      "cell": 8,
+      "output_frame": 25,
+      "source": "walk-guided-third-v1-raw.png"
+    },
+    {
+      "cell": 8,
+      "output_frame": 26,
+      "source": "walk-guided-two-thirds-v1-raw.png"
+    },
+    {
+      "cell": 9,
+      "output_frame": 27,
+      "source": "walk-side-guided-keys-v2-raw.png"
+    },
+    {
+      "cell": 9,
+      "output_frame": 28,
+      "source": "walk-guided-third-v1-raw.png"
+    },
+    {
+      "cell": 9,
+      "output_frame": 29,
+      "source": "walk-guided-two-thirds-v1-raw.png"
+    },
+    {
+      "cell": 10,
+      "output_frame": 30,
+      "source": "walk-side-guided-keys-v2-raw.png"
+    },
+    {
+      "cell": 10,
+      "output_frame": 31,
+      "source": "walk-guided-third-v1-raw.png"
+    },
+    {
+      "cell": 10,
+      "output_frame": 32,
+      "source": "walk-guided-two-thirds-v1-raw.png"
+    },
+    {
+      "cell": 11,
+      "output_frame": 33,
+      "source": "walk-side-guided-keys-v2-raw.png"
+    },
+    {
+      "cell": 11,
+      "output_frame": 34,
+      "source": "walk-guided-third-v1-raw.png"
+    },
+    {
+      "cell": 11,
+      "output_frame": 35,
+      "source": "walk-guided-two-thirds-v1-raw.png"
+    }
+  ],
+  "source_phase_order": "key[k],third[k],two_thirds[k],key[k+1]",
+  "source_sheet_scales": [
+    0.4175084175084175,
+    0.4105960264900662,
+    0.40390879478827363
+  ],
+  "sync_status": "provisional_expected_phases_not_reviewed",
+  "unique_rgba_frames": 36,
+  "visual_approval": "pending"
+}

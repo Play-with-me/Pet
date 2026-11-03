@@ -1,0 +1,1 @@
+A04-Q final preview-only, not a running pet pack. Fixed6x3source grid and common transform preserve relative floor positions. Sourceframe9 still4px above floor instead of touchdown. No run_side/distance/sync clip is provided, intentionally.18unique/400ms/45Hz timing does not certify running mechanics. See ai/SENKO_ANIM_A04_Q_PROGRESS.md; no runtime/default integration.

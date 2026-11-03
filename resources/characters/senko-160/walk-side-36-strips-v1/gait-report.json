@@ -1,0 +1,484 @@
+{
+  "colors_rgba": 32,
+  "cycle_distance_physical_px": 96.0,
+  "foot_contacts": "not_annotated_not_guessed",
+  "frame_count": 36,
+  "frames": [
+    {
+      "bounds_inclusive": [
+        29,
+        29,
+        131,
+        152
+      ],
+      "index": 0,
+      "source_anchor": [
+        139.5,
+        332
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        26,
+        29,
+        131,
+        152
+      ],
+      "index": 1,
+      "source_anchor": [
+        147.5,
+        332
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        27,
+        29,
+        132,
+        152
+      ],
+      "index": 2,
+      "source_anchor": [
+        145.5,
+        332
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        26,
+        29,
+        132,
+        152
+      ],
+      "index": 3,
+      "source_anchor": [
+        147.5,
+        332
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        26,
+        29,
+        131,
+        152
+      ],
+      "index": 4,
+      "source_anchor": [
+        147.5,
+        332
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        29,
+        131,
+        152
+      ],
+      "index": 5,
+      "source_anchor": [
+        148.5,
+        332
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        26,
+        29,
+        130,
+        152
+      ],
+      "index": 6,
+      "source_anchor": [
+        147.5,
+        333
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        27,
+        29,
+        130,
+        152
+      ],
+      "index": 7,
+      "source_anchor": [
+        143.5,
+        333
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        28,
+        29,
+        131,
+        152
+      ],
+      "index": 8,
+      "source_anchor": [
+        142.5,
+        333
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        27,
+        29,
+        130,
+        152
+      ],
+      "index": 9,
+      "source_anchor": [
+        144.5,
+        333
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        29,
+        131,
+        152
+      ],
+      "index": 10,
+      "source_anchor": [
+        149.5,
+        333
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        26,
+        32,
+        130,
+        152
+      ],
+      "index": 11,
+      "source_anchor": [
+        147.5,
+        325
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        29,
+        29,
+        130,
+        152
+      ],
+      "index": 12,
+      "source_anchor": [
+        140.5,
+        333
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        27,
+        31,
+        130,
+        152
+      ],
+      "index": 13,
+      "source_anchor": [
+        145.5,
+        327
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        24,
+        29,
+        129,
+        152
+      ],
+      "index": 14,
+      "source_anchor": [
+        151.5,
+        331
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        29,
+        129,
+        152
+      ],
+      "index": 15,
+      "source_anchor": [
+        149.5,
+        331
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        24,
+        31,
+        128,
+        152
+      ],
+      "index": 16,
+      "source_anchor": [
+        153.5,
+        327
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        22,
+        30,
+        127,
+        152
+      ],
+      "index": 17,
+      "source_anchor": [
+        157.5,
+        330
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        30,
+        129,
+        152
+      ],
+      "index": 18,
+      "source_anchor": [
+        150.5,
+        330
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        30,
+        129,
+        152
+      ],
+      "index": 19,
+      "source_anchor": [
+        148.5,
+        330
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        24,
+        30,
+        128,
+        152
+      ],
+      "index": 20,
+      "source_anchor": [
+        151.5,
+        329
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        30,
+        129,
+        152
+      ],
+      "index": 21,
+      "source_anchor": [
+        149.5,
+        330
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        30,
+        129,
+        152
+      ],
+      "index": 22,
+      "source_anchor": [
+        150.5,
+        329
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        26,
+        30,
+        129,
+        152
+      ],
+      "index": 23,
+      "source_anchor": [
+        147.5,
+        329
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        28,
+        26,
+        132,
+        152
+      ],
+      "index": 24,
+      "source_anchor": [
+        142.5,
+        339
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        26,
+        26,
+        132,
+        152
+      ],
+      "index": 25,
+      "source_anchor": [
+        147.5,
+        339
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        26,
+        131,
+        152
+      ],
+      "index": 26,
+      "source_anchor": [
+        150.5,
+        339
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        27,
+        131,
+        152
+      ],
+      "index": 27,
+      "source_anchor": [
+        149.5,
+        338
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        27,
+        132,
+        152
+      ],
+      "index": 28,
+      "source_anchor": [
+        149.5,
+        338
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        23,
+        27,
+        129,
+        152
+      ],
+      "index": 29,
+      "source_anchor": [
+        154.5,
+        338
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        26,
+        130,
+        152
+      ],
+      "index": 30,
+      "source_anchor": [
+        150.5,
+        340
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        26,
+        130,
+        152
+      ],
+      "index": 31,
+      "source_anchor": [
+        148.5,
+        339
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        26,
+        130,
+        152
+      ],
+      "index": 32,
+      "source_anchor": [
+        148.5,
+        340
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        26,
+        130,
+        152
+      ],
+      "index": 33,
+      "source_anchor": [
+        150.5,
+        340
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        27,
+        130,
+        152
+      ],
+      "index": 34,
+      "source_anchor": [
+        149.5,
+        337
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        26,
+        26,
+        130,
+        152
+      ],
+      "index": 35,
+      "source_anchor": [
+        148.5,
+        340
+      ]
+    }
+  ],
+  "note": "Clock preview is not used by locomotion; runtime walk stays distance-driven. GIF delays are quantized by its format; use manifest player.",
+  "preview_cycle_ms": 800,
+  "preview_motion_fps": 45.0,
+  "reference_speed_px_s": 120.0,
+  "shared_scale": 0.3780487804878049,
+  "sync_status": "provisional_expected_phases_not_reviewed",
+  "unique_rgba_frames": 36,
+  "visual_approval": "pending"
+}

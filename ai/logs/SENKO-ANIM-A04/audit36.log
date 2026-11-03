@@ -1,0 +1,3 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.50s
+     Running `target\debug\senko_asset_pipeline.exe --audit ../resources/characters/senko-160/walk-side-36-strips-v1 ../ai/logs/SENKO-ANIM-A04/audit36`
+Audit: 2 clips / 72 frames; visual approval not assessed; \\?\C:\Users\kyuu4\OneDrive\Documents\Pet\ai\logs\SENKO-ANIM-A04\audit36

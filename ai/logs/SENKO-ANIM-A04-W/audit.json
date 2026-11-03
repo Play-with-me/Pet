@@ -1,0 +1,23 @@
+{
+  "drawings": 54,
+  "key_drawings_preserved": 18,
+  "inbetween_drawings": 36,
+  "palette_rgba": 32,
+  "height_range": [
+    123,
+    129
+  ],
+  "cycle_ms": 1200,
+  "reference_hz": 45,
+  "every45_delays_ms": 1000,
+  "cycle_px": 144,
+  "reference_speed": 120,
+  "changed_pixels_by_phase_group": [
+    8616.722222222223,
+    3926.1111111111113,
+    8397.5
+  ],
+  "loop_changed_pixels": 8081,
+  "visual_acceptance": "pending; pixel change numbers do not prove true inbetween or constant volume",
+  "not_runtime_integrated": true
+}

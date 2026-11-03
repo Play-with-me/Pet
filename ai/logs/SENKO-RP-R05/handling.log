@@ -1,0 +1,21 @@
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3.67s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_runtime-a480845dede9478a.exe)
+
+running 7 tests
+test senko_handling::tests::lift_then_stabilize_once_with_pause_and_suspend_bounded ... ok
+test senko_handling::tests::only_deliberate_placed_contact_acknowledges_gentle_placement_once ... ok
+test senko_handling::tests::held_tone_reflects_trust_and_mood_without_reward ... ok
+test senko_handling::tests::impact_and_throw_both_required_for_dizzy_not_every_drop ... ok
+test senko_handling::tests::recovery_and_invalid_feedback_cannot_fake_contact ... ok
+test senko_handling::tests::recovery_waits_for_readiness_and_never_replays_after_interrupt_or_expiry ... ok
+test senko_handling::tests::actual_body_feedback_distinguishes_placement_throw_and_capture_cancel ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 270 filtered out; finished in 0.00s
+
+     Running tests\shared_input_fixtures.rs (target\debug\deps\shared_input_fixtures-4e200e83c31a4a65.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+

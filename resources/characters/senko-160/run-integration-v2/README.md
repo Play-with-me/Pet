@@ -1,0 +1,1 @@
+A04-T diagnostic24frame run candidate; start/stop art not yet replaced, no fullpet/default switch. See ai/SENKO_ANIM_A04_T_PROGRESS.md.

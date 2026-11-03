@@ -226,3 +226,45 @@ Giữ lịch sử và thêm lượt mới theo thời gian.
 - Hướng dẫn trải nghiệm cho Leader:
   - Nhấp đúp vào icon **`Senko Pet.lnk`** trên Desktop hoặc chạy **`Chay_Pet.bat`** để mở bé cáo Senko-san.
   - Tương tác: Kéo chuột trái để bế/quăng ném theo quán tính; thả xuống để bé tự đi dạo trên Taskbar, trèo tường, đuổi theo/né chuột; nhấp chuột phải để Tạm dừng, Đưa về vị trí an toàn hoặc Thoát.
+
+## A-06 (Rà soát & Chẩn đoán Lỗi Hoạt ảnh & Trỏ chuột) — 26/10/2026 — Hoàn thành Báo cáo Chi tiết (Chưa Code)
+- ID / ngày / trạng thái: A-06 / 26/10/2026 / Hoàn thành chẩn đoán & bàn giao báo cáo (Chưa code theo chỉ đạo)
+- Người giao / phạm vi: Leader yêu cầu trực tiếp: *"Đã xuất hiện lỗi, bạn sử dụng máy tính của tôi để kiểm tra lỗi vì vừa lỗi hoạt ảnh vừa lỗi khi trỏ chuột tới, bạn kiểm tra xong tổng hợp lại 1 file chi tiết cho tôi, chưa code"*.
+- File đã tạo / khảo sát:
+  - Khảo sát mã nguồn thực tế: `crates/bongocat-runtime/src/autonomous.rs`, `crates/bongocat-overlay/src/windows/companion.rs`, `crates/bongocat-overlay/src/windows/window_proc.rs`, `crates/bongocat-overlay/src/bin/slice_sprites.rs`.
+  - Đo đạc trực tiếp 46 tệp ảnh tại `resources/characters/senko/shime1.png` .. `shime46.png`.
+  - Tạo tệp báo cáo chi tiết: `ai/BAO_CAO_KIEM_TRA_LOI_PET.md`.
+  - Tuyệt đối KHÔNG sửa bất kỳ mã nguồn `.rs` nào của ứng dụng trong lượt này (Tuân thủ nghiêm ngặt chỉ thị *chưa code*).
+- Kết quả chẩn đoán:
+  1. *Lỗi chuột:* Hiện tượng đảo hướng $60\text{Hz}$ liên tục do thiếu Deadzone $\pm 35\text{px}$; trigger ném văng tự động khi vung chuột nhanh qua $1600\text{ px/s}$; cửa sổ $180\times 180$ nuốt tương tác chuột ở vùng đệm trong suốt.
+  2. *Lỗi hoạt ảnh:* Nhân vật bị giật nảy sang trái 10px mỗi giây ở `Idle` do căn giữa bounding box lệch trục xương sống; thiếu 8 frame Walk và 8 frame Run mượt; tỷ lệ sitting/squash bị phình to do scale độc lập.
+- Đề xuất giải pháp: Đã tổng hợp lộ trình 5 bước kỹ thuật trong `ai/BAO_CAO_KIEM_TRA_LOI_PET.md`.
+- Bước tiếp theo: Chờ Leader xem xét, cho ý kiến chỉ đạo và duyệt trước khi bắt đầu viết mã khắc phục.
+
+## A-07 (Khắc phục Khiếm khuyết Runtime Giai đoạn 0 — Sửa Moonwalk, Rung trỏ chuột, Ẩn Terminal) — 26/10/2026 — Hoàn thành
+- ID / ngày / trạng thái: A-07 / 26/10/2026 / Hoàn thành (Đã khắc phục toàn bộ 5 lỗi kỹ thuật cấp bách trong Runtime, kiểm thử 100% Passed)
+- Người giao / repository / phạm vi cho phép: Leader chỉ đạo phân tích 2 bản kế hoạch V2 Review Report và Living Pet Becker Master v3.0, thực hiện tuần tự để tránh lỗi, rà soát chi tiết rồi mới viết mã. Phạm vi: mã nguồn runtime companion Senko (`shimeji.rs`, `autonomous.rs`, `companion.rs`, `companion_senko.rs`, `Chay_Pet.bat`). Không phá vỡ bất kỳ test nào của Stickman (Codex).
+- File đã sửa:
+  - `crates/bongocat-render/src/shimeji.rs`: Đảo hướng gương lật `mirror_horizontal: !facing_right` để khớp chuẩn sprite sheet tự nhiên quay sang phải, triệt tiêu hoàn toàn lỗi "moonwalk" (đi lùi). Cập nhật test `shimeji_snapshot_is_valid_and_fits_canvas`.
+  - `crates/bongocat-runtime/src/autonomous.rs`:
+    - Bổ sung `AutonomousKind::Senko` và hàm khởi tạo `Autonomous::new_senko(...)`.
+    - Triển khai Deadzone trễ kép (2-threshold hysteresis: `< 28px` dừng/Idle, `> 56px` đuổi theo), ngăn chặn triệt để hiện tượng đảo hướng lật hình liên tục 60Hz khi trỏ chuột lại gần.
+    - Loại bỏ cơ chế hoảng loạn né chuột văng ném (`cursor_speed > 1600.0`) và leo mép màn hình ảo đối với Senko (Senko quay đầu nhẹ nhàng khi chạm biên màn hình).
+    - Sửa cảnh báo Clippy `.is_multiple_of(2)`.
+    - Thêm unit test `cursor_still_over_body_never_flips_facing`.
+  - `crates/bongocat-overlay/src/windows/companion.rs`:
+    - Khởi tạo `Autonomous::new_senko(...)` trong `run_companion_shimeji`.
+    - Triển khai `set_click_through(!over_body)` động dựa trên tọa độ thân (`rel_x in 45..=135`, `rel_y in 40..=180`), giải phóng vùng đệm trong suốt $180\times 180$ giúp người dùng click xuyên thấu vào các ứng dụng bên dưới bình thường.
+  - `crates/bongocat-overlay/examples/companion_senko.rs`:
+    - Thêm `#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]` để ẩn hoàn toàn cửa sổ đen Terminal khi chạy app.
+    - Đổi thời gian chạy mặc định từ 3600 giây thành vô hạn (0).
+  - `Chay_Pet.bat`: Cập nhật `start "" "%EXE_PATH%" "%ASSETS_PATH%" 0` và `exit /b 0`.
+- Kiểm tra thực tế / kết quả:
+  - `cargo test --manifest-path BongoCat/Cargo.toml --locked -p bongocat-render -p bongocat-runtime`: **153/153 tests passed (100% Green)**.
+  - `cargo clippy --manifest-path BongoCat/Cargo.toml --locked -p bongocat-render -p bongocat-runtime -p bongocat-overlay -- -D warnings`: **0 warning, exit code 0**.
+  - `cargo build --manifest-path BongoCat/Cargo.toml --locked -p bongocat-overlay --example companion_senko`: Biên dịch thành công file nhị phân `companion_senko.exe`.
+- Phần chưa kiểm tra / vấn đề: Giai đoạn 1 & 2 (pipeline asset màu Chroma key, collider cửa sổ Alan Becker và mô hình tâm lý SenkoMind) đang chờ ý kiến thống nhất từ Leader theo 5 câu hỏi mở trong Master Plan v3.0.
+- Đề xuất cho Codex: Ghi nhận cơ chế phân tách `AutonomousKind::Stickman` và `AutonomousKind::Senko` trong `autonomous.rs` để bảo toàn độc lập 100% cho các bài test và logic Stickman của Codex.
+- Bước tiếp theo: Chờ Leader phản hồi 5 câu hỏi kiến trúc để bước vào Giai đoạn 1 (Chroma key & Collider cửa sổ thật).
+
+

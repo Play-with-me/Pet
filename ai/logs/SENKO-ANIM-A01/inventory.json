@@ -1,0 +1,1845 @@
+{
+  "approved_target": {
+    "canvas": [
+      160,
+      160
+    ],
+    "scale": 2,
+    "anchor": [
+      80,
+      152
+    ],
+    "motion_fps": 45,
+    "expression_max_s": 6,
+    "hold_allowed": true
+  },
+  "existing_clip_count": 45,
+  "draft_clip_count": 4,
+  "additional_p2_entries": 26,
+  "rows": [
+    {
+      "clip": "apex",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 1,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        100
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A05",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 255,
+          "text": "AnimAction::Apex => \"apex\","
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 580,
+          "text": "(\"apex\", false),"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "hands/feet/support",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "balance_wobble",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 4,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A05",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 383,
+          "text": "AnimAction::Balance => \"balance_wobble\","
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 573,
+          "text": "(\"balance_wobble\", false),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 648,
+          "text": "assert_eq!(a.pose().clip, \"balance_wobble\");"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "hands/feet/support",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "climb_up",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 12,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [
+        70,
+        80,
+        70,
+        80,
+        70,
+        80,
+        70,
+        80,
+        70,
+        80,
+        70,
+        80
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A05",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 278,
+          "text": "AnimAction::Climb => Some((AnimStage::Climbing, \"climb_up\")),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 574,
+          "text": "(\"climb_up\", true),"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "hands/feet/support",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "fall",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 2,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [
+        140,
+        140
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A05",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 256,
+          "text": "_ => \"fall\","
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 581,
+          "text": "(\"fall\", true),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 659,
+          "text": "assert_eq!(a.pose().clip, \"fall\");"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 767,
+          "text": "assert_eq!(a.pose().clip, \"fall\");"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "hands/feet/support",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "hang",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 2,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [
+        220,
+        220
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A05",
+      "binding_status": "no literal found in Animator/runner; preserve inventory, do not silently delete",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "hands/feet/support",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "headpat",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 11,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        160
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A06",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 273,
+          "text": "&& self.clip != \"headpat\""
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 384,
+          "text": "_ => \"headpat\","
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 591,
+          "text": "(\"headpat\", false),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 71,
+          "text": "if clip == \"headpat\" {"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 74,
+          "text": "if self.started && clip != \"headpat\" {"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 87,
+          "text": "&& library.clips.contains_key(\"headpat\")"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 1456,
+          "text": "ReactionKind::Headpat => displayed.clip == \"headpat\","
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 2205,
+          "text": "saw_head |= animator.pose().clip == \"headpat\";"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 2751,
+          "text": "if pose.clip == \"headpat\" {"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 3185,
+          "text": "assert!(actor.update(Some(episode), \"headpat\").is_some());"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "head/tail interaction mask",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "held_happy",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 4,
+      "clock": "time",
+      "facing": "front",
+      "mirror": false,
+      "loop": true,
+      "frame_ms": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A05",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 245,
+          "text": "self.enter(AnimStage::Held, \"held_happy\".into());"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 578,
+          "text": "(\"held_happy\", true),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 765,
+          "text": "assert_eq!(a.pose().clip, \"held_happy\");"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "hands/feet/support",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "idle_34",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 4,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "idle_back",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 2,
+      "clock": "time",
+      "facing": "back",
+      "mirror": false,
+      "loop": true,
+      "frame_ms": [
+        350,
+        350
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "idle_back34",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 4,
+      "clock": "time",
+      "facing": "back_three_quarter",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "idle_front",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 4,
+      "clock": "time",
+      "facing": "front",
+      "mirror": false,
+      "loop": true,
+      "frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "idle_side",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 4,
+      "clock": "time",
+      "facing": "side",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "jump_prep",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 2,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        100,
+        100
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A05",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 281,
+          "text": "AnimAction::JumpPrep => Some((AnimStage::JumpPreparing, \"jump_prep\")),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 576,
+          "text": "(\"jump_prep\", false),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 412,
+          "text": "jump_prep: Duration::from_millis(library.clips[\"jump_prep\"].duration_ms()),"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "hands/feet/support",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "land",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 5,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        50,
+        50,
+        50,
+        50,
+        100
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A05",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 266,
+          "text": "self.enter(AnimStage::Landing, \"land\".into());"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 582,
+          "text": "(\"land\", false),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 769,
+          "text": "assert_eq!(a.pose().clip, \"land\");"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "hands/feet/support",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "look_up",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 3,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        160,
+        160,
+        160
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A06",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 381,
+          "text": "AnimAction::LookUp => \"look_up\","
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 589,
+          "text": "(\"look_up\", false),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 924,
+          "text": "\"look_up\""
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 1454,
+          "text": "ReactionKind::Look => displayed.clip == \"look_up\","
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 2077,
+          "text": "if pose.clip == \"look_up\" {"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "head/tail interaction mask",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "mantle",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 9,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        140
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A05",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 279,
+          "text": "AnimAction::Mantle => Some((AnimStage::Mantling, \"mantle\")),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 280,
+          "text": "AnimAction::Dismount => Some((AnimStage::Dismounting, \"mantle\")),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 575,
+          "text": "(\"mantle\", false),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 696,
+          "text": "library.clips.get_mut(\"mantle\").unwrap().frame_ms = vec![10, 40];"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 411,
+          "text": "mantle: Duration::from_millis(library.clips[\"mantle\"].duration_ms()),"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "hands/feet/support",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "rise",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 1,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        120
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A05",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 254,
+          "text": "AnimAction::Rise => \"rise\","
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 579,
+          "text": "(\"rise\", false),"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "hands/feet/support",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "run_34",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 8,
+      "clock": "distance",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [],
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "run_back",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 8,
+      "clock": "distance",
+      "facing": "back",
+      "mirror": false,
+      "loop": true,
+      "frame_ms": [],
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "run_back34",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 8,
+      "clock": "distance",
+      "facing": "back_three_quarter",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [],
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "run_front",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 8,
+      "clock": "distance",
+      "facing": "front",
+      "mirror": false,
+      "loop": true,
+      "frame_ms": [],
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "run_side",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 16,
+      "clock": "distance",
+      "facing": "side",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [],
+      "stride_px": 8.0,
+      "sync": [
+        0,
+        8
+      ],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 494,
+          "text": "assert_eq!(a.pose().clip, \"run_side\");"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 520,
+          "text": "library.clips.get_mut(\"run_side\").unwrap().stride_px = 16.;"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 525,
+          "text": "assert_eq!(a.pose().clip, \"run_side\");"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 530,
+          "text": "assert_eq!(a.pose().clip, \"run_side\");"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 2978,
+          "text": "let expected = library.clips[if run { \"run_side\" } else { \"walk_side\" }]"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "sit_enter",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 5,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        70,
+        70,
+        70,
+        70,
+        140
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A07",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 371,
+          "text": "AnimAction::Sit => self.enter(AnimStage::Sitting, \"sit_enter\".into()),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 583,
+          "text": "(\"sit_enter\", false),"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "sit_exit",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 5,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        70,
+        70,
+        70,
+        70,
+        140
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A07",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 392,
+          "text": "self.enter(AnimStage::Standing, \"sit_exit\".into());"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 585,
+          "text": "(\"sit_exit\", false),"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "sit_loop",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 4,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A07",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 468,
+          "text": "AnimStage::Sitting => self.enter(AnimStage::SitLoop, \"sit_loop\".into()),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 584,
+          "text": "(\"sit_loop\", true),"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "sleep",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 4,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [
+        400,
+        400,
+        400,
+        400
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A07",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 372,
+          "text": "AnimAction::Sleep => self.enter(AnimStage::Sleeping, \"sleep\".into()),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 586,
+          "text": "(\"sleep\", true),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 1820,
+          "text": "p.sleep_frames += usize::from(pose.clip == \"sleep\");"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "surprise",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 3,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        150,
+        150,
+        150
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A06",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 382,
+          "text": "AnimAction::Surprise => \"surprise\","
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 590,
+          "text": "(\"surprise\", false),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 610,
+          "text": "assert_eq!(animator.pose().clip, \"surprise\");"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 625,
+          "text": "assert_ne!(animator.pose().clip, \"surprise\");"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 922,
+          "text": "\"surprise\""
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 1455,
+          "text": "ReactionKind::Surprise => displayed.clip == \"surprise\","
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 1606,
+          "text": "if pose.clip == \"surprise\" {"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 1612,
+          "text": "assert_ne!(pose.clip, \"surprise\", \"completed episode cannot replay\");"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 1639,
+          "text": "if p.grab && !p.grabbed && pose.clip == \"surprise\" {"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 1674,
+          "text": "assert_ne!(pose.clip, \"surprise\");"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "head/tail interaction mask",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "wake",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 5,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        100,
+        100,
+        100,
+        100,
+        200
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A07",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 394,
+          "text": "self.enter(AnimStage::Waking, \"wake\".into());"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 587,
+          "text": "(\"wake\", false),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 1821,
+          "text": "p.wake_frames += usize::from(pose.clip == \"wake\");"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_34",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 8,
+      "clock": "distance",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [],
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_back",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 8,
+      "clock": "distance",
+      "facing": "back",
+      "mirror": false,
+      "loop": true,
+      "frame_ms": [],
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_back34",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 8,
+      "clock": "distance",
+      "facing": "back_three_quarter",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [],
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_front",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 8,
+      "clock": "distance",
+      "facing": "front",
+      "mirror": false,
+      "loop": true,
+      "frame_ms": [],
+      "stride_px": 18,
+      "sync": [
+        0,
+        4
+      ],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_side",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 16,
+      "clock": "distance",
+      "facing": "side",
+      "mirror": true,
+      "loop": true,
+      "frame_ms": [],
+      "stride_px": 6.0,
+      "sync": [
+        0,
+        8
+      ],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 519,
+          "text": "library.clips.get_mut(\"walk_side\").unwrap().stride_px = 12.;"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 533,
+          "text": "assert_eq!(a.pose().clip, \"walk_side\");"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 2978,
+          "text": "let expected = library.clips[if run { \"run_side\" } else { \"walk_side\" }]"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_start",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 3,
+      "clock": "time",
+      "facing": "side",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 141,
+          "text": "if self.direction.suffix() == \"side\" && matches!(action, \"walk_start\" | \"walk_stop\") {"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 369,
+          "text": "self.enter(AnimStage::Starting, self.named(\"walk_start\"));"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 558,
+          "text": "for action in [\"idle\", \"walk\", \"run\", \"walk_start\", \"walk_stop\"] {"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 566,
+          "text": "\"walk_start\" => add(name, 3, vec![50, 50, 100], false, false, facing),"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_start_34",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 3,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_start_back",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 3,
+      "clock": "time",
+      "facing": "back",
+      "mirror": false,
+      "loop": false,
+      "frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_start_back34",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 3,
+      "clock": "time",
+      "facing": "back_three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_start_front",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 3,
+      "clock": "time",
+      "facing": "front",
+      "mirror": false,
+      "loop": false,
+      "frame_ms": [
+        50,
+        50,
+        100
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_stop",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 3,
+      "clock": "time",
+      "facing": "side",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 141,
+          "text": "if self.direction.suffix() == \"side\" && matches!(action, \"walk_start\" | \"walk_stop\") {"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 340,
+          "text": "self.enter(AnimStage::Stopping, self.named(\"walk_stop\"));"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 438,
+          "text": "self.enter(AnimStage::Stopping, self.named(\"walk_stop\"));"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 558,
+          "text": "for action in [\"idle\", \"walk\", \"run\", \"walk_start\", \"walk_stop\"] {"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 567,
+          "text": "\"walk_stop\" => add(name, 3, vec![60, 60, 120], false, false, facing),"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_stop_34",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 3,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_stop_back",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 3,
+      "clock": "time",
+      "facing": "back",
+      "mirror": false,
+      "loop": false,
+      "frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_stop_back34",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 3,
+      "clock": "time",
+      "facing": "back_three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "walk_stop_front",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 3,
+      "clock": "time",
+      "facing": "front",
+      "mirror": false,
+      "loop": false,
+      "frame_ms": [
+        60,
+        60,
+        120
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A04",
+      "binding_status": "directional family, Animator named()/suffix(); inspect family mapping, not literal name lookup",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "wall_drop",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 1,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        120
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A05",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 282,
+          "text": "AnimAction::Drop => Some((AnimStage::Dropping, \"wall_drop\")),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 577,
+          "text": "(\"wall_drop\", false),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 413,
+          "text": "drop: Duration::from_millis(library.clips[\"wall_drop\"].duration_ms()),"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "hands/feet/support",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "yawn",
+      "source_manifest": "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json",
+      "current_frames": 6,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A07",
+      "binding_status": "literal references found; may include fixtures/tests, not proof of active actor",
+      "references": [
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 380,
+          "text": "AnimAction::Yawn => \"yawn\","
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-runtime\\src\\animator.rs",
+          "line": 588,
+          "text": "(\"yawn\", false),"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 1045,
+          "text": "if yawn_pending && animator.pose().clip == \"yawn\" {"
+        },
+        {
+          "path": "BongoCat\\crates\\bongocat-overlay\\src\\windows\\companion_sprites.rs",
+          "line": 1822,
+          "text": "let yawn = pose.clip == \"yawn\";"
+        }
+      ],
+      "target_status": "not_produced_160",
+      "contacts_required": "foot anchor",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "attention_glance",
+      "source_manifest": "resources\\characters\\senko-v3-r08\\candidate-attention-v1\\senko.anim.json",
+      "current_frames": 6,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        160,
+        110,
+        120,
+        180,
+        140,
+        180
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A06",
+      "binding_status": "no literal found in Animator/runner; preserve inventory, do not silently delete",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "head/tail interaction mask",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "curious_tilt",
+      "source_manifest": "resources\\characters\\senko-v3-r08\\candidate-attention-v1\\senko.anim.json",
+      "current_frames": 6,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        160,
+        130,
+        160,
+        160,
+        140,
+        180
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A06",
+      "binding_status": "no literal found in Animator/runner; preserve inventory, do not silently delete",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "head/tail interaction mask",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "play_accept",
+      "source_manifest": "resources\\characters\\senko-v3-r08\\candidate-attention-v1\\senko.anim.json",
+      "current_frames": 6,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        140,
+        120,
+        160,
+        170,
+        140,
+        180
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A06",
+      "binding_status": "no literal found in Animator/runner; preserve inventory, do not silently delete",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "head/tail interaction mask",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "farewell_look",
+      "source_manifest": "resources\\characters\\senko-v3-r08\\candidate-attention-v1\\senko.anim.json",
+      "current_frames": 6,
+      "clock": "time",
+      "facing": "three_quarter",
+      "mirror": true,
+      "loop": false,
+      "frame_ms": [
+        170,
+        150,
+        180,
+        200,
+        180,
+        220
+      ],
+      "stride_px": 0,
+      "sync": [],
+      "work_group": "A06",
+      "binding_status": "no literal found in Animator/runner; preserve inventory, do not silently delete",
+      "references": [],
+      "target_status": "not_produced_160",
+      "contacts_required": "head/tail interaction mask",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "play_continue",
+      "source_manifest": null,
+      "work_group": "A06",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "headpat_decline",
+      "source_manifest": null,
+      "work_group": "A06",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "headpat_shy",
+      "source_manifest": null,
+      "work_group": "A06",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "headpat_avoid",
+      "source_manifest": null,
+      "work_group": "A06",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "tail_look_back",
+      "source_manifest": null,
+      "work_group": "A06",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "tail_allow",
+      "source_manifest": null,
+      "work_group": "A06",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "tail_protect",
+      "source_manifest": null,
+      "work_group": "A06",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "tail_groom",
+      "source_manifest": null,
+      "work_group": "A06",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "sulk",
+      "source_manifest": null,
+      "work_group": "A06",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "calm_down",
+      "source_manifest": null,
+      "work_group": "A06",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "reconcile",
+      "source_manifest": null,
+      "work_group": "A06",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "held_lift",
+      "source_manifest": null,
+      "work_group": "A05",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "held_guarded",
+      "source_manifest": null,
+      "work_group": "A05",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "place_gently",
+      "source_manifest": null,
+      "work_group": "A05",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "land_hard",
+      "source_manifest": null,
+      "work_group": "A05",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "slide",
+      "source_manifest": null,
+      "work_group": "A05",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "watch_back",
+      "source_manifest": null,
+      "work_group": "A07",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "groom",
+      "source_manifest": null,
+      "work_group": "A07",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "listen_sway",
+      "source_manifest": null,
+      "work_group": "A07",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "greet",
+      "source_manifest": null,
+      "work_group": "A07",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "tea_offer",
+      "source_manifest": null,
+      "work_group": "A07",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "stretch_offer",
+      "source_manifest": null,
+      "work_group": "A07",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "care_wait",
+      "source_manifest": null,
+      "work_group": "A07",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "care_withdraw",
+      "source_manifest": null,
+      "work_group": "A07",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "dust_off",
+      "source_manifest": null,
+      "work_group": "A07",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    },
+    {
+      "clip": "dizzy",
+      "source_manifest": null,
+      "work_group": "A07",
+      "target_status": "planned_not_produced",
+      "binding_status": "approved P2 intent; actor mapping requires audit, no new behavior trigger authorized",
+      "contacts_required": "head/tail/hand/prop/foot as appropriate; per-frame visual metadata only",
+      "interrupt_contract": "Held/Fall immediately; pause freezes; physical contacts never wait for clip"
+    }
+  ],
+  "protected_sources": {
+    "BongoCat\\crates\\bongocat-runtime\\src\\senko_brain.rs": "88dc22bb2346c911e24ffea26e9f0299e601ddf7d7c90104be66c64626ef5e65",
+    "BongoCat\\crates\\bongocat-runtime\\src\\senko_brain_options.rs": "82b7a3fac7e48e14a44a942ee41f6464ab0f39c194f48d6654a80cc4e6c4aef6",
+    "BongoCat\\crates\\bongocat-runtime\\src\\senko_brain_tests.rs": "35c465896230749ce34638189f4fc7a8629677a92ada9626926cef981e9bf3ba",
+    "BongoCat\\crates\\bongocat-runtime\\src\\senko_care.rs": "45109e9fa49765a76f003799a50ce8ee154c61e191c319165ff90ce7143de4df",
+    "BongoCat\\crates\\bongocat-runtime\\src\\senko_context.rs": "d454ebc654d12b47432c16f4a0457ad7d61280946f775f8b7a7b8de1da32af04",
+    "BongoCat\\crates\\bongocat-runtime\\src\\senko_environment.rs": "1dfaa827ecb22cf10a0e3aa97843bfb0db7680739343bb13d75edceb3992978f",
+    "BongoCat\\crates\\bongocat-runtime\\src\\senko_motion.rs": "5da2e43e865bdb1dda79600789b3df9be8159e4fb8d6acd7234ecc4ee61e1503",
+    "BongoCat\\crates\\bongocat-runtime\\src\\senko_rest.rs": "885951f2a2e08774b98b6b4812a7c8781a40150f8f791779011eabebb2bf569c",
+    "BongoCat\\crates\\bongocat-runtime\\src\\senko_surface_motion.rs": "555e9a939bb6644a7de25588bb4c090c0a3958df4f00e11af6090c8a5e8ddd7f"
+  },
+  "source_manifest_sha256": {
+    "resources\\characters\\senko-v3-g2\\candidate-v5-flow\\senko.anim.json": "a1a088852e1549c53d2c0db2afd17365e1ad9cdeb6d4ac4a03ebdc6b08d39a9e",
+    "resources\\characters\\senko-v3-r08\\candidate-attention-v1\\senko.anim.json": "3e3e1009d3196b073e2c27df0425638cc57dd5c8ad8500bd42ac0e0349f15f10"
+  }
+}

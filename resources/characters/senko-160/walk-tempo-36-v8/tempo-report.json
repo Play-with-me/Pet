@@ -1,0 +1,14 @@
+{
+  "cycle_distance_physical_px": 144.0,
+  "cycle_ms": 1200,
+  "drawing_count": 36,
+  "drawings_needed_for_target_at_this_cadence": 54,
+  "drawings_per_reference_second": 30,
+  "new_drawings": 0,
+  "note": "Slower leg phase at same body speed; no motor/physics change. Stance artwork still needs refinement.",
+  "pngs_copied_unchanged": true,
+  "reference_speed_px_s": 120.0,
+  "source": "resources/characters/senko-160/walk-waist-36-v7",
+  "status": "cadence_candidate_not_final45fps",
+  "target_motion_fps": 45
+}

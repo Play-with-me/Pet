@@ -1,0 +1,170 @@
+[
+  [
+    {
+      "leg": 0,
+      "x": 164,
+      "y": 232,
+      "support": true
+    },
+    {
+      "leg": 1,
+      "x": 116.0,
+      "y": 232.0,
+      "support": false
+    }
+  ],
+  [
+    {
+      "leg": 0,
+      "x": 156,
+      "y": 232,
+      "support": true
+    },
+    {
+      "leg": 1,
+      "x": 124.0,
+      "y": 222.0,
+      "support": false
+    }
+  ],
+  [
+    {
+      "leg": 0,
+      "x": 148,
+      "y": 232,
+      "support": true
+    },
+    {
+      "leg": 1,
+      "x": 132.0,
+      "y": 214.67949192431124,
+      "support": false
+    }
+  ],
+  [
+    {
+      "leg": 0,
+      "x": 140,
+      "y": 232,
+      "support": true
+    },
+    {
+      "leg": 1,
+      "x": 140.0,
+      "y": 212.0,
+      "support": false
+    }
+  ],
+  [
+    {
+      "leg": 0,
+      "x": 132,
+      "y": 232,
+      "support": true
+    },
+    {
+      "leg": 1,
+      "x": 148.0,
+      "y": 214.67949192431124,
+      "support": false
+    }
+  ],
+  [
+    {
+      "leg": 0,
+      "x": 124,
+      "y": 232,
+      "support": true
+    },
+    {
+      "leg": 1,
+      "x": 156.0,
+      "y": 222.0,
+      "support": false
+    }
+  ],
+  [
+    {
+      "leg": 0,
+      "x": 116.0,
+      "y": 232.0,
+      "support": false
+    },
+    {
+      "leg": 1,
+      "x": 164,
+      "y": 232,
+      "support": true
+    }
+  ],
+  [
+    {
+      "leg": 0,
+      "x": 124.0,
+      "y": 222.0,
+      "support": false
+    },
+    {
+      "leg": 1,
+      "x": 156,
+      "y": 232,
+      "support": true
+    }
+  ],
+  [
+    {
+      "leg": 0,
+      "x": 132.0,
+      "y": 214.67949192431124,
+      "support": false
+    },
+    {
+      "leg": 1,
+      "x": 148,
+      "y": 232,
+      "support": true
+    }
+  ],
+  [
+    {
+      "leg": 0,
+      "x": 140.0,
+      "y": 212.0,
+      "support": false
+    },
+    {
+      "leg": 1,
+      "x": 140,
+      "y": 232,
+      "support": true
+    }
+  ],
+  [
+    {
+      "leg": 0,
+      "x": 148.0,
+      "y": 214.67949192431124,
+      "support": false
+    },
+    {
+      "leg": 1,
+      "x": 132,
+      "y": 232,
+      "support": true
+    }
+  ],
+  [
+    {
+      "leg": 0,
+      "x": 156.0,
+      "y": 222.0,
+      "support": false
+    },
+    {
+      "leg": 1,
+      "x": 124,
+      "y": 232,
+      "support": true
+    }
+  ]
+]

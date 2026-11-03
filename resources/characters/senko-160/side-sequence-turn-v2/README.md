@@ -1,0 +1,1 @@
+A04-P partial8edge turning candidate only,24original turn drawings plus endpoint aliases/reverse reuse. Back v2 has intermediate center-tail pose, not final visual acceptance. Head/pivot/volume QA pending, no defaultswitch/fullpet.

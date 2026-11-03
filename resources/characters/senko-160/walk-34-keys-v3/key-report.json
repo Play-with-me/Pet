@@ -1,0 +1,282 @@
+{
+  "drawings": 12,
+  "poses": [
+    {
+      "bounds_inclusive": [
+        31,
+        29,
+        131,
+        152
+      ],
+      "clearance_from_reference_floor": 0,
+      "frame": 0,
+      "source_waist_axis": 111.5
+    },
+    {
+      "bounds_inclusive": [
+        27,
+        26,
+        128,
+        152
+      ],
+      "clearance_from_reference_floor": 0,
+      "frame": 1,
+      "source_waist_axis": 121.5
+    },
+    {
+      "bounds_inclusive": [
+        24,
+        28,
+        128,
+        152
+      ],
+      "clearance_from_reference_floor": 0,
+      "frame": 2,
+      "source_waist_axis": 126.5
+    },
+    {
+      "bounds_inclusive": [
+        22,
+        26,
+        128,
+        152
+      ],
+      "clearance_from_reference_floor": 0,
+      "frame": 3,
+      "source_waist_axis": 132.5
+    },
+    {
+      "bounds_inclusive": [
+        28,
+        28,
+        133,
+        152
+      ],
+      "clearance_from_reference_floor": 0,
+      "frame": 4,
+      "source_waist_axis": 117.5
+    },
+    {
+      "bounds_inclusive": [
+        21,
+        25,
+        128,
+        152
+      ],
+      "clearance_from_reference_floor": 0,
+      "frame": 5,
+      "source_waist_axis": 134.5
+    },
+    {
+      "bounds_inclusive": [
+        23,
+        25,
+        134,
+        152
+      ],
+      "clearance_from_reference_floor": 0,
+      "frame": 6,
+      "source_waist_axis": 128.5
+    },
+    {
+      "bounds_inclusive": [
+        24,
+        26,
+        130,
+        152
+      ],
+      "clearance_from_reference_floor": 0,
+      "frame": 7,
+      "source_waist_axis": 126.5
+    },
+    {
+      "bounds_inclusive": [
+        27,
+        26,
+        136,
+        152
+      ],
+      "clearance_from_reference_floor": 0,
+      "frame": 8,
+      "source_waist_axis": 120.5
+    },
+    {
+      "bounds_inclusive": [
+        21,
+        23,
+        128,
+        152
+      ],
+      "clearance_from_reference_floor": 0,
+      "frame": 9,
+      "source_waist_axis": 134.5
+    },
+    {
+      "bounds_inclusive": [
+        23,
+        25,
+        131,
+        152
+      ],
+      "clearance_from_reference_floor": 0,
+      "frame": 10,
+      "source_waist_axis": 129.5
+    },
+    {
+      "bounds_inclusive": [
+        28,
+        27,
+        134,
+        152
+      ],
+      "clearance_from_reference_floor": 0,
+      "frame": 11,
+      "source_waist_axis": 117.5
+    }
+  ],
+  "preview_cycle_ms": 1200,
+  "preview_unique_hz": 10,
+  "quality": "Review phase/direction/volume before producing45Hz inbetweens. No distance walk_34, contact sync or production integration. Perspective feet are not automatically classified by lowest silhouette pixel.",
+  "registration": "common scale, waist x and grounded sole registered per reviewed walking key; not for airborne art",
+  "shared_scale": 0.4542124542124542,
+  "source": "resources/characters/senko-160-source/walk-34-keys-v2-raw.png",
+  "source_layout": [
+    3,
+    [
+      {
+        "bounds_inclusive": [
+          31,
+          29,
+          131,
+          152
+        ],
+        "clearance_from_reference_floor": 0,
+        "frame": 0,
+        "source_waist_axis": 111.5
+      },
+      {
+        "bounds_inclusive": [
+          27,
+          26,
+          128,
+          152
+        ],
+        "clearance_from_reference_floor": 0,
+        "frame": 1,
+        "source_waist_axis": 121.5
+      },
+      {
+        "bounds_inclusive": [
+          24,
+          28,
+          128,
+          152
+        ],
+        "clearance_from_reference_floor": 0,
+        "frame": 2,
+        "source_waist_axis": 126.5
+      },
+      {
+        "bounds_inclusive": [
+          22,
+          26,
+          128,
+          152
+        ],
+        "clearance_from_reference_floor": 0,
+        "frame": 3,
+        "source_waist_axis": 132.5
+      },
+      {
+        "bounds_inclusive": [
+          28,
+          28,
+          133,
+          152
+        ],
+        "clearance_from_reference_floor": 0,
+        "frame": 4,
+        "source_waist_axis": 117.5
+      },
+      {
+        "bounds_inclusive": [
+          21,
+          25,
+          128,
+          152
+        ],
+        "clearance_from_reference_floor": 0,
+        "frame": 5,
+        "source_waist_axis": 134.5
+      },
+      {
+        "bounds_inclusive": [
+          23,
+          25,
+          134,
+          152
+        ],
+        "clearance_from_reference_floor": 0,
+        "frame": 6,
+        "source_waist_axis": 128.5
+      },
+      {
+        "bounds_inclusive": [
+          24,
+          26,
+          130,
+          152
+        ],
+        "clearance_from_reference_floor": 0,
+        "frame": 7,
+        "source_waist_axis": 126.5
+      },
+      {
+        "bounds_inclusive": [
+          27,
+          26,
+          136,
+          152
+        ],
+        "clearance_from_reference_floor": 0,
+        "frame": 8,
+        "source_waist_axis": 120.5
+      },
+      {
+        "bounds_inclusive": [
+          21,
+          23,
+          128,
+          152
+        ],
+        "clearance_from_reference_floor": 0,
+        "frame": 9,
+        "source_waist_axis": 134.5
+      },
+      {
+        "bounds_inclusive": [
+          23,
+          25,
+          131,
+          152
+        ],
+        "clearance_from_reference_floor": 0,
+        "frame": 10,
+        "source_waist_axis": 129.5
+      },
+      {
+        "bounds_inclusive": [
+          28,
+          27,
+          134,
+          152
+        ],
+        "clearance_from_reference_floor": 0,
+        "frame": 11,
+        "source_waist_axis": 117.5
+      }
+    ]
+  ],
+  "source_reference_floor": 290,
+  "status": "key_pose_review_only_not_runtime_gait"
+}

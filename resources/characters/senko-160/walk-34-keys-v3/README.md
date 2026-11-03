@@ -1,0 +1,1 @@
+A04-V12key poses only. Time-only10drawings/s1200ms, not45FPS locomotion; no distanceclip or productionintegration. Three_quarter facing and mirrored review supported.31RGBA/hardalpha/no clipping. Height124..130px and leg identity/phase/pivot need QA before high-density inbetweens. Source/prompt in senko-160-source; see ai/SENKO_ANIM_A04_V_PROGRESS.md.

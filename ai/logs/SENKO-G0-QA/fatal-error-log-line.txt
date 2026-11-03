@@ -1,0 +1,1 @@
+1793071542 startup/session error: Shimeji frame 1 not found at C:\Users\kyuu4\OneDrive\Documents\Pet\ai\logs\SENKO-G0-QA\empty-assets\shime1.png

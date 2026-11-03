@@ -1,0 +1,9 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+   Compiling bongocat-live2d-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d-render)
+   Compiling bongocat-live2d v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 5.76s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --directions resources/characters/senko-v3-p1/candidate-v6-smooth resources/characters/senko-v3-g2-source resources/characters/senko-v3-g2/candidate-v2`
+P1 validated: 233 frames, 32 shared RGBA colors
+Candidate written: resources/characters/senko-v3-g2/candidate-v2

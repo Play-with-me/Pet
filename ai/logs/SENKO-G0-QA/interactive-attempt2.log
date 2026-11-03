@@ -1,0 +1,6 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 7.05s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-761f6507c6179b66.exe)
+
+running 1 test
+test windows::companion::qa::senko_interactive_mouse_qa has been running for over 60 seconds

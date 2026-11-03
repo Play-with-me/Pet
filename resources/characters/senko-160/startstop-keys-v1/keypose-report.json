@@ -1,0 +1,21 @@
+{
+  "clips": [
+    {
+      "clip": "walk_start",
+      "duration_ms": 200,
+      "finished_motion_45fps": false,
+      "keyposes": 6,
+      "source_row": 0
+    },
+    {
+      "clip": "walk_stop",
+      "duration_ms": 240,
+      "finished_motion_45fps": false,
+      "keyposes": 6,
+      "source_row": 1
+    }
+  ],
+  "scale_per_sheet": 0.4105960264900662,
+  "status": "keypose_draft_not45fps_motion",
+  "visual_approval": "pending"
+}

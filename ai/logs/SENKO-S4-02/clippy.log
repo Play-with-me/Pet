@@ -1,0 +1,49 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Checking bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+error: this `if` statement can be collapsed
+  --> crates\bongocat-runtime\src\senko_brain_options.rs:54:17
+   |
+54 | /                 if (80. ..=600.).contains(&distance)
+55 | |                     && let Some(goal) = RouteGoal::at(world, l.id, p)
+56 | |                 {
+57 | |                     if !exploration.iter().any(|(_, g)| *g == goal) {
+...  |
+60 | |                 }
+   | |_________________^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#collapsible_if
+   = note: `-D clippy::collapsible-if` implied by `-D warnings`
+   = help: to override `-D warnings` add `#[allow(clippy::collapsible_if)]`
+help: collapse nested if block
+   |
+55 ~                     && let Some(goal) = RouteGoal::at(world, l.id, p)
+56 ~                     && !exploration.iter().any(|(_, g)| *g == goal) {
+57 |                         exploration.push((distance, goal));
+58 ~                     }
+   |
+
+error: could not compile `bongocat-runtime` (lib) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: this `if` statement can be collapsed
+   --> crates\bongocat-runtime\src\senko_brain_tests.rs:234:13
+    |
+234 | /             if brain.decision_due() {
+235 | |                 if let Some(c) = brain.choose(&pool) {
+236 | |                     trace.push(c.intention);
+237 | |                     if c.intention.moves() {
+...   |
+241 | |             }
+    | |_____________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+234 ~             if brain.decision_due()
+235 ~                 && let Some(c) = brain.choose(&pool) {
+236 |                     trace.push(c.intention);
+...
+239 |                     }
+240 ~                 }
+    |
+
+error: could not compile `bongocat-runtime` (lib test) due to 2 previous errors

@@ -1,0 +1,17 @@
+{
+  "walk_start": {
+    "frames": 14,
+    "unique_raster": 14,
+    "duration_ms": 400
+  },
+  "walk_stop": {
+    "frames": 14,
+    "unique_raster": 14,
+    "duration_ms": 400
+  },
+  "walk_stop_sync27": {
+    "frames": 18,
+    "unique_raster": 18,
+    "duration_ms": 400
+  }
+}

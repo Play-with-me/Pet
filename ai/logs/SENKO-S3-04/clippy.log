@@ -1,0 +1,73 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Checking bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+error: this `if` statement can be collapsed
+   --> crates\bongocat-runtime\src\senko_physics.rs:184:9
+    |
+184 | /         if self.velocity.y >= 0. {
+185 | |             if let Some(l) = world
+186 | |                 .ledges
+187 | |                 .iter()
+...   |
+202 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#collapsible_if
+    = note: `-D clippy::collapsible-if` implied by `-D warnings`
+    = help: to override `-D warnings` add `#[allow(clippy::collapsible_if)]`
+help: collapse nested if block
+    |
+184 ~         if self.velocity.y >= 0.
+185 ~             && let Some(l) = world
+186 |                 .ledges
+...
+200 |                 return report;
+201 ~             }
+    |
+
+error: this `if` statement can be collapsed
+   --> crates\bongocat-runtime\src\senko_physics.rs:282:9
+    |
+282 | /         if let Some(l) = world
+283 | |             .ledges
+284 | |             .iter()
+285 | |             .find(|l| {
+...   |
+319 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+305 ~             .copied()
+306 ~             && self.foot.y > l.y + EPS {
+307 |                 self.anchor(
+...
+316 |                 return;
+317 ~             }
+    |
+
+error: this `if` statement can be collapsed
+   --> crates\bongocat-runtime\src\senko_physics.rs:325:9
+    |
+325 | /         if self.foot.y > bottom + BODY_HEIGHT {
+326 | |             if let Some(l) = world
+327 | |                 .ledges
+328 | |                 .iter()
+...   |
+354 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+325 ~         if self.foot.y > bottom + BODY_HEIGHT
+326 ~             && let Some(l) = world
+327 |                 .ledges
+...
+352 |                 report.recovered = true;
+353 ~             }
+    |
+
+error: could not compile `bongocat-runtime` (lib) due to 3 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `bongocat-runtime` (lib test) due to 3 previous errors

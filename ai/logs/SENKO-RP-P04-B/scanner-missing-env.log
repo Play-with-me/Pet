@@ -1,0 +1,41 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3.99s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-7c879d1498359ca8.exe)
+
+running 12 tests
+test windows::desktop_scan::tests::callback_filters_child_events_and_bounds_destroy_queue ... ok
+test windows::desktop_scan::tests::filter_keeps_nonclimbable_occluders_and_rejects_invisible_or_unknown_geometry ... ok
+test windows::desktop_scan::tests::fullscreen_and_small_windows_occlude_without_creating_edges ... ok
+test windows::desktop_scan::tests::identities_survive_movement_but_not_destroy_or_pid_tid_reuse ... ok
+test windows::desktop_scan::tests::native_body_lands_transports_and_drops_when_fixture_changes ... PASS native DWM isolated fixture: first landing, slow carriage, >=1500px/s detach, minimize/close fall; gravity/body harness (no GPU visual claim)
+ok
+test windows::desktop_scan::tests::native_maximize_resize_and_close_during_climb ... PASS actual DWM fixture shrink removes support; maximize removes edges but retains occluder; restore/close while climbing detaches into gravity. Isolated body harness, not production visual acceptance.
+ok
+test windows::desktop_scan::tests::native_monitor_cache_refreshes_only_after_display_messages ... PASS native cached physical monitor/work rectangles; synthetic display/settings/DPI burst => one deferred refresh; fallback reuses cache
+ok
+test windows::desktop_scan::tests::native_moving_window_transports_body_then_close_preserves_momentum ... PASS owned DWM fixture real-clock transport then close -> inherited horizontal momentum and gravity; isolated body integration, not full production visual QA
+ok
+test windows::desktop_scan::tests::native_overlap_rebuilds_horizontal_and_vertical_fragments ... PASS live snapshot: fully covered fixture has no ledge
+isolated pair side split reached
+PASS isolated native DWM fixture pair: top split, side split, blocker close restores wall; live snapshot validation. See promotion/demotion test for native Z-order; foreground activation remains outside this test.
+ok
+
+thread 'windows::desktop_scan::tests::native_route_climbs_and_drops_with_actual_animator' (12032) panicked at crates\bongocat-overlay\src\windows\desktop_scan_tests.rs:721:46:
+called `Option::unwrap()` on a `None` value
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test windows::desktop_scan::tests::native_route_climbs_and_drops_with_actual_animator ... FAILED
+test windows::desktop_scan::tests::native_window_lifecycle_events_order_fallback_and_teardown ... PASS native DWM create/move/resize/Z-order/minimize/restore/destroy; synthetic foreground through WinEvent; 500ms fallback; six hooks removed and reinstall succeeds
+ok
+test windows::desktop_scan::tests::native_z_order_promotion_and_demotion_changes_occlusion ... requested above=4851424 below=788832; observed pair=[4851424, 788832]
+requested above=788832 below=4851424; observed pair=[788832, 4851424]
+PASS native owned-window promotion/demotion in both directions changes actual EnumWindows order and occlusion in isolated DWM pair; no same-band/foreground activation claim.
+ok
+
+failures:
+
+failures:
+    windows::desktop_scan::tests::native_route_climbs_and_drops_with_actual_animator
+
+test result: FAILED. 11 passed; 1 failed; 0 ignored; 0 measured; 139 filtered out; finished in 0.96s
+
+error: test failed, to rerun pass `-p bongocat-overlay --lib`

@@ -1,0 +1,5 @@
+
+TimeCreated : 10/28/2026 5:29:55 PM
+Id          : 3077
+Message     : Code Integrity determined that a process (\Device\HarddiskVolume3\Users\kyuu4\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell\pwsh.exe) attempted to load \Device\HarddiskVolume3\Users\kyuu4\.cargo\bin\cargo.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6}).
+

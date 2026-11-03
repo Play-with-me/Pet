@@ -1,0 +1,30 @@
+{
+  "unique_frames": 36,
+  "colors_rgba": 31,
+  "unchanged_frames": 34,
+  "patch_outside_unchanged": true,
+  "protected_hashes": 11,
+  "generated_sources": [
+    {
+      "file": "resources\\characters\\senko-160-source\\gait\\walk-stance-keys-v3-raw.png",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 950968,
+      "accepted": false,
+      "reason": "incorrect stance/swing phases; alpha0 background exists despite hidden brown RGB"
+    },
+    {
+      "file": "resources\\characters\\senko-160-source\\gait\\walk-stance-keys-v4-raw.png",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 966190,
+      "accepted": false,
+      "reason": "incorrect stance/swing phases; alpha0 background exists despite hidden brown RGB"
+    }
+  ],
+  "stance_approval": false
+}

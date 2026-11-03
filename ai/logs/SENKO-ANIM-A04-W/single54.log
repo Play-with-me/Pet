@@ -1,0 +1,5 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.60s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --walk34-single54 resources/characters/senko-160-source/walk-34-single54-v1-raw.png resources/characters/senko-160/walk-34-54-v3`
+Senko asset pipeline: missing generated pose; cannot duplicate to fill it
+error: process didn't exit successfully: `BongoCat\target\debug\senko_asset_pipeline.exe --walk34-single54 resources/characters/senko-160-source/walk-34-single54-v1-raw.png resources/characters/senko-160/walk-34-54-v3` (exit code: 1)

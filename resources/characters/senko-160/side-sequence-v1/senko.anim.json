@@ -1,0 +1,232 @@
+{
+  "anchor": [
+    80,
+    152
+  ],
+  "canvas": [
+    160,
+    160
+  ],
+  "clips": {
+    "idle_side": {
+      "facing": "side",
+      "files": [
+        "idle_side/0.png"
+      ],
+      "frames": 1,
+      "loop": true,
+      "mirror": true,
+      "ms": 1000,
+      "stride_px": 0,
+      "sync": []
+    },
+    "walk_side": {
+      "contacts": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+          "foot_left": [
+            87.0,
+            152.0
+          ],
+          "foot_right": [
+            88.0,
+            143.0
+          ]
+        },
+        {
+          "foot_left": [
+            88.0,
+            152.0
+          ],
+          "foot_right": [
+            88.0,
+            143.0
+          ]
+        },
+        {
+          "foot_left": [
+            88.0,
+            152.0
+          ],
+          "foot_right": [
+            91.0,
+            141.0
+          ]
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+          "foot_left": [
+            88.0,
+            143.0
+          ],
+          "foot_right": [
+            88.0,
+            152.0
+          ]
+        },
+        {
+          "foot_left": [
+            88.0,
+            143.0
+          ],
+          "foot_right": [
+            88.0,
+            152.0
+          ]
+        },
+        {
+          "foot_left": [
+            90.0,
+            141.0
+          ],
+          "foot_right": [
+            84.0,
+            152.0
+          ]
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "facing": "side",
+      "files": [
+        "walk_side/0.png",
+        "walk_side/1.png",
+        "walk_side/2.png",
+        "walk_side/3.png",
+        "walk_side/4.png",
+        "walk_side/5.png",
+        "walk_side/6.png",
+        "walk_side/7.png",
+        "walk_side/8.png",
+        "walk_side/9.png",
+        "walk_side/10.png",
+        "walk_side/11.png",
+        "walk_side/12.png",
+        "walk_side/13.png",
+        "walk_side/14.png",
+        "walk_side/15.png",
+        "walk_side/16.png",
+        "walk_side/17.png",
+        "walk_side/18.png",
+        "walk_side/19.png",
+        "walk_side/20.png",
+        "walk_side/21.png",
+        "walk_side/22.png",
+        "walk_side/23.png",
+        "walk_side/24.png",
+        "walk_side/25.png",
+        "walk_side/26.png",
+        "walk_side/27.png",
+        "walk_side/28.png",
+        "walk_side/29.png",
+        "walk_side/30.png",
+        "walk_side/31.png",
+        "walk_side/32.png",
+        "walk_side/33.png",
+        "walk_side/34.png",
+        "walk_side/35.png"
+      ],
+      "frames": 36,
+      "loop": true,
+      "mirror": true,
+      "ms": 0,
+      "stride_px": 2.6666666666666665,
+      "sync": [
+        0,
+        18
+      ]
+    },
+    "walk_start": {
+      "facing": "side",
+      "files": [
+        "idle_side/0.png",
+        "walk_start/0.png",
+        "walk_start/1.png",
+        "walk_start/2.png",
+        "walk_start/3.png",
+        "walk_start/4.png",
+        "walk_start/5.png",
+        "walk_start/6.png",
+        "walk_side/0.png"
+      ],
+      "frame_ms": [
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23
+      ],
+      "frames": 9,
+      "loop": false,
+      "mirror": true,
+      "ms": 22,
+      "stride_px": 0,
+      "sync": []
+    },
+    "walk_stop": {
+      "facing": "side",
+      "files": [
+        "walk_side/0.png",
+        "walk_stop/0.png",
+        "walk_stop/1.png",
+        "walk_stop/2.png",
+        "walk_stop/3.png",
+        "walk_stop/4.png",
+        "walk_stop/5.png",
+        "walk_stop/6.png",
+        "walk_stop/7.png",
+        "idle_side/0.png"
+      ],
+      "frame_ms": [
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        40
+      ],
+      "frames": 10,
+      "loop": false,
+      "mirror": true,
+      "ms": 22,
+      "stride_px": 0,
+      "sync": []
+    }
+  },
+  "scale": 2,
+  "schema_version": 1
+}

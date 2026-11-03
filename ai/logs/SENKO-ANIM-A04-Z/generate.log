@@ -1,0 +1,2 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 9.87s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --walk34-dense-keys160 resources/characters/senko-160-source/walk-34-support-keys-v1-raw.png resources/characters/senko-160/walk-34-support-keys-v1`

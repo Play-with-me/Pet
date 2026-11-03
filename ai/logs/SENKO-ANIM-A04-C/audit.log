@@ -1,0 +1,4 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.15s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --audit resources/characters/senko-160/walk-guided-36-v3 ai/logs/SENKO-ANIM-A04-C/audit-v3`
+Audit: 2 clips / 72 frames; visual approval not assessed; \\?\C:\Users\kyuu4\OneDrive\Documents\Pet\ai\logs\SENKO-ANIM-A04-C\audit-v3

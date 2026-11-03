@@ -1,0 +1,10 @@
+{
+  "second_exit": 0,
+  "processes": [
+    {
+      "Id": 40668,
+      "Responding": true,
+      "Path": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\BongoCat\\target\\release\\examples\\companion_senko.exe"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 4.76s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-4240ac2aa6207b94.exe)
+
+running 1 test
+test windows::desktop_scan::tests::native_explicit_z_order_changes_occlusion ... requested above=1443854 below=3868354; observed pair=[1443854, 3868354]
+requested above=3868354 below=1443854; observed pair=[3868354, 1443854]
+PASS native explicit sibling reorder in both directions changes actual EnumWindows order and occlusion in isolated DWM pair; no foreground activation claim.
+ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 139 filtered out; finished in 0.03s
+

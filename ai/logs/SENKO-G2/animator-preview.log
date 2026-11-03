@@ -1,0 +1,2 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.55s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --animator-preview resources/characters/senko-v3-g2/candidate-v2 resources/characters/senko-v3-g2/candidate-v2/animator-preview`

@@ -1,0 +1,28 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 5.59s
+     Running unittests src\bin\senko_asset_pipeline.rs (BongoCat\target\debug\deps\senko_asset_pipeline-4a42ac83a8a0a1f3.exe)
+
+running 20 tests
+test inbetweens::tests::split_centiseconds_preserve_time_for_odd_and_even_delays ... ok
+test gait_raster_review::tests::baseline_runs_keep_disconnected_regions_and_rightmost_pixel ... ok
+test gait160::tests::interleave_preserves_chronological_phase_and_rejects_missing_cells ... ok
+test grounded_walk160::tests::walk_has_double_support_no_flight_and_fixed_length_contact_legs ... ok
+test inbetweens::tests::expanded_pack_has_141_frames_and_excludes_rejected_held_midpoints ... ok
+test normalize::tests::global_key_removes_enclosed_magenta_but_keeps_white_clothing ... ok
+test catalog::tests::p1_inventory_has_exact_counts_and_valid_sheet_references ... ok
+test gait160::tests::drawings_preserve_cycle_duration_without_padding_duplicates ... ok
+test walk_world160::tests::phase_request_survives_lower_tick_rate_skipping_an_art_frame ... ok
+test normalize::tests::empty_and_oversized_frames_are_rejected_instead_of_scaled_per_pose ... ok
+test gait_repair::tests::foot_patch_cannot_change_head_tail_or_other_canvas_pixels ... ok
+test normalize::tests::generated_unequal_rows_are_separated_without_mixing_their_feet ... ok
+test normalize::tests::normalization_keeps_contact_and_hard_shared_palette ... ok
+test audit::tests::rejects_source_output_overwrite_and_bad_input_before_writing ... ok
+test audit::tests::distance_clip_has_no_invented_timing ... ok
+test run160::tests::common_sheet_transform_retains_airborne_clearance_and_body_bob ... ok
+test audit::tests::valid_fragment_is_not_runner_or_visual_approval_and_source_is_unchanged ... ok
+test normalize::tests::model160_uses_real_source_detail_and_preserves_physical_contact ... ok
+test preview::tests::gif_roundtrip_preserves_frames_transparent_pixels_and_timing ... ok
+test normalize::tests::gait_anchor_ignores_red_trouser_leg_swing ... ok
+
+test result: ok. 20 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.14s
+

@@ -1,0 +1,54 @@
+{
+  "id": "SENKO-V3-G1",
+  "date": "2026-10-27",
+  "status": "candidate-awaiting-leader-review",
+  "frames": 100,
+  "clips": 28,
+  "tests_passed": 6,
+  "artifacts": [
+    {
+      "path": "BongoCat/crates/bongocat-overlay/Cargo.toml",
+      "sha256": "CEDDE4E0C58D0F62892302F0861607AD91F73D47A448D9D8A78978339C8C618F"
+    },
+    {
+      "path": "BongoCat/crates/bongocat-overlay/src/bin/senko_asset_pipeline.rs",
+      "sha256": "A5D02927E9606C13127C39F60EC277AB71219B32D9043C0DE7BE260375A34D47"
+    },
+    {
+      "path": "BongoCat/crates/bongocat-overlay/src/bin/senko_asset_pipeline/catalog.rs",
+      "sha256": "5DB06E967F2423035597EEA98E289FC5750BDF3ECDD46828B02B79E1E9A8A0A1"
+    },
+    {
+      "path": "BongoCat/crates/bongocat-overlay/src/bin/senko_asset_pipeline/normalize.rs",
+      "sha256": "32A699C700930D6F49614CEF947731EC278EDADB668A6B2ABAF396EECDEF3ECB"
+    },
+    {
+      "path": "BongoCat/crates/bongocat-overlay/src/bin/senko_asset_pipeline/preview.rs",
+      "sha256": "82836D475C872F443ED761DAF7401807CEBF6A712E66D5E04875E9D3D74F29C2"
+    },
+    {
+      "path": "resources/characters/senko-v3-p1/candidate-v2/senko.anim.json",
+      "sha256": "5BF210847D96987A55DB6D57139CE3458C315679C6FB8762FEFDBE9CB6C933BD"
+    },
+    {
+      "path": "ai/SENKO_V3_G1_IMPLEMENTATION.md",
+      "sha256": "43DBBEA9DAFFD92B021AFE0C89C840558D8770AD01BBA72821171E65211C39CD"
+    },
+    {
+      "path": "ai/logs/SENKO-G1/asset-verification.json",
+      "sha256": "EF80D93D8DCB4BE76CB6A760323CF034A3D8075A972F73E4EDE9B4AE6AF48EA4"
+    },
+    {
+      "path": "ai/logs/SENKO-G1/pipeline-tests.log",
+      "sha256": "6AF182A4BF9021AE6CEEC32492AA488F9822B60259D401864647C6B958F2C039"
+    },
+    {
+      "path": "ai/logs/SENKO-G1/clippy.log",
+      "sha256": "974FFFCE484BA801AD52C422FDB1774E6B3035021059091927F7F71BED1C0E9D"
+    },
+    {
+      "path": "ai/logs/SENKO-G1/fmt.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
+  ]
+}

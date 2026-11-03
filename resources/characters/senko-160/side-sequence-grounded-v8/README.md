@@ -1,0 +1,1 @@
+Partial A04-K animation draft only. Not a full pet pack or default. New walk-start/stop0/stop27 artwork400ms with14/14/18 distinct raster poses, duplicate adjacent drawings collapsed to holds. Native45FPS quality not yet accepted. Approved J walk54 unchanged. See ai/SENKO_ANIM_A04_K_PROGRESS.md.

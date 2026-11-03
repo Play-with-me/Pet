@@ -1,0 +1,4 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.57s
+     Running `target\debug\senko_asset_pipeline.exe --walk160-strips ../resources/characters/senko-160-source/gait/walk-side-A-v1-raw.png ../resources/characters/senko-160-source/gait/walk-side-B-v1-raw.png ../resources/characters/senko-160-source/gait/walk-side-C-v1-raw.png ../resources/characters/senko-v3-g2/candidate-v5-flow ../resources/characters/senko-160/walk-side-36-strips-v1`
+Senko asset pipeline: usage: senko_asset_pipeline <source-sheets> <NEW-output-directory>
+error: process didn't exit successfully: `target\debug\senko_asset_pipeline.exe --walk160-strips ../resources/characters/senko-160-source/gait/walk-side-A-v1-raw.png ../resources/characters/senko-160-source/gait/walk-side-B-v1-raw.png ../resources/characters/senko-160-source/gait/walk-side-C-v1-raw.png ../resources/characters/senko-v3-g2/candidate-v5-flow ../resources/characters/senko-160/walk-side-36-strips-v1` (exit code: 1)

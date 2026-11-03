@@ -1,0 +1,7 @@
+{
+  "pid": 21928,
+  "sha256": "784CDC048A5DCC1848EB7FCC83260B8D142F00D1E0C8BB50783A4F870C2357B3",
+  "assets": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\resources\\characters\\senko-v3-g2\\candidate-v5-flow",
+  "build": "just senko-build",
+  "scope": "S3-05 bounded routing integrated; walk/climb/mantle/hop/jump/drop; multi-monitor acceptance pending"
+}

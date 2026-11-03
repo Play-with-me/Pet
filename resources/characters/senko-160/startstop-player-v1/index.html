@@ -1,0 +1,32 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Senko · manifest player</title>
+<style>body{font:17px/1.6 system-ui;background:#eee9df;color:#292522;max-width:1000px;margin:32px auto}canvas{image-rendering:pixelated;background:repeating-conic-gradient(#eee 0% 25%,#d8d8d8 0% 50%) 0/24px 24px}button,select,input{font:inherit;margin:8px}pre{white-space:pre-wrap}</style>
+<h1>Preview đọc manifest</h1><p>Clock lấy từ thời gian thực của trình duyệt, không dùng timing GIF. Clip quãng đường dùng tốc độ mẫu nhập bên dưới; không mô phỏng vật lý hay tuyến desktop. Frame lặp trong fixture kiểm định không phải ảnh chuyển động hoàn chỉnh.</p>
+<label>Clip <select id="clip"></select></label><button id="play" disabled>Phát</button><button id="reset">Về đầu</button>
+<label><input type="checkbox" id="mirror">Mirror</label><label><input type="checkbox" id="points" checked>Điểm tiếp xúc</label>
+<p><label>Frame <input id="scrub" type="range" min="0" value="0"></label><label>Tốc độ mẫu px/s <input id="speed" type="number" min="0" max="2400" value="140"></label></p>
+<canvas id="stage" width="320" height="320"></canvas><pre id="status">Đang nạp ảnh…</pre>
+<script type="application/json" id="manifest">{"anchor":[80,152],"canvas":[160,160],"clips":[{"delays":[33,33,34,33,33,34],"duration":200,"frames":[{"contacts":{},"image":"texture-1.png"},{"contacts":{},"image":"texture-2.png"},{"contacts":{},"image":"texture-3.png"},{"contacts":{},"image":"texture-4.png"},{"contacts":{},"image":"texture-5.png"},{"contacts":{},"image":"texture-6.png"}],"loop":false,"mirror":true,"name":"walk_start","stride":0.0,"sync":[]},{"delays":[40,40,40,40,40,40],"duration":240,"frames":[{"contacts":{},"image":"texture-7.png"},{"contacts":{},"image":"texture-8.png"},{"contacts":{},"image":"texture-9.png"},{"contacts":{},"image":"texture-10.png"},{"contacts":{},"image":"texture-11.png"},{"contacts":{},"image":"texture-12.png"}],"loop":false,"mirror":true,"name":"walk_stop","stride":0.0,"sync":[]}],"scale":2}</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('manifest').textContent);
+const byId=id=>document.getElementById(id), select=byId('clip'),play=byId('play'),scrub=byId('scrub'),status=byId('status');
+const stage=byId('stage'),ctx=stage.getContext('2d'),images=new Map();
+ctx.imageSmoothingEnabled=false;
+let clock=0,distance=0,index=0,playing=false,last=null,ready=false,presentations=0;
+for(const [i,c] of data.clips.entries()){const option=document.createElement('option');option.value=i;option.textContent=c.name;select.append(option);}
+const current=()=>data.clips[Number(select.value)];
+function draw(){if(!ready)return;const c=current(),f=c.frames[index],mirror=byId('mirror').checked&&c.mirror;ctx.clearRect(0,0,320,320);ctx.save();if(mirror){ctx.translate(320,0);ctx.scale(-1,1);}ctx.drawImage(images.get(f.image),0,0,320,320);ctx.restore();
+ if(byId('points').checked){for(const [name,p]of Object.entries(f.contacts)){const x=(mirror?data.canvas[0]-p[0]:p[0])*data.scale,y=p[1]*data.scale;ctx.fillStyle='#116bcd';ctx.fillRect(x-2,y-2,4,4);ctx.fillText(name,x+4,y-4);}}
+ scrub.value=index;status.textContent=`${c.name} · frame ${index}/${c.frames.length-1} · ${c.stride>0?'distance':'time'} · elapsed ${clock.toFixed(1)}ms · distance ${distance.toFixed(1)}px\n${data.canvas.join('×')} ×${data.scale} · contacts: ${Object.keys(f.contacts).join(', ')||'none'}\nPreview draws: ${presentations}; nhịp màn hình/trình duyệt có thể làm bỏ qua frame; không phải chứng nhận native45FPS.`;
+}
+function configure(){clock=0;distance=0;index=0;last=null;scrub.max=current().frames.length-1;byId('speed').disabled=current().stride<=0;draw();}
+select.onchange=configure;
+play.onclick=()=>{playing=!playing;last=null;play.textContent=playing?'Tạm dừng':'Phát';};
+byId('reset').onclick=configure;
+scrub.oninput=()=>{playing=false;play.textContent='Phát';index=Number(scrub.value);const c=current();clock=c.delays.slice(0,index).reduce((a,b)=>a+b,0);distance=c.stride>0?index*c.stride:0;last=null;draw();};
+byId('mirror').onchange=draw;byId('points').onchange=draw;
+function tick(now){if(last===null)last=now;const dt=now-last;last=now;
+ if(ready&&playing){const c=current();clock+=dt;if(c.stride>0){const speed=Number(byId('speed').value);distance+=dt*Math.max(0,Math.min(2400,Number.isFinite(speed)?speed:0))/1000;index=Math.floor(distance/c.stride)%c.frames.length;}else{let t=c.loop?clock%c.duration:Math.min(clock,c.duration-1);index=0;while(index<c.delays.length-1&&t>=c.delays[index]){t-=c.delays[index++];}if(!c.loop&&clock>=c.duration){playing=false;play.textContent='Phát';}}presentations++;draw();}requestAnimationFrame(tick);}
+const sources=[...new Set(data.clips.flatMap(c=>c.frames.map(f=>f.image)))];
+Promise.all(sources.map(src=>new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>{images.set(src,im);resolve();};im.onerror=()=>reject(new Error(`Không nạp được ${src}`));im.src=src;}))).then(()=>{ready=true;play.disabled=false;configure();requestAnimationFrame(tick);}).catch(error=>{status.textContent=error.message;});
+</script></html>

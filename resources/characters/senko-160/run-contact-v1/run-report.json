@@ -1,0 +1,15 @@
+{
+  "contact_source": "resources/characters/senko-160-source/run-contact-v1-raw.png",
+  "cycle_px": 128.0,
+  "new_contact_phases": [
+    0,
+    1,
+    9,
+    10
+  ],
+  "quality": "Numerical contact/flight gates passed. Internal pose joins, per-leg stance identity and world foot-lock not certified. No Brain/physics changes.",
+  "reference_review": "resources/characters/senko-160/run-review-only-v1",
+  "shared_contact_source_scale": 0.2326454033771107,
+  "status": "contact_patched_candidate_not_integrated",
+  "unchanged_other_frames": 14
+}

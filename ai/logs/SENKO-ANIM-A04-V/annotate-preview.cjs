@@ -1,0 +1,1 @@
+const fs=require('fs');const p='resources/characters/senko-160/walk-34-review-v1/index.html';let html=fs.readFileSync(p,'utf8');html=html.replace('</h1>','</h1><p><strong>A04-V · 12 tư thế chính đi bộ 3/4 trước, phát chậm10hình/giây để duyệt pha. Chưa phải clip45FPS, chưa tích hợp. Bật Mirror để xem hướng đối diện.</strong></p>');fs.writeFileSync(p,html);

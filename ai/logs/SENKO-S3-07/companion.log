@@ -1,0 +1,53 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.60s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-4240ac2aa6207b94.exe)
+
+running 18 tests
+test windows::companion::qa::senko_alpha_routes_to_underlying_native_window ... ok
+test windows::companion::senko_mask_tests::alpha_hit_respects_frame_mirror_scale_and_negative_origin ... ok
+test windows::companion::senko_mask_tests::companion_right_button_is_consumed_before_generic_resize ... ok
+test windows::companion::senko_mask_tests::senko_native_smoke_presents_existing_assets ... Senko finished presented=242
+ok
+test windows::companion::sprites::tests::eased_navigation_reaches_exact_contact_without_asymptotic_stall_or_overshoot ... ok
+test windows::companion::sprites::tests::failed_route_cache_ignores_scan_clock_but_not_geometry_or_generation ... ok
+test windows::companion::sprites::tests::fast_autonomous_chase_selects_run_even_with_zero_physics_velocity ... ok
+test windows::companion::sprites::tests::foot_anchor_is_independent_of_transparent_canvas ... ok
+test windows::companion::sprites::tests::frame_pacing_does_not_add_a_full_sleep_after_present ... ok
+test windows::companion::sprites::tests::locomotion_eases_in_and_never_exceeds_safe_distance ... ok
+test windows::companion::sprites::tests::manifest_native_grab_pause_reset_exit ... ok
+test windows::companion::sprites::tests::manifest_senko_native_smoke ... native_present_count=295; window=5s; presents_per_second=59.00
+ok
+test windows::companion::sprites::tests::native_walk_and_run_visit_full_cycle_while_body_translates ... walk: all16frames, self_travel=193.85px; native GPU capture
+run: all16frames, self_travel=443.86px; native GPU capture
+ok
+test windows::companion::sprites::tests::nearest_gpu_preserves_four_by_four_pixels_and_linear_default ... ok
+test windows::companion::sprites::tests::walking_and_fast_chase_use_actual_displacement_not_inertial_velocity ... ok
+test windows::companion::tests::c03_native_pointer_physics ... C03 native window=154x267 work_area=WorkArea { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }
+C03 frames=303 presented=303 position=Point { x: 2317.8063891321935, y: 1343.274232871 } velocity=Point { x: 0.0, y: 0.0 }
+C03 pointer grabs=1 releases=1 throw_speed=2177.8788502019097
+ok
+test windows::companion::tests::c04_native_both_walls ... C03 native window=154x267 work_area=WorkArea { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }
+C04 behavior=Physics position=Point { x: 111.8066671766175, y: 45.13461544605696 }
+C04 behavior=Held position=Point { x: 111.8066671766175, y: 51.699684493800945 }
+C04 behavior=Idle position=Point { x: 2429.613334353235, y: 1343.274232871 }
+C04 behavior=ClimbRight position=Point { x: 2429.613334353235, y: 1343.274232871 }
+C04 behavior=Physics position=Point { x: 2429.613334353235, y: 0.0 }
+C04 behavior=Walk position=Point { x: 2196.567474469561, y: 1343.274232871 }
+C04 behavior=Held position=Point { x: 1914.3221154695614, y: 1343.274232871 }
+C04 behavior=ClimbLeft position=Point { x: 0.0, y: 1343.274232871 }
+C03 frames=1200 presented=1200 position=Point { x: 0.0, y: 827.8034028709998 } velocity=Point { x: 0.0, y: 0.0 }
+C03 pointer grabs=2 releases=2 throw_speed=0
+ok
+test windows::companion::tests::c05_pause_reset_resume_exit ... C03 native window=154x267 work_area=WorkArea { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }
+C04 behavior=Physics position=Point { x: 111.8066671766175, y: 45.13461268125696 }
+C05 paused position stable for 500ms
+C05 reset position=Point { x: 1214.8066671766176, y: 1343.274232871 }
+C04 behavior=Idle position=Point { x: 1214.8066671766176, y: 1343.274232871 }
+C05 reset while paused: RECT { left: 1203, top: 1338, right: 1357, bottom: 1605 }
+C04 behavior=Walk position=Point { x: 1216.6404001766175, y: 1343.274232871 }
+C03 frames=162 presented=162 position=Point { x: 1237.1390321766175, y: 1343.274232871 } velocity=Point { x: 0.0, y: 0.0 }
+C03 pointer grabs=0 releases=0 throw_speed=0
+C05 pause/reset/resume/exit passed; presented=162
+ok
+
+test result: ok. 18 passed; 0 failed; 0 ignored; 0 measured; 122 filtered out; finished in 51.25s
+

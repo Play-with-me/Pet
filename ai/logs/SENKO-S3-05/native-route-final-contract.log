@@ -1,0 +1,14 @@
+   Compiling bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+   Compiling bongocat-live2d-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d-render)
+   Compiling bongocat-live2d v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 9.81s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-6337767b5d0f5e35.exe)
+
+running 1 test
+PASS native DWM isolated fixture route: floor approach/hop-to-wall/climb/mantle/goal/reverse mantle/drop/return; actual PNG library and per-frame timings, controlled clock; no GPU-video claim
+test windows::desktop_scan::tests::native_route_climbs_and_drops_with_actual_animator ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 135 filtered out; finished in 0.52s
+

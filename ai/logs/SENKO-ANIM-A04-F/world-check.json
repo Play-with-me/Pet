@@ -1,0 +1,8 @@
+{
+  "stop_cases_passed": 12,
+  "canonical_seams_matched": 12,
+  "body_traces_unchanged": true,
+  "reversal_passed": true,
+  "turning_speed_zero": true,
+  "full_contact_stance": "not_accepted"
+}

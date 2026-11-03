@@ -1,0 +1,26 @@
+{
+  "base": "resources/characters/senko-160/walk-guided-36-v3",
+  "contact_annotations": "pending",
+  "modified_frames": [
+    {
+      "changed_pixels": 941,
+      "frame": 10
+    },
+    {
+      "changed_pixels": 918,
+      "frame": 28
+    }
+  ],
+  "outside_patch_unchanged": true,
+  "patch_half_open": [
+    58,
+    132,
+    128,
+    153
+  ],
+  "source": "resources/characters/senko-160-source/gait/walk-third-passing-edit-v2-raw.png",
+  "source_sheet_scale": 0.41471571906354515,
+  "unchanged_frames": 34,
+  "unique_rgba_frames": 36,
+  "visual_acceptance": "pending"
+}

@@ -1,0 +1,1 @@
+Synthetic clock fixture:45 repeated references per clip to ONE static model. Timing/decoder/player verification only; NOT45 moving drawings. Never used as real animation pack.

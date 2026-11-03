@@ -1,0 +1,8 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.00s
+     Running `target\debug\senko_asset_pipeline.exe --audit ../resources/characters/senko-v3-g2/candidate-v5-flow ../ai/logs/SENKO-RP-R08-C/v5-audit`
+
+thread 'main' (11672) panicked at crates\bongocat-overlay\src\bin\senko_asset_pipeline\audit.rs:33:70:
+index out of bounds: the len is 0 but the index is 0
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+error: process didn't exit successfully: `target\debug\senko_asset_pipeline.exe --audit ../resources/characters/senko-v3-g2/candidate-v5-flow ../ai/logs/SENKO-RP-R08-C/v5-audit` (exit code: 101)

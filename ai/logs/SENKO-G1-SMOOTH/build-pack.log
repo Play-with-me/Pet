@@ -1,0 +1,18 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+warning: unused import: `AnimationDecoder`
+ --> crates\bongocat-overlay\src\bin\senko_asset_pipeline\inbetweens.rs:3:13
+  |
+3 | use image::{AnimationDecoder, RgbaImage};
+  |             ^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: `bongocat-overlay` (bin "senko_asset_pipeline") generated 1 warning (run `cargo fix --bin "senko_asset_pipeline" -p bongocat-overlay` to apply 1 suggestion)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.85s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --smooth resources/characters/senko-v3-p1/candidate-v2 resources/characters/senko-v3-p1/smooth-source resources/characters/senko-v3-p1/candidate-v3-smooth`
+midpoints move: 18
+midpoints climb: 6
+midpoints social: 9
+midpoints transitions: 12
+P1 validated: 145 frames, 32 shared RGBA colors
+Candidate written: resources/characters/senko-v3-p1/candidate-v3-smooth

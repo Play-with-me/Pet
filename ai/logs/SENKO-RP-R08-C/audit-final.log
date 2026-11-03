@@ -1,0 +1,4 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.27s
+     Running `target\debug\senko_asset_pipeline.exe --audit ../resources/characters/senko-v3-g2/candidate-v5-flow ../ai/logs/SENKO-RP-R08-C/v5-audit`
+Audit: 45 clips / 233 frames; visual approval not assessed; \\?\C:\Users\kyuu4\OneDrive\Documents\Pet\ai\logs\SENKO-RP-R08-C\v5-audit

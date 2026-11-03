@@ -1,0 +1,1 @@
+A04-S diagnostic candidate only: run/start/stop boundary poses not approved. No fallback remapping or default integration.

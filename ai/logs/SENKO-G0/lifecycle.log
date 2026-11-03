@@ -1,0 +1,11 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 6.16s
+     Running unittests examples\companion_senko.rs (BongoCat\target\debug\examples\companion_senko-acd745c0b1c36660.exe)
+
+running 2 tests
+test senko_lifecycle::tests::instance_guard_rejects_duplicate_and_releases_on_drop ... ok
+test senko_lifecycle::tests::technical_log_rotates_and_bounds_each_record ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+

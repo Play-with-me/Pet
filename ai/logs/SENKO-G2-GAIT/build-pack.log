@@ -1,0 +1,5 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 5.32s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --gait resources/characters/senko-v3-g2/candidate-v2 resources/characters/senko-v3-gait-source resources/characters/senko-v3-g2/candidate-v3-gait`
+P1 validated: 217 frames, 32 shared RGBA colors
+Candidate written: resources/characters/senko-v3-g2/candidate-v3-gait

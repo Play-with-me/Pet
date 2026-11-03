@@ -1,0 +1,48 @@
+{
+  "tool": "Built-in ImageGen; model not exposed",
+  "base": "senko-v3-p1/candidate-v6-smooth",
+  "final": "senko-v3-g2/candidate-v2",
+  "base_frames": 141,
+  "added_frames": 92,
+  "frames": 233,
+  "clips": 45,
+  "layout": [
+    4,
+    4,
+    4,
+    4,
+    6
+  ],
+  "files": [
+    {
+      "file": "34.png",
+      "sha256": "D5332FD1B08851EB9C321707BE70D73C4E96587A6A6DB22F755FFB834F2EC7FC",
+      "bytes": 1801026
+    },
+    {
+      "file": "back.png",
+      "sha256": "1BA06DA582954EF13B82427ED2E99A257DADACE9E60828B77F54502274761CD7",
+      "bytes": 1641384
+    },
+    {
+      "file": "back34.png",
+      "sha256": "72C53F47AFAAF82093BBF657DB15311E2A0051C15D56D69BF76E64265B66A8B2",
+      "bytes": 1748877
+    },
+    {
+      "file": "front.png",
+      "sha256": "3BE8309EA4E1592B9FD6052A267D1B3B1257F3F33C5BA43BD2D92B8DFC37658F",
+      "bytes": 1803728
+    },
+    {
+      "file": "idle_back34.png",
+      "sha256": "B1C22321900F19B1535C8104950DA587C2F897E4F572581FE53EF747A9BF711E",
+      "bytes": 1448348
+    },
+    {
+      "file": "PROMPTS.md",
+      "sha256": "BBCEFE4C6A1F86E24BA003F83126C05B11E715A1B5D01AC4330EFF76D569C78B",
+      "bytes": 5343
+    }
+  ]
+}

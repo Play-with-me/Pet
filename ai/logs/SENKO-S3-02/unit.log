@@ -1,0 +1,21 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling windows v0.62.2
+   Compiling cpal v0.18.2
+   Compiling gilrs-core v0.6.8 (https://github.com/ayangweb/gilrs?rev=c7e97f54e9e4b10ff89d3527560a22f6817329ea#c7e97f54)
+   Compiling gilrs v0.11.2 (https://github.com/ayangweb/gilrs?rev=c7e97f54e9e4b10ff89d3527560a22f6817329ea#c7e97f54)
+   Compiling rodio v0.23.0
+   Compiling bongocat-platform v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-platform)
+   Compiling bongocat-audio v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-audio)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 41.80s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-6337767b5d0f5e35.exe)
+
+running 5 tests
+test windows::desktop_scan::tests::callback_filters_child_events_and_bounds_destroy_queue ... ok
+test windows::desktop_scan::tests::filter_keeps_nonclimbable_occluders_and_rejects_invisible_or_unknown_geometry ... ok
+test windows::desktop_scan::tests::fullscreen_and_small_windows_occlude_without_creating_edges ... ok
+test windows::desktop_scan::tests::identities_survive_movement_but_not_destroy_or_pid_tid_reuse ... ok
+test windows::desktop_scan::tests::native_window_lifecycle_events_order_fallback_and_teardown ... ignored, native DWM/window lifecycle and real WinEvent hooks; opt in
+
+test result: ok. 4 passed; 0 failed; 1 ignored; 0 measured; 126 filtered out; finished in 0.00s
+

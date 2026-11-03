@@ -1,0 +1,13 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3.92s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-761f6507c6179b66.exe)
+
+running 1 test
+test windows::companion::qa::senko_interactive_mouse_qa has been running for over 60 seconds
+Senko reset position=Point { x: 1190.0, y: 1420.0 }
+Senko finished presented=29299
+Senko interactive QA: {"grabs":1,"releases":1,"cancels":2,"pause_toggles":2,"resets":1,"exit_commands":1,"presented":29299,"elapsed_ms":594241}
+test windows::companion::qa::senko_interactive_mouse_qa ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 115 filtered out; finished in 594.24s
+

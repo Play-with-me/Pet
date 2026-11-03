@@ -1,0 +1,12 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.61s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe resources/characters/senko-v3-p1/source resources/characters/senko-v3-p1/candidate-v1`
+idle: 14 cells, shared scale 0.215278
+move: 20 cells, shared scale 0.227106
+air: 9 cells, shared scale 0.198083
+climb: 14 cells, shared scale 0.225455
+social: 13 cells, shared scale 0.213058
+rest: 23 cells, shared scale 0.248996
+reaction: 7 cells, shared scale 0.158974
+P1 validated: 100 frames, 32 shared RGBA colors
+Candidate written: resources/characters/senko-v3-p1/candidate-v1

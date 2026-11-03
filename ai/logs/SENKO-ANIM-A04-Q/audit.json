@@ -1,0 +1,88 @@
+{
+  "drawings": 18,
+  "palette_rgba": 32,
+  "cycle_ms": 400,
+  "reference_hz": 45,
+  "cycle_px": 128,
+  "reference_speed_px_s": 320,
+  "clearance": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    7,
+    3,
+    5,
+    4,
+    3,
+    3,
+    3,
+    8,
+    3,
+    3,
+    3,
+    3
+  ],
+  "bottom_band_x": [
+    [
+      72,
+      119
+    ],
+    [
+      98,
+      117
+    ],
+    [
+      73,
+      115
+    ],
+    [
+      96,
+      115
+    ],
+    [
+      102,
+      121
+    ],
+    null,
+    null,
+    [
+      80,
+      85
+    ],
+    null,
+    null,
+    [
+      106,
+      115
+    ],
+    [
+      82,
+      119
+    ],
+    [
+      106,
+      109
+    ],
+    null,
+    [
+      82,
+      87
+    ],
+    [
+      79,
+      81
+    ],
+    [
+      106,
+      118
+    ],
+    [
+      108,
+      121
+    ]
+  ],
+  "art_qa": "provisional; pixel clearance is not per-leg stance/flight certification; no integration"
+}

@@ -1,0 +1,10 @@
+{
+  "frames_rendered": 54,
+  "head_region_unique": 1,
+  "composed_frame_unique": 54,
+  "outside_head_pixels_identical": true,
+  "source_png_copies_byte_identical": true,
+  "controls": "load gate, timeline, lock off identity, mirror, guide, reset, play/pause passed",
+  "renderer": "offline actual preview JS + napi Canvas; not browser/native GPU",
+  "limitation": "head polygon excludes left upper tail; hair/neck boundary still needs visual acceptance"
+}

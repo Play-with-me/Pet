@@ -1,0 +1,11 @@
+{
+  "cases": 13,
+  "authored_turn_frames": {
+    "turn_side_34": 8,
+    "turn_34_front": 8,
+    "turn_front_34": 8,
+    "turn_34_side": 8
+  },
+  "canonical_endpoints": true,
+  "front_endpoint_mirror": false
+}

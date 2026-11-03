@@ -1,0 +1,14 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+   Compiling bongocat-live2d-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d-render)
+   Compiling bongocat-live2d v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 10.31s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-b7f27b0ae4c0062b.exe)
+
+running 1 test
+PASS direction art:54frames Presented in each mirror at320px/Nearest; fixed-window visual asset test, not autonomous route, foot-lock, measured cadence or visual acceptance
+test windows::companion::sprites::tests::native160_direction_art_presents_every_frame_both_mirrors ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 172 filtered out; finished in 3.92s
+

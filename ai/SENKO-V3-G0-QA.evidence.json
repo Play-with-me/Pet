@@ -1,0 +1,87 @@
+{
+  "id": "SENKO-V3-G0-QA",
+  "date": "2026-10-27",
+  "status": "qa-complete-at-leader-30-minute-threshold",
+  "leader_override": "30 minutes, not 61",
+  "elapsed_seconds": 1801.3417113,
+  "production_pid": 26680,
+  "interactive_context": "test-only activation harness sharing actual Senko loop",
+  "artifacts": [
+    {
+      "path": "BongoCat/crates/bongocat-overlay/src/windows/companion.rs",
+      "sha256": "4ED638841411BDE758AA6E4FD85B2E48C3A212CAED56FE234E7790FD6E06D76D"
+    },
+    {
+      "path": "BongoCat/crates/bongocat-overlay/src/windows/companion_qa.rs",
+      "sha256": "AD051504DC06088536E1B986C010930257F3EBFD6126ADF98EA00A5CEB62DE52"
+    },
+    {
+      "path": "BongoCat/target/release/examples/companion_senko.exe",
+      "sha256": "EDB563E5392F2BA3F8BCAD7225A67663B70228D8940E4367F82240364B24409B"
+    },
+    {
+      "path": "ai/SENKO_V3_G0_QA.md",
+      "sha256": "6133AA206854F5A4EE12CC1EABBE6907F25F82C963784BB24E84DD6EE39C1BDC"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/interactive-summary.json",
+      "sha256": "A5F41295ABFE842AC8CD1D2548DE5BB07B6D309CEDA4FF685B0157E73CB27027"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/interactive-analysis.json",
+      "sha256": "5C4042D9658B57763A5BCCBB4FDFD37267AF81AB017E3AD541C4F0B057D2474B"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/hover-30s.json",
+      "sha256": "FA375BA7AFA3F1B8E3428398DFA7CBDAAEE16182DD2F335A66A6C3F27045EE8D"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/native-alpha-routing.json",
+      "sha256": "E48CBE6631F2622FA6A1CE3F21E0405E499CD6E76B7F666C533DC2FCE4748F20"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/native-alpha-test.log",
+      "sha256": "616678E5CFE91238B43C66DA59874F74D95227E5448ADEDE874AD3BD51A25537"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/overlay-tests.log",
+      "sha256": "FE9842AD6D9AA21129E3C5FD4033961C2D01B383AF63CA75C96CF894DC1938EA"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/c03-native.log",
+      "sha256": "06BCC3E8BC47F21C2AF67EEA8BDE894759D331FC0E7DEB530A31CED621DFDC3C"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/c04-native.log",
+      "sha256": "816D767F43C06DC15B9E5B95D0FF00F9F019CC0EC7E190EF539CD73CC2E32EA0"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/c05-native.log",
+      "sha256": "3553B67FA07DB48AD37EF729471EFED84F5014DFDA881A5402E9102E32F4CB6F"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/clippy.log",
+      "sha256": "38080C790147DE46F3282C5711BAADF62055F52D997A02BFDAB8759C2FD80636"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/fmt-changed.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/soak-2/soak-start.json",
+      "sha256": "931CB4EE57AEB5DE54EF14F8718CCC376A1E45564F0E3D2BB009F95681476486"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/soak-2/soak-result.json",
+      "sha256": "B160414FDCEE1FFB17875F16A36CDC68C9B2058A12CB262123022910C701FB1B"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/soak-2/soak-samples.jsonl",
+      "sha256": "2C0CCE677446A4E5BCD2EDC5B62AF855990097E01D96FB661F0F2FD904E0999E"
+    },
+    {
+      "path": "ai/logs/SENKO-G0-QA/soak-2/soak-summary.json",
+      "sha256": "D2CA8DD3E31B8A0BB3999CDF7AA9D63C5D791DCD48CE511CA09FA027F8518EB5"
+    }
+  ]
+}

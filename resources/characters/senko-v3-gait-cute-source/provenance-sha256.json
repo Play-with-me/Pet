@@ -1,0 +1,43 @@
+{
+  "tool": "Built-in ImageGen; model not exposed",
+  "selected": [
+    "walk_side.png",
+    "run_side.png"
+  ],
+  "rejected": [
+    "static-cute-rejected.png",
+    "static-trot-rejected.png"
+  ],
+  "base": "senko-v3-g2/candidate-v2",
+  "final": "senko-v3-g2/candidate-v4-cute-gait",
+  "frames": 217,
+  "clips": 45,
+  "unchanged_pngs": 201,
+  "files": [
+    {
+      "file": "PROMPTS.md",
+      "sha256": "1A7EF375715437B54C0FC975FA1769143BB5889211EB2784DEECB92E23057FC2",
+      "bytes": 6583
+    },
+    {
+      "file": "run_side.png",
+      "sha256": "7B1B01E2C6417F6FE57273B63D3C528CA064C76F33E9FD34231AAD42F12AEDF9",
+      "bytes": 1526593
+    },
+    {
+      "file": "static-cute-rejected.png",
+      "sha256": "6300E2BEF4B6D18B5F08D80B2F2BB936057E66B07213B51DD2D80FC4930D39B9",
+      "bytes": 1451205
+    },
+    {
+      "file": "static-trot-rejected.png",
+      "sha256": "F87C2340509DAF38F77DD75394298B32303E369686910229F1B0B569C0FA53DE",
+      "bytes": 1493912
+    },
+    {
+      "file": "walk_side.png",
+      "sha256": "42A49AC8EE32EF47BD8ADE620A429BC7D2CA38F9EC53040A962639E3B5119A7C",
+      "bytes": 1492524
+    }
+  ]
+}

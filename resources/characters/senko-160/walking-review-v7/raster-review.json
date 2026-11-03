@@ -1,0 +1,1544 @@
+{
+  "clock": "Per-pack manifest duration/frame count; no native Present/cadence measurement.",
+  "packs": [
+    {
+      "cycle_distance": 144.0,
+      "cycle_ms": 1200.0,
+      "frame_ms": [
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23
+      ],
+      "label": "before",
+      "rows": [
+        {
+          "baseline_y": 152,
+          "frame": 0,
+          "image": "before-0.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              74,
+              82
+            ],
+            [
+              110,
+              118
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 1,
+          "image": "before-1.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              72,
+              80
+            ],
+            [
+              108,
+              116
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 2,
+          "image": "before-2.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              71,
+              79
+            ],
+            [
+              107,
+              115
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 3,
+          "image": "before-3.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              70,
+              78
+            ],
+            [
+              106,
+              114
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 4,
+          "image": "before-4.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              68,
+              76
+            ],
+            [
+              104,
+              112
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 5,
+          "image": "before-5.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              67,
+              75
+            ],
+            [
+              103,
+              111
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 6,
+          "image": "before-6.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              66,
+              74
+            ],
+            [
+              102,
+              110
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 7,
+          "image": "before-7.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              100,
+              108
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 8,
+          "image": "before-8.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              99,
+              107
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 9,
+          "image": "before-9.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              98,
+              106
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 10,
+          "image": "before-10.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              96,
+              104
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 11,
+          "image": "before-11.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              95,
+              103
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 12,
+          "image": "before-12.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              94,
+              102
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 13,
+          "image": "before-13.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              92,
+              100
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 14,
+          "image": "before-14.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              91,
+              99
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 15,
+          "image": "before-15.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              90,
+              98
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 16,
+          "image": "before-16.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              88,
+              96
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 17,
+          "image": "before-17.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              87,
+              95
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 18,
+          "image": "before-18.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              86,
+              94
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 19,
+          "image": "before-19.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              84,
+              92
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 20,
+          "image": "before-20.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              83,
+              91
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 21,
+          "image": "before-21.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              82,
+              90
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 22,
+          "image": "before-22.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              80,
+              88
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 23,
+          "image": "before-23.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              79,
+              87
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 24,
+          "image": "before-24.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              78,
+              86
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 25,
+          "image": "before-25.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              76,
+              84
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 26,
+          "image": "before-26.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              75,
+              83
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 27,
+          "image": "before-27.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              74,
+              82
+            ],
+            [
+              110,
+              118
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 28,
+          "image": "before-28.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              72,
+              80
+            ],
+            [
+              108,
+              116
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 29,
+          "image": "before-29.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              71,
+              79
+            ],
+            [
+              107,
+              115
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 30,
+          "image": "before-30.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              70,
+              78
+            ],
+            [
+              106,
+              114
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 31,
+          "image": "before-31.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              68,
+              76
+            ],
+            [
+              104,
+              112
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 32,
+          "image": "before-32.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              67,
+              75
+            ],
+            [
+              103,
+              111
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 33,
+          "image": "before-33.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              66,
+              74
+            ],
+            [
+              102,
+              110
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 34,
+          "image": "before-34.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              100,
+              108
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 35,
+          "image": "before-35.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              99,
+              107
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 36,
+          "image": "before-36.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              98,
+              106
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 37,
+          "image": "before-37.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              96,
+              104
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 38,
+          "image": "before-38.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              95,
+              103
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 39,
+          "image": "before-39.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              94,
+              102
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 40,
+          "image": "before-40.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              92,
+              100
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 41,
+          "image": "before-41.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              91,
+              99
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 42,
+          "image": "before-42.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              90,
+              98
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 43,
+          "image": "before-43.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              88,
+              96
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 44,
+          "image": "before-44.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              87,
+              95
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 45,
+          "image": "before-45.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              86,
+              94
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 46,
+          "image": "before-46.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              84,
+              92
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 47,
+          "image": "before-47.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              83,
+              91
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 48,
+          "image": "before-48.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              82,
+              90
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 49,
+          "image": "before-49.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              80,
+              88
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 50,
+          "image": "before-50.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              79,
+              87
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 51,
+          "image": "before-51.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              78,
+              86
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 52,
+          "image": "before-52.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              76,
+              84
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 53,
+          "image": "before-53.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              75,
+              83
+            ]
+          ]
+        }
+      ],
+      "source": "resources/characters/senko-160/walk-grounded-54-v7"
+    },
+    {
+      "cycle_distance": 144.0,
+      "cycle_ms": 1200.0,
+      "frame_ms": [
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        22,
+        23,
+        22,
+        22,
+        22,
+        23
+      ],
+      "label": "after",
+      "rows": [
+        {
+          "baseline_y": 152,
+          "frame": 0,
+          "image": "after-0.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              74,
+              82
+            ],
+            [
+              110,
+              118
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 1,
+          "image": "after-1.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              72,
+              80
+            ],
+            [
+              108,
+              116
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 2,
+          "image": "after-2.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              71,
+              79
+            ],
+            [
+              107,
+              115
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 3,
+          "image": "after-3.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              70,
+              78
+            ],
+            [
+              106,
+              114
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 4,
+          "image": "after-4.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              68,
+              76
+            ],
+            [
+              104,
+              112
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 5,
+          "image": "after-5.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              67,
+              75
+            ],
+            [
+              103,
+              111
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 6,
+          "image": "after-6.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              66,
+              74
+            ],
+            [
+              102,
+              110
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 7,
+          "image": "after-7.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              100,
+              108
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 8,
+          "image": "after-8.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              99,
+              107
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 9,
+          "image": "after-9.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              98,
+              106
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 10,
+          "image": "after-10.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              96,
+              104
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 11,
+          "image": "after-11.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              95,
+              103
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 12,
+          "image": "after-12.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              94,
+              102
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 13,
+          "image": "after-13.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              92,
+              100
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 14,
+          "image": "after-14.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              91,
+              99
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 15,
+          "image": "after-15.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              90,
+              98
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 16,
+          "image": "after-16.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              88,
+              96
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 17,
+          "image": "after-17.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              87,
+              95
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 18,
+          "image": "after-18.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              86,
+              94
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 19,
+          "image": "after-19.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              84,
+              92
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 20,
+          "image": "after-20.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              83,
+              91
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 21,
+          "image": "after-21.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              82,
+              90
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 22,
+          "image": "after-22.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              80,
+              88
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 23,
+          "image": "after-23.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              79,
+              87
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 24,
+          "image": "after-24.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              78,
+              86
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 25,
+          "image": "after-25.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              76,
+              84
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 26,
+          "image": "after-26.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              75,
+              83
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 27,
+          "image": "after-27.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              74,
+              82
+            ],
+            [
+              110,
+              118
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 28,
+          "image": "after-28.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              72,
+              80
+            ],
+            [
+              108,
+              116
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 29,
+          "image": "after-29.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              71,
+              79
+            ],
+            [
+              107,
+              115
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 30,
+          "image": "after-30.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              70,
+              78
+            ],
+            [
+              106,
+              114
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 31,
+          "image": "after-31.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              68,
+              76
+            ],
+            [
+              104,
+              112
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 32,
+          "image": "after-32.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              67,
+              75
+            ],
+            [
+              103,
+              111
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 33,
+          "image": "after-33.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              66,
+              74
+            ],
+            [
+              102,
+              110
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 34,
+          "image": "after-34.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              100,
+              108
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 35,
+          "image": "after-35.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              99,
+              107
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 36,
+          "image": "after-36.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              98,
+              106
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 37,
+          "image": "after-37.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              96,
+              104
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 38,
+          "image": "after-38.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              95,
+              103
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 39,
+          "image": "after-39.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              94,
+              102
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 40,
+          "image": "after-40.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              92,
+              100
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 41,
+          "image": "after-41.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              91,
+              99
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 42,
+          "image": "after-42.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              90,
+              98
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 43,
+          "image": "after-43.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              88,
+              96
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 44,
+          "image": "after-44.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              87,
+              95
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 45,
+          "image": "after-45.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              86,
+              94
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 46,
+          "image": "after-46.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              84,
+              92
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 47,
+          "image": "after-47.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              83,
+              91
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 48,
+          "image": "after-48.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              82,
+              90
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 49,
+          "image": "after-49.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              80,
+              88
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 50,
+          "image": "after-50.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              79,
+              87
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 51,
+          "image": "after-51.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              78,
+              86
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 52,
+          "image": "after-52.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              76,
+              84
+            ]
+          ]
+        },
+        {
+          "baseline_y": 152,
+          "frame": 53,
+          "image": "after-53.png",
+          "meaning": "raster silhouette only; no anatomical identity or planted-foot claim",
+          "opaque_baseline_runs_inclusive": [
+            [
+              75,
+              83
+            ]
+          ]
+        }
+      ],
+      "source": "resources/characters/senko-160/walk-grounded-54-v11"
+    }
+  ],
+  "reference_speed": 120,
+  "status": "diagnostic_only_not_full_stance_approval",
+  "timeline_ms": 2400
+}

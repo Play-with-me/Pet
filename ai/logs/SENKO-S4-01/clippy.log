@@ -1,0 +1,10 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Checking windows v0.62.2
+    Checking cpal v0.18.2
+    Checking gilrs-core v0.6.8 (https://github.com/ayangweb/gilrs?rev=c7e97f54e9e4b10ff89d3527560a22f6817329ea#c7e97f54)
+    Checking gilrs v0.11.2 (https://github.com/ayangweb/gilrs?rev=c7e97f54e9e4b10ff89d3527560a22f6817329ea#c7e97f54)
+    Checking rodio v0.23.0
+    Checking bongocat-platform v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-platform)
+    Checking bongocat-audio v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-audio)
+    Checking bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 25.42s

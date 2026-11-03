@@ -1,0 +1,4 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.48s
+     Running `target\debug\senko_asset_pipeline.exe --walk160 ../resources/characters/senko-160-source/gait/walk-side-36-v1-rejected.png 6 ../resources/characters/senko-v3-g2/candidate-v5-flow ../resources/characters/senko-160/walk-side-36-v1`
+Senko asset pipeline: The system cannot find the file specified. (os error 2)
+error: process didn't exit successfully: `target\debug\senko_asset_pipeline.exe --walk160 ../resources/characters/senko-160-source/gait/walk-side-36-v1-rejected.png 6 ../resources/characters/senko-v3-g2/candidate-v5-flow ../resources/characters/senko-160/walk-side-36-v1` (exit code: 1)

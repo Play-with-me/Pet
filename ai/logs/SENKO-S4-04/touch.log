@@ -1,0 +1,24 @@
+   Compiling bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+   Compiling bongocat-live2d-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d-render)
+   Compiling bongocat-live2d v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 11.30s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_runtime-a480845dede9478a.exe)
+
+running 7 tests
+test senko_touch::tests::held_pause_missing_input_gaps_and_rollbacks_never_replay_old_touch ... ok
+test senko_touch::tests::tail_stroke_and_long_head_care_emit_deferred_p2_requests_once ... ok
+test senko_touch::tests::two_deliberate_reversals_can_trigger_before_hover_but_jitter_cannot ... ok
+test senko_touch::tests::care_rewards_are_episode_events_and_bounded ... ok
+test senko_touch::tests::head_hover_triggers_once_at_500ms_then_requires_real_exit ... ok
+test senko_touch::tests::touch_preempts_glance_without_resetting_a_walk_into_an_unsafe_step ... ok
+test senko_touch::tests::headpat_turns_through_intermediates_plays_once_and_yields_to_held_or_fall ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 208 filtered out; finished in 0.41s
+
+     Running tests\shared_input_fixtures.rs (target\debug\deps\shared_input_fixtures-4e200e83c31a4a65.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+

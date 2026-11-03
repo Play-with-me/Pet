@@ -1,0 +1,1 @@
+[{"sample":"opaque","right":true,"routes_to_pet":true},{"sample":"clear","right":true,"routes_to_pet":false},{"sample":"opaque","right":false,"routes_to_pet":true},{"sample":"clear","right":false,"routes_to_pet":false}]

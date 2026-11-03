@@ -1,0 +1,11 @@
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+error: no rules expected `"frame.png"`
+   --> crates\bongocat-runtime\src\animator.rs:997:71
+    |
+997 | ...   m["clips"][name] = serde_json::json!({"frames":3,"files":["frame.png";3],"ms":22,"frame_ms":[22,23,22],"stride_px":0,"loop":f...
+    |                                                                 ^^^^^^^^^^^ no rules expected this token in macro call
+    |
+    = note: while trying to match end of macro
+
+error: could not compile `bongocat-runtime` (lib test) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...

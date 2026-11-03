@@ -1,0 +1,17 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Checking bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+error: called `unwrap` on `o.cue` after checking its variant with `is_some`
+  --> crates\bongocat-runtime\src\senko_pointer_tests.rs:22:21
+   |
+20 |         if o.cue.is_some() {
+   |         ------------------ help: try: `if let Some(<item>) = o.cue`
+21 |             cues += 1;
+22 |             assert!(o.cue.unwrap().look_up);
+   |                     ^^^^^^^^^^^^^^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#unnecessary_unwrap
+   = note: `-D clippy::unnecessary-unwrap` implied by `-D warnings`
+   = help: to override `-D warnings` add `#[allow(clippy::unnecessary_unwrap)]`
+
+error: could not compile `bongocat-runtime` (lib test) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...

@@ -1,0 +1,192 @@
+{
+  "cycle_distance_px": 128.0,
+  "note": "One common transform preserves flight clearance/body bob. Sync0/9 provisional pending foot identity/contact/stance and loop QA. Not proof of natural running; no motor/physics changes.",
+  "poses": [
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        129,
+        152
+      ],
+      "clearance_from_ground_px": 0,
+      "frame": 0
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        133,
+        152
+      ],
+      "clearance_from_ground_px": 0,
+      "frame": 1
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        133,
+        152
+      ],
+      "clearance_from_ground_px": 0,
+      "frame": 2
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        136,
+        152
+      ],
+      "clearance_from_ground_px": 0,
+      "frame": 3
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        138,
+        151
+      ],
+      "clearance_from_ground_px": 1,
+      "frame": 4
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        139,
+        147
+      ],
+      "clearance_from_ground_px": 5,
+      "frame": 5
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        132,
+        145
+      ],
+      "clearance_from_ground_px": 7,
+      "frame": 6
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        133,
+        150
+      ],
+      "clearance_from_ground_px": 2,
+      "frame": 7
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        132,
+        150
+      ],
+      "clearance_from_ground_px": 2,
+      "frame": 8
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        133,
+        146
+      ],
+      "clearance_from_ground_px": 6,
+      "frame": 9
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        138,
+        150
+      ],
+      "clearance_from_ground_px": 2,
+      "frame": 10
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        135,
+        150
+      ],
+      "clearance_from_ground_px": 2,
+      "frame": 11
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        137,
+        149
+      ],
+      "clearance_from_ground_px": 3,
+      "frame": 12
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        138,
+        144
+      ],
+      "clearance_from_ground_px": 8,
+      "frame": 13
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        134,
+        150
+      ],
+      "clearance_from_ground_px": 2,
+      "frame": 14
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        134,
+        149
+      ],
+      "clearance_from_ground_px": 3,
+      "frame": 15
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        133,
+        149
+      ],
+      "clearance_from_ground_px": 3,
+      "frame": 16
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        132,
+        150
+      ],
+      "clearance_from_ground_px": 2,
+      "frame": 17
+    }
+  ],
+  "reference_cycle_ms": 400,
+  "reference_speed_px_s": 320.0,
+  "shared_axis": 107.5,
+  "shared_scale": 0.46096654275092935,
+  "shared_source_baseline": 273,
+  "status": "run_art_candidate_not_integrated"
+}

@@ -1,0 +1,19 @@
+## Corrective held v2
+
+Edit-reference task: create exactly FOUR new in-between pixel-art Senko poses arranged 4 columns x 1 row on pure solid magenta #FF00FF. Reference image is the approved FOUR keyframes (left to right A B C D). Output ONLY intermediate poses AB, BC, CD, DA, one per cell. Preserve exact character silhouette proportions, head size, hair outline, ear angles, face position and clothing from reference. Keep head and torso almost identical to reference because this is a subtle held-happy idle, not a redesign. Tiny eyelid changes and tiny tail sway are sufficient. Do NOT change face to new chibi design. All four face directly FRONT. No floating hand, no labels, no shadows. Match original chunky pixel-art edges and limited warm palette. Baseline consistent; 4 evenly separated cells. Each intermediate should be visually between its two neighboring reference poses, not an unrelated pose. Reference is a sprite strip on checkerboard; output magenta background without checkerboard.
+
+## Corrective walk v2
+
+Create a pixel-art in-between sprite sheet, exactly EIGHT poses in 4 columns x 2 rows on solid magenta #FF00FF. The reference contains eight APPROVED walking keyframes A B C D / E F G H, read row-major. Output only intermediate poses AB BC CD DE / EF FG GH HA in row-major order. Preserve the exact reference character model, head size, facial profile, ear angles, hair contour, outfit, tail size, and pixel-art style. Character faces RIGHT, strict side profile in every cell. No redesign or rotated views. Walking: for every pair interpolate leg/arm positions halfway, with opposite arm swing, heel/toe passing motion and small tail follow-through; keep head silhouette nearly unchanged from adjacent keys. Match the reference body's height and width, no zoom or growing ears. Keep all feet at common cell baseline and enough magenta margin, no text, no grid lines, no shadows. Eight distinct halfway poses, evenly spaced. This will be interleaved with the original reference pixels, so identity and silhouette continuity matter more than embellishment.
+
+## Corrective run v2
+
+Create exactly EIGHT new in-between pixel-art running sprite poses in 4 columns x 2 rows on pure magenta #FF00FF. Reference is EIGHT approved keys A B C D / E F G H. Output halfway poses AB BC CD DE / EF FG GH HA. This will be interleaved with original reference PNGs. Copy the exact approved model, head/hair/ear silhouette, tail size, face profile and outfit; DO NOT redesign or change proportions. Face RIGHT in strict side view. Running with forward torso lean, interpolate arms and legs from each endpoint pair, include passing and airborne halfway motion. Maintain reference tiny chunky pixel-art style, no extra detail, no shadows, no checkerboard. Evenly separated 4x2 cells, common baseline, full body visible. Every pose must be the geometric midpoint of adjacent reference keys, not an independent new gesture.
+
+## Corrective headpat v2
+
+Create FIVE new in-between pixel-art poses arranged 3 columns x 2 rows, first five cells filled, LAST cell EMPTY magenta. Pure #FF00FF background. Reference contains SIX approved headpat reaction keys A B C D / E F [blank blank]. Output halfway poses AB BC CD / DE EF [empty]. Preserve exact reference Senko model/head/hair contour/tail/clothes and tiny pixel-art style. These frames will be interleaved with original reference pixels: do not redesign the face or enlarge ears. Smoothly interpolate head tilt, ears flattening then raising, eyelid narrowing then opening, posture from three-quarter right to frontal as the reference does. Exact same hairstyle and facial proportions, not generic anime. Full body, consistent baseline, generous empty margins. No human hand, no text, shadows or checkerboard. Only five different halfway poses.
+
+## Corrective start v2
+
+undefined

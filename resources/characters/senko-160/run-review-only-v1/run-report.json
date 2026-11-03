@@ -1,0 +1,193 @@
+{
+  "cycle_distance_px": 128.0,
+  "note": "Fixed grid and shared transform retain flight clearance. Review-only pack omits distance run_side and syncs; source touchdown/stance/loop not accepted. No motor/physics changes.",
+  "poses": [
+    {
+      "bounds_inclusive": [
+        33,
+        29,
+        135,
+        152
+      ],
+      "clearance_from_ground_px": 0,
+      "frame": 0
+    },
+    {
+      "bounds_inclusive": [
+        29,
+        29,
+        136,
+        152
+      ],
+      "clearance_from_ground_px": 0,
+      "frame": 1
+    },
+    {
+      "bounds_inclusive": [
+        30,
+        29,
+        135,
+        152
+      ],
+      "clearance_from_ground_px": 0,
+      "frame": 2
+    },
+    {
+      "bounds_inclusive": [
+        26,
+        29,
+        135,
+        152
+      ],
+      "clearance_from_ground_px": 0,
+      "frame": 3
+    },
+    {
+      "bounds_inclusive": [
+        28,
+        29,
+        140,
+        152
+      ],
+      "clearance_from_ground_px": 0,
+      "frame": 4
+    },
+    {
+      "bounds_inclusive": [
+        31,
+        29,
+        144,
+        147
+      ],
+      "clearance_from_ground_px": 5,
+      "frame": 5
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        135,
+        145
+      ],
+      "clearance_from_ground_px": 7,
+      "frame": 6
+    },
+    {
+      "bounds_inclusive": [
+        28,
+        29,
+        133,
+        149
+      ],
+      "clearance_from_ground_px": 3,
+      "frame": 7
+    },
+    {
+      "bounds_inclusive": [
+        28,
+        29,
+        132,
+        147
+      ],
+      "clearance_from_ground_px": 5,
+      "frame": 8
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        30,
+        131,
+        148
+      ],
+      "clearance_from_ground_px": 4,
+      "frame": 9
+    },
+    {
+      "bounds_inclusive": [
+        29,
+        29,
+        138,
+        149
+      ],
+      "clearance_from_ground_px": 3,
+      "frame": 10
+    },
+    {
+      "bounds_inclusive": [
+        34,
+        29,
+        139,
+        149
+      ],
+      "clearance_from_ground_px": 3,
+      "frame": 11
+    },
+    {
+      "bounds_inclusive": [
+        27,
+        28,
+        136,
+        149
+      ],
+      "clearance_from_ground_px": 3,
+      "frame": 12
+    },
+    {
+      "bounds_inclusive": [
+        27,
+        28,
+        138,
+        144
+      ],
+      "clearance_from_ground_px": 8,
+      "frame": 13
+    },
+    {
+      "bounds_inclusive": [
+        28,
+        28,
+        135,
+        149
+      ],
+      "clearance_from_ground_px": 3,
+      "frame": 14
+    },
+    {
+      "bounds_inclusive": [
+        33,
+        28,
+        137,
+        149
+      ],
+      "clearance_from_ground_px": 3,
+      "frame": 15
+    },
+    {
+      "bounds_inclusive": [
+        34,
+        28,
+        139,
+        149
+      ],
+      "clearance_from_ground_px": 3,
+      "frame": 16
+    },
+    {
+      "bounds_inclusive": [
+        34,
+        28,
+        140,
+        149
+      ],
+      "clearance_from_ground_px": 3,
+      "frame": 17
+    }
+  ],
+  "reference_cycle_ms": 400,
+  "reference_speed_px_s": 320.0,
+  "review_only": true,
+  "shared_axis": 134.5,
+  "shared_scale": 0.45255474452554745,
+  "shared_source_baseline": 287,
+  "status": "run_art_candidate_not_integrated"
+}

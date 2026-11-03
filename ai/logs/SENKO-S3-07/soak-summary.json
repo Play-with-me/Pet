@@ -1,0 +1,18 @@
+{
+  "samples": 61,
+  "elapsed_seconds": 1801.395948,
+  "cpu_seconds_delta": 75.046875,
+  "working_set_min": 36655104.0,
+  "working_set_max": 50245632.0,
+  "private_bytes_min": 78258176.0,
+  "private_bytes_max": 78405632.0,
+  "handles_min": 599.0,
+  "handles_max": 607.0,
+  "processes": [
+    {
+      "Id": 29196,
+      "Responding": true,
+      "Path": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\BongoCat\\target\\release\\examples\\companion_senko.exe"
+    }
+  ]
+}

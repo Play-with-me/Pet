@@ -1,0 +1,14 @@
+   Compiling bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.67s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_render-ea67bcce6c65f909.exe)
+
+running 6 tests
+test sprite_anim::tests::mask_uses_actual_mirror_and_rejects_outside ... ok
+test sprite_anim::tests::paths_cannot_escape ... ok
+test sprite_anim::tests::interaction_regions_follow_each_frame_alpha_bounds_and_actual_mirror ... ok
+test sprite_anim::tests::invalid_manifest_and_missing_asset_fail_without_fallback ... ok
+test sprite_anim::tests::mixed_delays_and_terminal_hold_are_respected ... ok
+test sprite_anim::tests::senko_navigation_requires_named_timed_clips_before_integration ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 24 filtered out; finished in 0.22s
+

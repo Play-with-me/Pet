@@ -1,0 +1,316 @@
+{
+  "resources/characters/senko-160/turn-side-front-v1": {
+    "height_range": [
+      124,
+      127
+    ],
+    "area_range": [
+      7563,
+      8427
+    ],
+    "rows": [
+      {
+        "frame": 0,
+        "height": 124,
+        "bounds": [
+          27,
+          29,
+          131,
+          153
+        ],
+        "opaque_area": 7630,
+        "red_waist_median": 69.5
+      },
+      {
+        "frame": 1,
+        "height": 124,
+        "bounds": [
+          28,
+          29,
+          131,
+          153
+        ],
+        "opaque_area": 7707,
+        "red_waist_median": 69.0
+      },
+      {
+        "frame": 2,
+        "height": 124,
+        "bounds": [
+          29,
+          29,
+          128,
+          153
+        ],
+        "opaque_area": 7563,
+        "red_waist_median": 69
+      },
+      {
+        "frame": 3,
+        "height": 124,
+        "bounds": [
+          25,
+          29,
+          128,
+          153
+        ],
+        "opaque_area": 7892,
+        "red_waist_median": 65
+      },
+      {
+        "frame": 4,
+        "height": 125,
+        "bounds": [
+          24,
+          28,
+          125,
+          153
+        ],
+        "opaque_area": 7767,
+        "red_waist_median": 63
+      },
+      {
+        "frame": 5,
+        "height": 124,
+        "bounds": [
+          23,
+          29,
+          124,
+          153
+        ],
+        "opaque_area": 7864,
+        "red_waist_median": 64
+      },
+      {
+        "frame": 6,
+        "height": 125,
+        "bounds": [
+          23,
+          28,
+          127,
+          153
+        ],
+        "opaque_area": 8065,
+        "red_waist_median": 66.0
+      },
+      {
+        "frame": 7,
+        "height": 125,
+        "bounds": [
+          24,
+          28,
+          129,
+          153
+        ],
+        "opaque_area": 8128,
+        "red_waist_median": 66
+      },
+      {
+        "frame": 8,
+        "height": 127,
+        "bounds": [
+          22,
+          26,
+          129,
+          153
+        ],
+        "opaque_area": 8382,
+        "red_waist_median": 65
+      },
+      {
+        "frame": 9,
+        "height": 126,
+        "bounds": [
+          22,
+          27,
+          130,
+          153
+        ],
+        "opaque_area": 8427,
+        "red_waist_median": 65
+      },
+      {
+        "frame": 10,
+        "height": 126,
+        "bounds": [
+          22,
+          27,
+          128,
+          153
+        ],
+        "opaque_area": 8290,
+        "red_waist_median": 63.0
+      },
+      {
+        "frame": 11,
+        "height": 126,
+        "bounds": [
+          24,
+          27,
+          130,
+          153
+        ],
+        "opaque_area": 8303,
+        "red_waist_median": 63.0
+      }
+    ],
+    "interpretation": "Read-only raster measurements; projected area changes with yaw; waist color median is a diagnostic, not proven skeletal pivot."
+  },
+  "resources/characters/senko-160/turn-side-front-v2": {
+    "height_range": [
+      124,
+      127
+    ],
+    "area_range": [
+      7700,
+      8552
+    ],
+    "rows": [
+      {
+        "frame": 0,
+        "height": 124,
+        "bounds": [
+          27,
+          29,
+          131,
+          153
+        ],
+        "opaque_area": 7700,
+        "red_waist_median": 70
+      },
+      {
+        "frame": 1,
+        "height": 125,
+        "bounds": [
+          27,
+          28,
+          132,
+          153
+        ],
+        "opaque_area": 7848,
+        "red_waist_median": 70.0
+      },
+      {
+        "frame": 2,
+        "height": 125,
+        "bounds": [
+          30,
+          28,
+          129,
+          153
+        ],
+        "opaque_area": 7701,
+        "red_waist_median": 70.0
+      },
+      {
+        "frame": 3,
+        "height": 125,
+        "bounds": [
+          25,
+          28,
+          130,
+          153
+        ],
+        "opaque_area": 8036,
+        "red_waist_median": 67.0
+      },
+      {
+        "frame": 4,
+        "height": 125,
+        "bounds": [
+          26,
+          28,
+          127,
+          153
+        ],
+        "opaque_area": 7906,
+        "red_waist_median": 66
+      },
+      {
+        "frame": 5,
+        "height": 125,
+        "bounds": [
+          25,
+          28,
+          127,
+          153
+        ],
+        "opaque_area": 7983,
+        "red_waist_median": 67.0
+      },
+      {
+        "frame": 6,
+        "height": 126,
+        "bounds": [
+          25,
+          27,
+          131,
+          153
+        ],
+        "opaque_area": 8278,
+        "red_waist_median": 69
+      },
+      {
+        "frame": 7,
+        "height": 127,
+        "bounds": [
+          26,
+          26,
+          131,
+          153
+        ],
+        "opaque_area": 8386,
+        "red_waist_median": 69.0
+      },
+      {
+        "frame": 8,
+        "height": 127,
+        "bounds": [
+          24,
+          26,
+          130,
+          153
+        ],
+        "opaque_area": 8497,
+        "red_waist_median": 68
+      },
+      {
+        "frame": 9,
+        "height": 127,
+        "bounds": [
+          26,
+          26,
+          132,
+          153
+        ],
+        "opaque_area": 8552,
+        "red_waist_median": 69.0
+      },
+      {
+        "frame": 10,
+        "height": 127,
+        "bounds": [
+          24,
+          26,
+          131,
+          153
+        ],
+        "opaque_area": 8478,
+        "red_waist_median": 65
+      },
+      {
+        "frame": 11,
+        "height": 127,
+        "bounds": [
+          24,
+          26,
+          131,
+          153
+        ],
+        "opaque_area": 8465,
+        "red_waist_median": 64
+      }
+    ],
+    "interpretation": "Read-only raster measurements; projected area changes with yaw; waist color median is a diagnostic, not proven skeletal pivot."
+  }
+}

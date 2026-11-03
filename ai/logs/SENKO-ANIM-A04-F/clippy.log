@@ -1,0 +1,18 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Checking bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+    Checking bongocat-live2d-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d-render)
+    Checking bongocat-live2d v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d)
+    Checking bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+error: manual `!Range::contains` implementation
+   --> crates\bongocat-overlay\src\bin\senko_asset_pipeline\walk_world160.rs:198:31
+    |
+198 |         let desired: f64 = if tick < 30 || tick >= 300 {
+    |                               ^^^^^^^^^^^^^^^^^^^^^^^^ help: use: `!(30..300).contains(&tick)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#manual_range_contains
+    = note: `-D clippy::manual-range-contains` implied by `-D warnings`
+    = help: to override `-D warnings` add `#[allow(clippy::manual_range_contains)]`
+
+error: could not compile `bongocat-overlay` (bin "senko_asset_pipeline") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `bongocat-overlay` (bin "senko_asset_pipeline" test) due to 1 previous error

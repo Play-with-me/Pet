@@ -1,0 +1,17 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 6.74s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-541e293bc15d0cfa.exe)
+
+running 8 tests
+test windows::companion::sprites::tests::fast_autonomous_chase_selects_run_even_with_zero_physics_velocity ... ok
+test windows::companion::sprites::tests::foot_anchor_is_independent_of_transparent_canvas ... ok
+test windows::companion::sprites::tests::frame_pacing_does_not_add_a_full_sleep_after_present ... ok
+test windows::companion::sprites::tests::locomotion_eases_in_and_never_exceeds_safe_distance ... ok
+test windows::companion::sprites::tests::manifest_native_grab_pause_reset_exit ... ignored, native production-style input regression; opt in
+test windows::companion::sprites::tests::manifest_senko_native_smoke ... ignored, native desktop smoke; opt in
+test windows::companion::sprites::tests::nearest_gpu_preserves_four_by_four_pixels_and_linear_default ... ignored, native GPU readback; opt in
+test windows::companion::sprites::tests::walking_and_fast_chase_use_actual_displacement_not_inertial_velocity ... ok
+
+test result: ok. 5 passed; 0 failed; 3 ignored; 0 measured; 118 filtered out; finished in 0.00s
+

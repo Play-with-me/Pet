@@ -1,0 +1,10 @@
+{
+  "fixture": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\ai\\logs\\SENKO-G0-QA\\empty-assets",
+  "error_log_recorded": true,
+  "native_dialog_seen_in_inventory": true,
+  "dialog_title": "Senko Pet",
+  "user_confirmed_manual_close": true,
+  "visual_capture": "dialog closed before screenshot",
+  "exit_code": "not captured",
+  "production_separation": "Development log/mutex, production release remained running"
+}

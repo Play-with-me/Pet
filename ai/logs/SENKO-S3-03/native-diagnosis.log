@@ -1,0 +1,22 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 8.20s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-6337767b5d0f5e35.exe)
+
+running 1 test
+overlap monitor rectangles: [MonitorRegion { id: 65537, display: DesktopRect { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }, work: DesktopRect { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 } }]; rectangles ahead: [DesktopRect { left: 459.0, top: 350.0, right: 691.0, bottom: 591.0 }, DesktopRect { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }]
+overlap fixtures: [WindowRegion { id: WindowId { token: 1181494, generation: 6 }, bounds: DesktopRect { left: 459.0, top: 350.0, right: 691.0, bottom: 591.0 }, climbable: true }, WindowRegion { id: WindowId { token: 1181570, generation: 17 }, bounds: DesktopRect { left: 209.0, top: 400.0, right: 991.0, bottom: 891.0 }, climbable: true }]; ledges: []
+
+thread 'windows::desktop_scan::tests::native_overlap_rebuilds_horizontal_and_vertical_fragments' (11296) panicked at crates\bongocat-overlay\src\windows\desktop_scan_tests.rs:172:9:
+native scanner condition timed out
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test windows::desktop_scan::tests::native_overlap_rebuilds_horizontal_and_vertical_fragments ... FAILED
+
+failures:
+
+failures:
+    windows::desktop_scan::tests::native_overlap_rebuilds_horizontal_and_vertical_fragments
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 131 filtered out; finished in 3.03s
+
+error: test failed, to rerun pass `-p bongocat-overlay --lib`

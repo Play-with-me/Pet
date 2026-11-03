@@ -1,0 +1,4 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.54s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --gait-raster-review160 resources/characters/senko-160/walk-tempo-36-v8 resources/characters/senko-160/walk-grounded-54-v2 resources/characters/senko-160/walking-review-v1`
+Senko asset pipeline: sprite library: walk_side/0.png: blank/soft alpha
+error: process didn't exit successfully: `BongoCat\target\debug\senko_asset_pipeline.exe --gait-raster-review160 resources/characters/senko-160/walk-tempo-36-v8 resources/characters/senko-160/walk-grounded-54-v2 resources/characters/senko-160/walking-review-v1` (exit code: 1)

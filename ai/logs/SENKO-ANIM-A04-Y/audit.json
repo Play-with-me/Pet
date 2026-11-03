@@ -1,0 +1,92 @@
+{
+  "frames": 54,
+  "cycle_px": 144,
+  "tests": "scrub, step/wrap, unlocked equality, mirror, pause, carry excludes phase, suspend clamp, PNG byte identity",
+  "trials": [
+    {
+      "hz": 30,
+      "speed": 0,
+      "distance": 0,
+      "carried": 800,
+      "frame": 0
+    },
+    {
+      "hz": 30,
+      "speed": 60,
+      "distance": 600.0000000000002,
+      "carried": 800,
+      "frame": 9
+    },
+    {
+      "hz": 30,
+      "speed": 120,
+      "distance": 1200.0000000000005,
+      "carried": 800,
+      "frame": 18
+    },
+    {
+      "hz": 30,
+      "speed": 180,
+      "distance": 1799.9999999999973,
+      "carried": 800,
+      "frame": 26
+    },
+    {
+      "hz": 60,
+      "speed": 0,
+      "distance": 0,
+      "carried": 800,
+      "frame": 0
+    },
+    {
+      "hz": 60,
+      "speed": 60,
+      "distance": 599.9999999999994,
+      "carried": 800,
+      "frame": 8
+    },
+    {
+      "hz": 60,
+      "speed": 120,
+      "distance": 1199.9999999999989,
+      "carried": 800,
+      "frame": 17
+    },
+    {
+      "hz": 60,
+      "speed": 180,
+      "distance": 1800.0000000000052,
+      "carried": 800,
+      "frame": 27
+    },
+    {
+      "hz": 120,
+      "speed": 0,
+      "distance": 0,
+      "carried": 800,
+      "frame": 0
+    },
+    {
+      "hz": 120,
+      "speed": 60,
+      "distance": 600.000000000001,
+      "carried": 800,
+      "frame": 9
+    },
+    {
+      "hz": 120,
+      "speed": 120,
+      "distance": 1200.000000000002,
+      "carried": 800,
+      "frame": 18
+    },
+    {
+      "hz": 120,
+      "speed": 180,
+      "distance": 1799.9999999999893,
+      "carried": 800,
+      "frame": 26
+    }
+  ],
+  "renderer": "actual preview JS offline napi Canvas; not browser/native GPU"
+}

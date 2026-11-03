@@ -1,0 +1,11 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 8.34s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-761f6507c6179b66.exe)
+
+running 1 test
+C03 native window=154x267 work_area=WorkArea { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }
+C03 frames=302 presented=302 position=Point { x: 2327.9112552712563, y: 1343.274232871 } velocity=Point { x: 0.0, y: 0.0 }
+C03 pointer grabs=1 releases=1 throw_speed=2138.582584938845
+test windows::companion::tests::c03_native_pointer_physics ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 117 filtered out; finished in 5.21s
+

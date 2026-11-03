@@ -1,0 +1,1 @@
+TEST FIXTURE ONLY. One model pose, synthetic region rectangles for mapping verification. Not approved interaction zones, not a complete runtime pack, not a moving45fps clip.

@@ -1,0 +1,13 @@
+{
+  "new_drawings": 18,
+  "clips": 3,
+  "clip_frame_refs": 8,
+  "clip_ms": 177,
+  "palette_rgba": 32,
+  "run_loop24_unchanged": true,
+  "start_canonical_matches": 12,
+  "stop_canonical_matches": 12,
+  "switch_checks": 78,
+  "native_trace_same_after_caption_fix": true,
+  "visual_acceptance": "pending; aliases do not certify internal seams/volume/leg identity"
+}

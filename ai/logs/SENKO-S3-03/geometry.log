@@ -1,0 +1,30 @@
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 8.98s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_runtime-a480845dede9478a.exe)
+
+running 16 tests
+test world::geometry::tests::isolated_window_has_real_edges_and_two_clear_mantles ... ok
+test world::geometry::tests::outside_body_clearance_is_checked_before_mantle ... ok
+test world::geometry::tests::nonclimbable_foreground_cuts_top_without_producing_own_edges ... ok
+test world::geometry::tests::overhead_blocker_prevents_mantle_even_when_top_line_and_wall_are_visible ... ok
+test world::geometry::tests::narrow_spans_reject_body_and_fullscreen_does_not_remove_monitor_floor ... ok
+test world::geometry::tests::actual_display_union_clips_negative_coordinates_and_gaps ... ok
+test world::geometry::tests::overlapping_cuts_merge_and_z_order_changes_restore_the_edge ... ok
+test world::geometry::tests::stale_generation_or_failed_rebuild_cannot_reuse_fragments ... ok
+test world::geometry::tests::vertical_display_gap_does_not_create_a_wall_or_mantle ... ok
+test world::tests::malformed_samples_are_rejected_before_publication ... ok
+test world::tests::reused_window_token_does_not_restore_old_support ... ok
+test world::geometry::tests::vertical_occlusion_does_not_turn_a_cut_fragment_into_a_corner ... ok
+test world::tests::a_floor_cannot_bridge_a_gap_between_monitors ... ok
+test world::tests::vanished_or_occluded_fragment_loses_support ... ok
+test world::tests::negative_desktop_and_monotonic_sample_are_data_only ... ok
+test world::geometry::tests::sampled_visible_edges_agree_with_independent_point_occlusion_oracle ... ok
+
+test result: ok. 16 passed; 0 failed; 0 ignored; 0 measured; 143 filtered out; finished in 0.01s
+
+     Running tests\shared_input_fixtures.rs (BongoCat\target\debug\deps\shared_input_fixtures-4e200e83c31a4a65.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+

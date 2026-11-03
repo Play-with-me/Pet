@@ -1,0 +1,33 @@
+
+clip           png_frames unique_png gif_frames
+----           ---------- ---------- ----------
+idle_front              4          4          4
+idle_34                 4          4          4
+idle_side               4          4          4
+idle_back               2          2          2
+walk_side               8          8          8
+walk_start              2          2          2
+walk_stop               2          2          2
+run_side                8          8          8
+jump_prep               2          2          2
+rise                    1          1          1
+apex                    1          1          1
+fall                    2          2          2
+land                    3          3          3
+climb_up                6          6          6
+hang                    2          2          2
+mantle                  5          5          5
+wall_drop               1          1          1
+held_happy              4          4          4
+look_up                 3          3          3
+headpat                 6          6          6
+sit_enter               3          3          3
+sit_loop                4          4          4
+sit_exit                3          3          3
+yawn                    6          6          6
+sleep                   4          4          4
+wake                    3          3          3
+surprise                3          3          3
+balance_wobble          4          4          4
+
+PASS: 100 frames, 28 clips, 32 RGBA colors; 28 GIFs decoded by Windows GDI+.

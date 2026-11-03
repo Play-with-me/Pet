@@ -1,0 +1,14 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 6.71s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-b432fb5ecdd0d927.exe)
+
+running 4 tests
+test windows::companion::sprites::tests::manifest_native_grab_pause_reset_exit ... ok
+test windows::companion::sprites::tests::manifest_senko_native_smoke ... ok
+test windows::companion::sprites::tests::native_walk_and_run_visit_full_cycle_while_body_translates ... walk: all8frames, self_travel=194.03px; native GPU capture
+run: all8frames, self_travel=501.36px; native GPU capture
+ok
+test windows::companion::sprites::tests::nearest_gpu_preserves_four_by_four_pixels_and_linear_default ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 121 filtered out; finished in 17.53s
+

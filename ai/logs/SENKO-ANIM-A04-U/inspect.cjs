@@ -1,0 +1,1 @@
+const fs=require('fs');const r=JSON.parse(fs.readFileSync('resources/characters/senko-160/run-world-v5/world-trace.json'));console.log({cases:r.cases.length,start:r.cases.filter(x=>x.start_seam.canonical_last_frame_matches).length,stop:r.cases.filter(x=>x.stop_seam.canonical_first_frame_matches).length,checks:r.speed_switch_checks.length});

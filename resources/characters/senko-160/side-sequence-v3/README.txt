@@ -1,0 +1,1 @@
+Partial walk and turn-keypose harness. Additional idle views are approved static model poses, not finished45fps turn/idle animations. Stop sync18 has canonical alias. Not fullrunner/default pack.

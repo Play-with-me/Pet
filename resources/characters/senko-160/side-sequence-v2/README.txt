@@ -1,0 +1,1 @@
+Partial side-only candidate. Sync18 stop shares reviewed stopping inner poses, with exact canonical walk18 entry. Visual/world stance approval still pending; not a complete runner pack.

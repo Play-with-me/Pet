@@ -1,0 +1,29 @@
+{
+  "unique_frames": 24,
+  "preserved_base_frames": 18,
+  "new_drawings": 6,
+  "palette_rgba": 32,
+  "contact_clearance": [
+    0,
+    0
+  ],
+  "flight_clearance": [
+    5,
+    3
+  ],
+  "cycle_px": 128,
+  "distance_hz_at240": 45,
+  "distance_hz_at280": 52.5,
+  "clock_cycle_ms": 533,
+  "nominal_cycle_ms": 533.3333333333334,
+  "clock_phase_error_frames_over10s": 1,
+  "world_cases": 12,
+  "switch_checks": 78,
+  "frames_seen60Hz": [
+    24,
+    24,
+    24,
+    24
+  ],
+  "art_acceptance": "pending; intermediate meaning, body volume and start/stop joins not certified"
+}

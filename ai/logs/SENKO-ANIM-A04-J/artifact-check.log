@@ -1,0 +1,19 @@
+C:\Users\kyuu4\OneDrive\Documents\Pet\ai\logs\SENKO-ANIM-A04-J\audit_final.py:15: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  unique.add(hashlib.sha256(im.tobytes()).hexdigest()); colors.update(im.getdata())
+C:\Users\kyuu4\OneDrive\Documents\Pet\ai\logs\SENKO-ANIM-A04-J\audit_final.py:16: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  assert set(im.getchannel('A').getdata())<={0,255}
+{
+  "unique_frames": 54,
+  "palette_rgba": 31,
+  "all_alpha_hard": true,
+  "upper_146_rows_byte_identical": true,
+  "contacts_on_opaque_pixels": true,
+  "double_support_frames": 12,
+  "no_flight": true,
+  "max_segment_length_error": 2.1316282072803006e-14,
+  "cycle_ms": 1200,
+  "every45_frames_ms": 1000,
+  "protected_hashes": 11,
+  "visual_acceptance": "pending",
+  "browser_gui": "Viewed actual in-app browser via native CUA; browser QA notes recorded separately"
+}

@@ -1,0 +1,1 @@
+A04-K: vector ankle/tabi paths redrawn at each pose. Raster upper146 rows and hem unchanged. Sequential foot recovery with low lift; no runtime movement changes. Partial pack; visual acceptance pending.

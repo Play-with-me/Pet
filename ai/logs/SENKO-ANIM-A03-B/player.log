@@ -1,0 +1,8 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+   Compiling bongocat-live2d-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d-render)
+   Compiling bongocat-live2d v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 11.45s
+     Running `target\debug\senko_asset_pipeline.exe --manifest-player ../ai/logs/SENKO-ANIM-A03-B/fixture160-full ../ai/logs/SENKO-ANIM-A03-B/player160`
+Manifest player: \\?\C:\Users\kyuu4\OneDrive\Documents\Pet\ai\logs\SENKO-ANIM-A03-B\player160

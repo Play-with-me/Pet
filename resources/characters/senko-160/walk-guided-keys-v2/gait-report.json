@@ -1,0 +1,172 @@
+{
+  "colors_rgba": 31,
+  "cycle_distance_physical_px": 96.0,
+  "foot_contacts": "not_annotated_not_guessed",
+  "frame_count": 12,
+  "frames": [
+    {
+      "bounds_inclusive": [
+        33,
+        29,
+        122,
+        152
+      ],
+      "index": 0,
+      "source_anchor": [
+        117.5,
+        301
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        31,
+        29,
+        122,
+        152
+      ],
+      "index": 1,
+      "source_anchor": [
+        121.5,
+        301
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        29,
+        29,
+        123,
+        152
+      ],
+      "index": 2,
+      "source_anchor": [
+        125.5,
+        302
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        39,
+        28,
+        121,
+        152
+      ],
+      "index": 3,
+      "source_anchor": [
+        103.5,
+        303
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        30,
+        28,
+        121,
+        152
+      ],
+      "index": 4,
+      "source_anchor": [
+        124.5,
+        303
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        33,
+        29,
+        123,
+        152
+      ],
+      "index": 5,
+      "source_anchor": [
+        116.5,
+        301
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        34,
+        30,
+        123,
+        152
+      ],
+      "index": 6,
+      "source_anchor": [
+        115.5,
+        300
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        30,
+        123,
+        152
+      ],
+      "index": 7,
+      "source_anchor": [
+        118.5,
+        300
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        28,
+        28,
+        128,
+        152
+      ],
+      "index": 8,
+      "source_anchor": [
+        128.5,
+        305
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        38,
+        28,
+        121,
+        152
+      ],
+      "index": 9,
+      "source_anchor": [
+        105.5,
+        305
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        34,
+        29,
+        122,
+        152
+      ],
+      "index": 10,
+      "source_anchor": [
+        114.5,
+        302
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        33,
+        30,
+        122,
+        152
+      ],
+      "index": 11,
+      "source_anchor": [
+        116.5,
+        300
+      ]
+    }
+  ],
+  "note": "Clock preview is not used by locomotion; runtime walk stays distance-driven. GIF delays are quantized by its format; use manifest player.",
+  "preview_cycle_ms": 800,
+  "preview_motion_fps": 15.0,
+  "reference_speed_px_s": 120.0,
+  "shared_scale": 0.4175084175084175,
+  "sync_status": "provisional_expected_phases_not_reviewed",
+  "unique_rgba_frames": 12,
+  "visual_approval": "pending"
+}

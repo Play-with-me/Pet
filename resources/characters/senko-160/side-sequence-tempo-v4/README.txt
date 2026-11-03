@@ -1,0 +1,1 @@
+See README.md: A04-H partial cadence candidate, not a full pack or final45FPS release.

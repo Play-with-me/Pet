@@ -1,0 +1,34 @@
+C:\Users\kyuu4\OneDrive\Documents\Pet\ai\logs\SENKO-ANIM-A04-G\audit_artifacts.py:16: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  assert set(b.getchannel('A').getdata()) <= {0, 255}
+C:\Users\kyuu4\OneDrive\Documents\Pet\ai\logs\SENKO-ANIM-A04-G\audit_artifacts.py:17: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  colors.update(b.getdata())
+{
+  "unique_frames": 36,
+  "colors_rgba": 31,
+  "unchanged_frames": 34,
+  "patch_outside_unchanged": true,
+  "protected_hashes": 11,
+  "generated_sources": [
+    {
+      "file": "resources\\characters\\senko-160-source\\gait\\walk-stance-keys-v3-raw.png",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 950968,
+      "accepted": false,
+      "reason": "incorrect stance/swing phases; alpha0 background exists despite hidden brown RGB"
+    },
+    {
+      "file": "resources\\characters\\senko-160-source\\gait\\walk-stance-keys-v4-raw.png",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 966190,
+      "accepted": false,
+      "reason": "incorrect stance/swing phases; alpha0 background exists despite hidden brown RGB"
+    }
+  ],
+  "stance_approval": false
+}

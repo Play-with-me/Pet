@@ -1,0 +1,18 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 10.43s
+     Running unittests src\bin\senko_asset_pipeline.rs (BongoCat\target\debug\deps\senko_asset_pipeline-e34b4c91e594e9c3.exe)
+
+running 9 tests
+test inbetweens::tests::split_centiseconds_preserve_time_for_odd_and_even_delays ... ok
+test catalog::tests::p1_inventory_has_exact_counts_and_valid_sheet_references ... ok
+test inbetweens::tests::expanded_pack_has_141_frames_and_excludes_rejected_held_midpoints ... ok
+test normalize::tests::global_key_removes_enclosed_magenta_but_keeps_white_clothing ... ok
+test normalize::tests::empty_and_oversized_frames_are_rejected_instead_of_scaled_per_pose ... ok
+test normalize::tests::generated_unequal_rows_are_separated_without_mixing_their_feet ... ok
+test normalize::tests::normalization_keeps_contact_and_hard_shared_palette ... ok
+test normalize::tests::gait_anchor_ignores_red_trouser_leg_swing ... ok
+test preview::tests::gif_roundtrip_preserves_frames_transparent_pixels_and_timing ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.11s
+

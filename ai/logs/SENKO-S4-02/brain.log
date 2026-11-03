@@ -1,0 +1,22 @@
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 6.80s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_runtime-a480845dede9478a.exe)
+
+running 8 tests
+test senko_brain::tests::long_suspend_is_bounded_and_invalid_choices_do_not_enter_brain ... ok
+test senko_brain::tests::night_and_exertion_drain_energy_but_rest_recovers_it ... ok
+test senko_brain::tests::impossible_targets_are_not_offered_and_body_is_not_modified ... ok
+test senko_brain::tests::committed_goal_does_not_follow_new_cursor_choices_every_tick ... ok
+test senko_brain::tests::stationary_cursor_on_body_does_not_offer_approach_or_change_facing ... ok
+test senko_brain::tests::interruptions_cool_down_failed_intent_and_history_is_bounded ... ok
+test senko_brain::tests::seed_and_clock_replay_is_deterministic_and_not_only_cursor_approach ... ok
+test senko_brain::tests::needs_are_bounded_quarter_second_updates_and_pause_freezes_them ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 190 filtered out; finished in 0.00s
+
+     Running tests\shared_input_fixtures.rs (target\debug\deps\shared_input_fixtures-4e200e83c31a4a65.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+

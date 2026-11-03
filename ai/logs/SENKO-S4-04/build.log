@@ -1,0 +1,10 @@
+cargo run --locked -p bongocat-packaging -- --senko-build
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.93s
+     Running `target\debug\bongocat-packaging.exe --senko-build`
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-render)
+   Compiling bongocat-live2d-render v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d-render)
+   Compiling bongocat-live2d v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-live2d)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `release` profile [optimized] target(s) in 18.24s
+Senko: C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\target/release/examples/companion_senko.exe

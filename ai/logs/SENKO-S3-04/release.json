@@ -1,0 +1,7 @@
+{
+  "pid": 12036,
+  "sha256": "A4A8F7668B832AD86D0F6DAFEACBFD5EFA5A4B76E6576D47607EC45B369DF63D",
+  "assets": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\resources\\characters\\senko-v3-g2\\candidate-v5-flow",
+  "build": "just senko-build",
+  "scope": "S3-04 Senko world body integrated: swept landing, support/carriage/loss; routes not yet active"
+}

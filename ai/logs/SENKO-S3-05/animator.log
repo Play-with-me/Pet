@@ -1,0 +1,30 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.43s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_runtime-a480845dede9478a.exe)
+
+running 11 tests
+test animator::tests::front_and_back_never_mirror ... ok
+test animator::tests::opposite_turn_passes_front_instead_of_flipping ... ok
+test animator::tests::carried_balance_has_its_own_clip_and_interrupts_for_held_or_fall ... ok
+test animator::tests::gait_switch_keeps_support_phase_with_different_stride_lengths ... ok
+test animator::tests::walking_tracks_only_self_travel_and_pause_freezes ... ok
+test animator::tests::all_eight_directions_select_real_walk_and_run_clips ... ok
+test animator::tests::speed_changes_do_not_restart_walk_and_run_or_freeze_body ... ok
+test animator::tests::held_and_fall_interrupt_each_transition_immediately ... ok
+
+thread 'animator::tests::dismount_reverses_actual_frames_with_their_own_delays_and_can_be_interrupted' (35248) panicked at crates\bongocat-runtime\src\animator.rs:627:9:
+assertion `left == right` failed
+  left: 1
+ right: 3
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test animator::tests::dismount_reverses_actual_frames_with_their_own_delays_and_can_be_interrupted ... FAILED
+test animator::tests::every_walk_phase_can_stop_at_contact_or_settle_without_moving ... ok
+test animator::tests::turn_commits_to_target_and_has_half_second_cooldown ... ok
+
+failures:
+
+failures:
+    animator::tests::dismount_reverses_actual_frames_with_their_own_delays_and_can_be_interrupted
+
+test result: FAILED. 10 passed; 1 failed; 0 ignored; 0 measured; 172 filtered out; finished in 0.47s
+
+error: test failed, to rerun pass `-p bongocat-runtime --lib`

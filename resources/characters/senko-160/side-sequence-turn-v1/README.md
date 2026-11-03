@@ -1,0 +1,1 @@
+A04-N partial turn candidate. Four optional Animator edge clips with canonical idle endpoints. New art height124..127px; endpoints reused for exact seam identity, internal volume/pose seam still visualQA pending. Not a fullpet/default.

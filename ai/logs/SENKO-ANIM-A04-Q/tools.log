@@ -1,0 +1,15 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+error[E0271]: type mismatch resolving `<i32 as Sub>::Output == u32`
+   --> crates\bongocat-overlay\src\bin\senko_asset_pipeline\run160.rs:109:25
+    |
+109 |             for y in 20 - lift..25 - lift {
+    |                         ^ expected `u32`, found `i32`
+
+error[E0271]: type mismatch resolving `<i32 as Sub>::Output == u32`
+   --> crates\bongocat-overlay\src\bin\senko_asset_pipeline\run160.rs:109:36
+    |
+109 |             for y in 20 - lift..25 - lift {
+    |                                    ^ expected `u32`, found `i32`
+
+For more information about this error, try `rustc --explain E0271`.
+error: could not compile `bongocat-overlay` (bin "senko_asset_pipeline" test) due to 2 previous errors

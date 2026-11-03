@@ -1,0 +1,13 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.75s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-d18e9da9144d0f57.exe)
+
+running 6 tests
+test windows::senko_context::tests::cached_samples_replace_sensitive_data_and_clear_on_failure ... ok
+test windows::senko_context::tests::fullscreen_uses_full_physical_display_not_just_work_area ... ok
+test windows::senko_context::tests::idle_wrap_and_future_ticks_do_not_create_false_long_idle ... ok
+test windows::senko_context::tests::native_context_failure_paths_and_process_handles ... ok
+test windows::senko_context::tests::native_window_context_preserves_unknowns_without_inventing_lifecycle_events ... ok
+test windows::senko_context::tests::only_basename_and_bounded_caption_leave_the_platform_query ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 140 filtered out; finished in 0.02s
+

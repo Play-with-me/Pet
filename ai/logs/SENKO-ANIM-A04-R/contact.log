@@ -1,0 +1,8 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.96s
+     Running `BongoCat\target\debug\senko_asset_pipeline.exe --run-contacts160 resources/characters/senko-160/run-review-only-v1 resources/characters/senko-160-source/run-contact-v1-raw.png resources/characters/senko-v3-g2/candidate-v5-flow resources/characters/senko-160/run-contact-v1`
+
+thread 'main' (38972) panicked at crates\bongocat-overlay\src\bin\senko_asset_pipeline\run160.rs:43:48:
+index out of bounds: the len is 18 but the index is 18
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+error: process didn't exit successfully: `BongoCat\target\debug\senko_asset_pipeline.exe --run-contacts160 resources/characters/senko-160/run-review-only-v1 resources/characters/senko-160-source/run-contact-v1-raw.png resources/characters/senko-v3-g2/candidate-v5-flow resources/characters/senko-160/run-contact-v1` (exit code: 101)

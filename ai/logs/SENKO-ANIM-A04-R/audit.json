@@ -1,0 +1,27 @@
+{
+  "drawings": 18,
+  "changed_phases": [
+    0,
+    1,
+    9,
+    10
+  ],
+  "unchanged_frames": 14,
+  "contact_clearance": [
+    0,
+    0
+  ],
+  "flight_clearance": [
+    5,
+    3
+  ],
+  "touchdown_heights": [
+    124,
+    122
+  ],
+  "palette_rgba": 32,
+  "cycle_ms": 400,
+  "cycle_px": 128,
+  "source_scale": "one common scale for four newly drawn grounded keys",
+  "acceptance": "numerical contacts passed; per-leg stance and internal joins pending; not integrated"
+}

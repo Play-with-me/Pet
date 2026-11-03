@@ -1,0 +1,1 @@
+PASS72 PNG refs and all manifest delay boundaries;800/1200ms independent phases;10s30/60/120Hz clocks;pause/mirror/reset. DOM/RAF stubs, not hardware cadence.

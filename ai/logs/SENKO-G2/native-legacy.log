@@ -1,0 +1,8 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.57s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-541e293bc15d0cfa.exe)
+
+running 1 test
+test windows::companion::senko_mask_tests::senko_native_smoke_presents_existing_assets ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 121 filtered out; finished in 4.65s
+

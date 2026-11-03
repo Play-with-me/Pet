@@ -1,0 +1,17 @@
+{
+  "drawings": 36,
+  "unique_rgba": 36,
+  "duration_ms": 800,
+  "cycle_distance_px": 96,
+  "nominal_speed_px_s": 120,
+  "clock_fps": 45,
+  "silhouette_height_range": [
+    123,
+    125
+  ],
+  "one_scale_per_source_sheet": true,
+  "per_frame_fit": false,
+  "visual_acceptance": "pending",
+  "contact_annotations": "pending",
+  "note": "Geometric/timing checks are not proof of natural gait or correct per-leg contact."
+}

@@ -1,0 +1,27 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 4.77s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-761f6507c6179b66.exe)
+
+running 1 test
+test windows::companion::senko_mask_tests::alpha_hit_respects_frame_mirror_scale_and_negative_origin ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 113 filtered out; finished in 0.00s
+
+     Running unittests src\main.rs (BongoCat\target\debug\deps\bongocat_overlay-468bb3afddfc8a2e.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 3 filtered out; finished in 0.00s
+
+     Running unittests src\bin\companion_trial.rs (BongoCat\target\debug\deps\companion_trial-511a015a7015c88d.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\bin\slice_sprites.rs (BongoCat\target\debug\deps\slice_sprites-c1ffe892139d6bb3.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

@@ -1,0 +1,1 @@
+Partial animation cadence candidate A04-H. Walk uses unchanged walk-waist-v7 drawings at144physical px/cycle (1200ms at120px/s);36drawings means30drawings/s, not final45FPS. Start/stop/turn remain prior sources; canonical boundary paths still shared. No runtime/defaultpack changes. Current trace: ../tempo-world-v1; cadence comparison: ../tempo-review-v2.

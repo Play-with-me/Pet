@@ -1,0 +1,35 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.50s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-541e293bc15d0cfa.exe)
+
+running 4 tests
+test windows::companion::tests::c03_native_pointer_physics ... C03 native window=154x267 work_area=WorkArea { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }
+C03 frames=298 presented=298 position=Point { x: 2326.0116649866036, y: 1343.274232871 } velocity=Point { x: 0.0, y: 0.0 }
+C03 pointer grabs=1 releases=1 throw_speed=2146.7754733463175
+ok
+test windows::companion::tests::c04_native_both_walls ... C03 native window=154x267 work_area=WorkArea { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }
+C04 behavior=Physics position=Point { x: 111.8066671766175, y: 45.13461346844196 }
+C04 behavior=Held position=Point { x: 111.8066671766175, y: 52.03760497222593 }
+C04 behavior=Idle position=Point { x: 2429.613334353235, y: 1343.274232871 }
+C04 behavior=ClimbRight position=Point { x: 2429.613334353235, y: 1343.274232871 }
+C04 behavior=Physics position=Point { x: 2429.613334353235, y: 0.0 }
+C04 behavior=Walk position=Point { x: 2196.3078511744798, y: 1343.274232871 }
+C04 behavior=Held position=Point { x: 1909.1162211744793, y: 1343.274232871 }
+C04 behavior=ClimbLeft position=Point { x: 0.0, y: 1343.274232871 }
+C03 frames=1173 presented=1173 position=Point { x: 0.0, y: 826.0846088709995 } velocity=Point { x: 0.0, y: 0.0 }
+C03 pointer grabs=2 releases=2 throw_speed=0
+ok
+test windows::companion::tests::c05_pause_reset_resume_exit ... C03 native window=154x267 work_area=WorkArea { left: 0.0, top: 0.0, right: 2560.0, bottom: 1600.0 }
+C04 behavior=Physics position=Point { x: 111.8066671766175, y: 45.13463622922596 }
+C05 paused position stable for 500ms
+C05 reset position=Point { x: 1214.8066671766176, y: 1343.274232871 }
+C04 behavior=Idle position=Point { x: 1214.8066671766176, y: 1343.274232871 }
+C05 reset while paused: RECT { left: 1203, top: 1338, right: 1357, bottom: 1605 }
+C04 behavior=Chase position=Point { x: 1216.6788891766175, y: 1343.274232871 }
+C03 frames=160 presented=160 position=Point { x: 1292.8329121766183, y: 1343.274232871 } velocity=Point { x: 0.0, y: 0.0 }
+C03 pointer grabs=0 releases=0 throw_speed=0
+C05 pause/reset/resume/exit passed; presented=160
+ok
+test windows::tests::stickman::c02_stickman_d3d11_proof ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 118 filtered out; finished in 28.70s
+

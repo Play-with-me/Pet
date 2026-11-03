@@ -1,0 +1,54 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 7.47s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-d18e9da9144d0f57.exe)
+
+running 16 tests
+test windows::companion::sprites::tests::actual_pack_motor_brakes_before_turning_and_before_gestures ... ok
+test windows::companion::sprites::tests::actual_pack_regions_match_alpha_and_displayed_frame ... PASS actual pack 233 frame head/alpha/mirror maps, 46 conservative tail frames; negative desktop origin and exact displayed-frame lookup
+ok
+test windows::companion::sprites::tests::eased_navigation_reaches_exact_contact_without_asymptotic_stall_or_overshoot ... ok
+test windows::companion::sprites::tests::failed_route_cache_ignores_scan_clock_but_not_geometry_or_generation ... ok
+test windows::companion::sprites::tests::fast_autonomous_chase_selects_run_even_with_zero_physics_velocity ... ok
+test windows::companion::sprites::tests::foot_anchor_is_independent_of_transparent_canvas ... ok
+test windows::companion::sprites::tests::frame_pacing_does_not_add_a_full_sleep_after_present ... ok
+test windows::companion::sprites::tests::locomotion_eases_in_and_never_exceeds_safe_distance ... ok
+test windows::companion::sprites::tests::manifest_native_grab_pause_reset_exit ... ok
+test windows::companion::sprites::tests::manifest_senko_native_smoke ... native_present_count=296; window=5s; presents_per_second=59.20
+ok
+test windows::companion::sprites::tests::native_headpat_hover_grab_and_capture_cancel ... PASS native displayed-frame head hover -> one Headpat; grab immediately Held with capture; ReleaseCapture dispatch cancels held state; synthetic pointer, no physical mouse QA claim
+ok
+test windows::companion::sprites::tests::native_walk_and_run_visit_full_cycle_while_body_translates ... walk: all16frames, self_travel=195.46px; native GPU capture
+run: all16frames, self_travel=483.76px; native GPU capture
+ok
+test windows::companion::sprites::tests::nearest_gpu_preserves_four_by_four_pixels_and_linear_default ... ok
+test windows::companion::sprites::tests::on_body_pointer_preserves_facing_and_cannot_supply_an_approach ... ok
+test windows::companion::sprites::tests::pointer_gate_balances_needs_without_redirecting_committed_intent ... ok
+test windows::companion::sprites::tests::walking_and_fast_chase_use_actual_displacement_not_inertial_velocity ... ok
+
+test result: ok. 16 passed; 0 failed; 0 ignored; 0 measured; 136 filtered out; finished in 23.53s
+
+     Running unittests src\main.rs (target\debug\deps\bongocat_overlay-8e70d1f40775b4b1.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 3 filtered out; finished in 0.00s
+
+     Running unittests src\bin\companion_trial.rs (target\debug\deps\companion_trial-aaa3762b64b95392.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\bin\senko_asset_pipeline.rs (target\debug\deps\senko_asset_pipeline-7ab441f8d3bf31e1.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 9 filtered out; finished in 0.00s
+
+     Running unittests src\bin\slice_sprites.rs (target\debug\deps\slice_sprites-17aa3c2fb05541bd.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

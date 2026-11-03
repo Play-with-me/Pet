@@ -1,0 +1,56 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.55s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-4240ac2aa6207b94.exe)
+
+running 19 tests
+
+thread 'windows::companion::qa::senko_alpha_routes_to_underlying_native_window' (44964) panicked at crates\bongocat-overlay\src\windows\companion_qa.rs:294:72:
+called `Option::unwrap()` on a `None` value
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test windows::companion::qa::senko_alpha_routes_to_underlying_native_window ... FAILED
+
+thread 'windows::companion::qa::senko_interactive_mouse_qa' (40468) panicked at crates\bongocat-overlay\src\windows\companion_qa.rs:122:63:
+SENKO_QA_OUTPUT_DIR
+test windows::companion::qa::senko_interactive_mouse_qa ... FAILED
+test windows::companion::senko_mask_tests::alpha_hit_respects_frame_mirror_scale_and_negative_origin ... ok
+test windows::companion::senko_mask_tests::companion_right_button_is_consumed_before_generic_resize ... ok
+test windows::companion::senko_mask_tests::senko_native_smoke_presents_existing_assets ... Senko finished presented=241
+ok
+test windows::companion::sprites::tests::eased_navigation_reaches_exact_contact_without_asymptotic_stall_or_overshoot ... ok
+test windows::companion::sprites::tests::failed_route_cache_ignores_scan_clock_but_not_geometry_or_generation ... ok
+test windows::companion::sprites::tests::fast_autonomous_chase_selects_run_even_with_zero_physics_velocity ... ok
+test windows::companion::sprites::tests::foot_anchor_is_independent_of_transparent_canvas ... ok
+test windows::companion::sprites::tests::frame_pacing_does_not_add_a_full_sleep_after_present ... ok
+test windows::companion::sprites::tests::locomotion_eases_in_and_never_exceeds_safe_distance ... ok
+test windows::companion::sprites::tests::manifest_native_grab_pause_reset_exit ... ok
+test windows::companion::sprites::tests::manifest_senko_native_smoke ... native_present_count=295; window=5s; presents_per_second=59.00
+ok
+test windows::companion::sprites::tests::native_walk_and_run_visit_full_cycle_while_body_translates ... walk: all16frames, self_travel=194.11px; native GPU capture
+run: all16frames, self_travel=448.02px; native GPU capture
+ok
+test windows::companion::sprites::tests::nearest_gpu_preserves_four_by_four_pixels_and_linear_default ... ok
+test windows::companion::sprites::tests::walking_and_fast_chase_use_actual_displacement_not_inertial_velocity ... ok
+
+thread 'windows::companion::tests::c03_native_pointer_physics' (31724) panicked at crates\bongocat-overlay\src\windows\companion.rs:995:73:
+C03_OUTPUT_DIR
+test windows::companion::tests::c03_native_pointer_physics ... FAILED
+
+thread 'windows::companion::tests::c04_native_both_walls' (44872) panicked at crates\bongocat-overlay\src\windows\companion.rs:939:73:
+C04_OUTPUT_DIR
+test windows::companion::tests::c04_native_both_walls ... FAILED
+
+thread 'windows::companion::tests::c05_pause_reset_resume_exit' (24096) panicked at crates\bongocat-overlay\src\windows\companion.rs:851:73:
+C05_OUTPUT_DIR
+test windows::companion::tests::c05_pause_reset_resume_exit ... FAILED
+
+failures:
+
+failures:
+    windows::companion::qa::senko_alpha_routes_to_underlying_native_window
+    windows::companion::qa::senko_interactive_mouse_qa
+    windows::companion::tests::c03_native_pointer_physics
+    windows::companion::tests::c04_native_both_walls
+    windows::companion::tests::c05_pause_reset_resume_exit
+
+test result: FAILED. 14 passed; 5 failed; 0 ignored; 0 measured; 121 filtered out; finished in 23.26s
+
+error: test failed, to rerun pass `-p bongocat-overlay --lib`

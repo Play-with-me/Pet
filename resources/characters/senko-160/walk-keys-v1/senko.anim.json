@@ -1,0 +1,77 @@
+{
+  "anchor": [
+    80,
+    152
+  ],
+  "canvas": [
+    160,
+    160
+  ],
+  "clips": {
+    "walk_side": {
+      "facing": "side",
+      "files": [
+        "walk_side/0.png",
+        "walk_side/1.png",
+        "walk_side/2.png",
+        "walk_side/3.png",
+        "walk_side/4.png",
+        "walk_side/5.png",
+        "walk_side/6.png",
+        "walk_side/7.png",
+        "walk_side/8.png",
+        "walk_side/9.png",
+        "walk_side/10.png",
+        "walk_side/11.png"
+      ],
+      "frames": 12,
+      "loop": true,
+      "mirror": true,
+      "ms": 0,
+      "stride_px": 8.0,
+      "sync": [
+        0,
+        6
+      ]
+    },
+    "walk_side_clock_preview": {
+      "facing": "side",
+      "files": [
+        "walk_side/0.png",
+        "walk_side/1.png",
+        "walk_side/2.png",
+        "walk_side/3.png",
+        "walk_side/4.png",
+        "walk_side/5.png",
+        "walk_side/6.png",
+        "walk_side/7.png",
+        "walk_side/8.png",
+        "walk_side/9.png",
+        "walk_side/10.png",
+        "walk_side/11.png"
+      ],
+      "frame_ms": [
+        66,
+        67,
+        67,
+        66,
+        67,
+        67,
+        66,
+        67,
+        67,
+        66,
+        67,
+        67
+      ],
+      "frames": 12,
+      "loop": true,
+      "mirror": true,
+      "ms": 66,
+      "stride_px": 0,
+      "sync": []
+    }
+  },
+  "scale": 2,
+  "schema_version": 1
+}

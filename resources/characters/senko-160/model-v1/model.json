@@ -1,0 +1,185 @@
+{
+  "anchor": [
+    80,
+    152
+  ],
+  "canvas": [
+    160,
+    160
+  ],
+  "colors_rgba": 32,
+  "is_animation_pack": false,
+  "poses": [
+    {
+      "bounds_inclusive": [
+        27,
+        31,
+        130,
+        152
+      ],
+      "index": 0,
+      "label": "Chính diện",
+      "source_anchor": [
+        146.5,
+        329
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        29,
+        128,
+        152
+      ],
+      "index": 1,
+      "label": "3/4 trước",
+      "source_anchor": [
+        150.5,
+        334
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        32,
+        29,
+        124,
+        152
+      ],
+      "index": 2,
+      "label": "Ngang",
+      "source_anchor": [
+        132.5,
+        334
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        28,
+        31,
+        120,
+        152
+      ],
+      "index": 3,
+      "label": "3/4 sau",
+      "source_anchor": [
+        142.5,
+        329
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        44,
+        33,
+        126,
+        152
+      ],
+      "index": 4,
+      "label": "Quay lưng",
+      "source_anchor": [
+        99.5,
+        323
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        28,
+        28,
+        123,
+        152
+      ],
+      "index": 5,
+      "label": "Nghiêng đầu",
+      "source_anchor": [
+        143.5,
+        338
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        23,
+        31,
+        126,
+        152
+      ],
+      "index": 6,
+      "label": "Bước: chạm đất",
+      "source_anchor": [
+        155.5,
+        329
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        29,
+        32,
+        125,
+        152
+      ],
+      "index": 7,
+      "label": "Bước: đưa chân",
+      "source_anchor": [
+        139.5,
+        326
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        31,
+        29,
+        125,
+        152
+      ],
+      "index": 8,
+      "label": "Quay đầu",
+      "source_anchor": [
+        135.5,
+        333
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        28,
+        31,
+        126,
+        152
+      ],
+      "index": 9,
+      "label": "Vui",
+      "source_anchor": [
+        143.5,
+        329
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        34,
+        39,
+        123,
+        152
+      ],
+      "index": 10,
+      "label": "Bế: ổn định",
+      "source_anchor": [
+        125.5,
+        307
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        27,
+        35,
+        120,
+        152
+      ],
+      "index": 11,
+      "label": "Bế: bất ngờ",
+      "source_anchor": [
+        146.5,
+        318
+      ]
+    }
+  ],
+  "scale": 2,
+  "shared_source_scale": 0.37575757575757573,
+  "visual_approval": "pending"
+}

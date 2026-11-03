@@ -1,0 +1,51 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 4.37s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-d18e9da9144d0f57.exe)
+
+running 23 tests
+test windows::companion::sprites::tests::actual_pack_motor_brakes_before_turning_and_before_gestures ... ok
+test windows::companion::sprites::tests::actual_pack_regions_match_alpha_and_displayed_frame ... PASS actual pack 233 frame head/alpha/mirror maps, 46 conservative tail frames; negative desktop origin and exact displayed-frame lookup
+ok
+test windows::companion::sprites::tests::eased_navigation_reaches_exact_contact_without_asymptotic_stall_or_overshoot ... ok
+test windows::companion::sprites::tests::failed_route_cache_ignores_scan_clock_but_not_geometry_or_generation ... ok
+test windows::companion::sprites::tests::farewell_policy_rejects_far_routes_and_sensor_target_is_not_automatic_permission ... ok
+test windows::companion::sprites::tests::fast_autonomous_chase_selects_run_even_with_zero_physics_velocity ... ok
+test windows::companion::sprites::tests::foot_anchor_is_independent_of_transparent_canvas ... ok
+test windows::companion::sprites::tests::frame_pacing_does_not_add_a_full_sleep_after_present ... ok
+test windows::companion::sprites::tests::headpat_clip_finishes_without_replay_when_presentation_fails ... ok
+test windows::companion::sprites::tests::locomotion_eases_in_and_never_exceeds_safe_distance ... ok
+test windows::companion::sprites::tests::manifest_native_grab_pause_reset_exit ... ok
+test windows::companion::sprites::tests::manifest_senko_native_smoke ... native_present_count=295; window=5s; presents_per_second=59.00
+ok
+test windows::companion::sprites::tests::missing_or_busy_touch_actor_never_rewards_acceptance ... ok
+
+thread 'windows::companion::sprites::tests::native_attention_episode_observes_all_phases_and_finishes_once' (45996) panicked at crates\bongocat-overlay\src\windows\companion_sprites.rs:1259:9:
+assertion failed: proof.completed && proof.frames >= 3
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test windows::companion::sprites::tests::native_attention_episode_observes_all_phases_and_finishes_once ... FAILED
+test windows::companion::sprites::tests::native_headpat_episode_finishes_once_and_rewards_presented_id ... PASS native P1 Headpat one episode/all four phases, matching displayed ID rewards exactly once; synthetic input, not manual mouse QA
+ok
+test windows::companion::sprites::tests::native_headpat_hover_grab_and_capture_cancel ... PASS native displayed-frame head hover -> one Headpat; grab immediately Held with capture; ReleaseCapture dispatch cancels held state; synthetic pointer, no physical mouse QA claim
+ok
+test windows::companion::sprites::tests::native_headpat_preparation_grab_has_no_touch_reward ... PASS native preparation interrupted by grab before first headpat frame; zero touch reward, capture cancellation preserved
+ok
+test windows::companion::sprites::tests::native_irritated_head_refuses_without_pose_or_reward ... PASS native head hover + injected irritated mood -> refusal, no headpat substitute/reward; expression missing, not manual mouse QA
+ok
+test windows::companion::sprites::tests::native_walk_and_run_visit_full_cycle_while_body_translates ... gait fixture: observed OS idle=Some(241.484s); injecting active-user context for deterministic motor coverage (run=false)
+walk: all16frames, self_travel=191.41px; native GPU capture
+gait fixture: observed OS idle=Some(244.906s); injecting active-user context for deterministic motor coverage (run=true)
+run: all16frames, self_travel=478.50px; native GPU capture
+ok
+test windows::companion::sprites::tests::nearest_gpu_preserves_four_by_four_pixels_and_linear_default ... ok
+test windows::companion::sprites::tests::on_body_pointer_preserves_facing_and_cannot_supply_an_approach ... ok
+test windows::companion::sprites::tests::pointer_gate_balances_needs_without_redirecting_committed_intent ... ok
+test windows::companion::sprites::tests::walking_and_fast_chase_use_actual_displacement_not_inertial_velocity ... ok
+
+failures:
+
+failures:
+    windows::companion::sprites::tests::native_attention_episode_observes_all_phases_and_finishes_once
+
+test result: FAILED. 22 passed; 1 failed; 0 ignored; 0 measured; 136 filtered out; finished in 28.77s
+
+error: test failed, to rerun pass `-p bongocat-overlay --lib`

@@ -1,0 +1,118 @@
+{
+  "base": "resources/characters/senko-160/run-contact-v1",
+  "clock_note": "Integer-ms preview cycle approximates533.333ms; distance phase is exact at reference240px/s. Do not claim drift-free45Hz from repeated533ms clock.",
+  "clock_preview_ms": 533,
+  "cycle_px": 128.0,
+  "distance_drawings_hz": 45,
+  "distance_reference_speed_px_s": 240,
+  "new_sheet_axis": 192.5,
+  "new_sheet_baseline": 539,
+  "new_sheet_scale": 0.4025974025974026,
+  "new_source": "resources/characters/senko-160-source/run-between-v1-raw.png",
+  "quality": "Contact/flight gates only; inbetween meaning, volume and pose joins pending visual QA.",
+  "source_map": [
+    {
+      "base_frame": 0
+    },
+    {
+      "base_frame": 1
+    },
+    {
+      "base_frame": 2
+    },
+    {
+      "between_base": [
+        2,
+        3
+      ],
+      "new_cell": 0,
+      "source_waist_axis": 192.5
+    },
+    {
+      "base_frame": 3
+    },
+    {
+      "base_frame": 4
+    },
+    {
+      "between_base": [
+        4,
+        5
+      ],
+      "new_cell": 1,
+      "source_waist_axis": 187.5
+    },
+    {
+      "base_frame": 5
+    },
+    {
+      "base_frame": 6
+    },
+    {
+      "base_frame": 7
+    },
+    {
+      "between_base": [
+        7,
+        8
+      ],
+      "new_cell": 2,
+      "source_waist_axis": 175.5
+    },
+    {
+      "base_frame": 8
+    },
+    {
+      "base_frame": 9
+    },
+    {
+      "base_frame": 10
+    },
+    {
+      "base_frame": 11
+    },
+    {
+      "between_base": [
+        11,
+        12
+      ],
+      "new_cell": 3,
+      "source_waist_axis": 182.5
+    },
+    {
+      "base_frame": 12
+    },
+    {
+      "base_frame": 13
+    },
+    {
+      "between_base": [
+        13,
+        14
+      ],
+      "new_cell": 4,
+      "source_waist_axis": 190.5
+    },
+    {
+      "base_frame": 14
+    },
+    {
+      "base_frame": 15
+    },
+    {
+      "base_frame": 16
+    },
+    {
+      "between_base": [
+        16,
+        17
+      ],
+      "new_cell": 5,
+      "source_waist_axis": 197.5
+    },
+    {
+      "base_frame": 17
+    }
+  ],
+  "status": "24frame_art_candidate_not_integrated"
+}

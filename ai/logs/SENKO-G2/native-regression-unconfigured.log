@@ -1,0 +1,35 @@
+   Compiling bongocat-runtime v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-runtime)
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 16.31s
+     Running unittests src\lib.rs (BongoCat\target\debug\deps\bongocat_overlay-541e293bc15d0cfa.exe)
+
+running 4 tests
+
+thread 'windows::companion::tests::c03_native_pointer_physics' (21284) panicked at crates\bongocat-overlay\src\windows\companion.rs:995:73:
+C03_OUTPUT_DIR
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test windows::companion::tests::c03_native_pointer_physics ... FAILED
+
+thread 'windows::companion::tests::c04_native_both_walls' (16224) panicked at crates\bongocat-overlay\src\windows\companion.rs:939:73:
+C04_OUTPUT_DIR
+test windows::companion::tests::c04_native_both_walls ... FAILED
+
+thread 'windows::companion::tests::c05_pause_reset_resume_exit' (2292) panicked at crates\bongocat-overlay\src\windows\companion.rs:851:73:
+C05_OUTPUT_DIR
+test windows::companion::tests::c05_pause_reset_resume_exit ... FAILED
+
+thread 'windows::tests::stickman::c02_stickman_d3d11_proof' (21224) panicked at crates\bongocat-overlay\src\windows\tests\stickman.rs:8:69:
+C02_OUTPUT_DIR
+test windows::tests::stickman::c02_stickman_d3d11_proof ... FAILED
+
+failures:
+
+failures:
+    windows::companion::tests::c03_native_pointer_physics
+    windows::companion::tests::c04_native_both_walls
+    windows::companion::tests::c05_pause_reset_resume_exit
+    windows::tests::stickman::c02_stickman_d3d11_proof
+
+test result: FAILED. 0 passed; 4 failed; 0 ignored; 0 measured; 118 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `-p bongocat-overlay --lib`

@@ -1,0 +1,33 @@
+
+clip           old_frames new_frames old_ms new_ms keys_sha256_identical
+----           ---------- ---------- ------ ------ ---------------------
+idle_front              4          4   1000   1000                  True
+idle_34                 4          4   1000   1000                  True
+idle_side               4          4   1000   1000                  True
+idle_back               2          2    700    700                  True
+walk_side               8         16    960    960                  True
+walk_start              2          3    200    200                  True
+walk_stop               2          3    240    240                  True
+run_side                8         16    960    960                  True
+jump_prep               2          2    200    200                  True
+rise                    1          1    120    120                  True
+apex                    1          1    100    100                  True
+fall                    2          2    280    280                  True
+land                    3          5    300    300                  True
+climb_up                6         12    900    900                  True
+hang                    2          2    440    440                  True
+mantle                  5          9    700    700                  True
+wall_drop               1          1    120    120                  True
+held_happy              4          4    720    720                  True
+look_up                 3          3    480    480                  True
+headpat                 6         11    960    960                  True
+sit_enter               3          5    420    420                  True
+sit_loop                4          4   1000   1000                  True
+sit_exit                3          5    420    420                  True
+yawn                    6          6   1080   1080                  True
+sleep                   4          4   1600   1600                  True
+wake                    3          5    600    600                  True
+surprise                3          3    450    450                  True
+balance_wobble          4          4    480    480                  True
+
+PASS: 100 original PNG SHA256 identical; 28 actual GIF durations unchanged; distance/sync preserved.

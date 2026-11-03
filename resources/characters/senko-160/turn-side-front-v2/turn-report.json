@@ -1,0 +1,166 @@
+{
+  "note": "12 drawings timed at45Hz for source inspection. Not proof of monotonic yaw, endpoint continuity or complete8direction turning. No physics/Brain changes.",
+  "poses": [
+    {
+      "bounds_inclusive": [
+        27,
+        29,
+        130,
+        152
+      ],
+      "frame": 0,
+      "source_anchor": [
+        125.5,
+        285
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        27,
+        28,
+        131,
+        152
+      ],
+      "frame": 1,
+      "source_anchor": [
+        123.5,
+        287
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        30,
+        28,
+        128,
+        152
+      ],
+      "frame": 2,
+      "source_anchor": [
+        117.5,
+        287
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        28,
+        129,
+        152
+      ],
+      "frame": 3,
+      "source_anchor": [
+        129.5,
+        287
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        26,
+        28,
+        126,
+        152
+      ],
+      "frame": 4,
+      "source_anchor": [
+        127.5,
+        287
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        28,
+        126,
+        152
+      ],
+      "frame": 5,
+      "source_anchor": [
+        129.5,
+        287
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        25,
+        27,
+        130,
+        152
+      ],
+      "frame": 6,
+      "source_anchor": [
+        128.5,
+        290
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        26,
+        26,
+        130,
+        152
+      ],
+      "frame": 7,
+      "source_anchor": [
+        126.5,
+        291
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        24,
+        26,
+        129,
+        152
+      ],
+      "frame": 8,
+      "source_anchor": [
+        130.5,
+        291
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        26,
+        26,
+        131,
+        152
+      ],
+      "frame": 9,
+      "source_anchor": [
+        125.5,
+        291
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        24,
+        26,
+        130,
+        152
+      ],
+      "frame": 10,
+      "source_anchor": [
+        131.5,
+        291
+      ]
+    },
+    {
+      "bounds_inclusive": [
+        24,
+        26,
+        130,
+        152
+      ],
+      "frame": 11,
+      "source_anchor": [
+        131.5,
+        291
+      ]
+    }
+  ],
+  "shared_scale": 0.4412811387900356,
+  "source": "resources/characters/senko-160-source/turn-side-front-v2-raw.png",
+  "status": "art_draft_not_animator_integrated",
+  "unique_drawings": 12,
+  "visual_acceptance": "pending"
+}

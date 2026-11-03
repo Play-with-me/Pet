@@ -1,0 +1,76 @@
+{
+  "canonical_endpoints_reused": true,
+  "last_stop_hold_ms": 40,
+  "note": "Reference endpoint reuse across clips is intentional, not padding motion frames; no physics world in review.",
+  "source_sheet_scale": 0.4065573770491803,
+  "start_frames": 9,
+  "start_inner_sources": [
+    [
+      true,
+      0
+    ],
+    [
+      false,
+      1
+    ],
+    [
+      false,
+      2
+    ],
+    [
+      true,
+      2
+    ],
+    [
+      false,
+      3
+    ],
+    [
+      false,
+      4
+    ],
+    [
+      true,
+      4
+    ]
+  ],
+  "start_ms": 200,
+  "status": "partial_side_sequence_not_fullrunner",
+  "stop_frames": 10,
+  "stop_inner_sources": [
+    [
+      true,
+      6
+    ],
+    [
+      false,
+      1
+    ],
+    [
+      true,
+      7
+    ],
+    [
+      false,
+      2
+    ],
+    [
+      false,
+      3
+    ],
+    [
+      true,
+      9
+    ],
+    [
+      false,
+      4
+    ],
+    [
+      true,
+      10
+    ]
+  ],
+  "stop_ms": 240,
+  "visual_approval": "pending"
+}

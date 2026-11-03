@@ -1,0 +1,14 @@
+   Compiling bongocat-overlay v2.3.1 (C:\Users\kyuu4\OneDrive\Documents\Pet\BongoCat\crates\bongocat-overlay)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 4.79s
+     Running unittests src\lib.rs (target\debug\deps\bongocat_overlay-6337767b5d0f5e35.exe)
+
+running 6 tests
+test windows::tests::window_proc::click_through_style_pairs_layered_and_transparent_hit_testing ... ok
+test windows::tests::window_proc::context_menu_messages_cover_client_and_nonclient_right_click ... ok
+test windows::tests::window_proc::right_button_messages_split_into_begin_move_and_end ... ok
+test windows::tests::window_proc::window_mode_moving_saved_geometry_never_publishes_scale ... ok
+test windows::tests::window_proc::window_mode_resize_publishes_once_and_cancelled_resize_publishes_nothing ... ok
+test windows::tests::window_proc::window_sizing_normalizes_programmatic_native_and_dpi_geometry ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 133 filtered out; finished in 0.02s
+

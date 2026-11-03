@@ -1,0 +1,7 @@
+{
+  "pid": 42068,
+  "sha256": "0428EF59321FF9ABCBB7A49D1A5EC4D41406479A717F12295A5D9C8D7D739819",
+  "assets": "C:\\Users\\kyuu4\\OneDrive\\Documents\\Pet\\resources\\characters\\senko-v3-g2\\candidate-v5-flow",
+  "build": "just senko-build",
+  "scope": "S3-02 DWM/WinEvent scanner in tick; collision not connected"
+}

@@ -1,0 +1,65 @@
+{
+  "tool": "Built-in ImageGen; model not exposed",
+  "policy": "AI poses plus Rust palette/alpha/anchor normalization; existing key PNGs immutable",
+  "final": "candidate-v6-smooth",
+  "new_frames": 41,
+  "rejected_held_midpoints": 4,
+  "corrections": "walk_side-v2,run_side-v2,walk_start-v2,headpat-v2 override corresponding cells; held_happy-v2 is retained but rejected",
+  "files": [
+    {
+      "file": "climb.png",
+      "sha256": "557F352F6961BC6CC65B9CDD916700431A96C4E0FBB70DE32E393FB8AD35BD3A",
+      "bytes": 1581520
+    },
+    {
+      "file": "CORRECTIVE-PROMPTS.md",
+      "sha256": "56705F9EC19328F900B6E85171C59492F169BBABF189CDAE016CCC938F7566FA",
+      "bytes": 3832
+    },
+    {
+      "file": "headpat-v2.png",
+      "sha256": "2A6FB2B3035A6D91B72E3FCB7502C9231060D4C8ACFD72BFE068A5FCA9488BED",
+      "bytes": 1437742
+    },
+    {
+      "file": "held_happy-v2.png",
+      "sha256": "41568B85A932EF0A09D9F55DB745212E882497B479E903735F1309EF1C94D3A0",
+      "bytes": 1420474
+    },
+    {
+      "file": "move.png",
+      "sha256": "42B6266C8C08C5BBD2ACEF9CAEC22BDF0ECD53B7C4D41EFA381175C8815CEC58",
+      "bytes": 1837824
+    },
+    {
+      "file": "PROMPTS.md",
+      "sha256": "E8E2232D1DB1F05741EB0218208237AC55430EA7BD0CECFFA4923A62E20A997F",
+      "bytes": 6377
+    },
+    {
+      "file": "run_side-v2.png",
+      "sha256": "7DB467851045EDC0835A5E43CE0D92CD77D46382DBB1BEA1AA8171452BA84DCF",
+      "bytes": 1522077
+    },
+    {
+      "file": "social.png",
+      "sha256": "184A106A7C888CA5A9D4DEFAE5FF7C26238E6091E0B094A5B920E3F0137E6EE5",
+      "bytes": 1767727
+    },
+    {
+      "file": "transitions.png",
+      "sha256": "8325A9D84E09C214D104E65191C8C5CF3BE11D23514CBF061B82F8E71F7DCF20",
+      "bytes": 1621224
+    },
+    {
+      "file": "walk_side-v2.png",
+      "sha256": "846CD10D4DB77E4DF9E9F7DDBE1970A8E1104C15098700AED39B051EACB63DFE",
+      "bytes": 1536611
+    },
+    {
+      "file": "walk_start-v2.png",
+      "sha256": "69C0B85AFEC5F88E91A770D53BC4EFB6C060B8B15552B859769E7DF77EFCB892",
+      "bytes": 1245342
+    }
+  ]
+}
